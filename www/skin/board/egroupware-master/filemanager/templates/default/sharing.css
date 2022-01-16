@@ -1,0 +1,75 @@
+/**
+ * EGroupware - CSS Styles used by sharing GUI
+ *
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @package etemplate
+ * @link http://www.egroupware.org
+ * @author Ralf Becker <rb@stylite.de>
+ * @copyright (c) 2014/15 by Ralf Becker <rb@stylite.de>
+ * @version $Id$
+ */
+
+div#popupMainDiv {
+	height: 100% !important;
+	padding: 0 !important;
+	background-image: none;
+}
+
+/**
+ * simplify NM UI for sharing
+ */
+div#filemanager-index_buttons img, div#filemanager-index_favorite_wrapper,
+span.header_count, #filemanager-index_button\[edit\], #filemanager-index_button\[symlink\],
+select#filemanager-index_filter, span.selectcols, #filemanager-index_filemanager-index-header_right > button:last-child {
+	display: none !important;
+}
+div#filemanager-index_buttons img#filemanager-index_button\[change_view\] {
+	display: inline-block !important;
+	position: absolute;
+	right: 360px;
+	top: 4px;
+}
+
+div.filemanager_navigation {
+	margin: -5px 0 8px 10px !important;
+}
+
+div.filemanager_navigation > label {
+	right: 427px !important;
+}
+
+div.search {
+	position: absolute;
+	top: 4px;
+	right: 190px;
+}
+
+div#filemanager-index_buttons div.et2_file {
+	width: 160px;
+	margin-top: 3px;
+	padding-right: 20px;
+}
+
+div.et2_nextmatch div.nextmatch_header_row {
+	padding-bottom: 0px;
+}
+div.et2_nextmatch  thead{
+	display: none;
+}
+div.nextmatch_header {
+
+}
+
+div.search {
+  position: relative;
+  width: 35%;
+  right: 6px;
+  max-width: 98%;
+  top: 0;
+  float: right !important;
+}
+div.search .et2_searchbox .flex {
+  width: 100%;
+  float: right;
+  padding-right: 0;
+}

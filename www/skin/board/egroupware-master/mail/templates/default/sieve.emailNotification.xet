@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="mail.sieve.emailNotification" template="" lang="" group="0" version="1.9.002">
+		<grid>
+			<columns>
+				<column/>
+				<column width="100%"/>
+			</columns>
+			<rows>
+				<row disabled="!@msg" part="header">
+					<description align="center" id="msg" span="all" class="message"/>
+					<description/>
+				</row>
+				<row class="th" valign="top" part="header">
+					<description value="email notification settings"/>
+					<description/>
+				</row>
+				<row>
+					<description value="Status:"/>
+					<menulist>
+						<menupopup id="status"/>
+					</menulist>
+				</row>
+				<row>
+					<description value="External email address:"/>
+					<taglist-email id="externalEmail" required="true" width="40%" allowFreeEntries="true" maxSelection="1" />
+				</row>
+				<row>
+					<description value="Display mail subject in notification:	"/>
+					<menulist>
+						<menupopup id="displaySubject"/>
+					</menulist>
+				</row>
+				<row>
+					<hbox>
+						<button class="$cont[hideIfSieveDisabled]" label="Save" id="button[save]"/>
+						<button class="$cont[hideIfSieveDisabled]" label="Apply" id="button[apply]"/>
+						<button class="$cont[hideIfSieveDisabled]" label="Cancel" id="button[cancel]"/>
+					</hbox>
+					<description/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

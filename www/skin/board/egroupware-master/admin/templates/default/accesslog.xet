@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="admin.accesslog.rows" template="" lang="" group="0" version="1.9.003">
+		<grid width="100%">
+			<columns>
+				<column width="30%"/>
+				<column width="80" disabled="@no_sessionstatus"/>
+				<column width="30%"/>
+				<column width="120"/>
+				<column width="130"/>
+				<column disabled="@no_lo" width="130"/>
+				<column disabled="@no_total" width="80"/>
+				<column width="80"/>
+				<column width="40%"/>
+				<column width="30%"/>
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-accountfilter id="account_id" options="LoginID"/>
+					<nextmatch-header label="Login-Status" id="sessionstatus"/>
+					<nextmatch-sortheader label="Loginid" id="loginid"/>
+					<nextmatch-sortheader label="IP" id="ip"/>
+					<nextmatch-sortheader label="Login" id="li"/>
+					<nextmatch-sortheader label="Logout" id="lo"/>
+					<nextmatch-header label="Total" id="total"/>
+					<nextmatch-sortheader label="Idle" id="session_dla"/>
+					<nextmatch-sortheader label="User-Agent" id="user_agent"/>
+					<nextmatch-header label="Action" id="session_action"/>
+				</row>
+				<row class="row $row_cont[class]">
+					<hbox>
+						<menulist>
+							<menupopup type="select-account" label="" id="${row}[account_id]" readonly="true"/>
+						</menulist>
+						<description id="${row}[alt_loginid]"/>
+					</hbox>
+					<description id="${row}[sessionstatus]"/>
+					<description id="${row}[loginid]"/>
+					<description id="${row}[ip]"/>
+					<date-time id="${row}[li]" readonly="true"/>
+					<date-time id="${row}[lo]" readonly="true"/>
+					<date-duration id="${row}[total]" readonly="true" options=",hm,24"/>
+					<date-since id="${row}[session_dla]" readonly="true"/>
+					<description statustext="$row_cont[user_agent]" id="${row}[os_browser]" class="admin_userAgent"/>
+					<description id="${row}[session_action]"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="admin.accesslog" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row disabled="!@msg">
+					<description align="center" id="msg" span="all" class="message"/>
+					<description/>
+				</row>
+				<row>
+					<nextmatch id="nm" options="admin.accesslog.rows" span="all"/>
+				</row>
+				<row>
+					<hbox options="0,0">
+						<description value="Percent of users that logged out" readonly="true"/>
+						<textbox type="float" label=": %s %" id="percent" precision="1" readonly="true"/>
+					</hbox>
+				</row>
+			</rows>
+		</grid>
+		<styles>
+			.selectAllArrow { padding-right: 12px; }
+		</styles>
+	</template>
+</overlay>

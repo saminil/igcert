@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Egroupware
+@license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+@package 
+@subpackage 
+@link http://www.egroupware.org
+@author Nathan Gray
+@version $Id$
+-->
+
+<!DOCTYPE overlay PUBLIC '-//EGroupware GmbH//eTemplate 2//EN' 'http://www.egroupware.org/etemplate2.dtd'>
+
+<overlay>
+	<template id="calendar.todo" width="30%">
+		<box class="calendar_calDayTodos">
+			<box class="calendar_calDayTodosHeader" width="100%">
+				<button align="left" statustext="Add" id="add" image="add" background_image="true" onclick="egw.open('','infolog','add',{action: 'new',type:'task'});"/>
+				<label id="label" class="calendar_calDayTodosHeader" width="100%" />
+			</box>
+			<box class="calendar_calDayTodosTable">
+				<grid id="todos" width="100%">
+					<columns>
+						<column/>
+						<column width="80%"/>
+					</columns>
+					<rows>
+						<row class="todo_row">
+							<html id="{$row}[icons]" />
+
+							<description value="$row_cont[title]" href="$row_cont[edit]" extra_link_popup="$row_cont[edit_size]"/>
+						</row>
+					</rows>
+				</grid>
+			</box>
+		</box>
+	</template>
+</overlay>

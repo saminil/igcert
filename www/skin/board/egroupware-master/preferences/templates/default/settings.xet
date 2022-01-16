@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="preferences.settings.tab1" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%" class="prefTable egwGridView_grid">
+			<columns>
+				<column width="35%"/>
+				<column />
+				<column width="260px"/>
+			</columns>
+			<rows>
+				<row class="prefRow">
+					<box class="prefName">
+						<description for="@${row}[name]" id="${row}[label]"/>
+					</box>
+					<box class="prefValueColumn">
+						<widget type="@${row}[type]" id="@${row}[name]" onchange="@${row}[onchange]" no_lang="1" class="prefValue" attributes="@${row}[attributes]"/>
+						<description id="${row}[default]" no_lang="1" class="prefDefault"/>
+					</box>
+					<box class="prefHelpColumn">
+						<html id="${row}[help]" class="prefHelp"/>
+					</box>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="preferences.settings" template="" lang="" group="0" version="1.9.002">
+		<hbox class="dialogHeader">
+			<menulist>
+				<menupopup id="appname" onchange="1" options="Common preferences" class="prefApp"/>
+			</menulist>
+			<menulist>
+				<menupopup id="type" onchange="1" class="prefType"/>
+			</menulist>
+		</hbox>
+		<tabbox id="tabs" tab_height="400">
+			<tabs>
+				<tab id="tab1" label="Settings"/>
+			</tabs>
+			<tabpanels>
+				<template id="preferences.settings.tab1" content="tab1"/>
+			</tabpanels>
+		</tabbox>
+		<hbox class="dialogFooterToolbar">
+			<button label="Save" id="button[save]"/>
+			<button label="Apply" id="button[apply]"/>
+			<button label="Cancel" id="button[cancel]" onclick="window.close();"/>
+		</hbox>
+	</template>
+</overlay>

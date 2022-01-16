@@ -1,0 +1,353 @@
+/**
+ * EGroupware: Stylite Pixelegg template
+ *
+ * Definitions for layout and raster
+ *
+ * Please do NOT change css-files directly, instead change less-files and compile them!
+ *
+ * @link http://www.egroupware.org
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @author Stefan Reinhardt <stefan.reinhardt@pixelegg.de>
+ * @package pixelegg
+ * @version $Id: layout_raster.less 3170 2014-07-16 11:24:38Z pixelegg $
+ */
+/*
+    Created on : 23.07.2014, 13:25:11
+    Author     : stefanreinhardt
+*/
+
+@import (reference) "definitions.less";
+
+#egw_fw_topmenu_info_items {
+	display: inline-block;
+	height: 45px;
+	position: absolute;
+    padding-right: 2px;
+	right: 0px;
+    z-index: 1000;
+	background-color: #fbfbfb;
+	.topmenu_info_item {
+		height: 45px;
+		width: 45px;
+		border-left: 1px solid #bfc0bf;
+		display: inline-block;
+		padding-left: 3px;
+		float: right;
+		background-size: 20px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		&:hover {
+			background-color: @color_hover_row;
+		}
+	}
+	#topmenu_info_user_avatar {
+		span {
+			height: 40px;
+			width: 40px;
+			display: inline-block;
+			border: none;
+			margin-top: 2px;
+			margin-left: 1px;
+			img {
+				width: 40px;
+			}
+			span.fw_avatar_stat {
+				position: absolute;
+			}
+			span.stat1 {
+				width: 14px;
+				height: 14px;
+				position: absolute;
+				right: 30px;
+				bottom: 0px;
+				border-radius: 50%;
+				z-index: 100000;
+				background-size: 14px;
+				background-repeat: no-repeat;
+				color: #2d2b2b;
+				font-weight: bold;
+				text-align: center;
+				font-size: 10px;
+				line-height: 14px;
+				border: 2px solid #fbfbfb;
+			}
+			span.online {
+				background-color: #2de0a5;
+			}
+			span.offline {
+				background-color: #cbced1;
+			}
+			span.away {
+				background-color: #ffd21f;
+			}
+			span.busy {
+				background-color: #f5455c;
+			}
+			span.noconnection {
+				background-color: #E1E16D;
+				&:before {content:"!"}
+			}
+		}
+	}
+
+	#topmenu_info_logout {
+		background-image: url(../images/logout.svg);
+		a {
+			width:45px;
+			height: 45px;
+			display: inline-block;
+		}
+	}
+
+	#topmenu_info_print_title {
+		background-image: url(../images/print.svg);
+		span {
+			width: 45px;
+			height: 45px;
+			display: inline-block;
+		}
+	}
+	/*darkmode*/
+	#topmenu_info_darkmode {
+		span {
+			background-image: url(../images/darkmode_off.svg);
+			width: 45px;
+			height: 45px;
+			display: inline-block;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		span.darkmode_on {
+			background-image: url(../images/darkmode_on.svg);
+			filter:invert(1) hue-rotate(180deg);
+		}
+	}
+
+	/*Notification*/
+    #topmenu_info_notifications {
+		line-height: 45px;
+		text-align: center;
+		cursor: pointer;
+		display: inline-block;
+		color: #fbfbfb;
+		font-weight: bold;
+		opacity: 0.4;
+		background-image: url(../images/notification_message.svg);
+		border-left: 1px solid #636262;
+		.egw_fw_topmenu_info_notify {
+			position: absolute;
+			background-color: #c14343;
+			bottom: 0px;
+			height: 17px;
+			white-space: nowrap;
+			line-height: 16px;
+			width: 17px;
+			border-top-right-radius: 50%;
+			margin-left: -3px;
+			color: #fff9fb;
+			border: 2px solid #ffffff;
+			text-align: center;
+			border-radius: 50%;
+		}
+		.popup_note {
+			position: absolute;
+			width: 280px;
+			height: 30px;
+			left: -96px;
+			top: 45px;
+			border: 1px solid silver;
+			background: #ffffff;
+			text-align: center;
+			font-size: 10pt;
+			line-height: 22pt;
+			color: #b9436c;
+			white-space: nowrap;
+			z-index: 999;
+			&:before {
+				content: '';
+				position: absolute;
+				top: -13px;
+				left: 251px;
+				width: 0;
+				height: 0px;
+				border-left: 14px solid transparent;
+				border-right: 15px solid transparent;
+				border-bottom: 12px solid #aaa;
+				margin-bottom: 12px;
+				margin-left: 1px;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				top: -11px;
+				left: 251px;
+				width: 0;
+				height: 0;
+				border-left: 15px solid transparent;
+				border-right: 15px solid transparent;
+				border-bottom: 12px solid #ffffff;
+				margin-bottom: 11px;
+			}
+		}
+	}
+	#topmenu_info_notifications.egwpopup_notify {
+		background-image: url(../images/notification_message_active.svg);
+		opacity: 1;
+		border-left: 1px solid #bfc0bf;
+	}
+
+	/*Search button*/
+	#topmenu_info_search
+	{
+		background-repeat: no-repeat;
+		background-image: url(../images/topmenu_items/search.svg);
+		a {
+			width: 45px;
+			height: 45px;
+			display: inline-block;
+		}
+	}
+
+    /*current user info*/
+    #topmenu_info_current_users {}
+
+    /*current user info*/
+    #topmenu_info_current_users {}
+
+    /*time zone*/
+    form { height: 0px;
+           select {padding: 0px;}
+    }
+
+    /*quick*/
+    #topmenu_info_quick_add {
+		position: relative;
+		span#quick_add {
+			float: right;
+			background-image: url(../images/add.svg);
+			background-repeat: no-repeat;
+			background-size: 24px;
+			background-position: center;
+			width: 45px;
+			height: 45px;
+			padding-right: 3px;
+			&:before {
+				content: " ";
+				font-size: 2em;
+				color: @egw_color_2_a;
+				line-height: 0.6em;
+				background-color: white;
+			}
+		}
+
+		// ##############################################################################
+		// quick_add selectbox
+		// ADD different APPs
+
+		.chzn-container {
+			z-index: 1000;
+			position: absolute;
+			right: -54px !important;
+			top: 47px;
+			min-width: 160px !important;
+			width: 160px !important;
+			background: @gray_0;
+			&:before {
+				content: '';
+				position: absolute;
+				bottom: 51%;
+				left: 42%;
+				width: 0;
+				height: 0px;
+				border-left: 14px solid transparent;
+				border-right: 15px solid transparent;
+				border-bottom: 12px solid #aaa;
+				margin-bottom: 12px;
+				margin-left: 1px;
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				bottom: 50%;
+				left: 42%;
+				width: 0;
+				height: 0;
+				border-left: 15px solid transparent;
+				border-right: 15px solid transparent;
+				border-bottom: 12px solid #ffffff;
+				margin-bottom: 11px;
+			}
+			.chzn-single span {display: none;}
+			a.chzn-single.chzn-default {
+				border: 1px solid #bfc0bf;
+				border-radius: 0px;
+			}
+			.chzn-drop {
+				border-radius: 0px;
+				margin-top: -2px;
+			}
+			.chzn-results {
+				max-height: none;
+			}
+		}
+		select#quick_add_selectbox {
+			visibility: hidden;
+		}
+    }
+
+    // ##############################################################################
+    // JS ERROR BUTTON
+    // blinking red IMG
+    img#topmenu_info_error{
+                            .dimension_width_height_s;
+                            position: fixed;
+
+                            /*.Button_size_square_16;*/
+
+                            .border_normal;
+                            .box_shadow_standard_light;
+                            padding: 5px;
+                            top: 6px;
+                            right: 112px;
+                            z-index: 200;
+                            &:hover {.box_shadow_standard_light_hover;}
+                            &:active {.Complete_Button_active;}
+                            &:focus {.box_shadow_standard_light_inset;}
+
+                            background-color: @color_warning;
+
+
+                            //blinking
+                            -moz-transition:all 1s ease-in-out;
+                            -webkit-transition:all 1s ease-in-out;
+                            -o-transition:all 1s ease-in-out;
+                            -ms-transition:all 1s ease-in-out;
+                            transition:all 1s ease-in-out;
+                            /* order: name, direction, duration, iteration-count, timing-function */
+                            -moz-animation:blink normal 2s infinite ease-in-out; /* Firefox */
+                            -webkit-animation:blink normal 2s infinite ease-in-out; /* Webkit */
+                            -ms-animation:blink normal 2s infinite ease-in-out; /* IE */
+                            animation:blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+
+                           }
+
+
+
+                            @-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Firefox */
+                            @-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Webkit */
+                            @-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* IE */
+                            @keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Opera and prob css3 final iteration */
+
+}
+
+
+// Update images
+div#topmenu_info_update{
+    display: inline-block;
+    img{
+		.rounded(10px);
+		padding: 5px;
+	}
+}

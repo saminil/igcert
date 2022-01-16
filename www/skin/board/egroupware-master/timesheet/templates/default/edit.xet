@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="timesheet.edit.general" template="" lang="" group="0" version="1.7.002">
+		<grid width="100%" >
+			<columns>
+				<column width="92"/>
+				<column width="185"/>
+				<column width="30"/>
+				<column width="92" disabled="@ts_viewtype"/>
+				<column width="105" disabled="@ts_viewtype"/>
+				<column width="30"/>
+				<column width="50"/>
+			</columns>
+			<rows>
+				<row>
+					<description value="Project" for="ts_project"/>
+					<hbox disabled="@pm_integration=none">
+						<link-entry id="pm_id" onchange="app.timesheet.pm_id_changed" only_app='projectmanager' blur='None' class="et2_fullWidth" width="99%"/>
+					</hbox>
+					<description/>
+					<hbox disabled="@pm_integration=full" span="all">
+						<textbox blur="@ts_project_blur" id="ts_project" size="65" maxlength="80" class="et2_fullWidth"/>
+					</hbox>
+				</row>
+				<row disabled="@ts_viewtype">
+					<description value="Unitprice" for="ts_unitprice"/>
+					<hbox disabled="@pm_integration=none" >
+						<projectmanager-pricelist id="pl_id" class="et2_fullWidth" onchange="window.app.timesheet.et2.getWidgetById('ts_unitprice').set_value(this.options[this.selectedIndex].text.lastIndexOf('(') &lt; 0 ? '' : this.options[this.selectedIndex].text.slice(this.options[this.selectedIndex].text.lastIndexOf('(')+1,-1));" options="None"/>
+					</hbox>
+					<description/>
+					<hbox disabled="@pm_integration=none">
+						<textbox type="float" id="ts_unitprice" span="all" class="et2_fullWidth"/>
+					</hbox>
+				</row>
+				<row class="row" disabled="!@ts_viewtype">
+					<description value="comment"/>
+					<textbox multiline="true" id="ts_description_short" rows="5" cols="50" class="et2_fullWidth"/>
+					<description/>
+					<description/>
+					<description/>
+				</row>
+				<row class="row" disabled="@ts_viewtype">
+					<description value="Quantity" for="ts_quantity"/>
+					<textbox type="float" blur="@ts_quantity_blur" statustext="empty if identical to duration" id="ts_quantity" precision="3" class="et2_fullWidth"/>
+					<description/>
+					<description value="Category" for="cat_id"/>
+					<menulist span="all">
+						<menupopup type="select-cat" id="cat_id" options="None,,,timesheet"  class="et2_fullWidth"/>
+					</menulist>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="timesheet.edit.notes" template="" lang="" group="0" version="1.5.001">
+		<textbox multiline="true" id="ts_description" rows="9" cols="70" class="et2_fullWidth"/>
+	</template>
+	<template id="timesheet.edit.links" template="" lang="" group="0" version="0.1.001">
+		<grid width="100%" overflow="auto">
+			<columns>
+				<column width="99%"/>
+			</columns>
+			<rows>
+				<row class="row" disabled="@status_only">
+					<link-to id="link_to"/>
+				</row>
+				<row class="th">
+					<description value="Existing links"/>
+				</row>
+				<row class="row_off" >
+					<link-list id="link_to"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="timesheet.edit.customfields" template="" lang="" group="0" version="1.5.001">
+		<box  width="100%" overflow="auto">
+			<customfields class="et2_fullWidth"/>
+		</box>
+	</template>
+	<template id="timesheet.edit.history" template="" lang="" group="0" version="1.7.001">
+		<historylog id="history"/>
+	</template>
+	<template id="timesheet.edit" template="" lang="" group="0" version="1.9.002">
+		<grid width="100%">
+			<columns>
+				<column width="100"/>
+				<column width="185"/>
+				<column width="30"/>
+				<column width="100"/>
+				<column width="105"/>
+				<column width="30"/>
+				<column width="50"/>
+			</columns>
+			<rows>
+				<row disabled="@ts_viewtype" class="dialogHeader">
+					<description value="Title" for="ts_title"/>
+					<textbox blur="@ts_title_blur" id="ts_title" size="65" maxlength="255" class="et2_fullWidth et2_required" tabindex="1" span="4"/>
+					<textbox type="integer" id="ts_id" readonly="true"/>
+					<appicon src="timesheet"/>
+				</row>
+				<row class="dialogHeader2">
+					<description value="Date" for="ts_start"/>
+					<date id="ts_start" needed="1" options=",8" class="et2_fullWidth"/>
+					<description/>
+					<description value="Starttime"/>
+					<date-timeonly id="start_time" class="et2_fullWidth"/>
+				</row>
+				<row class="row dialogHeader3">
+					<description value="Duration" for="ts_duration"/>
+					<date-duration id="ts_duration" options=",hm" class="et2_fullWidth" />
+					<description/>
+					<description value="or endtime" class="et2_noWrap"/>
+					<date-timeonly id="end_time" options="H:i" class="et2_fullWidth"/>
+				</row>
+				<row>
+					<tabbox id="tabs" class="et2_nowrap" width="100%" span="all" tab_height="165">
+						<tabs>
+							<tab id="notes" label="Description"/>
+							<tab id="general" label="Details"/>
+							<tab id="links" label="Links"/>
+							<tab id="customfields" label="Custom Fields"/>
+							<tab id="history" label="History"/>
+						</tabs>
+						<tabpanels class="dialog-main-timeframe">
+							<template id="timesheet.edit.notes"/>
+							<template id="timesheet.edit.general"/>
+							<template id="timesheet.edit.links"/>
+							<template id="timesheet.edit.customfields"/>
+							<template id="timesheet.edit.history"/>
+						</tabpanels>
+					</tabbox>
+				</row>
+				<row class="dialogOperators">
+					<description value="User" for="ts_owner"/>
+					<hbox span="2" class="et2_fullWidth">
+						<menulist>
+							<menupopup id="ts_owner" no_lang="1"/>
+						</menulist>
+						<date-time id="ts_created" readonly="true" align="left"/>
+					</hbox>
+					<description value="Status"  disabled="@no_ts_status"/>
+					<menulist span="3">
+						<menupopup statustext="select a status of the timesheet" id="ts_status"  class="et2_fullWidth" empty_label="please select" disabled="@no_ts_status"/>
+					</menulist>
+					<description/>
+				</row>
+				<row disabled="!@ts_modified" class="dialogOperators">
+					<description value="Last modified"/>
+					<hbox span="2" class="et2_fullWidth">
+						<menulist>
+							<menupopup type="select-account" id="ts_modifier" readonly="true"/>
+						</menulist>
+						<date-time id="ts_modified" readonly="true" align="left"/>
+					</hbox>
+				</row>
+				<row class="dialogFooterToolbar">
+					<hbox orient="0" span="all">
+						<hbox>
+							<button statustext="Edit this entry" label="Edit" id="button[edit]" image="edit" background_image="1"/>
+							<button statustext="Saves this entry and add a new one" label="Save &amp; New" id="button[save_new]" image="save_new" background_image="1"/>
+							<button statustext="Saves the changes made" label="Save" id="button[save]" image="save" background_image="1"/>
+							<button statustext="Applies the changes made" label="Apply" id="button[apply]" image="apply" background_image="1"/>
+							<button statustext="closes the window without saving the changes" label="Cancel" id="button[cancel]" onclick="window.close();" image="cancel" background_image="1"/>
+							<html id="js"/>
+						</hbox>
+						<button align="right" statustext="Delete this entry" label="Delete" id="button[delete]" onclick="et2_dialog.confirm(widget,'Delete this entry','Delete')" image="delete" background_image="1"/>
+						<button align="right" statustext="Restore this entry" label="Undelete" id="button[undelete]" image="undelete" background_image="1"/>
+					</hbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

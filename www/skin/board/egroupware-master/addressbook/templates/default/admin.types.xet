@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="addressbook.admin.types" template="" lang="" group="0" version="">
+		<template id="admin.customfields.types" content="content_types"/>
+		<styles>.header{
+font-weight: bold;
+}</styles>
+	</template>
+</overlay>

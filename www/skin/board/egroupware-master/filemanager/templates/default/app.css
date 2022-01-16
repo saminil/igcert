@@ -1,0 +1,189 @@
+/**
+ * EGroupware - CSS Styles used by filemanager app
+ *
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @package etemplate
+ * @link http://www.egroupware.org
+ * @author Ralf Becker <RalfBecker@outdoor-training.de>
+ * @version $Id$
+ */
+
+/**
+ * CSS for new eTemplate filemanager UI
+ */
+select#filemanager-index_filter {
+	width: 160px;
+}
+input#filemanager-index_path {
+	width: 300px;
+	font-size: 150%;
+	padding: 1px 5px 3px 2px;
+}
+#filemanager-index_filemanager-index-header_right .et2_hbox > *,
+#filemanager-index_filemanager-index-header_row > *,
+#filemanager-index_filemanager-index-header_left .et2_hbox > *
+{
+	float: left;
+}
+#filemanager-index_filemanager-index-header_left .et2_file,
+#filemanager-index_filemanager-index-header_left .et2_file input {
+	width: 24px;
+}
+#filemanager-index_filemanager-index-header_left .et2_file span {
+	width: 22px;
+	height: 22px;
+	padding: 0;
+	background-position-x: 3px;
+	background-image: url(../../../pixelegg/images/add.svg);
+	overflow: hidden;
+	text-indent: 100px;
+}
+
+/**
+ * Tile view
+table.egwGridView_grid .tile .file_tile {
+	height: 150px;
+}
+ */
+.egwGridView_grid .tile span.iconOverlayContainer {
+	display: block;
+	max-width: 140px;
+}
+.tile .file_tile img.vfsMimeIcon {
+	height: auto;
+	width: auto;
+	max-height: 48px;
+	display:block;
+	margin: 0 auto;
+}
+.tile .file_tile .et2_label {
+	word-wrap: break-word;
+}
+.tile .file_tile {
+	position: relative;
+}
+.tile .file_tile[data-mime^="image"] .et2_label {
+	display: none;
+}
+.tile .file_tile[data-mime^="image"]:hover .et2_label {
+	display: block;
+	position: absolute;
+	top: 10px;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	width: 100%;
+}
+.tile .file_tile[data-mime^="image"]:hover .et2_label[id*=comment] {
+	top: 30px;
+}
+#filemanager-index_nm .file_tile[data-mime^="image"] img.vfsMimeIcon {
+  height: auto;
+  max-height: 100px;
+}
+
+/**
+ * Select file dialog
+ */
+.selectPath { font-weight: bold; width: 98% }
+
+.selectName input { width: 100%; }
+.selectMime select { width: 100%; }
+.displayNone input, input.displayNone { display: none; }
+.selectFiles div { overflow-y: auto;}
+#filemanager-select_dir {
+	height:400px;
+	overflow-y: scroll;
+	display:inline-block;
+}
+/**
+ * VFS mounts and versioning
+ */
+.filemanager_smallButton {
+	font-size: 90%;
+	margin: 0;
+}
+.filemanager_header {
+	font-size: 120%;
+	font-weight: bold;
+}
+.filemanager_config > * {
+	margin-top: 20px;
+}
+.error{color:red; font-style:italic;}
+.createDir img {padding-right:30px;}
+#filemanager-select_apps {
+	width: 61px;
+	height: 400px;
+	margin-top: 44px;
+	display: inline-block;
+	overflow-y: scroll;
+}
+
+.mimeIcon {width:65px;}
+.previewImage {width:100%;}
+
+#filemanager-editor_file_path {
+	font-size: 11pt;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#filemanager-editor_odfEditor {
+	position: absolute;
+	height: ~"calc(100% - 50px) !important";
+	width:100% !important;
+	top:50px;
+	left: 0px;
+	bottom: 0px;
+	right:0px;
+	padding:0px !important;
+}
+#filemanager-editor_odfEditor .webodfeditor-editor.dijitContentPane {
+	box-shadow: none;
+	left:0px !important;
+	top: 0px !important;
+}
+#filemanager-editor {
+	overflow: hidden;
+}
+
+/* collab editor styling*/
+div.webodfeditor-members {
+	background-color: white !important;
+
+}
+div.webodfeditor-memberList .webodfeditor-memberListButton {
+	border: none !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+
+}
+div.webodfeditor-memberList .webodfeditor-memberListButton img {
+	border-radius: 50%;
+	box-shadow: none;
+}
+div.webodfeditor-memberList .webodfeditor-memberListLabel {
+	color: #1E1E1E;
+}
+div.webodf-caretOverlay div.handle {
+	width:68px;
+	border-radius:50%;
+}
+div.webodf-caretOverlay div.handle>img{
+	border-radius: 50%;
+}
+div.editInfoMarker {
+	width:5px;
+	border-radius: none;
+}
+#filemanager-index_nm .et2_file div.progress {position:absolute;}
+
+#filemanager-index_new_wrapper {
+	float: left;
+	margin-right: 6px;
+}
+
+#filemanager-index_new_wrapper .ui-icon-triangle-1-s {
+	background-position: 0px -192px;
+}

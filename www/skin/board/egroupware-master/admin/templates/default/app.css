@@ -1,0 +1,195 @@
+/**
+ * EGroupware - CSS Styles used by admin app
+ *
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @package etemplate
+ * @link http://www.egroupware.org
+ * @author Ralf Becker <RalfBecker@outdoor-training.de>
+ * @version $Id$
+ */
+
+.admin_tree table, .admin_tree tr, .admin_tree td {
+	border: none;
+}
+
+div#divAppbox {
+	padding: 0;
+}
+
+body {
+	background-image: none;
+	background-color: white;
+}
+
+/* otherwise it is transparent */
+#admin_iframe {
+	background-color: white;
+}
+
+/** Group list */
+@media screen {
+	#admin-index_groups div.innerContainer {
+		overflow: auto;
+		max-height: 7em;
+	}
+}
+
+tr.adminAccountInactive .adminStatus {
+	color: red;
+}
+
+.adminOverflowEllipsis {
+	width: 100%;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+img.admin_aclApp {
+	width: 16px;
+}
+
+td.admin_userAgent { max-width: 200px; }
+td.admin_userAgent span {
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#admin-account-delete .dialogHeader label.et2_label {
+	font-size: 120%;
+}
+/* Global Category classes*/
+.globalCat_confirmDelete {
+  position: absolute;
+  left: 120px;
+  top: 80px;
+  background-color: white;
+  display: none;
+  border: 2px solid black;
+}
+.globalCat_hiddenCatid {
+  display: none;
+}
+
+/**
+ * Custom fields list
+ */
+#admin-customfields_nm .values {
+	display: inline-block;
+	max-height: 13em;
+	overflow: auto;
+}
+/* Set a max height for all app type options */
+#admin-customfields_admin-customfields-types + table {
+	max-height: 300px;
+	overflow: auto;
+}
+#admin-customfield_edit tr:not([class]) td {
+	padding: 5px 0px;
+}
+#admin-customfield_edit .attributes .et2_label,#admin-customfield_edit .attributes input {
+	margin-right: 1em;
+}
+
+/**
+ * Bulk password reset
+ */
+#admin-passwordreset_actions >:nth-child(2) {
+	display: block;
+}
+
+/**
+ * ACL popup
+ */
+#admin-acl_filter {
+	max-width: 100% !important;
+}
+
+/**
+ * mail account wizard and edit
+ */
+.emailadmin_manual {
+  display: none;
+}
+.emailadmin_progress {
+  display: none;
+  padding-top: 5px;
+}
+.emailadmin_ssl {
+  margin-right: 10px;
+}
+.emailadmin_port {
+  width: 5em;
+}
+.emailadmin_header {
+  font-weight: bold;
+  font-size: 150%;
+}
+#admin-mailaccount_tabs {
+  padding-top: 10px;
+}
+#admin-mailaccount_acc_imap_logintype {
+  width: 100%;
+}
+span.emailadmin_diagnostic,.emailadmin_diagnostic {
+  color: lightgray;
+}
+span#admin-mailaccount_acc_id {
+  float: right;
+}
+#admin-mailaccount_acc_smtp_account_id {
+  padding-left: 5px;
+}
+#admin-mailaccount_button\[multiple\] {
+  height: auto;
+  padding-left: 5px;
+  margin:2px;
+  width: 16px;
+  vertical-align: top;
+}
+#admin-mailaccount_button\[placeholders\] {
+  height: 16px;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+#admin-mailaccount_mailLocalAddress {
+  width: 98%;
+}
+select#admin-mailaccount_ident_id {
+  width: 95%;
+}
+
+/**
+ * new et2 site configuration
+ */
+#admin-site-config > div > span.subHeader  {
+	border-bottom: 3px solid #696969;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	display: block;
+	margin-bottom: 5px;
+}
+#admin-site-config span.subHeader  {
+	font-weight: bold;
+	font-size: 110%;
+}
+#admin-acl {width:99%;}
+
+#admin-categories-edit_owner {overflow-y: auto;}
+
+/*
+Admin command
+*/
+
+#admin-cmds_nm {min-height: 100px;}
+#admin-cmds .et2_split {padding-right: 10px;}
+#admin-cmds_policy_preview {width:100%; height:100%;}
+#admin-cmds div.splitter-bar-horizontal {
+  border-top: 1px solid #B4B4B4;
+  border-left: 0;
+  border-bottom: 0;
+  background: white;
+}

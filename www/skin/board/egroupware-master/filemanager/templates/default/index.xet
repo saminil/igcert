@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="filemanager.index.rows" template="" lang="" group="0" version="1.7.002">
+		<grid width="100%">
+			<columns>
+				<column width="150"/>
+				<column width="50%"/>
+				<column width="80"/>
+				<column width="120"/>
+				<column width="120"/>
+				<column width="100"/>
+				<column width="100"/>
+				<column width="100"/>
+				<column width="30%"/>
+				<column width="20%"/>
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-sortheader align="center" label="Type" id="mime"/>
+					<nextmatch-sortheader label="Name" id="name"/>
+					<nextmatch-sortheader label="Size" id="size"/>
+					<nextmatch-sortheader label="Modified" id="mtime"/>
+					<nextmatch-sortheader label="Created" id="ctime"/>
+					<nextmatch-sortheader label="Permissions" id="mode"/>
+					<nextmatch-sortheader label="Owner" id="uid"/>
+					<nextmatch-sortheader label="Group" id="gid"/>
+					<nextmatch-header label="Comment" id="comment"/>
+					<nextmatch-customfields id="customfields" readonly="true"/>
+				</row>
+				<row class="row $row_cont[class]">
+					<vfs-mime align="center" id="$row"/>
+					<vfs id="$row" no_lang="1"/>
+					<vfs-size align="right" id="${row}[size]"/>
+					<date-time id="${row}[mtime]" readonly="true"/>
+					<date-time id="${row}[ctime]" readonly="true"/>
+					<vfs-mode id="${row}[mode]"/>
+					<vfs-uid id="${row}[uid]" no_lang="1"/>
+					<vfs-gid id="${row}[gid]" no_lang="1"/>
+					<description id="${row}[comment]"/>
+					<customfields-list id="$row" class="customfields"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="filemanager.index.header_left" template="" lang="" group="0" version="1.9.002">
+		<file label="Upload" statustext="Select file to upload in current directory" id="upload" progress_dropdownlist = "true" drop_target="filemanager-index" multiple="true" onFinishOne="app.filemanager.uploadOnOne"/>
+	</template>
+	<template id="filemanager.index.header_row" template="" lang="" group="0" version="1.9.002">
+		<buttononly id="home" statustext="Go to your home directory" image="gohome" background_image="true" onclick="app.filemanager.change_dir('~',widget);"/>
+		<buttononly id="up" statustext="Up" image="goup" background_image="true" onclick="app.filemanager.change_dir('..',widget);"/>
+		<vfs-path id="path" onchange="if(widget.getValue() == '') { app.filemanager.change_dir('~',widget);} return true;" size="80" class="address"/>
+		<buttononly statustext="Tile view" id="button[change_view]" onclick="app.filemanager.change_view" image="list_tile" background_image="true"/>
+	</template>
+	<template id="filemanager.index.header_right" template="" lang="" group="0" version="1.9.003">
+		<dropdown_button id="new" onchange="app.filemanager.create_new" label="New" onclick="app.filemanager.create_new"/>
+		<buttononly statustext="Rename, change permissions or ownership" id="button[edit]" onclick="app.filemanager.editprefs();" image="edit" background_image="true"/>
+		<buttononly statustext="Create directory" id="button[createdir]" onclick="app.filemanager.createdir();" image="button_createdir" background_image="true"/>
+		<buttononly statustext="Create a link" id="button[symlink]" onclick="app.filemanager.symlink();" image="link" background_image="true"/>
+		<!--buttononly statustext="Paste" id="button[paste]" onclick="app.filemanager.paste('paste');" image="editpaste" background_image="true"/>
+		<buttononly statustext="Paste link" id="button[linkpaste]" onclick="app.filemanager.paste('linkpaste');" image="linkpaste" background_image="true"/>
+		<buttononly statustext="Mail paste" id="button[mailpaste]" onclick="app.filemanager.paste('mailpaste');" image="mailpaste" background_image="true"/-->
+		<buttononly statustext="File a file" onclick="app.filemanager.fileafile" image="upload" background_image="true"/>
+	</template>
+	<template id="filemanager.index" template="" lang="" group="0" version="1.9.003">
+		<nextmatch id="nm" template="filemanager.index.rows" header_left="filemanager.index.header_left" header_row="filemanager.index.header_row" header_right="filemanager.index.header_right"/>
+	</template>
+</overlay>

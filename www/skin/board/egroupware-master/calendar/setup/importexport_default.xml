@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entry type="array" name="importExportDefinitions">
+  <entry type="array" name="metainfo">
+    <entry type="string" name="type">importexport definitions</entry>
+    <entry type="string" name="charset">user</entry>
+    <entry type="integer" name="entries">4</entry>
+  </entry>
+  <entry type="array" name="definitions">
+    <entry type="array" name="export-calendar-csv">
+      <entry type="string" name="name">export-calendar-csv</entry>
+      <entry type="string" name="application">calendar</entry>
+      <entry type="string" name="plugin">calendar_export_csv</entry>
+      <entry type="string" name="type">export</entry>
+      <entry type="array" name="allowed_users">
+        <entry type="string" name="0">Default</entry>
+      </entry>
+      <entry type="array" name="plugin_options">
+        <entry type="array" name="mapping">
+          <entry type="string" name="owner">owner</entry>
+          <entry type="string" name="category">category</entry>
+          <entry type="string" name="priority">priority</entry>
+          <entry type="string" name="public">public</entry>
+          <entry type="string" name="title">title</entry>
+          <entry type="string" name="description">description</entry>
+          <entry type="string" name="location">location</entry>
+          <entry type="string" name="reference">reference</entry>
+          <entry type="string" name="modifier">modifier</entry>
+          <entry type="string" name="non_blocking">non blocking</entry>
+          <entry type="string" name="special">special</entry>
+          <entry type="string" name="creator">creator</entry>
+          <entry type="string" name="recurrence">recurrence</entry>
+          <entry type="string" name="tz_id">tz_id</entry>
+          <entry type="string" name="start">start</entry>
+          <entry type="string" name="end">end</entry>
+          <entry type="string" name="participants">Participants: User, Status, Role</entry>
+          <entry type="string" name="all_custom_fields">calendar</entry>
+        </entry>
+        <entry type="string" name="delimiter">;</entry>
+        <entry type="string" name="charset">user</entry>
+        <entry type="string" name="begin_with_fieldnames">label</entry>
+        <entry type="string" name="convert">1</entry>
+      </entry>
+      <entry type="string" name="modified">2011-11-10 10:00:00</entry>
+    </entry>
+    <entry type="array" name="import-calendar-ical">
+      <entry type="string" name="name">import-calendar-ical</entry>
+      <entry type="string" name="application">calendar</entry>
+      <entry type="string" name="plugin">calendar_import_ical</entry>
+      <entry type="string" name="type">import</entry>
+      <entry type="array" name="allowed_users">
+        <entry type="string" name="0">Default</entry>
+      </entry>
+      <entry type="string" name="plugin_options"/>
+      <entry type="string" name="modified">2011-05-24 10:00:00</entry>
+    </entry>
+    <entry type="array" name="export-calendar-ical">
+      <entry type="string" name="name">export-calendar-ical</entry>
+      <entry type="string" name="application">calendar</entry>
+      <entry type="string" name="plugin">calendar_export_ical</entry>
+      <entry type="string" name="type">export</entry>
+      <entry type="array" name="allowed_users">
+        <entry type="string" name="0">Default</entry>
+      </entry>
+      <entry type="string" name="plugin_options"/>
+      <entry type="string" name="modified">2011-05-24 10:00:00</entry>
+    </entry>
+  </entry>
+</entry>

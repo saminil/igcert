@@ -1,0 +1,379 @@
+/**
+ * EGroupware: Stylite Pixelegg template
+ *
+ * Definitions for login page
+ *
+ * Please do NOT change css-files directly, instead change less-files and compile them!
+ *
+ * @link http://www.egroupware.org
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @author Stefan Reinhard <stefan.reinhard@pixelegg.de>
+ * @package pixelegg
+ * @version $Id$
+ */
+
+@import (reference) "definitions.less";
+
+@import "def_colors.less";
+
+/**
+ * 19.1 Login page with stock background image
+ */
+div#loginMainDiv.stockLoginBackground {
+	div#divAppIconBar {
+		div#divLogo {
+			position: relative;
+			top: 35%;
+			left: -50px;
+			div.login_logo_container {
+				height: 80px;
+				div.login_logo {
+					width: 350px;
+					max-width: 350px;
+				}
+			}
+			div#loginScreenMessage {
+				font-size: 28.5px;
+				font-weight: 500;
+				color: #075ca3;
+				font-family: arial, helvetica, sans-serif;
+				margin: 0;
+				padding-left: 106px;
+			}
+		}
+	}
+	div#centerBox form {
+	   border: 1px solid gray;
+	   border-radius: 0 !important;
+	}
+}
+
+//##############################################################################################################
+
+#socialBox {
+	position: absolute;
+	bottom: 10px;
+	display: inline-block;
+	left: 0;
+	width: 27%;
+}
+#socialMedia a {
+	margin-left: 10px;
+}
+#socialMedia a img{
+	width: 24px;
+}
+
+/* ##################################################################################
+ *       login page
+ */
+
+#loginMainDiv {
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	border: none;
+	margin: 0 auto 0px;
+	background-color: white;
+	background-image: url(../../api/templates/default/images/login_background.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+
+	.loginMessageBox {
+		width: 100%;
+		position: absolute;
+		z-index: 100;
+		// Message
+		#loginCdMessage:not(.error) {
+			display: none;
+		}
+
+		#loginCdMessage.error {
+			border: 3px solid #7ab7ec;
+			color: red;
+			text-align: center;
+			font-size: 12pt;
+			white-space: pre-wrap;
+			height: auto;
+			background: white;
+			opacity: 0.94;
+			margin-left: 20px;
+			margin-right: 20px;
+			padding: 20px;
+			margin-top: 20px;
+		}
+		.closeBtn {
+			position: absolute;
+			right: 30px;
+			border-radius: 100%;
+			width: 25px;
+			height: 25px;
+			text-align: center;
+			line-height: 20px;
+			font-size: 15px;
+			top: 30px;
+			color: #b6b7bb;
+			&:hover {
+				color: #5e6063;
+				cursor: pointer;
+			}
+		}
+	}
+	// Logo Leiste
+	#divAppIconBar {
+		background: transparent;
+		width: 100%;
+		text-align: center;
+		height: 40%;
+		display: block;
+		max-height: 40%;
+		#divLogo {
+			position: relative;
+		    padding-top: 20px;
+			.login_logo_container {
+				width:250px;
+				height:150px;
+				max-height: 150px;
+				max-width:250px;
+				margin: 0 auto;
+				.login_logo {
+					width: auto;
+					height: 100%;
+					background-size:contain;
+					background-repeat: no-repeat;
+					background-position: center;
+				}
+			}
+		}
+	}
+
+	#loginScreenMessage [class $= "error"] {
+
+	}
+	// Meldung
+	#loginScreenMessage:not([class $= "error"]) {
+		margin: 1em;
+		font-size: 12pt;
+		img {max-width: 100%;}
+		color: #0a5ca5;
+	}
+	div#login_footer {
+		position: absolute;
+		bottom: 0;
+		display: inline-block;
+		right: 0;
+		width: 22%;
+		a.logo_footer {
+			float:right;
+			margin: 10px;
+			img {
+				height: 40px;
+				width: 40px;
+			}
+		}
+	}
+	// Anmeldefenster / Box mit Mesaage + Form
+	div#centerBox {
+		margin: 0 auto -20px;
+		background: transparent;
+		border: none;
+		z-index: 100;
+		padding: 0;
+		width: 280px;
+
+
+
+		// Formular
+		form {
+			opacity:0.94;
+			background-color: white;
+			padding:1em;
+			.hiddenCredential {display: none;}
+			// Table
+			table.divLoginbox {
+				background-color: transparent;
+				.border_radius_button_lefttop;
+				tr.divLoginboxHeader {}
+
+				// Passwort Image
+				div.LoginPasswordImage {
+					.gradient_vertical (@egw_color_1_a, @egw_color_2_d);
+					img.passwordImage {
+						margin: 0 auto;
+						max-width: 400px;
+						.bordered(5px);
+					}
+					img.passwordImage[src$="svg"] {
+						.bordered(5px);
+						.dimension_width_height_xl;
+					}
+				}
+				td {
+					font-size: 12pt;
+					position: relative;
+				}
+				select {
+					padding-left: 25px;
+					width:100%;
+					height: 42px;
+					border: none;
+					border-bottom: 1px solid silver;
+					border-radius: 0px;
+					background-color: transparent;
+				}
+				select[name="remember_me"] {
+					background-image: url(../images/task.png);
+					background-repeat: no-repeat;
+					background-position-x: 0;
+				}
+				td.remember_me_row {
+					border-bottom: 1px solid silver;
+					span.remember_me {color:@color_placeholder;opacity:1;}
+				}
+				select:focus, select:hover {box-shadow:none;}
+				input {
+					width: ~"calc(250px - 22px)";
+					height: 40px;
+					padding: 0;
+					margin: 0;
+					border: none;
+					border-bottom: 1px solid silver;
+					padding-left: 25px;
+					background-color: transparent;
+				}
+				input:hover {}
+				input:focus {
+					outline: none;
+				}
+				span.field_icons {
+					position: absolute;
+					left: 0px;
+					width: 20px;
+					height: 20px;
+					background-size: 16px;
+					background-position: left center;
+					background-repeat: no-repeat;
+					top: 12px;
+					z-index: 100;
+					opacity:0.5;
+				}
+				span.field_icons.username {background-image: url(../images/personal.png);}
+				span.field_icons.password {background-image: url(../images/password.png);}
+				span.field_icons.remember_me {background-image: none;z-index:0;width: 230px;padding-left: 31px;}
+				span.field_icons.domain {background-image: url(../images/internet.png);}
+				span.field_icons.language {background-image: url(../images/language.png);}
+				input[type="checkbox"] {
+					height: 25px;
+					margin-top: 7px;
+					width: auto;
+				}
+				input[type="submit"], select.onChangeSubmit {
+					background-color: #0a5ca5;
+					.color_0_gray;
+					.fontsize_xxl;
+					padding-left:0;
+					width: 250px;
+					&:hover{}
+					&:focus {}
+					margin-top: 25px;
+				}
+				select.onChangeSubmit {
+					padding-left: 25px;
+				}
+				.registration {
+					font-size: 11px;
+					a:not(:first-child) {
+						&:before {
+							padding-left:5px;
+							padding-right:5px;
+							content: '|';
+						}
+					}
+				}
+			}
+		} // Formular
+    } //center box
+} //  #loginMainDiv
+// Ende Login / Start #################################################
+
+#wrap {
+	div.animation_login {
+		margin: 0.3em;
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+	}
+
+	img[src$="svg"],
+	background-image[url$="svg"] {
+		.gradient_vertical (@egw_color_2_e, @egw_color_2_e);
+	}
+}
+
+#img1, #img2, #img3, #img4 , #img5 , #img6 , #img7 , #img8 {
+	width:12%;
+	z-index:-1;
+	animation-name: test;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: test;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite;
+	opacity:0;
+}
+#img1 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s
+}
+#img2 {
+	animation-delay:3s;
+	-webkit-animation-delay:3s
+}
+#img3 {
+	animation-delay:6s;
+	-webkit-animation-delay:6s
+}
+#img4 {
+	animation-delay:9s;
+	-webkit-animation-delay:9s
+}
+#img5 {
+	animation-delay:12s;
+	-webkit-animation-delay:12s
+}
+#img6 {
+	animation-delay:15s;
+	-webkit-animation-delay:15s
+}
+#img7 {
+	animation-delay:18s;
+	-webkit-animation-delay:18s
+}
+#img8 {
+	animation-delay:21s;
+	-webkit-animation-delay:21s
+}
+@-webkit-keyframes test {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes test {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="api.prompt" template="" lang="" group="0" version="1.9.001">
+		<hbox class="et2_prompt">
+			<image src="dialog_help" class="dialog_icon"/>
+			<vbox class="ui-dialog-content">
+				<label id="message"/>
+				<textbox id="value" width="90%"/>
+			</vbox>
+		</hbox>
+	</template>
+</overlay>

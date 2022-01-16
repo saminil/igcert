@@ -1,0 +1,25 @@
+/**
+ * Styles for Resources app
+ *
+ * @version: $Id$
+ */
+
+#resources-edit.et2_container
+{
+	width:848px;
+}
+#resources-edit_res_id:before {content:"#"}
+
+div.resources_pictureFile div.progress{
+	position: absolute;
+	width:226px;
+}
+
+#resources-acl_edit .permissions {
+	margin: 2em 0em;
+	height: auto;
+}
+
+#resources-acl_edit .permissions .th {
+	border-bottom: 1px solid #696969;
+}

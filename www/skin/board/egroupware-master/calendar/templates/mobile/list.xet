@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id: list.xet 54765 2016-01-19 00:48:21Z nathangray $ -->
+<overlay>
+	<template id="calendar.list.add" template="" lang="" group="0" version="16.1.001">
+		<button id="add" parent_node="calendar-list_plus_button_container"  class="plus_button"  onclick="egw.open('calendar');"/>
+	</template>
+	<template id="calendar.list.dates" template="" lang="" group="0" version="1.3.001">
+		<hbox>
+			<description value="Start"/>
+			<date id="startdate" onchange="app.calendar.update_state({date: widget.getValue()}); return false;"/>
+			<description value="End"/>
+			<date id="enddate" onchange="app.calendar.update_state({end_date: widget.getValue()}); return false;"/>
+		</hbox>
+	</template>
+	<template id="calendar.list.rows" template="" lang="" group="0" version="1.9.004">
+		<grid width="100%" >
+			<columns>
+				<column width="10"/>
+				<column width="95%" />
+				<column width="50"/>
+			</columns>
+			<rows>
+				<row class="th">
+
+				</row>
+				<row class="$row_cont[class]" valign="top">
+					<description class=" cat_$row_cont[cat_id] mobile_cat_col"/>
+					<vbox class="calendar_fullWidth">
+						<customfields-list id="$row" class="customfields" app="calendar" disabled="true"/>
+						<hbox class="calTitleRow">
+							<description id="${row}[title]" no_lang="1" class="$row_cont[sub_class] et2_ellipsis" overflow="hidden" width="100%" />
+						</hbox>
+						<hbox class="calDates">
+							<time_or_date id="${row}[start]" readonly="true" options=",$cont[format]" class="noWrap"/>
+							<description class="dash" value="-"/>
+							<time_or_date id="${row}[end]" readonly="true" options=",$cont[format]" class="noWrap"/>
+						</hbox>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="calendar.list" template="" lang="" group="0" version="1.9.003">
+		<grid width="100%" border="0" spacing="0" padding="0">
+			<columns>
+					<column width="70%"/>
+					<column/>
+			</columns>
+			<rows>
+				<row disabled="!@css">
+					<html id="css" span="all"/>
+				</row>
+				<row>
+					<description align="center" id="msg" no_lang="1" span="all" class="message"/>
+				</row>
+				<row>
+					<description id="plus_button_container"/>
+				</row>
+				<row>
+					<nextmatch id="nm" template="calendar.list.rows" header_right="calendar.list.add" header_left="calendar.list.dates" span="all"/>
+				</row>
+				<row>
+					<hbox>
+						<box class="action_popup prompt" id="delete_popup">
+							<vbox>
+								<description value="Delete" class="promptheader"/>
+								<description value="This is a recurring event. Do you want to delete just this recurrence or the whole series?"/>
+								<hbox>
+									<button label="Delete this recurrence" id="delete" onclick="nm_submit_popup(this); return false;"/>
+									<button label="Delete series" id="delete_series" onclick="nm_popup_action.id = 'delete_series'; nm_submit_popup(this); return false;"/>
+									<buttononly label="Cancel" onclick="nm_hide_popup(this,'delete_popup');"/>
+								</hbox>
+							</vbox>
+						</box>
+						<box class="action_popup prompt" id="undelete_popup">
+							<vbox>
+								<description value="Un-delete" class="promptheader"/>
+								<description value="This is a recurring event. Do you want to Un-delete just this recurrence or the whole series?"/>
+								<hbox>
+									<button label="Un-delete this recurrence" id="undelete" onclick="nm_submit_popup(this); return false;"/>
+									<button label="Un-delete series" id="undelete_series" onclick="nm_popup_action.id = 'undelete_series'; nm_submit_popup(this); return false;"/>
+									<buttononly label="Cancel" onclick="nm_hide_popup(this,'undelete_popup');"/>
+								</hbox>
+							</vbox>
+						</box>
+					</hbox>
+					<description/>
+				</row>
+			</rows>
+		</grid>
+		<styles>
+			.noWrap { white-space: nowrap; }
+
+.image16 img {
+  height: 16px;
+}
+
+.listVbox {
+  width: 100%;
+}
+
+
+		</styles>
+	</template>
+</overlay>

@@ -1,0 +1,503 @@
+%1 attachments	mail	el	%1 συννημένα
+%1 has been added to blacklisted email addresses	mail	el	%1 προστέθηκε στη μαύρη λίστα (blacklist) των διευθύνσεων ηλεκτρονικού ταχυδρομείου
+%1 has been added to whiltelisted email addresses	mail	el	%1 προστέθηκε στη λευκή λίστα (whitelist) των διευθύνσεων ηλεκτρονικού ταχυδρομείου
+%1 has been removed from blacklisted email addresses	mail	el	%1 αφαιρέθηκε από την μαύρη λίστα των διευθύνσεων ηλεκτρονικού ταχυδρομείου
+%1 has been removed from whiltelisted email addresses	mail	el	%1 αφαιρέθηκε από την λευκή λίστα (whitelist) των διευθύνσεων ηλεκτρονικού ταχυδρομείου
+%1 is not writable by you!	mail	el	%1 δεν μπορεί να εγγραφεί από εσάς!
+%1 mails selected	mail	el	%1 μηνύματα έχουν επιλεγεί
+(leave empty for no quota)	mail	el	(Αφήστε κενό για μην οριστεί όριο)
+(no subject)	mail	el	(χωρίς θέμα)
+(not connected)	mail	el	(χωρίς σύνδεση)
+(select mails by clicking on the line, like a checkbox)	mail	el	(επιλέξτε μηνύματα κάνοντας κλικ στην γραμμή, όπως θα κάνατε σε περίπτωση checkbox)
+account editable by user	mail	el	ο λογαριασμός είναι επεξεργάσιμος από τον χρήστη
+acl rights retrieve failed, seems there are no rights set!	mail	el	Η λήψη των δικαιωμάτων ACL απέτυχε, φαίνεται πως δεν έχουν οριστεί δικαιώματα!
+acl rights retrieved successfully	mail	el	Οι ορισμοί δικαιώματων (ACL) ελήφθησαν επιτυχώς
+action	mail	el	Ενέργεια
+activating by date requires a start- and end-date!	mail	el	Η ενεργοποίηση με βάση την ημερομηνία απαιτεί ημερομηνία έναρξης και λήξης
+add "%1" into blacklisted domains	mail	el	Προσθήκη "%1"   στη μαύρη λίστα (blacklist) των domains
+add "%1" into blacklisted emails	mail	el	Προσθήκη  "%1"  στη μαύρη λίστα (blacklist) των διευθύνσεων ηλεκτρονικού ταχυδρομείου
+add "%1" into whiltelisted domains	mail	el	Προσθήκη "%1"   στη λευκή λίστα (whitelist) των domains
+add "%1" into whitelisted emails	mail	el	Προσθήκη  "%1"  στη λευκή λίστα (whitelist)  των διευθύνσεων ηλεκτρονικού ταχυδρομείου
+add a new folder to %1:	mail	el	Προσθήκη νέου φακέλου στο  %1:
+add all my aliases	mail	el	Προσθήκη όλων των ψευδωνύμων μου
+add as new	mail	el	Προσθήκη ως νέο
+add files as %1	mail	el	Προσθήκη αρχείων ως %1
+add folder	mail	el	Προσθήκη φακέλου
+add this certificate into contact	mail	el	Προσθήκη αυτού του πιστοποιητικού στην επαφή
+add to addressbook	mail	el	προσθήκη στο βιβλίο διευθύνσεων
+add your domain as "%1" in options to list of email providers and enable api.	mail	el	Προσθήκη του domain σας ως "%1" στις ρυθμίσεις για να εμφανιστεί στην λίστα  με τους παρόχους ηλεκτρονικού ταχυδρομείου και να ενεργοποιηθεί το API.
+adding %1 to blacklisted email addresses failed because of %2	mail	el	Απέτυχε η προσθήκη  "%1"  στη μαύρη λίστα (blacklist) των διευθύνσεων ηλεκτρονικού ταχυδρομείου λόγω %2
+adding %1 to whiltelisted email addresses failed because of %2	mail	el	Απέτυχε η προσθήκη "%1"  στη λευκή λίστα (whitelist)  των διευθύνσεων ηλεκτρονικού ταχυδρομείου λόγω %2
+after reply, visible during compose	mail	el	Μετά την απάντηση. Θα εμφανίζεται κατά την διάρκεια της σύνταξης του μηνύματος
+aliases+forwards	mail	el	Ψευδώνυμα+προωθήσεις
+all	mail	el	όλα
+all adresses:	mail	el	Όλες οι διευθύνσεις:
+all available info	admin	el	όλες οι διαθέσιμες πληροφορίες
+all filtered	mail	el	όλα φιλτραρισμένα
+all messages in the folder will be lost	mail	el	Όλα τα μηνύματα στον φάκελο θα χαθούν
+all my email addresses	mail	el	όλες μου οι διευθύνσεις ηλεκτρονικού ταχυδρομείου
+all of	mail	el	όλα από
+all subfolders will be deleted too, and all messages in all affected folders will be lost	mail	el	Θα διαγραφούν επίσης όλοι οι υποφάκελοι και όλα τα μηνύματα στους φακέλους αυτούς θα χαθούν
+allow	mail	el	Να επιτρέπεται
+allow external images	mail	el	Να επιτρέπονται εικόνες από εξωτερικές πηγές
+allow external images from listed domains	mail	el	Να επιτρέπονται εικόνες από εξωτερικές πηγές εφόσον ανοίκουν στα αναφερόμενα domains.
+allow images from external sources in html emails	mail	el	Να επιτρέπονται οι εικόνες από εξωτερικές πηγές στα HTML emails
+allow images from listed domains in html emails	mail	el	Να επιτρέπονται οι εικόνες από τα αναφερόμενα domains σε μηνύματα τύπου HTML
+allow users to create further identities	mail	el	να επιτρέπεται στους χρήστες να δημιουργούν πρόσθετες ταυτότητες
+allways a new window	mail	el	πάντα νέο παράθυρο
+always	mail	el	Πάντα
+always allow external sources from %1	mail	el	Να επιτρέπονται πάντα εξωτερικές πηγές από %1
+always show html emails	mail	el	να εμφανίζονται πάντοτε τα μυνήματα τύπου HTML
+an error happend while trying to remove acl rights from the account %1!	mail	el	Συνέβη κάποιο σφάλμα κατά την προσπάθεια αφαίρεσης δικαιωμάτων ACL από τον λογαριασμό %1!
+and the rule with priority %1, now got the priority %2	mail	el	Και ο κανόνας με την προτεραιότητα %1 τώρα έλαβε την προτεραιότητα %2
+any of	mail	el	οποιοδήποτε
+any status	mail	el	οποιαδήποτε κατάσταση
+append	mail	el	προσάρτηση
+appended after reply before sending	mail	el	Να προσαρτάται μετά την απάντηση πριν από τη αποστολή
+application mail expected but got: %1	mail	el	Αναμενόταν η εφαρμογή mail, αλλά ελήφθη: %1
+archive folder	mail	el	Φάκελος αρχειοθέτησης
+are you sure you want to delete all selected folders?	mail	el	Είστε σίγουροι πως θέλετε να διαγράψετε όλους τους επιλεγμένους φάκέλους;
+are you sure you want to move folder %1 to folder %2?	mail	el	Είστε σίγουροι πως θέλετε να μεταφέρετε τον φάκελο %1 στον φάκελο %2;
+arrival	mail	el	Ελήφθη
+ask for permission	mail	el	Να ρωτά για άδεια
+attach files	mail	el	Επισύναψη αρχείων
+attach users vcard at compose to every new mail	mail	el	Επισύναψη της vCard του χρήστη κατά την σύνταξη νέου μηνύματος
+attach vcard	mail	el	Επισύναψη vCard
+attachment	mail	el	Συνημμένο
+attachment has been saved successfully.	mail	el	Το συνημμένο αποθηκεύτηκε επιτυχώς
+attachments	mail	el	Συνημμένα
+attachments, ...	mail	el	συνημμένα, ...
+authentication	mail	el	Αυθεντικοποίηση
+available personal email-accounts/profiles	mail	el	διαθέσιμοι προσωπικοί λογαριασμοί ηλεκτρονικού ταχυδρομείου/προφίλ
+be aware that all attachments will be sent as %1!	mail	el	Λάβετε υπόψη σας πως όλα τα συνημμένα θα σταλούν ως %1!
+before reply, visible during compose	mail	el	Πριν από την απάντηση. Θα εμφανίζεται κατά την διάρκεια της σύνταξης του μηνύματος
+blacklisted mails are marked as spam	mail	el	Μηνύματα που βρίσκονται στη μαύρη λίστα μαρκάρονται ως  ανεπίκλητα μηνύματα (spam)
+but check shared folders	mail	el	να ελέγχονται όμως οι κοινοί φάκελοι
+by date	mail	el	Βάσει ημερομηνίας
+can not open imap connection	mail	el	Δεν είναι δυνατή η σύνδεση με τον εξυπηρετητή IMAP
+can not resolve the winmail.dat attachment!	mail	el	Αδυναμία λήψης του συνημμένου τύπου winmail.dat!
+canceled deletion due to user interaction	mail	el	Ακυρώθηκε η διαγραφή λόγω παρέμβασης του χρήστη
+certificate info for email %1	mail	el	Πληροφορίες πιστοποιητικού για το μήνυμα %1
+change editor type	mail	el	Ενεργοποίηση λειτουργίας HTML του επεξεργαστή κειμένου
+changed profile	mail	el	το προφίλ άλλαξε
+changing subject failed because of %1	mail	el	Η αλλαγή του θέματος απέτυχε λόγω 1%
+changing subject failed folder %1 does not exist	mail	el	Η αλλαγή του θέματος απέτυχε γιατί ο φάκελος %1 δεν υπάρχει
+check message against next rule also	mail	el	Το μήνυμα να ελέγχεται και ως προς τον επόμενο κανόνα
+check to save as calendar event on send	mail	el	Επιλέξτε για να αποθηκευτεί ως καταχώρηση ημερολογίου κατά την αποστολή
+check to save as infolog on send	mail	el	Επιλέξτε για να αποθηκευτεί ως Infolog κατά την αποστολή
+check to save as tracker entry on send	mail	el	Επιλέξτε για να αποθηκευτεί ως Tracker κατά την αποστολή
+choose file	mail	el	Επιλογή αρχείου
+common acl	mail	el	Κοινά δικαιώματα
+compose	mail	el	Σύνταξη
+compose as new	mail	el	Σύνταξη ως νεό μήνυμα
+compress folder	mail	el	Συμπίεση φακέλου
+condition	mail	el	Συνθήκη
+configuration settings	mail	el	Παραμετροποίηση ρυθμίσεων
+confirm	mail	el	Επιβεβαίωση
+confirm attach message	mail	el	Επιβεβαίωση επισύναψης μηνύματος
+confirm move to folder	mail	el	Επιβεβαίωση μετακίνησης σε φάκελο
+connect to profile %1	mail	el	Σύνδεση στο προφίλ %1
+connection status	mail	el	Κατάσταση σύνδεσης
+contains	mail	el	περιέχει
+contains(*)	mail	el	Περιέχει(*)
+copied %1 message(s) from %2 to %3	mail	el	έγινε αντιγραφή %1 μηνυμάτων από %2 στο %3
+copy to	mail	el	Αντιγραφή στο
+could not append message:	mail	el	Δεν μπόρεσα να προσθέσω το μήνυμα:
+could not save the acl because some names are empty	mail	el	Τα δικαιώματα ACL δεν μπόρεσαν να αποθηκευθούν γιατί κάποια όνοματα είναι κενά
+create new account	mail	el	Δημιουργία νέου λογαριασμού
+current folder	mail	el	Τρέχον φάκελος
+current subject	mail	el	Τρέχον θέμα
+currently:	mail	el	Αυτή τη στιγμή:
+date(newest first)	mail	el	Ημερομηνία (πρώτα η πιο πρόσφατη)
+date(oldest first)	mail	el	Ημερομηνία (πρώτα η πιο παλιά)
+deactive	mail	el	Απενεργοποίηση
+default sorting order	mail	el	Προεπιλεγμένη σειρά ταξινόμησης
+default value for remembering s/mime passphrase in minutes	mail	el	Προεπιλεγμένη τιμή σε λεπτά για την απομνημόνευση του κωδικού S/MIME
+default your name and email	common	el	προεπιλεγμένο όνομα και email
+defines what to show as identity label on mail folder header	common	el	Ορίζει τι εμφανίζεται σαν ετικέτα στον τίτλο του κύριου φακέλου
+delete folder	mail	el	Διαγραφή Φακέλου
+delete folder %1 ?	mail	el	ΔΙΑΓΡΑΦΗ φακέλου %1 ;
+delete this acl	mail	el	Διαγραφή αυτού του δικαιώματος
+deleted	mail	el	διεγράφη
+deleted %1 messages in %2	mail	el	διαγραφή %1 μηνυμάτων στο %2
+deleted!	mail	el	διεγράφη!
+deleting %1 folders in progress ...	mail	el	Διαγραφή %1 φακέλων σε εξέλιξη ...
+deleting folders	mail	el	Διαδικασία διαγραφής φακέλων
+deny certain groups access to following features	mail	el	Αποκλεισμός ορισμένων ομάδων από τις παρακάτω λειτουργίες
+directories have to be shared.	mail	el	Οι κατάλογοι πρέπει να προσπελάσιμοι από κοινού
+disable	mail	el	Απενεργοποίηση
+disable horizontal rule for separation of mail body from signature	mail	el	απενεργοποίηση οριζόντιας γραμμής διαχωρισμού κειμένου μηνύματος και υπογραφής
+disable use of flowed lines in plain text mails (rfc3676)	mail	el	Απενεργοποίηση της χρήσης μεταβλητής αλλαγή γραμμών σε μηνύματα απλού κειμένου (RFC3676)
+disabled!	mail	el	απενεργοποιημένο!
+discard	mail	el	απόρριψη
+discard message	mail	el	απόρριψη μηνύματων
+display messages in multiple windows	mail	el	προβολή μηνυμάτων σε πολλαπλά παράθυρα
+display of html emails	mail	el	προβολή των HTML emails
+display of identities	admin	el	εμφάνιση ταυτοτήτων
+display only when no plain text is available	mail	el	προβολή μόνο όταν είναι δεν διαθέσιμο κανένα αποκρυπτογραφημένο κείμενο
+displaying html messages is disabled	mail	el	η προβολή των html μηνυμάτων είναι απενεργοποιημένη
+displaying plain messages is disabled	mail	el	η εμφάνιση μηνυμάτων απλού κειμένου έχει απενεργοποιηθεί
+do not auto create folders	mail	el	να μην δημιουργούνται αυτόματα φάκελοι
+do not forward	mail	el	να μην γίνεται προώθηση
+do you really want to apply %1 to all messages in the current view?	mail	el	Είστε σίγουροι πως θέλετε να εφαρμόσετε %1 σε ΟΛΑ τα μηνύματα που εμφανίζονται στη υφιστάμενη λίστα;
+do you really want to delete folder %1 ?	mail	el	Είστε σίγουροι πως θέλετε να ΔΙΑΓΡΑΨΕΤΕ τον φάκελο %1 ;
+do you really want to delete this rule	mail	el	Είστε σίγουροι πως θέλετε να ΔΙΑΓΡΑΨΕΤΕ αυτό τον κανόνα
+do you really want to mark all messages as read in the current folder?	mail	el	Είστε σίγουροι πως θέλετε να σημάνετε όλα τα μηνύματα του φακέλου ως αναγνωσμένα;
+do you really want to remove all labels from all messages in the current folder?	mail	el	Είστε σίγουροι πως θέλετε να αφαιρέσετε όλα τις ετικέτες από ΟΛΑ τα μηνύματα στον υφιστάμενο φάκελο;
+do you really want to remove all rights from this account?	mail	el	Είστε σίγουροι πως θέλετε να αφαιρέσετε όλα τα δικαιώματα από τον λογαριασμό;
+do you want to be asked for confirmation before attaching selected messages to new mail?	mail	el	Θέλετε να ερωτάστε για επιβεβαίωση πριν την επισύναψη επιλεγμένων μηνυμάτων σε νέο μήνυμα;
+do you want to be asked for confirmation before moving selected messages to another folder?	mail	el	Θέλετε να ερωτάστε για επιβεβαίωση πριν από την μεταφορά επιλεγμένων μηνυμάτων σε άλλο φάκελο;
+does not contain	mail	el	δεν περιέχει
+does not exist on imap server.	mail	el	δεν υπάρχει στο εξυπηρετητή IMAP.
+does not match	mail	el	δεν συμπίπτει
+does not match regexp	mail	el	δεν συμπίπτει με  κανονική έκφραση (regexp)
+don't use draft folder	mail	el	Μην χρησιμοποιείτε των φάκελο προσχεδίων
+don't use sent	mail	el	Μην χρησιμοποιείτε τα Σταλθέντα
+don't use template folder	mail	el	Απενεργοποίηση φακέλου προτύπων
+don't use trash	mail	el	Απενεργοποίηση κάδου απορριμάτων
+download attachments	mail	el	Λήψη συνημμένων
+draft folder	mail	el	Φάκελος για προσχέδια
+drafts	mail	el	Προσχέδια
+drafts folder	mail	el	φάκελος για προσχέδια
+edit account	mail	el	Επεξεργασία λογαριασμού
+edit account ...	mail	el	Επεξεργασία λογαριασμού ...
+edit folder acl	mail	el	Επεξεργασία δικαιωμάτων φακέλου
+edit folder acl ...	mail	el	Επεξεργασία δικαιωμάτων φακέλου ...
+edit vacation settings	mail	el	επεξεργασία ρυθμίσεων διακοπών
+email notification successfully updated!	mail	el	Επιτυχείς η ανανέωση των ειδοποιήσεων μέσω email
+email notification update failed	mail	el	Απέτυχε η ανανέωση των ειδοποιήσεων μέσω email
+email notification update failed! you need to set an email address!	mail	el	Απέτυχε η ανανέωση των ειδοποιήσεων μέσω email! Πρέπει να ορίσετε μία διεύθυνση ηλεκτρονικού ταχυδρομείου!
+emailaddress	admin	el	Διεύθυνση e-mail
+empty trash	mail	el	Άδειασμα κάδου αχρήστων
+enable	mail	el	ενεργοποίηση
+enabled!	mail	el	ενεργοποιημένο!
+encrypt	mail	el	Κρυπτογράφιση
+encrypt your message with smime certificate	mail	el	Κρυπτογράφηση των μηνυμάτων σας με πιστοποιητικό  S/MIME
+encryption	mail	el	Κρυπτογράφιση
+enter the name for the new folder:	mail	el	Εισάγετε το όνομα για τον νέο φάκελο:
+error saving %1!	mail	el	Σφάλμα κάτα την αποθήκευση %1!
+error while setting acl for folder %1!	mail	el	Σφάλμα κάτα την  εφαρμογή δικαιωμάτων ACL για τον φάκελο %1!
+error while setting folder	mail	el	Σφάλμα κατά τον ορισμό του φακέλου
+error:	mail	el	Σφάλμα:
+error: could not save acl	mail	el	Σφάλμα: Δεν αποθκευθηκε
+error: could not save message as draft	mail	el	Σφάλμα: Δεν μπόρεσε να αποθηκευθεί το μήνυμα ως σχέδιο
+error: could not save rule	mail	el	Σφάλμα: Ο κανόνας δεν αποθηκεύτηκε.
+error: could not send message.	mail	el	Σφάλμα: Το μήνυμα δεν στάλθηκε.
+error: message could not be displayed.	mail	el	ΣΦΑΛΜΑ: Το μήνυμα δεν εμφανίστηκε.
+event details follow	mail	el	Ακολουθούν λεπτομέρειες γεγονότων
+everyone	mail	el	όλοι
+extended	mail	el	Εκτεταμένος
+extra sent folders	mail	el	Πρόσθετοι φάκεκελοι αποστολής
+failed to delete %1	mail	el	Απέτυχε η διαγραφή %1
+failed to delete %1 ! reason: %2	mail	el	απέτυχε η διαγραφή %1 ! Αιτιολογία: %2
+failed to delete %1. server responded:	mail	el	Απέτυχε η διαγραφή %1 ! Μήνυμα εξυπηρετητή: %2
+failed to move %1 ! reason: %2	mail	el	απέτυχε η μεταφορά %1 !  Αιτιολογία"%2
+failed to rename %1 ! reason: %2	mail	el	απέτυχε η μετονομασία %1 ! Αιτιολογία: %2
+failed to subscribe folder %1!	mail	el	Αδυναμία δημιουργίας συνδρομής στο φάκελο %1
+failed to unsubscribe folder %1!	mail	el	Αδυναμία τερματισμού συνδρομής στο φάκελο %1!
+file into	mail	el	αρχείθετηση στο
+file into:	mail	el	Αρχείθετηση στο:
+file rejected, no %2. is:%1	mail	el	Το αρχείο απορρίφθηκε, αρ.  %2. ls:%1
+filemanager	mail	el	Διαχειριστής αρχείων
+files	mail	el	Αρχεία
+flag / unflag	mail	el	Σήμανση / αποσήμανση
+flag or unflag a mail	mail	el	Σήμανση ή αποσήμανση ενός μηνύματος
+flagged	mail	el	με σήμανση
+flagged %1 messages as %2 in %3	mail	el	Τέθηκε η σήμανση %2 σε %1 μήνυμα(τα) στο %3
+flagged %1 messages as flagged in %2	mail	el	Σημάνθηκαν %1 μήνυμα(τα) στο %2
+flagged %1 messages as unflagged in %2	mail	el	Αφαιρέθηκε ή σημάνση από %1 μήνυμα(τα) στο %2
+flagged / unflagged	mail	el	Με σήμανση / Χωρίς σήμανση
+folder	mail	el	Φάκελος
+folder %1 %2 failed because of %3!	mail	el	Αποτυχία φακέλου %1 %2 εξαιτίας %3!
+folder %1 %2 failed!	mail	el	Αποτυχία φακέλου %1 %2!
+folder %1 has been created successfully, although the subscription failed because of %2	mail	el	Ο φάκελος %1 δημιουργήθηκε επιτυχώς, παρόλο που η συνδρομή απέτυχε λόγω %2
+folder %1 is moving to folder %2	mail	el	Ο φάκελος %1 μεταφέρεται στον φάκελο %2
+folder management	mail	el	Διαχείριση φακέλων
+folder management ...	mail	el	Διαχείριση φακέλων...
+folder settings	mail	el	Ρυθμίσεις φακέλου
+force html	mail	el	Εξαναγκασμός HTML
+force plain text	mail	el	Εξαναγκασμός απλού κειμένου (plain text)
+forward	mail	el	Προώθηση
+forward as attachment	mail	el	προώθηση ως συνημμένο
+forward inline	mail	el	προώθηση μέσα στο κείμενο
+forward messages to:	mail	el	Προώθηση μήνυμάτων σε:
+forward messages:	mail	el	Προώθηση μήνυμάτων:
+forward to	mail	el	προώθηση σε
+forward to address (*):	mail	el	Προώθηση στην διέυθυνση (*):
+forwards	mail	el	Προώθηση σε
+from	mail	el	Από
+from(a->z)	mail	el	Από (Α->Ω)
+from(z->a)	mail	el	Από (Ω->Α)
+general	admin	el	Γενικά
+general settings	mail	el	Γενικές ρυθμίσεις
+greater than	mail	el	μεγαλύτερο από
+header	mail	el	Κεφαλή
+header lines	mail	el	Γραμμές κεφαλής
+high	mail	el	υψηλό
+hostname or ip	mail	el	Όνομα υπολογιστή ή διεύθυνση IP
+how often to check with the server for new mail	mail	el	Πόσο συχνά να ελέγχεται ο εξυπηρετητής για νέα μηνύματα
+how should the available information on identities be displayed	admin	el	πως να εμφανίζονται οι διαθέσιμες πληροφορίες για τις διάφορες ταυτότητες
+how to forward messages	mail	el	πως να προωθούνται τα μηνύματα
+html	mail	el	HTML
+html mode	mail	el	Λειτουργία HTML
+ident name	mail	el	Όνομα ταυτότητας
+ident name email	mail	el	Όνομα ταυτότητας [διεύθυνση ηλεκτρονικού ταχυδρομείου]
+ident name organization email	mail	el	Όνομα ταυτότητας οργανισμός [διεύθυνση ηλεκτρονικού ταχυδρομείου]
+identity	mail	el	Ταυτότητα
+identity label	mail	el	Ετικέτα ταυτότητας
+identity+signature	mail	el	Ταυτότητα και υπογραφή
+if	mail	el	ΑΝ
+if authentication required	mail	el	Εάν απαιτείται αυθεντικοποίηση
+if different from email address	mail	el	Εάν είναι διαφορετικό από την διεύθυνση ηλεκτρονικού ταχυδρομείου
+if from contains:(*)	mail	el	Εάν το πεδίο απο (from) περιέχει (*)
+if mail body content / attachment type	mail	el	Εάν ο τύπος του κορμού του μηνύματος / ο τύπος του συνημμένου
+if mail body message type	mail	el	Εάν ο τύπος του κορμού του μηνύματος
+if mail header	mail	el	αν ο τίτλος του μηνύματος
+if message size	mail	el	αν το μέγεθος του μηνύματος
+if subject contains:(*)	mail	el	Εάν το θέμα περιλαμβάνει: (*)
+if to contains:(*)	mail	el	Εάν το πεδίο προς (to) περιλαμβάνει: (*)
+imap	mail	el	IMAP
+imap - incoming mail	mail	el	IMAP - εισερχόμενα μηνύματα
+imap administration	mail	el	IMAP διαχείριση
+imap server	mail	el	IMAP Server
+imap timeout	mail	el	Χρόνος λήξης προσθάθειας (timeout) IMAP
+import message	mail	el	εισαγωγή μηνύματος
+importance	mail	el	σημαντικότητα
+important	mail	el	σημαντικό
+inbox	mail	el	Εισερχόμενα
+inline	mail	el	Εντός κειμένου
+job	mail	el	εργασία
+keep a copy of the message in your inbox	mail	el	κρατήστε ένα αντίγραφο του μηνύματος στα εισερχόμενα
+kilobytes	mail	el	kilobytes
+later	mail	el	αργότερα
+less than	mail	el	μικρότερο από
+mail filter	mail	el	Φίλτρα μηνυμάτων
+mail filter rule	mail	el	Κανόνας φίλτρου μηνυμάτων
+mail settings	mail	el	Ρυθμίσεις μηνυμάτων
+mail source	mail	el	Πηγαίος κώδικας μηνύματος
+mails	common	el	Μηνύματα
+mark as deleted	mail	el	Σημείωση ως διαγραμένο
+matches	mail	el	συνδυάζεται
+matches regexp	mail	el	συνδυάζεται regexp
+message body	mail	el	Κορμός μηνύματος
+message preview area	mail	el	Περιοχή προεπισκόπησης μηνύματος
+message saved successfully.	mail	el	Το μήνυμα αποθηκεύτηκε επιτυχώς
+message send failed: %1	mail	el	Η αποστολή του μηνύματος απέτυχε: %1
+message send successfully.	mail	el	Το μήνυμα στάλθηκε επιτυχώς
+miscellaneous	mail	el	Διάφορα
+modify subject	mail	el	Τροποποίηση θέματος
+modify subject of this message	mail	el	Τροποποίηση θέματος μηνύματος
+move	mail	el	Μετακίνηση
+move folder	mail	el	Μετακίνηση φακέλου
+move selected mails to archive	mail	el	Αρχειοθέτηση επιλεγμένων μηνυμάτων
+move selected to	mail	el	Μετακίνηση επιλεγμένων στο
+move to	mail	el	Μετακίνηση στο
+move to archive	mail	el	Μετακίνηση στον φάκλεο αρχειοθέτησης
+move to trash	mail	el	μετακίνηση στον κάδο αχρήστων
+moved %1 message(s) from %2 to %3	mail	el	μετακινήθηκαν %1 μηνύματα από %2 στο 3%
+moving folders from one mailaccount to another is not supported	mail	el	Η μετακίνηση φακέλων από έναν λογαριασμού σε άλλο λογαριασμό δεν υποστηρίζεται
+name of account	mail	el	Όνομα λογαριασμού
+never display html emails	mail	el	Να μην προβάλονται τα HTML emails
+never show	mail	el	να μην εμφανίζονται ποτέ
+new mail notification	mail	el	Ενημέρωση για νέα μηνύματα
+new message type	mail	el	Νέος τύπος μηνύματος
+new subject	mail	el	Νέο θέμα
+no (valid) send folder set in preferences	mail	el	Δεν έχει οριστεί (έγκυρος) φάκελος απεσταλμένων στις ρυθμίσεις
+no access	mail	el	χωρίς πρόσβαση
+no action defined!	mail	el	Δεν έχει οριστεί ενέργεια!
+no folders	mail	el	δεν υπάρχουν φάκελοι
+no message body supplied	mail	el	δεν δόθηκε κορμός μηνύματος
+no plain text part found	mail	el	δεν βρέθηκε μέρος αποκρυπτογραφημένου κειμένου
+no recipient address given!	mail	el	Δεν έχει οριστεί διεύθυνση ηλεκτρονικού ταχυδρομείου για τον παραλήπτη!
+no send folder set in preferences	mail	el	Δεν έχει οριστεί φάκελος απεσταλμένων στις ρυθμίσεις
+no signature	mail	el	χωρίς υπογραφή
+no sneak preview in list	mail	el	Χωρίς προεπισκόπηση στη λίστα
+no subject given!	mail	el	Δεν έχει οριστεί θέμα!
+no subject supplied	mail	el	δεν έχει οριστεί θέμα
+none, create all	mail	el	κανένα, δημιουργία όλων
+notify about new mail in this folders	mail	el	Να ενημερώνομαι για νέα μηνύματα σε αυτούς τους φακέλους
+on	mail	el	πάνω
+on behalf of	mail	el	Για λογαριασμό του/της
+one address is not valid	mail	el	Κάποια διεύθυνση είναι άκυρη
+only one window	mail	el	μόνο ένα παράθυρο
+open in html mode	mail	el	Άνοιγμα σε λειτουργία HTLM
+open in text mode	mail	el	Άνοιγμα σε λειτουργία κειμένου
+organisation	admin	el	οργανισμός
+organization	mail	el	οργανισμός
+original message	mail	el	αρχικό μήνυμα
+password protect	mail	el	προστασία με συνθηματικό
+permission denied	mail	el	Άδεια απορρίπτεται
+please enter password	mail	el	Παρακαλώ εισάγετε συνθηματικό
+please select a address	mail	el	Παρακαλώ επιλέξτε μία διεύθυνση
+please select the number of days to wait between responses	mail	el	παρακαλώ επιλέξτε τον αριθμό των ημερών για αναμονή μεταξύ των απαντήσεων
+please supply the message to send with auto-responses	mail	el	Παρακαλώ τροφοδοτήστε το μήνυμα προς αποστολή με αυτόματες απαντήσεις
+please wait while sending your mail	mail	el	Παρακαλώ περμένετε όσο στέλνουμε το μήνυμα σας
+prevent managing filters	mail	el	Να αποκλείεται η διαχείριση φίλτρων
+prevent managing folders	mail	el	Να αποκλείεται η διαχείριση φακέλων
+prevent managing notifications	mail	el	Να αποκλείεται η διαχείριση ειδοποιήσεων
+prevent managing vacation notice	mail	el	Να αποκλείεται η διαχείριση ειδοποιήσεων κανονικής άδειας (vacation notice)
+preview pane	mail	el	Περιοχή προεπισκόπισης
+primary profile	mail	el	Πρωτεύων προφίλ
+printing	mail	el	εκτυπώνει
+printview	mail	el	εμφάνιση εκτύπωσης
+quicksearch	mail	el	Γρήγορη αναζήτηση
+quicksearch (with cc)	mail	el	Γρήγορη αναζήτηση (περιλαμβ.  πεδίο κοινοποίησης)
+read	mail	el	αναγνώστηκε
+read / unread	mail	el	Αναγνωσμένο / Μη αναγνωσμένο
+readable	mail	el	αναγνώσιμο
+real name	mail	el	Πραγματικό όνομα
+real name email	mail	el	Πραγματικό όνομα [διεύθυνση ηλεκτρονικού ταχυδρομείου]
+real name organization email	mail	el	Πραγματικό όνομα οργανισμός [διεύθυνση ηλεκτρονικού ταχυδρομείου]
+reason!	mail	el	Αιτιολογία!
+receive notification	mail	el	Λήψη ειδοποίησης
+refresh time in minutes	mail	el	Ανανέωση ώρας σε λεπτά
+reject with	mail	el	απόρριψη με
+remove all	mail	el	Αφαίρεση όλων
+remove immediately	mail	el	Άμεση μετακίνηση
+removed folder %1	mail	el	Αφαιρέθηκε ο φάκελος %1
+rename folder	mail	el	Μετονομασία φακέλου
+rename folder %1 ?	mail	el	Μετονομασία φακέλου %1 ;
+rename folder %1 to:	mail	el	Μετονομασία φακέλου %1 σε:
+renamed folder %1 to %2	mail	el	Μετονομασία φακέλου %1 σε %2
+replied	mail	el	απαντήθηκε
+reply	mail	el	Απάντηση
+reply all	mail	el	Απάντηση σε όλους
+reply message type	mail	el	Τύπος μηνύματος απάντησης
+reply to	mail	el	Η απάντηση να ληφθεί στην διεύθυνση
+replyto	mail	el	Απάντηση στο
+restrict acl management	admin	el	Περιορισμός διαχείρισης ACL
+rights	mail	el	Δικαιώματα
+row order style	mail	el	Στυλ ταξινόμησης σειράς
+rule priority position	mail	el	Κανόνας προτεραιότητα θέση
+rule with priority	mail	el	κανόνας με προτεραιότητα
+rules	mail	el	κανόνες
+save all	mail	el	Αποθήκευση όλων
+save all attachments to filemanager	mail	el	Αποθήκευση όλων των συνημμένων στον διαχειριστή αρχείων
+save as calendar	mail	el	Αποθήκευση ως καταχώρηση ημερολογίου
+save as default	mail	el	αποθήκευση ως προεπιλογή
+save as draft	mail	el	Αποθήκευση ως προσχέδιο
+save as draft and print	mail	el	Αποθήκευση ως προσχέδιο και εκτύπωση
+save as infolog	mail	el	Αποθήκευση ως InfoLog
+save as infolog on send	mail	el	Αποθήκευση ως InfoLog κατά την αποστολή
+save as ticket	mail	el	Αποθήκευση ως Tracker
+save as tracker on send	mail	el	Αποθήκευση ως Tracker κατά την αποστολή
+save attachment	mail	el	Αποθήκευση συνημμένου
+save attachments	mail	el	Αποθήκευση συνημμένων
+save email	mail	el	Αποθήκευση μηνύματος
+save message to disk	mail	el	αποθήκευση αλλαγών στο δίσκο
+save the drafted message as eml file into vfs	mail	el	Αποθήκευση του σχεδίου μηνύματος ως αρχείο τύπου eml στο VFS.
+save to disk	mail	el	Αποθήκευση στον δίσκο
+save to filemanager	mail	el	Αποθήκευση στον διαχειριστή αρχείων
+save:	mail	el	Αποθήκευση:
+saves subscription changes	mail	el	Αποθήκευση τροποποιήσεων συνδρομών
+saves this acl	mail	el	Αποθήκευση αυτού του ACL
+saves this rule	mail	el	Αποθήκευση αυτού του κανόνα
+saving of message %1 failed. destination folder %2 does not exist.	mail	el	Η αποθήκευση του μηνύματος %1 απέτυχε. Ο φάκελος προορισμού %2 δεν υπάρχει.
+saving of message %1 succeeded. check folder %2.	mail	el	Η αποθήκευση του μηνύματος %1 ήταν επιτυχείς. Ελέγξτε τον φάκελο %2.
+saving the rule failed:	mail	el	Η αποθήκευση του κανόνα απέτυχε:
+security	mail	el	Ασφάλεια
+see attachments for content of the orignial mail	mail	el	Δείτε τα συνημμένα για το περιεχόμενο το αρχικού μηνύματος
+select all	mail	el	Επιλογή όλων
+select an existing entry in order to append mail content to it	mail	el	Επιλέξτε μία υπάρχουσα καταχώριση για να της προσθέσετε το  περιεχόμενο του μηνύματος
+select an item to read	mail	el	Επιλέξτε μία καταχώριση για ανάγνωση
+select file to attach to message	mail	el	Επιλέξτε ένα αρχείο για επισύναψη στο μήνυμα
+select file to import into folder	mail	el	Επιλέξτε έαν αρχείο για εισαγωγή στον φάκελο
+select file(s) from vfs	mail	el	Επιλογή αρχείων από VFS
+select files to upload	mail	el	Επιλογή αρχείων για αναφόρτωση
+select multiple	mail	el	Επιλογή πολλαπλών
+select or insert email address	mail	el	Επιλογή ή εισαγωγή διεύθυνσης ηλεκτρονικού ταχυδρομείου
+selected	mail	el	επιλεγμένο
+selected date range (with quicksearch)	mail	el	Επιλεγμένο διάστημα ημερομηνιών (με γρήγορη αναζήτηση)
+send a reject message:	mail	el	Αποστολή ενός μηνύματος απόρριψης:
+send files as	mail	el	Αποστολή αρχείου ως
+sender	mail	el	αποστολέας
+sent	mail	el	Αποστολή
+sent folder	mail	el	Φάκελος σταλθέντων
+set it as default:	mail	el	ορίστε το ως προεπιλογή:
+show	mail	el	εμφάνιση
+show all addresses	mail	el	Εμφάνιση όλων των διευθύνσεων
+show all attachments	mail	el	Εμφάνιση όλων των συνημμένων
+show all folders	mail	el	εμφάνιση όλων τον φακέλων
+show all folders, (subscribed and unsubscribed) in main screen folder pane	mail	el	εμφάνιση όλων των φακέλων (με συνδρομή και χωρίς) στην κύρια οθόνη με τους φακέλους
+show horizontal	mail	el	εμφάνιση οριζοντίως
+show horizontal, hide if none selected	mail	el	εμφάνιση οριζοντίως, απόκρυψη εάν δεν έχει επιλεγεί κάποιο μήνυμα
+show new messages on home page	mail	el	εμφάνιση νέων μηνυμάτων στην αρχική σελίδα
+show them this time only	mail	el	Εφάνισε τα μόνο αυτή τη φορά
+show vertical	mail	el	εμφάνιση κάθετα
+show/hide preview pane in mail list view	mail	el	Εμφάνιση/απόκρυψη περιοχής πορεπικόπισης στην λίστα των μηνυμάτων
+sieve	mail	el	Sieve
+sieve connection status	mail	el	Κατάσταση επικοινωνίας sieve
+sieve not activated	mail	el	Η λειτουργία sieve δεν είναι ενεργοποιημένη
+sieve script name	mail	el	όνομα sieve σεναρίου
+sieve server	mail	el	Εξυπηρετητής sieve
+sign your message with smime certificate	mail	el	Εφαρμόστε ένα πιστοποιητικό  S/MIME στο μήνυμά σας
+signature	mail	el	Υπογραφή
+signature at top	mail	el	υπογραφή στο πάνω μέρος
+signature position and visibility	mail	el	Θέση υπογραφής και κατάσταση εμφάνισης
+size(...->0)	mail	el	Μέγεθος (...->0)
+size(0->...)	mail	el	Μέγεθος (0->...)
+small view	mail	el	μικρή προβολή
+smtp	mail	el	SMTP
+sneak preview in list	mail	el	Εμφάνιση των πρώτων λέξεων του μηνύματος (Sneak preview) στην λίστα των μηνυμάτων
+sort order	mail	el	Κατεύθυνση ταξινόμησης
+source	mail	el	Πηγή
+sources	mail	el	Πηγές
+step 1: imap - incoming mail	mail	el	Βήμα 1: IMAP - εισερχόμενα μηνύματα
+step 2: folder	mail	el	Βήμα 2: Φάκελοι
+step 3: sieve - server side mail filtering	mail	el	Βήμα 3: Sieve
+step 4: smtp - outgoing mail	mail	el	Βήμα 4: SMTP - εξερχόμενα μηνύματα
+store to folder	mail	el	Αποθήκευση στον φάκελο
+subject(a->z)	mail	el	Θέμα (Α->Ω)
+subject(z->a)	mail	el	Θέμα (Ω->Α)
+subscribe folder	mail	el	Συνδρομή στον φάκελο
+subscribe folder ...	mail	el	Συνδρομή στον φάκελο ...
+subscribe to folder %1	mail	el	Συνδρομή στον φάκελο %1
+subscription folders	mail	el	Συνδρομές σε φακέλους
+subscription successfully saved.	mail	el	Η συνδρομή αποθηκεύθηκε επιτυχώς.
+successfully connected	mail	el	Συνδέθηκε επιτυχώς
+switch off encryption?	mail	el	Να απενεργοποιηθεί η κρυπτογράφηση;
+template folder	mail	el	φάκελος υποδειγμάτων
+templates	mail	el	Υποδείγματα
+templates folder	mail	el	Φάκελος υποδειγμάτων
+test connection	mail	el	Δοκιμή σύνδεσης
+text	mail	el	Κείμενο
+text mode	mail	el	Λειτουργία κειμένου
+text/plain	mail	el	κείμενο/απλό
+then	mail	el	ΜΕΤΑ
+trash	mail	el	Κάδος αχρήστων
+trash folder	mail	el	Φάκελος κάδου αχρήστων
+undelete	mail	el	Επαναφορά
+unflagged	mail	el	Αφαιρέθηκε η σήμανση
+unread	mail	el	μη διαβασμένο
+unsubscribe folder	mail	el	Τερματισμός συνδρομής φακέλου
+unsubscribe from folder %1	mail	el	Τερματισμός συνδρομής φακέλου %1
+upload files...	mail	el	Eπιφόρτωση αρχείων...
+use default timeout (20 seconds)	mail	el	χρήση προεπιλεγμένου χρόνου λήξης (20 δευτερόλεπτα)
+use username+password from current user	mail	el	Να χρησιμοποιείται το όνομα και ο κωδικός του τρέχοντος χρήστη
+vacation notice	mail	el	ειδοποίηση διακοπών
+vacation notice is active	mail	el	Η ειδοποίηση διακοπών είναι ενεργή
+vacation notice sucessfully updated.	mail	el	Η ανανέωση της ειδοποίηση διακοπών ήταν επιτυχείς
+vacation notice update failed	mail	el	Η ανανέωση της ειδοποίηση διακοπών απέτυχε
+valid for	mail	el	Ισχύει για
+validate addresses on submit:	mail	el	Επιβεβαίωση διευθύνσεων ηλεκτρονικού ταχυδρομείου κατα την αποθήκευση:
+validate selected addresses on submit:	mail	el	Επιβεβαίωση επιλεγμένων διευθύνσεων ηλεκτρονικού ταχυδρομείου κατα την αποθήκευση:
+view full mail source	mail	el	Προβολή πλήρους κώδικα μηνύματος
+view header lines	mail	el	Προβολή γραμμών κεφαλής
+what do do with html email	mail	el	Τι να συμβαίνει με μηνύματα τύπου HTML
+what to do when you delete a message	mail	el	Τι να συμβαίνει όταν διαγράφετε ένα μήνυμα
+what to do when you send a message	mail	el	Τι να συμβαίνει όταν στέλνετε ένα μήνυμα
+when deleting messages	mail	el	όταν γίνεται διαγραφή μηνυμάτων
+when sending messages	mail	el	όταν στέλνονται μηνύματα
+which method to use when forwarding a message	mail	el	Ποια μέθοδο να χρησιμοποιείται κατά την προώθηση μηνυμάτων
+whole message	mail	el	ολόκληρο μήνυμα
+with message:	mail	el	Με μήνυμα:
+wizard	mail	el	Βοηθός
+write	mail	el	Γραφή
+wrote	mail	el	γράφτηκε
+yes, but mask all passwords	mail	el	ναι, αλλά να αποκρύπτονται οι κωδικοί πρόσβασης
+yes, but mask all usernames and passwords	mail	el	ναι, αλλά να αποκρύπτονται τα ονόματα λογαριασμών και οι κωδικοί πρόσβασης
+yes, offer copy option	mail	el	ναι, να προτείνεται δυνατότητα αντιγραφής
+yes, only trigger connection reset	mail	el	ναι, να  γίνεται πρόκληση επαναφοράς της σύνδεσης
+yes, show all debug information available for the user	mail	el	ναι, να εμφανίζονται όλες οι πληροφορίες αποσφαλμάτωσης που είναι διαθέσιμες για τον χρήστη
+yes, show basic info only	mail	el	ναι, εμφάνιση μόνο βασικών πληροφοριών
+you've got new mail	mail	el	Έχετε νέο μήνυμα

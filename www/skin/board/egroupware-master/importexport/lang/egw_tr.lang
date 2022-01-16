@@ -1,0 +1,7 @@
+all users	importexport	tr	Tüm Kullanıcılar
+charset of file	importexport	tr	Dosya Karakter Kümesi (char-set)
+deleted	importexport	tr	Silindi
+export	importexport	tr	İhraç Et
+import	importexport	tr	?thal Et
+next run	importexport	tr	Sıradaki çalıştırma
+translation	importexport	tr	Tercüme

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="mail.index.rows" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column width="20"/>
+				<column width="90%"/>
+				<column width="80"/>
+			</columns>
+			<rows>
+				<row class="th">
+
+				</row>
+				<row>
+					<description class="$row_cont[class] mobile_cat_col"/>
+					<vbox>
+						<url-email id="${row}[address]" class="$row_cont[class]" readonly="true"/>
+						<hbox>
+							<description  class="status_img $row_cont[class]"/>
+							<description id="${row}[subject]" no_lang="1" class="$row_cont[class]" />
+						</hbox>
+						<description id="${row}[bodypreview]" no_lang="1" class='et2_label bodypreview'/>
+					</vbox>
+					<vbox>
+						<hbox>
+							<time_or_date align="center"  class="$row_cont[class]" id="${row}[date]" readonly="true"/>
+						</hbox>
+						<hbox>
+							<image src="$row_cont[smime]" height="16px"/>
+							<html id="${row}[attachments]"/>
+						</hbox>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="mail.index.header_right">
+		<hbox class="mail-index_quotabox"><progress id="nm[quotainpercent]" label="@nm[quota]" class="@nm[quotaclass]"/></hbox>
+	</template>
+	<template id="mail.index" template="" lang="" group="0" version="1.9.001">
+		<tree autoloading="mail.mail_ui.ajax_foldertree" id="nm[foldertree]" onclick="app.mail.mail_changeFolder" parent_node="mail-tree_target"/>
+		<html id="msg"/>
+		<buttononly id="composeButton" class="plus_button" onclick="app.mail.mail_compose(false);" parent_node="mail-index_msg"/>
+		<buttononly id="button[mailcreate]" onclick="app.mail.mail_compose(false);" label="Compose" parent_node="mail-index_buttonmailcreate"/>
+		<hbox class="mail-index_vacation"><vbox>
+			<description id="nm[vacationnotice]" class="@nm[vacationclass]"/>
+			<description id="nm[vacationrange]" class="@nm[vacationrangeclass]"/></vbox>
+		</hbox>
+		<nextmatch id="nm" onselect="app.mail.mail_preview" template="mail.index.rows" right_header="mail.index.header_right"/>
+	</template>
+</overlay>
