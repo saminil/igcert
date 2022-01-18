@@ -217,7 +217,7 @@ include_once(G5_THEME_PATH.'/head.php');
         <section class="sec01 paragraph animatedParent" data-sequence="300">
             <div class="img01 animated fadeInUpShort" data-id="1">
                 <img src="<?php echo G5_THEME_URL ?>/img/sub01_01_img01.jpg" alt="(주)아이지씨인증원 이미지" />
-                <p>(주)아이지씨인증원은 고객만족 서비스를 제공하기 위해 끊임없이 노력하겠습니다.<br>감사합니다!!!.</p>
+                <p>(주)아이지씨인증원은 고객만족 서비스를 제공하기 위해 끊임없이 노력하겠습니다.<br>감사합니다!!!.333</p>
                 <p>(주)아이지씨인증원 대표이사 <strong>공 길택</strong></p>
                 <div class="download_box">
                      <a class="btn" href="/data/file/IGC_01.pdf" download>IGC인증원 회사소개 PDF 다운로드</a>
