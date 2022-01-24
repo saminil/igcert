@@ -740,3 +740,24 @@ git commit -m '재택작업"
 git commit -m "재택작업"
 ssh saminil@github.com -v
 ssh saminil@github.com -vvv
+ssh igcert@uws7-141 -vvv
+git --version
+git status
+git add -A
+git status
+git add .
+git status
+git add -A
+git add .
+git status
+ git commit -m "The first commit"
+git status
+git add -all
+git add -A
+git status
+git remote -v
+git push -u origin main
+ssh saminil@github.com
+ssh saminil@github.com -vvv
+ssh saminil@igcert.org -vvv
+exit
