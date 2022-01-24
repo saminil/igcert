@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1642065727;s:3:"ttl";i:10800;s:4:"data";a:12:{s:5:"co_id";s:7:"privacy";s:7:"co_html";s:1:"1";s:10:"co_subject";s:25:"개인정보 처리방침";s:10:"co_content";s:20978:"<div class="pv_content">
+a:3:{s:4:"time";i:1642633098;s:3:"ttl";i:10800;s:4:"data";a:12:{s:5:"co_id";s:7:"privacy";s:7:"co_html";s:1:"1";s:10:"co_subject";s:25:"개인정보 처리방침";s:10:"co_content";s:20978:"<div class="pv_content">
 
 <div class="pv_tt">개인정보 처리방침</div>
 

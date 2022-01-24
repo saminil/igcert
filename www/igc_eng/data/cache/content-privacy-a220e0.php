@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1642212008;s:3:"ttl";i:10800;s:4:"data";a:12:{s:5:"co_id";s:7:"privacy";s:7:"co_html";s:1:"1";s:10:"co_subject";s:14:"Privacy Policy";s:10:"co_content";s:21211:"<div class="pv_content eng_pv_content">
+a:3:{s:4:"time";i:1642805547;s:3:"ttl";i:10800;s:4:"data";a:12:{s:5:"co_id";s:7:"privacy";s:7:"co_html";s:1:"1";s:10:"co_subject";s:14:"Privacy Policy";s:10:"co_content";s:21211:"<div class="pv_content eng_pv_content">
 
 <div class="pv_tt">Privacy Policy</div>
 

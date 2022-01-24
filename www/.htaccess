@@ -15,5 +15,16 @@ RewriteRule ^([0-9a-zA-Z_]+)$  bbs/board.php?bo_table=$1&rewrite=1      [QSA,L]
 RewriteRule ^([0-9a-zA-Z_]+)/([^/]+)/$ bbs/board.php?bo_table=$1&wr_seo_title=$2&rewrite=1      [QSA,L]
 RewriteRule ^([0-9a-zA-Z_]+)/write$  bbs/write.php?bo_table=$1&rewrite=1    [QSA,L]
 RewriteRule ^([0-9a-zA-Z_]+)/([0-9]+)$  bbs/board.php?bo_table=$1&wr_id=$2&rewrite=1  [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ /index.php/$1 [L]
+php_flag magic_quotes_gpc off
+php_flag display_errors on
+php_value upload_tmp_dir "/tmp"
+php_value upload_max_filesize 1024M 
+
+
 </IfModule>
 #### 그누보드5 rewrite END #####
