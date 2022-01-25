@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<overlay>
+	<template id="admin.cmds.rows" template="" lang="" group="0" version="1.5.001">
+		<grid width="100%">
+			<columns>
+				<column width="20%" minWidth="300"/> <!-- Title -->
+				<column width="200"/>                <!-- Application -->
+				<column width="200"/>                <!-- Account -->
+				<column width="200"/>                <!-- Type -->
+				<column width="200"/>                <!-- Requested -->
+				<column width="15%" minWidth="120"/> <!-- Comment -->
+				<column width="120"/>                <!-- Scheduled -->
+				<column width="80"/>                 <!-- Periodic -->
+				<column/>                            <!-- Remote -->
+				<column width="200"/>                <!-- Created/or -->
+				<column width="15%" minWidth="120"/> <!-- Status/Error -->
+				<column width="200"/>                <!-- Mofified/r -->
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-header label="Title" id="title"/>
+					<nextmatch-customfilter type="select-app" empty_label="All applications" id="app"/>
+					<nextmatch-accountfilter empty_label="All accounts" id="account"/>
+					<nextmatch-filterheader empty_label="Type" id="type"/>
+					<nextmatch-accountfilter empty_label="Requested" id="requested"/>
+					<nextmatch-header label="Comment" id="comment"/>
+					<nextmatch-sortheader label="Scheduled" id="cmd_scheduled"/>
+					<nextmatch-filterheader empty_label="Periodic" id="periodic"/>
+					<nextmatch-filterheader options="Remote" id="remote_id"/>
+					<vbox>
+						<nextmatch-sortheader label="Created" id="cmd_created"/>
+						<nextmatch-accountfilter empty_label="Creator" id="creator"/>
+					</vbox>
+					<nextmatch-filterheader empty_label="Status" id="status"/>
+					<vbox>
+						<nextmatch-sortheader label="Modified" id="cmd_modified"/>
+						<nextmatch-accountfilter options="Modifier" id="modifier"/>
+					</vbox>
+				</row>
+				<row class="row $row_cont[class]">
+					<description id="${row}[title]"/>
+					<select-app id="${row}[app]" readonly="true"/>
+					<select-account id="${row}[account]" readonly="true"/>
+					<select id="${row}[type]" readonly="true"/>
+					<url-email id="${row}[requested_email]" readonly="true"/>
+					<description id="${row}[comment]"/>
+					<date-time id="${row}[scheduled]" readonly="true"/>
+					<description id="${row}[rrule]"/>
+					<select id="${row}[remote_id]" readonly="true"/>
+					<vbox>
+						<date-time id="${row}[created]" readonly="true"/>
+						<select-account id="${row}[creator]" readonly="true"/>
+					</vbox>
+					<vbox>
+						<select id="${row}[status]" readonly="true"/>
+						<description id="${row}[error]" class="redItalic"/>
+						<description id="${row}[value]"/>
+					</vbox>
+					<vbox>
+						<date-time id="${row}[modified]" readonly="true"/>
+						<select-account id="${row}[modifier]" readonly="true"/>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="admin.cmds.splitter" template="" lang="" height="100%" group="0" version="19.01">
+		<split orientation="h" height="100%" id="splitter" dock_side="bottomDock">
+			<nextmatch options="admin.cmds.rows" id="nm" onselect="app.admin.cmds_onselect"/>
+			<template id="admin.cmds.preview"/>
+		</split>
+	</template>
+
+	<template id="admin.cmds" template="" lang="" height="100%" group="0" version="1.5.001">
+		<template id="admin.cmds.splitter" height="100%"/>
+	</template>
+
+	<template id="admin.cmds.preview" template="" lang="" group="0" version="1.5.001">
+		<iframe id="policy_preview" src=""/>
+		<grid id="cmds_preview">
+			<columns>
+				<column />
+			</columns>
+			<rows>
+				<row>
+					<vbox>
+						<hbox class="row">
+							<hbox class="et2_hbox_left"><description value="Title" label="%s:"/></hbox>
+							<description value="$row_cont[title]"/>
+						</hbox>
+						<hbox class="row dialogFooterToolbar">
+							<hbox class="et2_hbox_left">
+								<description value="Comment" label="%s:" class="et2_hbox_left"/>
+							</hbox>
+							<description value="$row_cont[comment]"/>
+						</hbox>
+						<hbox class="row">
+							<hbox class="et2_hbox_left">
+								<description value="Creator" label="%s:" class="et2_hbox_left"/>
+							</hbox>
+							<hbox>
+								<description value="$row_cont[creator]" label="%s("/>
+								<description value="$row_cont[creator_email]" label="%s)"/>
+							</hbox>
+						</hbox>
+						<hbox class="row">
+							<hbox class="et2_hbox_left">
+								<description value="Data" label="%s:" align="left" class="et2_hbox_left"/>
+							</hbox>
+							<description value="$row_cont[data]"/>
+						</hbox>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+		<styles>
+			#admin-cmds_cmds_preview .et2_hbox.row {padding: 5px 0 5px 3px;vertical-align: middle;}
+		</styles>
+	</template>
+</overlay>

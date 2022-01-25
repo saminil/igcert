@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="addressbook.importexport_wizard_chooseowner" template="" lang="" group="0" version="1.9.001">
+		<grid>
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<description id="msg" no_lang="1"/>
+				</row>
+				<row disabled="@no_owner_map">
+					<checkbox label="Use field from CSV if possible" id="owner_from_csv"/>
+				</row>
+				<row>
+					<menulist>
+						<menupopup id="contact_owner"/>
+					</menulist>
+				</row>
+				<row>
+					<description/>
+				</row>
+				<row>
+					<menulist>
+						<menupopup type="select-bool" label="Change addressbook when updating" id="change_owner"/>
+					</menulist>
+				</row>
+				<row>
+					<checkbox label="Empty addressbook before importing" id="empty_addressbook"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

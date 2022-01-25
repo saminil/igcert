@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="filemanager.file.general" template="" lang="" group="0" version="1.7.002">
+		<grid width="100%" spacing="10">
+			<columns>
+				<column width="80"/>
+				<column/>
+			</columns>
+			<rows>
+				<row height="30">
+					<image align="center" src="icon" class="mimeIcon"/>
+					<vfs-name id="name" needed="1" class="fileName et2_fullWidth"/>
+				</row>
+				<row>
+					<hrule span="all"/>
+				</row>
+				<row disabled="!@is_link">
+					<description for="symlink" value="Link"/>
+					<textbox id="symlink" readonly="true" class="fileName"/>
+				</row>
+				<row>
+					<description value="Type"/>
+					<description id="mime"/>
+				</row>
+				<row>
+					<description value="Directory"/>
+					<description id="dir"/>
+				</row>
+				<row disabled="@is_link">
+					<description value="Size"/>
+					<vfs-size id="size" options="1"/>
+				</row>
+				<row>
+					<description value="Created"/>
+					<date-time id="ctime" readonly="true"/>
+				</row>
+				<row>
+					<description value="Modified"/>
+					<date-time id="mtime" readonly="true"/>
+				</row>
+				<row>
+					<description for="comment" value="Comment"/>
+					<textbox multiline="true" id="comment" class="et2_fullWidth" height="100"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="filemanager.file.perms" template="" lang="" group="0" version="1.5.001">
+		<grid width="100%" spacing="10">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<groupbox>
+						<caption label="Accessrights"/>
+						<grid>
+							<columns>
+								<column width="80"/>
+								<column/>
+							</columns>
+							<rows>
+								<row>
+									<description value="Owner"/>
+									<menulist>
+										<menupopup id="perms[owner]"/>
+									</menulist>
+								</row>
+								<row>
+									<description value="Group"/>
+									<menulist>
+										<menupopup id="perms[group]"/>
+									</menulist>
+								</row>
+								<row>
+									<description value="Other"/>
+									<menulist>
+										<menupopup id="perms[other]"/>
+									</menulist>
+								</row>
+								<row disabled="@is_dir">
+									<description/>
+									<checkbox label="Executable" id="perms[executable]"/>
+								</row>
+								<row disabled="1">
+									<description/>
+									<checkbox label="Only owner can rename or delete the content" id="perms[sticky]"/>
+								</row>
+							</rows>
+						</grid>
+					</groupbox>
+				</row>
+				<row>
+					<groupbox>
+						<caption label="Owner"/>
+						<grid>
+							<columns>
+								<column width="80"/>
+								<column/>
+							</columns>
+							<rows>
+								<row>
+									<description value="User"/>
+									<select-account label="@ro_uid_root" id="uid" empty_label="root" account_type="accounts"/>
+								</row>
+								<row>
+									<description value="Group"/>
+									<select-account label="@ro_gid_root" id="gid" empty_label="root" account_type="groups"/>
+								</row>
+							</rows>
+						</grid>
+					</groupbox>
+				</row>
+				<row disabled="!@is_dir">
+					<checkbox label="Modify all Subdirectories and their content" id="modify_subs"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="filemanager.file.eacl" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%" spacing="10">
+			<columns>
+				<column width="120"/>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row valign="top" height="200">
+					<groupbox span="all">
+						<caption label="Extended access control list"/>
+						<grid width="100%" overflow="auto" id="eacl">
+							<columns>
+								<column width="80"/>
+								<column width="80"/>
+								<column width="20%"/>
+								<column width="16"/>
+							</columns>
+							<rows>
+								<row class="th">
+									<description value="Owner"/>
+									<description value="Rights"/>
+									<description value="Inherited"/>
+									<description/>
+								</row>
+								<row class="row" disabled="!@1">
+									<menulist>
+										<menupopup type="select-account" id="${row}[owner]" readonly="true"/>
+									</menulist>
+									<menulist>
+										<menupopup id="${row}[rights]" readonly="true"/>
+									</menulist>
+									<description id="${row}[path]"/>
+									<button label="Delete" id="delete[$row_cont[ino]-$row_cont[owner]]" onclick="et2_dialog.confirm(widget,'Delete this extended ACL?','Delete')" image="delete"/>
+								</row>
+							</rows>
+						</grid>
+					</groupbox>
+				</row>
+				<row valign="bottom" disabled="!@is_owner">
+						<select-account class="filemanager-file_filemanager-file-eaclowner eaclAccount" label="Owner" id="eacl_owner" empty_label="select one" account_type="both"/>
+						<menulist>
+							<menupopup class="eaclRights" statustext="You can only grant additional rights, you can NOT take rights away!" label="Rights" id="eacl[rights]"/>
+						</menulist>
+					<button label="Add" id="button[eacl]" image="add" background_image="1"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="filemanager.file.preview" template="" lang="" group="0" version="1.5.001">
+		<grid width="100%" spacing="10" overflow="auto">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row valign="top" disabled="!@mime=/^image/">
+					<image src="link" class="previewImage"/>
+				</row>
+				<row valign="top" height="280" disabled="!@text_content">
+					<textbox multiline="true" id="text_content" readonly="true" class="previewText"/>
+				</row>
+				<row disabled="@mime=/^(image|text)/">
+					<description value="No preview available"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="filemanager.file.custom" template="" lang="" group="0" version="1.5.001">
+		<grid width="100%" spacing="10" overflow="auto">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row valign="top">
+					<customfields/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="filemanager.file.merge" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%" spacing="10" overflow="auto">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row disabled="@mergeapp_itempicker_disabled">
+					<hbox>
+						<itempicker id="itempicker_merge" application="@mergeapp_effective" action="itempickerDocumentAction" action_label="Merge"/>
+					</hbox>
+				</row>
+				<row>
+					<groupbox>
+						<caption label="Merge settings"/>
+						<grid>
+							<columns>
+								<column />
+								<column />
+							</columns>
+							<rows>
+								<row disabled="@is_dir">
+									<description value="Items of the selected application can be inserted into this document"/>
+									<menulist>
+										<menupopup id="mergeapp"/>
+									</menulist>
+								</row>
+								<row disabled="!@is_dir">
+									<description value="Items of the selected application can be inserted into files of this directory"/>
+									<menulist>
+										<menupopup id="mergeapp"/>
+									</menulist>
+								</row>
+							</rows>
+						</grid>
+					</groupbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="filemanager.file" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row disabled="!@msg">
+					<description id="msg" span="all" class="redItalic"/>
+				</row>
+				<row class="dialogTabs">
+					<tabbox id="tabs" span="all" tab_height="300">
+						<tabs>
+							<tab id="filemanager.file.general" label="General"/>
+							<tab id="filemanager.file.perms" label="Permissions"/>
+							<tab id="filemanager.file.eacl" label="Extended ACL"/>
+							<tab id="filemanager.file.preview" label="Preview"/>
+							<tab id="filemanager.file.custom" label="Custom fields"/>
+						</tabs>
+						<tabpanels>
+							<template id="filemanager.file.general"/>
+							<template id="filemanager.file.perms"/>
+							<template id="filemanager.file.eacl"/>
+							<template id="filemanager.file.preview"/>
+							<template id="filemanager.file.custom"/>
+						</tabpanels>
+					</tabbox>
+				</row>
+				<row class="dialogFooterToolbar">
+					<hbox>
+						<hbox>
+							<button label="Save" id="button[save]" image="save" background_image="1"/>
+							<button label="Apply" id="button[apply]" image="apply" background_image="1"/>
+							<buttononly label="Cancel" id="button[cancel]" onclick="window.close();" image="cancel" background_image="1"/>
+						</hbox>
+						<buttononly align="right" statustext="Enter setup user and password to get root rights" label="Superuser" id="sudouser" onclick="jQuery('.superuser').css('display','inline'); document.getElementById(form::name('sudo[user]')).focus();" image="superuser" background_image="1"/>
+					</hbox>
+				</row>
+				<row>
+					<groupbox class="superuser">
+						<caption label="Enter setup user and password"/>
+						<grid>
+							<columns>
+								<column/>
+								<column/>
+							</columns>
+							<rows>
+								<row>
+									<description for="sudo[user]" value="User"/>
+									<textbox id="sudo[user]"/>
+								</row>
+								<row>
+									<description for="sudo[passwd]" value="Password"/>
+									<passwd id="sudo[passwd]" autocomplete="on"/>
+								</row>
+								<row>
+									<description/>
+									<hbox>
+										<button label="Submit" id="button[setup]"/>
+										<buttononly label="Cancel" onclick="jQuery('.superuser').hide();"/>
+									</hbox>
+
+								</row>
+							</rows>
+						</grid>
+					</groupbox>
+				</row>
+			</rows>
+		</grid>
+		<styles>
+			.eaclAccount select,.eaclRights select { width: 160px; }
+.superuser {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+  width: 200px;
+  background-color: white;
+  z-index: 1;
+  display: none;
+}
+		</styles>
+	</template>
+</overlay>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="calendar.import" template="" lang="" group="0" version="1.0.1.001">
+		<grid>
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<description span="all" class="message" id="msg" no_lang="1" align="center"/>
+					<description/>
+				</row>
+				<row>
+					<description value="iCal file"/>
+					<file id="ical_file" needed="1"/>
+				</row>
+				<row>
+					<description/>
+					<button label="Import" id="import"/>
+				</row>
+				<row>
+					<description span="all"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

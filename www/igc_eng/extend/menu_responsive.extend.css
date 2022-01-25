@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@media all and (max-width: 1024px){
+    #hd {min-width: inherit;}
+}
+@media all and (max-width: 768px){
+    .lnb:hover .lnb_depth2{display: none;}
+    .lnb .lnb_depth1 >li {width: 25%;border-bottom: 1px solid #59819e;border-left: 1px solid #59819e;}
+    .lnb .lnb_depth1 >li a {padding: 8px 0;font-size: 0.95em;}
+}
+@media all and (max-width: 480px){
+    .lnb:hover .lnb_depth2{display: none;}
+    .lnb .lnb_depth1 >li {width: 50%;border-color: #ccc;}
+}

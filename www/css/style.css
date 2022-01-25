@@ -1,0 +1,50 @@
+/* reset */
+* {margin: 0; padding: 0;}
+li, ul{list-style:none;}
+a{text-decoration:none;}
+
+
+.clearfix::before, .clearfix::after {display: block; content: ''; clear: both;}
+
+/* 레이아웃 */
+#wrap {width: 1200px; margin: 0 auto;text-align:center;color:#000000;}
+
+/* header */
+#header {position: relative; text-align: center; background: #7e57c2;}
+#header img {float: left;width:300px;height:100px;}
+
+/*nav, 메뉴구조*/
+#header .nav {position: relative; float: right; width:100%; margin-top: 0px;}
+#header .nav ul {padding-left: 30%;}/*main menu width*/
+#header .nav ul li {position: relative; float: left; width: 25%; text-align: center;}/**/
+#header .nav ul li a {display: block; padding: 20px; font-size: 20px; color: #fff; background: #ff9933;}
+#header .nav ul li a:hover {background: rgba(0,0,0,0.4);}
+
+#header .nav ul li ul.submenu {display: none; position: absolute; left: 0; top: 44px; padding-left: 0; background: #b39ddb; height: 176px;}
+#header .nav ul li:first-child ul.submenu:after {content: ''; position: absolute; left: -480px; top: 0; width: 480px; height: 176px; background: #b39ddb;}
+#header .nav ul li ul.submenu li {width: 100%;}
+
+/* banner */
+#banner {height: 400px; background: #666;line-height:400px;}
+
+/* contents */
+#contents {line-height:250px;}
+#contents > div {float: left; width: 300px; height: 250px;}
+#contents > div.conts1 {background: #afafaf;}
+#contents > div.conts2 {background: #bfbabf;}
+#contents > div.conts3 {background: #cfcfcf;}
+#contents > div.conts4 {background: #a3b3c3;}
+
+/*content*/
+#content{line-height:200px;}
+#content > div{float:left;width:300px;height:200px;}
+#content > div.cont1 {background: #ddd;}
+#content > div.cont2 {background: #aaa;}
+#content > div.cont3 {background: #bbb;}
+#content > div.cont4 {background: #ccc;}
+
+/* footer */
+#footer {line-height:100px;}
+#footer .foot1 {float: left; width: 300px; height: 100px; background: #888;}
+#footer .foot2 {float: left; width: 700px; height: 100px; background: #777;}
+#footer .foot3 {float: left; width: 200px; height: 100px; background: #666;}

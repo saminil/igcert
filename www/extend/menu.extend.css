@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* 공통 */
+* {box-sizing: border-box;}
+body {font-size:14px; font-family: "나눔고딕", "NanumGothic", "Malgun Gothic", "Gulim", "dotum" !important;}
+a, a:hover, a:link, a:active {text-decoration: none; color: inherit;}
+ul,li {list-style: none;margin: 0;padding: 0;}
+#container {z-index:auto;}
+.wrap {position: relative; width: 100%; margin: 0 auto; box-sizing: border-box; max-width:1000px;}
+
+/* 메뉴 */
+.menu {font-size:14px; font-family: "나눔고딕", "NanumGothic", "Malgun Gothic", "Gulim", "dotum" !important;background: linear-gradient(-135deg, #193968, #00acd4) fixed;clear: both;}
+.menu * {box-sizing: border-box;}
+.menu .wrap {position: relative; width: 100%; margin: 0 auto; box-sizing: border-box; max-width:1000px;}
+.menu ul,.menu li {list-style: none;margin: 0;padding: 0;}
+.menu a,.menu a:hover,.menu a:link,.menu a:active {text-decoration: none; color: inherit;}
+.lnb {position: relative;-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#193968', endColorstr='#00acd4')";}
+.lnb .lnb_depth1{width: 100%;}
+.lnb .lnb_depth1 >li{display: inline-block;width: 12.4%;text-align: center;}
+.lnb .lnb_depth1 >li a{padding: 15px 0;display: inline-block;color: #fff;font-weight: 600;font-size: 1.1em;}
+.lnb .lnb_depth1 >li a:hover {color: #f2e9d6;}
+.lnb .lnb_depth2 {display:none;position: absolute;top:45px;z-index:100;left: 0;width: 100%;background: #fff;border-bottom: 1px solid #ddd;font-size: 1em;}
+.lnb:hover .lnb_depth2{display: block;}
+.lnb .lnb_depth2 .wrap >ul {display: block;height: 306px;}
+.lnb .lnb_depth2 .wrap >ul >li {display: inline-block;text-align: center;width: 12.4%;line-height: 2em;border-left: 1px dotted #ddd;padding:0;box-sizing: border-box;-ms-filter: "box-sizing:border-box";float: left;height: 100%}
+.lnb .lnb_depth2 .wrap >ul >li:first-child {border-left:0;}
+.lnb .lnb_depth2 .wrap >ul >li:nth-of-type(even) {background: #f9f9f9;}
+.lnb .lnb_depth2 .wrap >ul >li ul li a {padding: 3px 0;display: block;box-sizing: border-box;-ms-filter: "box-sizing:border-box";}
+.lnb .lnb_depth2 .wrap >ul >li a:hover {background: #0b7aa5;color: #fff;}
+
+/*네비게이션 사용 클래스*/
+.sub_visual {width: 100%;height: 80px;background: #eee;}
+.sub_history {width: 100%;border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;text-align: right;}
+.sub_history .hist_depth1 >li {display: inline-block;padding-left: 25px;margin-left:15px;color: #666;background: url("/theme/basic/img/arrow_btn.png") 100% no-repeat;background-position:left center;}
+.sub_history .hist_depth1 >li:first-child {margin-left: 0;padding-left: 0;background: none;}
+.sub_history .hist_depth1 >li a {padding: 10px 0;display: block;}
+.sub_history .hist_depth1 .active {font-weight: 600;color: #444;position: relative;}
+.sub_history .hist_depth1 .active:hover {color: #25649e;}
+.sub_history .hist_depth1 .active:hover .hist_depth2 {display: block;}
+.sub_history .hist_depth2 {display:none;position: absolute;top:35px;right: 0;width: 130px;text-align: center;z-index: 99;border: 1px solid #ddd;font-size: 0.95em;}
+.sub_history .hist_depth2 li a {display: block;padding: 8px 10px;background: #fff;color:#333;font-weight: normal;border-bottom: 1px solid #ddd;}
+.sub_history .hist_depth2 li a:hover {background: #eee;}
+.sub_history .hist_depth2 li:last-child a {border: 0;}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Run tests using phpunit -c doc/phpunit.xml -->
+<phpunit
+    colors="true"
+	backupGlobals="false"
+	bootstrap="phpunit_bootstrap.php"
+>
+	<php>
+        <var name="EGW_DOMAIN" value="default" />
+        <var name="EGW_USER" value="demo" />
+        <var name="EGW_PASSWORD" value="guest" />
+    </php>
+    <testsuites>
+        <testsuite name="Api">
+            <directory>../api/tests</directory>
+        </testsuite>
+        <testsuite name="Etemplate">
+            <file>../api/tests/EtemplateTest.php</file>
+            <directory>../api/Etemplate/tests/</directory>
+            <directory>../api/Etemplate/Widget/tests/</directory>
+        </testsuite>
+		<testsuite name="Apps">
+			<!-- Apps with test directory -->
+			<directory>../*/tests/</directory>
+
+			<exclude>../api</exclude>
+		</testsuite>
+    </testsuites>
+</phpunit>

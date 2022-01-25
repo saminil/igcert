@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="importexport.definition_index.row" template="" lang="" group="0" version="1.9.002">
+		<grid width="100%">
+			<columns>
+				<column width="50px"/>
+				<column/>
+				<column width="150px"/>
+				<column width="150px"/>
+				<column width="150px"/>
+				<column width="10px"/>
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-filterheader id="type" options="importexport" class="lr_padding"/>
+					<nextmatch-sortheader label="Name" id="name" class="lr_padding"/>
+					<nextmatch-filterheader id="application" options="Application" class="lr_padding"/>
+					<nextmatch-accountfilter align="center" id="allowed_users" options="Allowed users,groups" class="lr_padding"/>
+					<nextmatch-accountfilter empty_label="Owner" id="owner"/>
+				</row>
+				<row class="row $row_cont[class]">
+					<image src="${row}[type]" no_lang="1" onclick="window.open(egw::link('/index.php','menuaction=importexport.importexport_${row_cont[type]}_ui.{$row_cont[type]}_dialog&amp;appname=${row_cont[application]}&amp;definition=${row_cont[definition_id]}'),'_blank','dependent=yes,width=850,height=440,scrollbars=yes,status=yes'); return false;" class="lr_padding button"/>
+					<description id="${row}[name]" no_lang="1" class="lr_padding"/>
+					<description id="${row}[application]" class="lr_padding"/>
+					<listbox type="select-account" id="${row}[allowed_users]" no_lang="1" readonly="true" rows="5" empty_label='Private' class="lr_padding"/>
+					<menulist>
+						<menupopup type="select-account" id="${row}[owner]" readonly="true"/>
+					</menulist>
+				</row>
+			</rows>
+		</grid>
+		<styles>
+			.redItalic { color:red; font-style:italic;}			td.lr_padding { padding-left: 5px; padding-right: 5px; }
+
+.button {
+  cursor: pointer;
+}
+		</styles>
+	</template>
+	<template id="importexport.definition_index.add" template="" lang="" group="0" version="1.9.002">
+		<buttononly statustext="Add a new definition" label="Add" id="add" onclick="egw(window).open_link('importexport.importexport_definitions_ui.edit','_blank','500x500'); return false;"/>
+	</template>
+	<template id="importexport.definition_index" template="" lang="" group="0" version="1.9.002">
+		<nextmatch id="nm" template="importexport.definition_index.row" header_left="importexport.definition_index.add"/>
+		<box id="owner_popup" class="action_popup prompt">
+			<description value="Change owner" class="promptheader"/>
+			<vbox class="action_popup-content">
+				<description value="Select owner"/>
+				<listbox type="select-account" id="owner" options="None,accounts"/>
+			</vbox>
+			<hbox>
+				<button id="save_owner" label="Save" onclick="nm_submit_popup(this); return false;" image="save" background_image="1"/>
+				<buttononly id="cancel_owner" label="Cancel" onclick="nm_hide_popup(this,'owner_popup');" image="cancel" background_image="1"/>
+			</hbox>
+		</box>
+		<box id="allowed_popup" class="action_popup prompt">
+			<description value="Change allowed users" class="promptheader"/>
+			<vbox class="action_popup-content">
+				<description value="Select groups"/>
+				<checkbox label="%s Just me" id="allowed_private"/>
+				<checkbox label="%s All users" id="all_users"/>
+				<listbox type="select-account" id="allowed" rows="5" account_type="groups"/>
+			</vbox>
+			<hbox>
+				<button id="save_allowed" label="Save" onclick="nm_submit_popup(this); return false;" image="save" background_image="1"/>
+				<buttononly id="cancel_allowed" label="Cancel" onclick="nm_hide_popup(this,'allowed_popup');" image="cancel" background_image="1"/>
+			</hbox>
+		</box>
+		<styles>
+			td.lr_padding { padding-left: 5px; padding-right: 5px; }
+
+.button {
+  cursor: pointer;
+}
+/**
+ * Add / remove link or category popup used for actions on multiple entries
+ */
+
+.action_popup {
+	position: fixed;
+	top: 200px;
+	left: 450px;
+	width: 76ex;
+	z-index: 20000;
+	display: none;
+	border-collapse:collapse;
+	border-spacing:0px
+}
+.action_popup-content {
+	display:block;
+	padding:2ex;
+	color:#666666;
+	margin: -2px -1px 0px -2px;
+}
+.action_popup &gt; table {
+	width: 100%
+}
+.action_popup .promptheader {
+	padding: 1ex;
+	width: 100%
+}
+
+.action_select {
+	width: 100%
+}
+		</styles>
+	</template>
+</overlay>

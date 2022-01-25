@@ -1,0 +1,358 @@
+/**
+ *
+ * Mail - Mobile
+ *
+ * Please do NOT change app.css directly, instead change app.less and compile it!
+ * Pixleegg Template app.css
+ * @link http://www.egroupware.org
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @author Hadi Nategh <hn@egroupware.org>
+ * @package Mail
+ * @version $Id: app.less 55033 2016-02-16 18:49:17Z hnategh $
+ */
+
+
+
+@import (reference) "../../../pixelegg/less/def_buttons.less";
+@import (reference) "../../../pixelegg/less/def_mobile.less";
+@import "../pixelegg/app.less";
+/* import */
+/* tablets and smartphones  */
+@media all {
+	div.mailDisplayContainer{
+		margin-top: 30px;
+		margin-left:0;
+		height: auto;
+	}
+
+	#mail-display.et2_container {
+		min-height: initial;
+		padding: 0;
+	}
+
+	.mailDisplayHeaders, .mailDisplayAttachments > * {
+		font-size: large !important;
+	}
+	/*compose dialog*/
+	body {
+		#popupMainDiv {
+			padding: 1px 8px 0 8px;
+			background: none;
+
+			div.et2_toolbar.et2_head_toolbar {
+				padding: 1px 5px 5px 10px !important;
+				button {
+					width:46px;
+					height:46px;
+					background-size: 18px 18px;
+				}
+				button.et2_toolbar_hasCaption {
+					width:auto;
+				}
+				div.et2_toolbar_actionlist {
+					margin-left: 50px;
+				}
+
+			}
+			#mail-compose_composeToolbar{
+				// Senden Button
+				button#composeToolbar-send{
+					height: 46px;
+					width: auto;
+					margin-top: 0.7px !important;
+					padding: 0 3px 0 0;
+					text-align: left;
+					font-weight: normal;
+					padding-left: 20px;
+					background-image: url(../pixelegg/images/mail_send.png);
+					background-position: left;
+					background-repeat: no-repeat;
+					background-size: 16px 16px;
+					background-color: #fafafa;
+					color: black;
+					&:hover {box-shadow: none; background-color:none;}
+					&:disabled {background-color: none;}
+				}
+			}
+
+
+
+			.mail-d-h1{
+				position: relative;
+				padding-bottom: 15px;
+				border-bottom: 1px solid silver;
+				span {
+					.mob-fontsize-l;
+				}
+				.mob-fontsize-l;
+				padding-top: 10px;
+				font-weight: bold;
+			}
+			.mail-d-h2{
+				padding-top: 5px;
+				.mob-fontsize-n;
+				color: grey;
+				a,span,.et2_label {
+					color: grey;
+					.mob-fontsize-n;
+				}
+				a#mail-display_FROM>* {
+					color:black;
+					padding-top: 15px;
+					.mob-fontsize-l;
+				}
+
+			}
+			.et2_details {
+				width: 100%;
+				display: block;
+			}
+			.et2_details.et2_details_expanded {
+				width: 100%;
+				display: block;
+			}
+			span.et2_details_title {
+					color:#26537c;
+					.mob-fontsize-n;
+				}
+			div#mail-display_mailDisplayHeadersFrom>*, {
+				color:black;
+				padding-top: 15px;
+			}
+			.mailDisplayAttachments {
+				position: initial;
+				padding: 0;
+				margin-top: 10px;
+			}
+			button[id="displayToolbar-delete"] {
+				margin-left: 0;
+			}
+
+			.mailDisplay {
+				position: initial;
+				margin-top: 20px;
+			}
+			div#mail-view> div {
+				height: 100%;
+			}
+			div#mail-view {
+				height: 100%;
+			}
+			#mail-view_toaddressdetails {
+				color: #26537c;
+				float: right;
+			}
+			#tempPrintDiv {
+				display:block;
+				div:first-child {
+					height:auto !important;
+				}
+				td, textarea {
+					font-family: Verdana, Arial, Helvetica, sans-serif;
+
+				}
+				.td_display {
+					font-family: Verdana, Arial, Helvetica, sans-serif;
+					font-size: 120%;
+					color: black;
+					background-color: #FFFFFF;
+				}
+			}
+
+		}
+
+		.dtree {
+			div.containerTableStyle {
+				overflow: hidden;
+			}
+		}
+		#mail-compose {
+			.cke_chrome {
+				border:none;
+				box-shadow: none;
+			}
+			.mailComposeHeaderSection > table {
+				padding: 0;
+				tr.mailComposeHeaders.subjectContainer td:first-child::after {
+					content: '';
+				}
+				tr.mailComposeHeaders {
+					span {
+						.mob-fontsize-n;
+					}
+					border-bottom: 1px solid silver;
+					.subjectContainer:first-child::after{
+						content: ':';
+					}
+					&:first-child {
+						border-top: 1px solid silver;
+					}
+					span#mail-compose_cc_expander, span#mail-compose_cc_expander,
+					span#mail-compose_bcc_expander, span#mail-compose_bcc_expander,
+					span#mail-compose_folder_expander, span#mail-compose_folder_expander,
+					span#mail-compose_replyto_expander, span#mail-compose_replyto_expander
+					{
+						background: transparent;
+						border: none;
+						color: #26537c;
+						text-decoration: underline;
+						.mob-fontsize-n;
+						width: 65px;
+						height:25px;
+					}
+				}
+				div.et2_taglist > *, #mail-compose_subject, #mail-compose_mailaccount {
+					border:none;
+					box-shadow: none;
+					.mob-fontsize-n;
+				}
+				#mail-compose_subject:focus {
+					outline-color: transparent;
+				}
+			}
+		}
+	}
+
+	#mail-index {
+		margin-right: 0px;
+		table.egwGridView_outer tbody {
+			span.et2_date_ro.et2_label {
+				font-size: 9px;
+			}
+			td {
+				padding-top: 8px;
+				padding-bottom: 8px;
+				a[id^='mail-index_'][id$='fromaddress]']{
+					color:@gray_80;
+					.mob-fontsize-l;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					width: 95%;
+					display: inline-block;
+				}
+				span[id^='mail-index_'][id$='attachments]'] {
+					float: right;
+					img {
+						width: 16px;
+						height: 16px;
+					}
+				}
+				span[id^='mail-index_'][id$='subject]'] {
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					width: 95%;
+					.mob-fontsize-n;
+					font-weight: normal !important;
+				}
+				label[id^='mail-index_'][id$='date]']{
+					padding-top: 0;
+				}
+			}
+			tr{
+				height:55px;
+				div.recent ,
+				span.recent ,
+				time.recent ,
+				a.recent,
+				div.unseen ,
+				span.unseen ,
+				time.unseen ,
+				a.unseen  {
+					color: black !important;
+					font-weight: bold;
+				}
+				span.mail.mobile_cat_col {
+					background: #F5F5F5;
+				}
+				span.mail.label1.mobile_cat_col  {
+					background: #ff0080;
+				}
+				span.mail.label2.mobile_cat_col{
+					background: #ff8000;
+				}
+				span.mail.label3.mobile_cat_col {
+					background: #008000;
+				}
+				span.mail.label4.mobile_cat_col {
+					background: #0000ff;
+				}
+				span.mail.label5.mobile_cat_col {
+					background: #8000ff;
+				}
+
+				span.mail.flagged.mobile_cat_col  {
+					background: #ff0000;
+				}
+
+				span.mail.prio_high.mobile_cat_col {
+					background: #ac0000;
+				}
+
+				span.mail.deleted.mobile_cat_col {
+					background: silver;
+					text-decoration : line-through;
+				}
+				span.status_img {
+					padding:0 2px 2px 0;
+				}
+				span.deleted.status_img {
+					background-image: url(../pixelegg/images/kmmsgdel.png);
+				}
+				span.unseen.status_img {
+					background-image: url(../pixelegg/images/kmmsgunseen.png);
+				}
+				span.flagged_seen.status_img {
+					background-image: url(../pixelegg/images/read_flagged_small.png);
+				}
+				span.flagged_unseen.status_img {
+					background-image: url(../pixelegg/images/unread_flagged_small.png);
+				}
+				span.recent.status_img {
+					background-image: url(../pixelegg/images/kmmsgnew.png);
+				}
+				span.replied.status_img {
+					background-image: url(../pixelegg/images/mail_reply.svg);
+				}
+				span.forwarded.status_img {
+					background-image: url(../pixelegg/images/mail_forward.svg);
+				}
+				span.bodypreview {
+					text-overflow: ellipsis;
+					padding-left: 2px;
+					font-style: normal;
+					.mob-fontsize-n;
+				}
+			}
+		}
+		.mail-index_quotabox {
+			position: absolute;
+			top: 8px;
+			right: 74px;
+			width: 200px !important;
+			z-index: 99;
+		}
+		.mail-index_vacation {
+			position: absolute;
+			top: 3px;
+			right: 190px;
+			width: 250px !important;
+			z-index: 99;
+			div {
+				text-align: center;
+			}
+		}
+
+		#mail-index_nm div.search{
+			margin-top:3px;
+		}
+
+	}
+	#mail-index_buttonmailcreate {display:none;}
+	div.aclDetails {display:none;}
+	#mail-acl_grid {
+		.row{border-bottom: 1px solid silver;}
+	}
+
+}

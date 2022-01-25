@@ -1,0 +1,188 @@
+%1 %2 in %3	calendar	tr	%3 içindeki %1 %2
+%1 records imported	calendar	tr	%1 kayıt ithal edildi
+%1 records read (not yet imported, you may go back and uncheck test import)	calendar	tr	%1 kayıt okundu (henüz ithal edilmedi, geri dönüp 'İthal Etmeyi Test Et' seçeneğindeki seçimi kaldırabilirsiniz.)
+accept	calendar	tr	Kabul Et
+accepted	calendar	tr	Kabul Edildi
+action that caused the notify: added, canceled, accepted, rejected, ...	calendar	tr	Uyarıya sebep olan eylem: Eklendi, İptal Edildi, Onaylandı, Reddedildi,...
+actions	calendar	tr	Eylemler
+add alarm	calendar	tr	Alarm Ekle
+added	calendar	tr	Eklendi
+alarm	calendar	tr	Alarm
+alarm for %1 at %2 in %3	calendar	tr	%1 (%2'de %3 içinde) için Alarm
+alarm management	calendar	tr	Alarm Yönetimi
+alarms	calendar	tr	Alarmlar
+all day	calendar	tr	Tüm Gün
+always	calendar	tr	her zaman
+are you sure you want to delete this country ?	calendar	tr	Bu ülkeyi silmek istediğinize emin misiniz?
+are you sure you want to delete this holiday ?	calendar	tr	Bu tatili silmek istediğinize emin misiniz?
+before the event	calendar	tr	etkinlikten önce
+birthday	calendar	tr	Do?um Tarihi
+birthdays	admin	tr	Do?um Tarihleri
+calendar event	calendar	tr	Takvim Etkinliği
+calendar holiday management	admin	tr	Takvim Tatil Yönetimi
+calendar preferences	calendar	tr	Takvim Seçenekleri
+calendar settings	admin	tr	Takvim Ayarları
+calendar-fieldname	calendar	tr	Takvim-Alan Adı
+canceled	calendar	tr	İptal Edildi
+charset of file	calendar	tr	Dosya Karakter Kümesi (char-set)
+countries	calendar	tr	Ülkeler
+country	calendar	tr	Ülke
+csv-fieldname	calendar	tr	CSV-Alan adı
+csv-filename	calendar	tr	CSV-Alan adı
+custom	calendar	tr	Özel
+custom fields	common	tr	Özel Alanlar
+daily	calendar	tr	Günlük
+day	calendar	tr	Gün
+days	calendar	tr	gün
+days repeated	calendar	tr	tekrar eden gün
+dayview	calendar	tr	Günlük Görünüm
+default appointment length (in minutes)	calendar	tr	varsayılan toplantı uzunluğu (dakika olarak)
+default calendar filter	calendar	tr	Varsayılan takvim süzgeci
+default calendar view	calendar	tr	Varsayılan takvim görünümü
+default length of newly created events. the length is in minutes, eg. 60 for 1 hour.	calendar	tr	Yeni oluşturulmuş etkinlikler için varsayılan uzunluk. uzunluk dakika cinsindendir, ör. 1 saat için 60 giriniz.
+delete series	calendar	tr	Seriyi sil
+deleted	calendar	tr	Silindi
+display status of events	calendar	tr	Etkinliklerin durumlarını görüntüle
+do you want to be notified about new or changed appointments? you are not notified about changes you made yourself.<br>you can limit the notifications to certain changes only. each item includes all notifications listed above. all modifications include changes of title, description, participants, but no participant responses. if the owner of an event requested any notifcations, he will always get participant responses like acceptions or rejections too.	calendar	tr	Yeni ya da değişiklik yapılmış toplantılardan haberdar olmak ister misiniz? Kendi yaptığınız değişiklikler hakkında da uyarı emailleri alacaksınız.<br>Uyarıları istediğiniz belli eylemlerle sınırlandırabilirsiniz.Her bir öge yukarıda listelenen bütün uyarı metodlarına sahiptir. Bütün değişiklikler; başlık, açıklama, katılımcı değişikliklerini içerir. Bir etkinlik sahibi bir uyarı talep etmişse; katılımcıların kabul ve red mesajlarını da ayrıca uyarı olarak alacaktır.
+do you want to receive a regulary summary of your appointsments via email?<br>the summary is sent to your standard email-address on the morning of that day or on monday for weekly summarys.<br>it is only sent when you have any appointments on that day or week.	calendar	tr	Toplantılarınızın düzenli bir özetini e-maille almak ister misiniz?<br>Özet bilgi toplantı günü sabahı ya da haftalık özetler için ise pazartesi sabahı gönderilecektir.
+do you wish to autoload calendar holidays files dynamically?	admin	tr	Tatil takvimi dosyalarının otomatik olarak yüklenmesini ister misiniz?
+download	calendar	tr	İndir
+duration	calendar	tr	Süre
+edit series	calendar	tr	Seriyi düzenle
+empty for all	calendar	tr	tamamı için boş
+end date/time	calendar	tr	Bitiş Tarih/Zaman
+enddate	calendar	tr	BitişTarih
+ends	calendar	tr	bitiyor
+event details follow	calendar	tr	Etkinlik Detayları Ektedir
+exceptions	calendar	tr	İstisnalar
+extended	calendar	tr	Genişletilmiş
+extended updates always include the complete event-details. ical's can be imported by certain other calendar-applications.	calendar	tr	Genişletilmiş güncellemeler daima etkinlik detaylarının tamamını içerir. iCal bir çok takvim uygulaması tarafından ithal edilebilen bir formatdır.
+fieldseparator	calendar	tr	Alan Ayracı
+firstname of person to notify	calendar	tr	Uyarılacak kişinin ilk adı
+format of event updates	calendar	tr	Etkinlik güncellemelerinin formatı
+freebusy: unknow user '%1', wrong password or not availible to not loged in users !!!	calendar	tr	Müsait meşgul: Bilinmeyen kullanıcı '%1', hatalı şifre veya giriş yapmamış kullanıcılar için yapılamaz.
+fri	calendar	tr	Cum
+full description	calendar	tr	Tam Açıklama
+fullname of person to notify	calendar	tr	Uyarılacak kişinin tam adı
+global categories	calendar	tr	Genel Kategoriler
+global public and group public	calendar	tr	Genel Umumi(Public) ve Umumi Grup
+global public only	calendar	tr	Genel Umumi(Public) Sadece
+group planner	calendar	tr	Grup Plan Sorumlusu
+group public only	calendar	tr	Sadece Grup Umumi(Public)
+here is your requested alarm.	calendar	tr	İstediğiniz alarm buradadır.
+high priority	calendar	tr	yüksek öncelik
+holiday	calendar	tr	Tatil
+holiday management	calendar	tr	Tatil Yönetimi
+holidays	calendar	tr	Tatiller
+hours	calendar	tr	saat
+ical / rfc2445	calendar	tr	iCal / rfc2445
+if checked holidays falling on a weekend, are taken on the monday after.	calendar	tr	Seçilirse, haftasonuna gelen tatiller/bayramlar ilk pazartesine ötelenir.
+ignore conflict	calendar	tr	çakışma Yoksay
+import	calendar	tr	?thal Et
+import csv-file	common	tr	CSV Dosyası İthal Et
+interval	calendar	tr	Ara
+last	calendar	tr	son
+lastname of person to notify	calendar	tr	Uyarılacak kişinin soyadı
+link to view the event	calendar	tr	Etkinliği görüntülemek için link
+location	calendar	tr	Konum
+location to autoload from	admin	tr	Otomatik yükleme yapılacak konum
+minutes	calendar	tr	dakika
+modified	calendar	tr	Değiştirilmiş
+mon	calendar	tr	Ay
+month	calendar	tr	Ay
+monthly	calendar	tr	Aylık
+monthly (by date)	calendar	tr	Aylık (tarihe göre)
+monthly (by day)	calendar	tr	Aylık (güne göre)
+monthview	calendar	tr	Ay Görünümü
+new	calendar	tr	Yeni
+no matches found	calendar	tr	Eşleşme bulunamadı
+no response	calendar	tr	Yanıt Yok
+notification messages for added events	calendar	tr	Eklenen etkinlikler için uyarı mesajları
+notification messages for canceled events	calendar	tr	İptal edilen etkinlikler için uyarı mesajları
+notification messages for modified events	calendar	tr	Değiştirilmiş etkinlikler için uyarı mesajları
+notification messages for your alarms	calendar	tr	Alarmlarınız için uyarı mesajları
+notification messages for your responses	calendar	tr	Sizin yanıtlarınız için uyarı mesajları
+number of records to read (%1)	calendar	tr	Okunacak kayıt sayısı (%1)
+observance rule	calendar	tr	Yerine Getirme Kuralı
+occurence	calendar	tr	Oluş
+old startdate	calendar	tr	Eski Başlama Tarihi
+olddate	calendar	tr	Eski tarih
+on %1 %2 %3 your meeting request for %4	calendar	tr	%4 için %1 %2 %3'deki toplantı talepleriniz
+on all modification, but responses	calendar	tr	bütün değişikliklerde ama yanıtlarda değil
+on any time change too	calendar	tr	herhangi zaman değişiminde de
+on invitation / cancelation only	calendar	tr	davet/iptal durumlarında sadece
+on participant responses too	calendar	tr	katılımcı cavaplarında da
+on time change of more than 4 hours too	calendar	tr	4 saatten fazla zaman değişikliklerinde de
+open todo's:	calendar	tr	Yapılacak İşleri Aç:
+overlap holiday	calendar	tr	çakışan tatil
+participants	calendar	tr	Katılımcılar
+password for not loged in users to your freebusy information?	calendar	tr	Giriş yapmamış kullanıcılar için sizin uygun/meşgul bilgisi şifreniz?
+people holiday	calendar	tr	tatildeki insanlar
+permission denied	calendar	tr	İzin verilmedi
+planner by category	calendar	tr	Kategoriye göre planlama
+planner by user	calendar	tr	Kullanıcıya göre planlama
+preselected group for entering the planner	calendar	tr	Planlamaya girmek için önceden seçilmiş grup
+private and global public	calendar	tr	Özel ve Genel Umumi (Public)
+private and group public	calendar	tr	Özel ve Umumi Grup
+private only	calendar	tr	Sadece özel
+re-edit event	calendar	tr	Etkinliği yeniden değiştir
+receive email updates	calendar	tr	Email güncellemeleri al
+receive summary of appointments	calendar	tr	Toplantıların özetini maille al
+recurring event	calendar	tr	tekrarlanan etkinlik
+rejected	calendar	tr	Reddedildi
+repeat type	calendar	tr	Tekrar şekli
+repeating event information	calendar	tr	Tekrar Eden Etkinlik Bilgisi
+repetition	calendar	tr	Tekrarlama
+repetitiondetails (or empty)	calendar	tr	Tekrarlama Detayları (ya da boş)
+reset	calendar	tr	Sıfırla
+rule	calendar	tr	Kural
+sat	calendar	tr	Cte
+scheduling conflict	calendar	tr	Zamanlama çakışması
+set a year only for one-time / non-regular holidays.	calendar	tr	Yılı sadece bir kere ayarla / düzensiz tatil/bayram
+set new events to private	calendar	tr	Yeni etkinlikleri özel olarak ayarla
+should new events created as private by default ?	calendar	tr	Yeni etkinlikler varsayılan olarak 'özel' mi olmalı?
+should the status of the event-participants (accept, reject, ...) be shown in brakets after each participants name ?	calendar	tr	Bir etkinlik katılımcısının kabul/red bilgisi her katılımcı isminden sonra parantez içinde gösterilmeli midir?
+show list of upcoming events	calendar	tr	Yaklaşan Etkinlikleri görüntüle
+single event	calendar	tr	tek etkinlik
+start date/time	calendar	tr	Başlangıç Tarih/Zaman
+startdate	calendar	tr	Başlangıç tarihi
+startrecord	calendar	tr	Kaydetmeye başla
+submit to repository	calendar	tr	Depoya gönder
+sun	calendar	tr	Paz
+tentative	calendar	tr	Geçici
+test import (show importable records <u>only</u> in browser)	calendar	tr	İthal etmeyi test et (İthal edilecek kayıtları <u>sadece</u> tarayıcıda göster.)
+this day is shown as first day in the week or month view.	calendar	tr	Bu gün, aylık ve haftalık görünümde ilk gün olarak görünülenir.
+this defines the end of your dayview. events after this time, are shown below the dayview.	calendar	tr	Bu günlük görünümünüzün sonunu tanımlar. Bundan sonraki etkinlikler günlük görünümün altında görüntülenir.
+this defines the start of your dayview. events before this time, are shown above the dayview.<br>this time is also used as a default starttime for new events.	calendar	tr	Bu günlük görünümüzün başlangıcını tanımlar. Bu zamandan önceki etkinlikler günlük görünümün üzerinde görüntülenir.<br>Bu zaman aynı zamanda yeni etkinlikler için varsayılan başlangıç zamanı olarak kullanılır.
+this group that is preselected when you enter the planner. you can change it in the planner anytime you want.	calendar	tr	Bu grup planlamaya girdiğinizde önceden seçilidir. Bunu planlamaya girdiğinizde istediğiniz zaman değiştirebilirsiniz.
+this message is sent for canceled or deleted events.	calendar	tr	Bu mesaj iptal edilmiş ya da silinmiş etkinlikler için gönderilmiştir.
+this message is sent for modified or moved events.	calendar	tr	Bu mesaj değiştirilmiş ya da taşınmış etkinlikler için gönderilmiştir.
+this message is sent to every participant of events you own, who has requested notifcations about new events.<br>you can use certain variables which get substituted with the data of the event. the first line is the subject of the email.	calendar	tr	Bu mesaj yeni etkinliklerden haberdar olmak istediğini belirtmiş ve sizin sahibi olduğunuz etkinliklerin katılımcısı olan bütün katılımcılara gönderilmiştir.<br>Etkinlik bilgileri arasında değiştirilecek bir çok değişkene mesajınızda yer verebilirsiniz. ilk satır e-mailin konusunu oluşturur.
+this message is sent when you accept, tentative accept or reject an event.	calendar	tr	Bu mesaj kabul ettiğiniz, geçici olarak kabul ettiğiniz, ya da reddettiğiniz etkinlikler için gönderilir.
+this message is sent when you set an alarm for a certain event. include all information you might need.	calendar	tr	Bu mesaj belli bir etkinlik için alarm tanımladığınızda gönderilir. İhtiyacınız olabilecek bütün bilgileri içerir.
+thu	calendar	tr	Per
+title of the event	calendar	tr	Etkinlik başlığı
+to many might exceed your execution-time-limit	calendar	tr	çok fazla, çalıştırma zaman limitinizi aşabilir
+to-firstname	calendar	tr	Alıcı-İsim
+to-fullname	calendar	tr	Alıcı-İsim ve Soyad
+to-lastname	calendar	tr	Alıcı-Soyad
+translation	calendar	tr	Tercüme
+tue	calendar	tr	Sal
+updated	calendar	tr	Güncelle
+use end date	calendar	tr	Bitiş tarihi kullan
+wed	calendar	tr	Çar
+week	calendar	tr	Hafta
+weekday starts on	calendar	tr	Mesai günleri başlangıcı
+weekly	calendar	tr	Haftalık
+weekview	calendar	tr	Haftalık Görünüm
+work day ends on	calendar	tr	Mesai günleri bitişi
+work day starts on	calendar	tr	Mesai günleri başlangıcı
+yearly	calendar	tr	Yıllık
+yearview	calendar	tr	Yıllık Görünüm
+you can either set a year or a occurence, not both !!!	calendar	tr	ya bir 'Yıl' ya da 'Olay' tanımlamalısınız, ikisini birlikte değil !!!
+you can only set a year or a occurence !!!	calendar	tr	Sadece yıl ya da olay tanımlayabilirsiniz !!!
+you do not have permission to read this record!	calendar	tr	Bu kaydı okumak için yeterli izniniz yok !
+you have a meeting scheduled for %1	calendar	tr	%1 için zamanlanmış bir toplantınız var
+you need to set either a day or a occurence !!!	calendar	tr	Bir gün ya da olay seçmek durumundasınız !!!
+your meeting scheduled for %1 has been canceled	calendar	tr	%1 için ayarlanmış toplantınız iptal edilmiştir
+your meeting that had been scheduled for %1 has been rescheduled to %2	calendar	tr	%1 için zayarlanmış toplantınız %2 için yeniden ayarlanmıştır.

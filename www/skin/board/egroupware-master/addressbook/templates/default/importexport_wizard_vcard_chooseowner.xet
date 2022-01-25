@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="addressbook.importexport_wizard_vcard_chooseowner" template="" lang="" group="0" version="1.9.001">
+		<grid>
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<description id="title" no_lang="1"/>
+				</row>
+				<row>
+					<menulist>
+						<menupopup id="contact_owner"/>
+					</menulist>
+				</row>
+				<row>
+					<select-cat id="override_values[cat_id][value]" label="Category" empty_label="From file" options=",,,@application"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

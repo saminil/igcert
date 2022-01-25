@@ -1,0 +1,103 @@
+(no subject)	mail	fa	(بدون عنوان)
+add to addressbook	mail	fa	افزودن به دفترچه آدرس
+all of	mail	fa	همه
+allways a new window	mail	fa	همیشه پنجره جدید
+always show html emails	mail	fa	همیشه رایانامه های زنگام را نمایش بده
+any of	mail	fa	هرکدام از
+attachments	mail	fa	پیوندها
+check message against next rule also	mail	fa	پیام را در مقابل قانون بعد هم بازرسی کن
+compose	mail	fa	نامه جدید
+compress folder	mail	fa	فشرده سازی پوشه
+contains	mail	fa	شامل است
+copy to	mail	fa	نسخه برداری به
+date(newest first)	mail	fa	تاریخ (جدیدها اول)
+date(oldest first)	mail	fa	تاریخ (قدیمی ها اول)
+default sorting order	mail	fa	ترتیب مرتب سازی پیش فرض
+delete folder	mail	fa	حذف پوشه
+deleted	mail	fa	حذف شد
+disable	mail	fa	غیر فعال
+discard message	mail	fa	نادیده گرفتن پیام
+display messages in multiple windows	mail	fa	نمایش پیامها در چند پنجره
+display of html emails	mail	fa	نمایش رایانامه های زنگام
+display only when no plain text is available	mail	fa	نمایش فقط وقتی که متن معمولی موجود نیست
+does not contain	mail	fa	شامل نیست
+does not match	mail	fa	جور نیست
+does not match regexp	mail	fa	با عبارت باقاعده جور نبود
+don't use sent	mail	fa	از ارسال شده استفاده نشود
+don't use trash	mail	fa	از بازیافت استفاده نشود
+edit account	mail	fa	ویراستن حساب
+edit vacation settings	mail	fa	ویرایش تنظیمات بیکاری
+empty trash	mail	fa	خالی کردن زباله
+enable	mail	fa	فعال
+event details follow	mail	fa	پیگیری جزئیات رویداد
+everyone	mail	fa	همه
+extended	mail	fa	توسعه یافته
+file into	mail	fa	پرونده در
+filemanager	mail	fa	مدیر پرونده
+flagged	mail	fa	علامت گذاری شده
+folder	mail	fa	پوشه
+folder settings	mail	fa	تنظیمات پوشه
+forward	mail	fa	پیش سو
+from	mail	fa	از
+from(a->z)	mail	fa	از(A->Z)
+from(z->a)	mail	fa	از (Z->A)
+general	admin	fa	عمومی
+greater than	mail	fa	بزرگتر از
+header lines	mail	fa	خطوط سرآیند
+html	mail	fa	زنگام(html)
+if	mail	fa	اگر
+if mail header	mail	fa	اگر سرآیند نامه باشد
+if message size	mail	fa	اگر اندازه پیام باشد
+imap	mail	fa	آی مپ
+imap server	mail	fa	کارگزار آی مپ
+inbox	mail	fa	صندوق ورودی
+keep a copy of the message in your inbox	mail	fa	یک نسخه از پیام را در صندوق ورودی نگهداری شود
+kilobytes	mail	fa	کیلوبایت
+less than	mail	fa	کمتر از
+mail settings	mail	fa	تنظیمات رایانامه
+mark as deleted	mail	fa	شناسائی بعنوان حذف شده
+matches	mail	fa	جور شده ها
+matches regexp	mail	fa	عبارات باقاعده جور شده
+move selected to	mail	fa	انتقال انتخاب شده ها به
+move to	mail	fa	انتقال انتخاب شده ها به
+move to trash	mail	fa	انتقال به بازیافت
+never display html emails	mail	fa	هرگز پیامهای زنگام را نشان نده
+on	mail	fa	در
+one address is not valid	mail	fa	یکی از نشانیها معتبر نیستند
+only one window	mail	fa	فقط یک پنجره
+organisation	admin	fa	سازمان
+organization	mail	fa	سازمان
+permission denied	mail	fa	دسترسی ممنوع
+please select a address	mail	fa	لطفا یک نشانی انتخاب کنید
+please select the number of days to wait between responses	mail	fa	لطفا تعداد روزها برای انتظار مابین پاسخها را انتخاب کنید
+please supply the message to send with auto-responses	mail	fa	لطفا پیامی را برای ارسال پاسخ خودکار تعیین کنید
+quicksearch	mail	fa	جستجوی سریع
+refresh time in minutes	mail	fa	زمان بازخوانی به دقیقه
+remove all	mail	fa	حذف همه
+remove immediately	mail	fa	فورا حذف شود
+rename folder	mail	fa	تغییر نام پوشه
+replied	mail	fa	پاسخ داده شده
+reply	mail	fa	پاسخ
+reply all	mail	fa	پاسخ به همه
+reply to	mail	fa	پاسخ به
+replyto	mail	fa	پاسخ به
+save all	mail	fa	ذخیره کردن همه
+select all	mail	fa	انتخاب همه
+sent folder	mail	fa	پوشه ارسال شده
+signature	mail	fa	امضاء
+size(...->0)	mail	fa	اندازه (...->0)
+size(0->...)	mail	fa	اندازه (0->...)
+small view	mail	fa	نمای کوچک
+sort order	mail	fa	ترتیب مرتب سازی
+subject(a->z)	mail	fa	موضوع (A->Z)
+subject(z->a)	mail	fa	موضوع (Z->A)
+text	mail	fa	متن
+the mimeparser can not parse this message.	mail	fa	تشخیص دهنده نوع فایل قادر به تشخیص این پیام نیست
+then	mail	fa	سپس
+trash folder	mail	fa	پوشه بازیافت
+unflagged	mail	fa	بی علامت
+unread	mail	fa	خوانده نشده
+vacation notice	mail	fa	آگهی بیکاری
+when deleting messages	mail	fa	وقتی پیامی حذف می شود
+write	mail	fa	نوشتن
+wrote	mail	fa	نوشته شده

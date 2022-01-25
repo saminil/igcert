@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="addressbook.index.rows" template="" lang="" group="0" version="1.9.005">
+		<grid width="100%">
+			<columns>
+				<column width="20"/>
+				<column width="40%" minWidth="150"/>
+				<column width="70"/>
+				<column width="100"/>
+				<column width="60"/>
+				<column width="80"/>
+				<column width="180"/>
+				<column width="180"/>
+				<column width="180"/>
+				<column width="180"/>
+				<column width="40"/>
+				<column width="80" disabled="@no_customfields"/>
+				<column width="60%" minWidth="100"/>
+				<column width="80" disabled="@no_distribution_list"/>
+				<column width="80"/>
+				<column width="50"/>
+				<column width="80" disabled="@no_event_column"/>
+				<column width="120"/>
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-header label="Type" id="type"/>
+					<grid spacing="0" padding="0">
+						<columns>
+							<column/>
+							<column/>
+						</columns>
+						<rows>
+							<row disabled="!@order=n_fileas">
+								<nextmatch-sortheader label="own sorting" id="n_fileas" span="all"/>
+							</row>
+							<row disabled="!@order=n_given">
+								<nextmatch-sortheader label="Firstname" id="n_given"/>
+								<nextmatch-sortheader label="Name" id="n_family"/>
+							</row>
+							<row disabled="!@order=n_family">
+								<nextmatch-sortheader label="Name" id="n_family"/>
+								<nextmatch-sortheader label="Firstname" id="n_given"/>
+							</row>
+							<row>
+								<nextmatch-sortheader label="Organisation" id="org_name" span="all"/>
+							</row>
+							<row disabled="!@order=/^(org_name|n_fileas|adr_one_postalcode|contact_modified|contact_created|#)/">
+								<nextmatch-sortheader label="Name" id="n_family"/>
+								<nextmatch-sortheader label="Firstname" id="n_given" class="leftPad5"/>
+							</row>
+							<row disabled="@order=n_fileas">
+								<nextmatch-sortheader label="own sorting" id="n_fileas" span="all"/>
+							</row>
+						</rows>
+					</grid>
+					<nextmatch-header label="role" id="role"/>
+					<nextmatch-header label="Category" id="cat_id"/>
+					<nextmatch-header label="Photo" id="photo"/>
+					<nextmatch-header label="Birthday" id="bday"/>
+					<vbox>
+						<nextmatch-header label="Business address" id="business"/>
+						<nextmatch-customfilter id="adr_one_countrycode" options="select-country" type="select-country" width="100px" tags="true" empty_label="Country" class="countrySelect"/>
+						<nextmatch-sortheader label="zip code" id="adr_one_postalcode"/>
+					</vbox>
+					<vbox>
+						<nextmatch-header label="Home address" id="home"/>
+						<nextmatch-customfilter id="adr_two_countrycode" options="select-country" type="select-country" tags="true" empty_label="Country" class="countrySelect"/>
+						<nextmatch-sortheader label="zip code" id="adr_two_postalcode"/>
+					</vbox>
+					<vbox>
+						<nextmatch-header label="Business phone" id="tel_work"/>
+						<nextmatch-header label="Mobile phone" id="tel_cell"/>
+						<nextmatch-header label="Home phone" id="tel_home"/>
+						<description value="Fax"/>
+					</vbox>
+					<vbox>
+						<nextmatch-header label="Url" id="url"/>
+						<nextmatch-header label="Business email" id="email"/>
+						<nextmatch-header label="Home email" id="email_home"/>
+					</vbox>
+					<nextmatch-header label="Room" id="room"/>
+					<nextmatch-customfields id="customfields"/>
+					<nextmatch-header label="Note" id="note"/>
+					<nextmatch-header label="Distribution lists" id="distribution_list"/>
+					<vbox>
+						<nextmatch-header label="Addressbook" id="owner"/>
+						<nextmatch-accountfilter empty_label="Shared with" id="shared_with" account_type="both"/>
+					</vbox>
+					<nextmatch-sortheader label="ID" id="contact_id"/>
+					<vbox>
+						<nextmatch-header label="Last date" id="calendar"/>
+						<nextmatch-header label="Next date" id="calendar"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="Created" id="contact_created" sortmode="DESC"/>
+						<nextmatch-sortheader label="Last modified" id="contact_modified" sortmode="DESC"/>
+					</vbox>
+				</row>
+				<row class="$row_cont[class] $row_cont[cat_id]" valign="top">
+					<image align="center" label="$row_cont[type_label]" src="${row}[type]" no_lang="1"/>
+					<vbox id="${row}[id]">
+						<description id="${row}[line1]" no_lang="1"/>
+						<description id="${row}[line2]" no_lang="1"/>
+						<description id="${row}[org_unit]" no_lang="1"/>
+						<description id="${row}[title]" no_lang="1"/>
+						<description id="${row}[first_org]" no_lang="1"/>
+					</vbox>
+					<description id="${row}[role]"/>
+					<listbox type="select-cat" id="${row}[cat_id]" readonly="true" rows="2"/>
+					<box>
+						<hbox class="avatar">
+							<lavatar src="${row}[photo]" contact_id="$row_cont[id]" class="iphoto" lname="$row_cont[n_family]" fname="$row_cont[n_given]"/>
+						</hbox>
+					</box>
+					<date id="${row}[bday]" readonly="true" options="Y-m-d"/>
+					<vbox>
+						<description id="${row}[adr_one_street]" no_lang="1"/>
+						<description id="${row}[adr_one_street2]" no_lang="1"/>
+						<hbox>
+							<description id="${row}[adr_one_postalcode]" no_lang="1"/>
+							<description value=" " id="${row}[adr_one_locality]" no_lang="1" class="leftPad5"/>
+							<description id="${row}[adr_one_region]" no_lang="1" class="leftPad5"/>
+						</hbox>
+						<description id="${row}[adr_one_countryname]" no_lang="1"/>
+						<select-country id="${row}[adr_one_countrycode]" readonly="true"/>
+					</vbox>
+					<vbox>
+						<description id="${row}[adr_two_street]" no_lang="1"/>
+						<description id="${row}[adr_two_street2]" no_lang="1"/>
+						<hbox>
+							<description id="${row}[adr_two_postalcode]" no_lang="1"/>
+							<description value=" " id="${row}[adr_two_locality]" no_lang="1" class="leftPad5"/>
+							<description id="${row}[adr_two_region]" no_lang="1" class="leftPad5"/>
+						</hbox>
+						<description id="${row}[adr_two_countryname]" no_lang="1"/>
+						<menulist>
+							<menupopup type="select-country" id="${row}[adr_two_countrycode]" readonly="true"/>
+						</menulist>
+					</vbox>
+					<vbox>
+						<url-phone id="${row}[tel_work]" readonly="true" class="telNumbers" statustext="Business phone"/>
+						<url-phone id="${row}[tel_cell]" readonly="true" class="telNumbers" statustext="Mobile phone"/>
+						<url-phone id="${row}[tel_home]" readonly="true" class="telNumbers" statustext="Home phone"/>
+						<url-phone id="${row}[tel_cell_private]" readonly="true" class="telNumbers" statustext="Mobile phone (private)"/>
+						<url-fax id="${row}[tel_fax]" readonly="true" statustext="Fax"/>
+						<url-phone id="${row}[tel_prefered]" readonly="true" class="telNumbers" statustext="$row_cont[tel_prefer_label]"/>
+					</vbox>
+					<vbox>
+						<url id="${row}[url]" readonly="true" class="fixedHeight"/>
+						<url-email id="${row}[email]" readonly="true" class="fixedHeight"/>
+						<url-email id="${row}[email_home]" readonly="true" class="fixedHeight"/>
+					</vbox>
+					<description id="${row}[room]"/>
+					<customfields-list id="$row" class="customfields"/>
+					<textbox multiline="true" id="${row}[note]" no_lang="1" readonly="true"/>
+					<description id="${row}[distrib_lists]"/>
+					<vbox>
+						<select-account id="${row}[owner]" readonly="true"/>
+						<select-account id="${row}[shared_with]" readonly="true" multiple="true"/>
+					</vbox>
+					<description id="${row}[id]" class="contactid"/>
+					<vbox>
+						<link id="${row}[last_link]"/>
+						<link id="${row}[next_link]"/>
+					</vbox>
+					<vbox>
+						<date-time id="${row}[created]" readonly="true" class="noWrap"/>
+						<select-account id="${row}[creator]" readonly="true"/>
+						<date-time id="${row}[modified]" readonly="true" class="noBreak"/>
+						<select-account id="${row}[modifier]" readonly="true"/>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="addressbook.index.left" template="" lang="" group="0" version="1.7.001">
+		<buttononly align="right" statustext="Add a new contact" id="add" onclick="egw(window).openPopup(egw::link('/index.php','menuaction=addressbook.addressbook_ui.edit'),'870','610','_blank','addressbook',null,true); return false;"/>
+	</template>
+	<template id="addressbook.index.row" template="" lang="" group="0" version="1.3.001">
+		<buttononly align="right" statustext="Advanced search" image="advanced-search" background_image="1" id="advanced-search" onclick="egw(window).openPopup(egw::link('/index.php','menuaction=addressbook.addressbook_ui.search'),'870','610','_blank','addressbook',null,true); return false;"/>
+		<select statustext="Select a view" id="grouped_view" no_lang="1" rows="1" empty_label="All contacts" onchange="app.addressbook.change_grouped_view"/>
+	</template>
+	<template id="addressbook.index.right" template="" lang="" group="0" version="1.7.001">
+		<select align="right" id="col_filter[tid]" empty_label="All types"/>
+	</template>
+	<template id="addressbook.index" template="" lang="" group="0" version="1.9.002">
+		<nextmatch id="nm" template="addressbook.index.rows" span="all" header_left="addressbook.index.left" header_row="addressbook.index.row" header_right="addressbook.index.right"/>
+	</template>
+</overlay>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="calendar.list.rows" template="" lang="" group="0" version="1.7.001">
+		<grid width="100%">
+			<columns>
+				<column width="120"/>
+				<column width="40%"/>
+				<column width="20%"/>
+				<column width="20%"/>
+				<column width="120"/>
+				<column width="10%"/>
+				<column width="120"/>
+				<column width="10%"/>
+				<column width="5%"/>
+				<column width="5%"/>
+				<column width="30%"/>
+			</columns>
+			<rows>
+				<row class="th">
+					<vbox>
+						<nextmatch-sortheader label="Start" id="cal_start"/>
+						<nextmatch-sortheader id="cal_end" label="End"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="Title" id="cal_title"/>
+						<nextmatch-sortheader label="Description" id="cal_description"/>
+					</vbox>
+					<nextmatch-sortheader label="Title" id="cal_title"/>
+					<nextmatch-sortheader label="Description" id="cal_description"/>
+					<nextmatch-sortheader label="Recurrence" id="recure"/>
+					<nextmatch-header label="Project" id="pm_id"/>
+					<nextmatch-header label="Category" id="cat_id"/>
+					<vbox>
+						<nextmatch-sortheader id="cal_owner" label="Owner" readonly="true"/>
+						<nextmatch-sortheader id="cal_location" label="Location"/>
+					</vbox>
+					<nextmatch-sortheader id="cal_owner" label="Owner" readonly="true"/>
+					<nextmatch-sortheader id="cal_location" label="Location"/>
+					<nextmatch-accountfilter options="All" id="participant" label="Participants"/>
+				</row>
+				<row class="row" valign="top">
+					<vbox id="start">
+						<date-time id="${row}[start]" readonly="true" options=",$cont[format]" class="noWrap"/>
+						<date-time id="${row}[end]" readonly="true" options=",$cont[format]" class="noWrap"/>
+					</vbox>
+					<vbox>
+						<description id="${row}[title]" readonly="true" no_lang="1" options="b"/>
+						<description id="${row}[description]" no_lang="1"/>
+						<description id="${row}[recure]" no_lang="1"/>
+					</vbox>
+					<description id="${row}[title]"/>
+					<description id="${row}[description]" no_lang="1"/>
+					<description id="${row}[recure]"/>
+					<link-string options="calendar,projectmanager" id="${row}[id]"/>
+					<menulist>
+						<menupopup type="select-cat" id="${row}[category]" readonly="true"/>
+					</menulist>
+					<vbox>
+						<menulist class="noWrap">
+							<menupopup type="select-account" id="${row}[owner]" readonly="true"/>
+						</menulist>
+						<description id="${row}[location]" no_lang="1"/>
+					</vbox>
+					<menulist class="noWrap">
+						<menupopup type="select-account" id="${row}[owner]" readonly="true"/>
+					</menulist>
+					<description id="${row}[location]" no_lang="1"/>
+					<html id="${row}[parts]" readonly="true" no_lang="1"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

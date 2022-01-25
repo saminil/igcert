@@ -1,0 +1,931 @@
+%1 email addresses inserted	common	fa	%1 آدرس رایانامه وارد شده
+%1 is not executable by the webserver !!!	common	fa	%1 قابل اجرا توسط وب سرور نمی باشد !!!
+%1egroupware%2 is a multi-user, web-based groupware suite written in %3php%4.	common	fa	%1گروه افزار%2 یک محیط کارمشترک مبتنی بر وب و چند کاربره است که در %3PHP%4نوشته شده است.
+00 (disable)	admin	fa	(غیر فعال) ۰۰
+1 day	common	fa	یک روز
+1 hour	common	fa	یک ساعت
+1 month	common	fa	یک ماه
+1 week	common	fa	یک هفته
+13 (ntp)	admin	fa	13 (ntp)
+80 (http)	admin	fa	80 (http)
+about	common	fa	درباره
+about %1	common	fa	درباره %1
+about egroupware	common	fa	درباره گروه افزار
+access	common	fa	دست یابی
+access not permitted	common	fa	اجازه دستیابی وجود ندارد
+account has been created	common	fa	حساب ايجاد شده است
+account has been deleted	common	fa	حساب حذف شده است
+account has been updated	common	fa	حساب ويرايش شده است
+account is expired	common	fa	حساب منقضی شده است
+acl	common	fa	لیست کنترل دسترسی
+action	common	fa	عمل
+actions	common	fa	اعمال
+active	common	fa	فعال
+add	common	fa	افزودن
+add %1 category for	common	fa	افزودن %1 دسته برای
+add category	common	fa	افزودن دسته
+add shortcut	common	fa	افزودن میانبر
+add sub	common	fa	افزودن زیرمجموعه
+addressbook	common	fa	اطلاعات اشخاص
+admin	common	fa	مدیر
+administration	common	fa	اداره
+afghanistan	common	fa	افغانستان
+albania	common	fa	آلبانی
+algeria	common	fa	الجزاير
+all	common	fa	همه
+all fields	common	fa	همه فیلدها
+all languages	common	fa	همه زبانها
+alphabet	common	fa	ا,آ,ب,پ,ت,ث,ج,چ,ح,خ,د,ذ,ر,ز,ژ,س,ش,ص,ض,ط,ظ,ع,غ,ف,ق,ک,گ,ل,م,ن,و,ه,ی
+alternate style-sheet:	common	fa	برگه سبک دیگر:
+and	common	fa	و
+andorra	common	fa	آندورا
+angola	common	fa	آنگولا
+application	common	fa	برنامه
+apply	common	fa	اعمال
+april	common	fa	آوريل
+are you sure you want to delete these entries ?	common	fa	آيا شما مطمئن هستيد که می خواهيد اين وروديها را حذف کنيد
+are you sure you want to delete this entry ?	common	fa	آيا شما مطمئن هستيد که می خواهيد اين ورودی را حذف کنيد
+argentina	common	fa	آرژانتين
+armenia	common	fa	ارمنستان
+august	common	fa	آگوست
+australia	common	fa	استراليا
+austria	common	fa	اتريش
+author	common	fa	ناشر
+autohide sidebox menu's	common	fa	پنهان سازی خودکار فهرست کناری
+autohide sidebox menus	common	fa	پنهان سازی خودکار فهرست کناری
+automatically hide the sidebox menu's?	common	fa	فهرست کناری بطور خودکار پنهان شود؟
+automatically hide the sidebox menus?	common	fa	فهرست کناری بطور خودکار پنهان شود؟
+autosave default category	common	fa	ذخیره خودکار دسته پیش فرض
+azerbaijan	common	fa	آذربايجان
+back	common	fa	بازگشت
+back to user login	common	fa	بازگشت به ورودی کاربر
+background color:	common	fa	رنگ پس زمینه:
+backupdir '%1' is not writeable by the webserver	common	fa	پوشه پشتیبان '%1' بوسیله کارگزار وب قابل نوشتن نیست
+bad login or password	common	fa	نام کاربری یا رمزعبور اشتباه
+bahrain	common	fa	بحرين
+bangladesh	common	fa	بنگلادش
+bcc	common	fa	رونوشت مخفی
+blocked, too many attempts	common	fa	بلاک شده، تلاش زياد
+bold	common	fa	درشت
+border	common	fa	کادر
+bosnia and herzegovina	common	fa	بوسنی و هرز گوين
+bottom	common	fa	پایین
+brazil	common	fa	برزيل
+bulgaria	common	fa	بلغارستان
+calendar	common	fa	تقویم
+cameroon	common	fa	کامرون
+canada	common	fa	کانادا
+cancel	common	fa	بستن
+cannot replace %1 because it is a directory	common	fa	%1 را نمی توانم جایگزین کنم چون پوشه است
+cant open '%1' for %2	common	fa	نمیتوانم '%1' را برای %2 باز کنم
+caption	common	fa	عنوان
+categories	common	fa	دسته ها
+categories for	common	fa	دسته ها برای
+category	common	fa	دسته
+category %1 has been added !	common	fa	دسته 1% اضافه شده است
+category %1 has been updated !	common	fa	دسته 1% به روز رسانی شده است
+cc	common	fa	رونوشت
+centered	common	fa	وسط
+central african republic	common	fa	جمهوری آفريقای مرکزی
+change	common	fa	تغییر
+charset	common	fa	UTF-8
+check installation	common	fa	بررسی نصب
+check now	common	fa	حالا بررسی شود
+chile	common	fa	شيلی
+china	common	fa	چين
+choose a background color	common	fa	یک رنگ زمینه انتخاب کنید
+choose a background color for the icons	common	fa	یک رنگ زمینه برای نمایه ها انتخاب کنید
+choose a background image.	common	fa	یک تصویر برای زمینه انتخاب کنید
+choose a background style.	common	fa	یک سبک برای زمینه انتخاب کنید
+choose a text color for the icons	common	fa	یک رنگ قلم برای نمایه ها انتخاب کنید
+choose the category	common	fa	دسته را انتخاب کنيد
+choose the parent category	common	fa	دسته والد را انتخاب کنيد
+clear	common	fa	پاک کردن
+clear form	common	fa	پاک کردن فرم
+click	common	fa	کلیک
+click or mouse over to show menus	common	fa	برای نمایش فهرستها کلیک شود یا موشواره روی آن برود
+click or mouse over to show menus?	common	fa	برای نمایش فهرستها کلیک شود یا موشواره روی آن برود؟
+close	common	fa	بستن
+close sidebox	common	fa	بستن جعبه کناری
+colombia	common	fa	کلمبيا
+common preferences	common	fa	تنظیمات عمومی
+company	common	fa	شرکت
+congo	common	fa	کنگو
+congo, the democratic republic of the	common	fa	کنگو، جمهوری دموکراتيک
+contacting server...	common	fa	تماس با کارگزار
+copy	common	fa	نسخه برداری
+costa rica	common	fa	کاستاريکا
+could not contact server. operation timed out!	common	fa	ناتوان از تماس با کارگزار. عملیات خارج از زمان شد
+create	common	fa	ایجاد
+created by	common	fa	ایجاد شده توسط
+cuba	common	fa	کوبا
+currency	common	fa	پول رایج
+current	common	fa	جاری
+current users	common	fa	کاربران جاری
+date	common	fa	تاریخ
+date due	common	fa	تاریخ انجام
+december	common	fa	دسامبر
+default category	common	fa	دسته پيش فرض
+default height for the windows	common	fa	ارتفاع پیش فرض برای پنجره ها
+default width for the windows	common	fa	عرض پیش فرض برای پنجره ها
+delete	common	fa	حذف
+delete category	common	fa	حذف دسته
+delete row	common	fa	حذف سطر
+delete this entry	common	fa	حذف این ورودی
+denmark	common	fa	دانمارک
+description	common	fa	توصيف
+detail	common	fa	شرح
+details	common	fa	جزئیات
+direction left to right	common	fa	جهت چپ به راست
+directory	common	fa	پوشه
+disable internet explorer png-image-bugfix	common	fa	غیر فعال کردن png-image-bugfix در برنامه Internet Explorer
+disable slider effects	common	fa	غیر فعال کردن جلوه های فهرست
+disable the execution a bugfixscript for internet explorer 5.5 and higher to show transparency in png-images?	common	fa	غیر فعال کردن اجرای نویسه های رفع خطا برای IE 5.5 و بالاتر که بتواند شفافیت در تصاویر PNG را نمایش دهد.
+disabled	common	fa	غیر فعال شده
+do you also want to delete all subcategories ?	common	fa	آيا شما همچنين می خواهيد همه زير دسته ها را حذف کنيد
+doctype:	common	fa	نوع سند:
+document properties	common	fa	ویژگی سند
+document title:	common	fa	عنوان سند
+domain	common	fa	دامنه
+domain name for mail-address, eg. "%1"	common	fa	نام حوزه برای نشانی نامه الکترونیکی، مثلا:"%1"
+domestic	common	fa	خانگی
+done	common	fa	انجام شد
+download	common	fa	دریافت
+e-mail	common	fa	رایانامه
+edit	common	fa	ویراستن
+edit %1 category for	common	fa	ويراستن 1% دسته برای
+edit categories	common	fa	ويراستن دسته ها
+edit category	common	fa	ويراستن دسته
+egroupware: login blocked for user '%1', ip %2	common	fa	ورود برای کاربر '%1' با آدرس  شبکه %2 قفل شده
+egypt	common	fa	مصر
+el salvador	common	fa	السالوادر
+email	common	fa	رایانامه
+email-address of the user, eg. "%1"	common	fa	آدرس رایانامه کاربر، به عنوان مثال1%
+enabled	common	fa	فعال شده
+end date	common	fa	تاریخ پایان
+end time	common	fa	زمان پایان
+entry has been deleted sucessfully	common	fa	وارده با موفقيت حذف شده است
+entry updated sucessfully	common	fa	وارده با موفقيت به روز رسانی شده است
+error	common	fa	خطا
+error creating %1 %2 directory	common	fa	خطای ايجاد 1% 2% پوشه
+error deleting %1 %2 directory	common	fa	خطای حذف 1% 2% پوشه
+error renaming %1 %2 directory	common	fa	خطای دوباره نامگذاری 1% 2% پوشه
+exact	common	fa	دقیقا
+failed to change password.	common	fa	ناتوان از تغییر گذرواژه. لطفا با مدیر سیستم تماس بگیرید
+fax number	common	fa	شماره نمابر
+february	common	fa	فوريه
+fields	common	fa	فیلدها
+fiji	common	fa	فیجی
+files	common	fa	پرونده ها
+filter	common	fa	صافی
+first name	common	fa	نام
+first name of the user, eg. "%1"	common	fa	نام کوچک کاربر، به عنوان مثال"1%"
+first page	common	fa	صفحه اول
+firstname	common	fa	نام کوچک
+folder already exists.	common	fa	پوشه وجود دارد
+force selectbox	common	fa	حتما جعبه انتخاب باشد
+forever	common	fa	همیشگی
+france	common	fa	فرانسه
+friday	common	fa	جمعه
+ftp	common	fa	پروتکل انتقال پرونده (FTP)
+fullname	common	fa	نام کامل
+fullscreen mode	common	fa	شیوه تمام صفحه
+general menu	common	fa	فهرست عمومی
+german	common	fa	آلمانی
+germany	common	fa	آلمان
+global	common	fa	عمومی
+global public	common	fa	عمومی
+grant access	common	fa	دسترسی دادن
+greece	common	fa	يونان
+group	common	fa	گروه
+group access	common	fa	دستيابی گروه
+group has been added	common	fa	گروه اضافه شده است
+group has been deleted	common	fa	گروه حذف شده است
+group has been updated	common	fa	گروه به روز رسانی شده است
+group name	common	fa	نام گروه
+group public	common	fa	گروه عمومی
+groups	common	fa	گروهها
+groups with permission for %1	common	fa	گروهها با اجازه برای %1
+groups without permission for %1	common	fa	گروهها بدون اجازه برای %1
+haiti	common	fa	هائیتی
+height	common	fa	ارتفاع
+help	common	fa	کمک
+high	common	fa	بالا
+highest	common	fa	بالاترین
+home	common	fa	خانه
+home email	common	fa	رایانامه خانه
+honduras	common	fa	هندوراس
+hong kong	common	fa	هنگ کنگ
+how many icons should be shown in the navbar (top of the page). additional icons go into a kind of pulldown menu, callable by the icon on the far right side of the navbar.	common	fa	چند نمایه در ناوبری اصلی بالای صفحه باید نمایش داده شوند. نمایه های اضافی در فهرست پایین افتادنی قرار خواهند گرفت که از طریق یک فلش کوچک (در ابتدا یا انتهای نوار ناوبری) قابل دسترس می باشند.
+iceland	common	fa	ايسلند
+image url	common	fa	نشانی URL تصویر
+india	common	fa	هند
+indonesia	common	fa	اندونزی
+insert all %1 addresses of the %2 contacts in %3	common	fa	درج همه %1 نشانی ها از %2 مخاطب در %3
+insert column after	common	fa	درج ستون بعد از
+insert column before	common	fa	درج ستون قبل از
+insert row after	common	fa	درج سطر بعد از
+insert row before	common	fa	درج سطر قبل از
+international	common	fa	بين المللی
+invalid filename	common	fa	نام پرونده نامعتبر
+invalid ip address	common	fa	آدرسIP  نا معتبر
+invalid password	common	fa	رمز عبور نامعتبر
+iran, islamic republic of	common	fa	جمهوری اسلامی ایران
+iraq	common	fa	عراق
+ireland	common	fa	ايرلند
+israel	common	fa	اسرائيل
+it has been more then %1 days since you changed your password	common	fa	بیش از %1 روز از تغییر گذرواژه شما میگذرد
+it is recommended that you run setup to upgrade your tables to the current version	common	fa	توصیه می شود برنامه برپاسازی را اجرا کنید تا جداولتان به نسخه جاری بهنگام شوند
+italic	common	fa	مورب
+january	common	fa	ژانویه
+july	common	fa	جولای
+jun	common	fa	جون
+june	common	fa	ژوئن
+justify center	common	fa	تنظیم دوطرفه از وسط
+justify full	common	fa	تنظیم دوطرفه کامل
+justify left	common	fa	تنظیم دوطرفه از چپ
+justify right	common	fa	تنظیم دوطرفه از راست
+kazakstan	common	fa	قزاقستان
+kenya	common	fa	کنیا
+keywords	common	fa	کلیدواژه
+korea, republic of	common	fa	جمهوری کره
+kuwait	common	fa	کویت
+language	common	fa	زبان
+last modified	common	fa	آخرین تغییرات
+last name	common	fa	نام خانوادگی
+last name of the user, eg. "%1"	common	fa	نام خانوادگی کاربر مثلا:"%1"
+last page	common	fa	صفحه آخر
+lastname	common	fa	نام خانوادگی
+lebanon	common	fa	لبنان
+left	common	fa	چپ
+license	common	fa	مجوز
+list	common	fa	فهرست
+list members	common	fa	فهرست اعضا
+load	common	fa	بارگذاری
+local	common	fa	محلی
+login	common	fa	ورود
+loginid	common	fa	شناسه کاربری
+logout	common	fa	خروج
+lost login id	common	fa	فراموشی شناسه کاربری
+lost password	common	fa	فراموشی گذرواژه
+low	common	fa	کم
+lowest	common	fa	کمترین
+luxembourg	common	fa	لوکزامبورگ
+madagascar	common	fa	ماداگاسکار
+mail domain, eg. "%1"	common	fa	حوزه پستی مثلا:"%1"
+main category	common	fa	دسته اصلی
+home screen	common	fa	صفحه اصلی
+maintainer	common	fa	نگهدارنده
+malaysia	common	fa	مالزی
+march	common	fa	مارس
+max number of icons in navbar	common	fa	حداکثر نمایه هایی که در نوار ناوبری نمایش داده می شوند
+may	common	fa	می
+medium	common	fa	میانه
+menu	common	fa	(فهرست)
+message	common	fa	پیغام
+minute	common	fa	دقیقه
+monaco	common	fa	موناکو
+monday	common	fa	دوشنبه
+multiple	common	fa	چندتائی
+myanmar	common	fa	میانمار
+name	common	fa	نام
+name of the user, eg. "%1"	common	fa	نام کاربر مثلا:"%1"
+namibia	common	fa	نامیبیا
+nepal	common	fa	نپال
+never	common	fa	هرگز
+new entry added sucessfully	common	fa	ورودی جدید با موفقیت اضافه شد
+new main category	common	fa	دسته اصلی جدید
+new value	common	fa	مقدار جدید
+new zealand	common	fa	نیوزیلند
+next	common	fa	بعدی
+next page	common	fa	صفحه بعدی
+nicaragua	common	fa	نیکاراگوئه
+niger	common	fa	نیجر
+nigeria	common	fa	نیجریه
+no	common	fa	خیر
+no - cancel	common	fa	نه - لغو
+no entries found, try again ...	common	fa	ورودی پیدا نشد، مجددا سعی کنید
+no history for this record	common	fa	برای این رکورد سابقه ای نیست
+no savant2 template directories were found in:	common	fa	پوشه قالب Savant2 پیدا نشد
+no subject	common	fa	بدون عنوان
+none	common	fa	هیچکدام
+normal	common	fa	معمولی
+norway	common	fa	نروژ
+not	common	fa	دیگر
+not a user yet? register now	common	fa	شناسه کاربری ندارید؟ هم اکنون ثبت نام کنید.
+not assigned	common	fa	اختصاص نیافته
+note	common	fa	یادداشت
+notes	common	fa	یادداشتها
+notifications	common	fa	افراد/گروههای مرتبط
+notify window	common	fa	پنجره نکته
+notify your administrator to correct this situation	common	fa	به مدیر سیستم برای رفع این مشکل خبر دهید
+november	common	fa	نوامبر
+october	common	fa	اکتبر
+ok	common	fa	تأیید
+old value	common	fa	مقدار قبلی
+oman	common	fa	عمان
+on *nix systems please type: %1	common	fa	روی سیستمهای nix* لطفا تایپ کنید: %1
+on mouse over	common	fa	وقتی موشواره رو قرار می گیرد
+only private	common	fa	فقط خصوصی
+only yours	common	fa	فقط برای شما
+open	common	fa	کارهای باز
+open notify window	common	fa	باز کردن پنجره آگاهی
+open popup window	common	fa	باز کردن پنجره جدا
+open sidebox	common	fa	باز کردن جعبه کناری
+or	common	fa	یا
+ordered list	common	fa	لیست مرتب شده
+original	common	fa	اصلی
+other	common	fa	دیگر
+overview	common	fa	مرور
+owner	common	fa	مالک
+page	common	fa	صفحه
+page was generated in %1 seconds	common	fa	صفحه در %1 ثانیه ایجاد شد
+pakistan	common	fa	پاکستان
+panama	common	fa	پاناما
+parcel	common	fa	جعبه پستی
+parent category	common	fa	دسته والد
+password	common	fa	گذرواژه
+password could not be changed	common	fa	گذرواژه نمی تواند عوض شود
+password has been updated	common	fa	گذرواژه بهنگام شد
+password must contain at least %1 lowercase letters	common	fa	گذرواژه باید حداقل %1 حرف کوچک داشته باشد
+password must contain at least %1 numbers	common	fa	گذرواژه باید حداقل %1 عدد داشته باشد
+password must contain at least %1 uppercase letters	common	fa	گذرواژه باید حداقل %1 حرف بزرگ داشته باشد
+password must have at least %1 characters	common	fa	گذرواژه باید حداقل %1 کاراکتر داشته باشد
+path to user and group files has to be outside of the webservers document-root!!!	common	fa	مسیر به پرونده های گروه و کاربر باید خارج از مسیر اصلی کارگزار وب باشد
+permissions to the files/users directory	common	fa	مجوزها به پوشه پرونده ها / کاربران
+personal	common	fa	شخصی
+peru	common	fa	پرو
+philippines	common	fa	فیلیپین
+phone number	common	fa	شماره تلفن
+please %1 by hand	common	fa	لطفا %1 را دستی انجام دهید
+please enter a name	common	fa	لطفا یک نام وارد کنید!
+please run setup to become current	common	fa	لطفا برپاسازی را اجرا کنید تا جاری شوید
+please select	common	fa	لطفا انتخاب کنید
+please set your global preferences	common	fa	لطفا تنظیمات عمومی خود را انجام دهید
+please set your preferences for this application	common	fa	لطفا تنظیمات خود را برای این برنامه انجام دهید
+please wait...	common	fa	لطفا صبر کنید...
+popup with search	common	fa	پایین افتادنی با جستجو
+portugal	common	fa	پرتغال
+postal	common	fa	پستی
+preferences	common	fa	تنظیمات
+previous page	common	fa	صفحه قبلی
+primary group	common	fa	گروه اولیه
+primary style-sheet:	common	fa	برگ سبک اولیه:
+print	common	fa	چاپ
+priority	common	fa	اولویت
+private	common	fa	خصوصی
+programs	common	fa	برنامه ها
+project	common	fa	پروژه
+public	common	fa	عمومی
+qatar	common	fa	قطر
+read	common	fa	خواندن
+read this list of methods.	common	fa	این لیست شیوه ها را بخوانید
+reading	common	fa	در حال خواندن
+register	common	fa	ثبت نام
+reject	common	fa	رد کردن
+remember me	common	fa	ورود را حفظ کن
+remove selected accounts	common	fa	حسابهای انتخاب شده را حذف کن
+remove shortcut	common	fa	میانبر را حذف کن
+rename	common	fa	تغییر نام
+replace	common	fa	جابجایی
+replace with	common	fa	جابجایی با
+resources	common	fa	منابع
+restore failed	common	fa	ناموفق در بازگرداندن
+returns a full list of accounts on the system.  warning: this is return can be quite large	common	fa	لیست کامل حسابهای موجود روی سیستم. هشدار این لیست ممکن است بزرگ و طولانی باشد
+returns an array of todo items	common	fa	آرایه ای از موارد انجام کار بر می گرداند
+returns struct of users application access	common	fa	ساختار دسترسی به برنامه ها را بر می گرداند
+right	common	fa	راست
+romania	common	fa	رومانی
+saturday	common	fa	شنبه
+save	common	fa	ذخیره
+search	common	fa	جستجو
+search %1 '%2'	common	fa	جستجوی %1 '%2'
+search accounts	common	fa	جستجوی حسابها
+search or select accounts	common	fa	جستجو یا انتخاب حسابها
+second	common	fa	ثانیه
+section	common	fa	بخش
+select	common	fa	انتخاب
+select all	common	fa	انتخاب همه
+select all %1 %2 for %3	common	fa	همه %1 %2 ها را برای %3 انتخاب کن
+select category	common	fa	انتخاب دسته
+select date	common	fa	انتخاب تاریخ
+select group	common	fa	انتخاب گروه
+select home email address	common	fa	انتخاب نشانی رایانامه خانه
+select multiple accounts	common	fa	انتخاب چند حساب
+select one	common	fa	یکی را انتخاب کن
+select the default height for the application windows	common	fa	ارتفاع پیش فرض برای پنجره برنامه را انتخاب کنید
+select the default width for the application windows	common	fa	عرض پیش فرض برای پنجره برنامه را انتخاب کنید
+select user	common	fa	انتخاب کاربر
+select work email address	common	fa	انتخاب نشانی نامه الکترونیک کاری
+selection	common	fa	انتخاب
+send	common	fa	ارسال
+senegal	common	fa	سنگال
+september	common	fa	سپتامبر
+server %1 has been added	common	fa	کارگزار %1 اضافه شد
+server answered. processing response...	common	fa	کارگزار پاسخ داد، در حال پردازش پاسخ...
+server contacted. waiting for response...	common	fa	کارگزار متصل شد، منتظر پاسخ ...
+server name	common	fa	نام میزبان
+session has been killed	common	fa	نشست از بین رفت
+setup	common	fa	نصب
+setup main menu	common	fa	فهرست اصلی نصب
+show all	common	fa	همه را نشان بده
+show all categorys	common	fa	نمایش همه دسته ها
+show clock?	common	fa	نمایش ساعت؟
+show home and logout button in main application bar?	common	fa	نمایش دکمه های خروج و خانه در نوار اصلی برنامه؟
+show logo's on the desktop.	common	fa	نمایش لوگو روی رومیزی
+show menu	common	fa	فهرست را نشان بده
+show page generation time	common	fa	زمان تولید صفحه را نشان بده
+show page generation time on the bottom of the page?	common	fa	نمایش زمان ایجاد صفحه در پایین هر صفحه؟
+show page generation time?	common	fa	نمایش زمان ایجاد صفحه
+show the logo's of egroupware and x-desktop on the desktop.	common	fa	نمایش لوگوی گروه افزار و x-desktop روی رومیزی
+show_more_apps	common	fa	نمایش کاربردهای بیشتر
+showing %1	common	fa	درحال نشان دادن %1
+showing %1 - %2 of %3	common	fa	نمایش %1 - %2 از %3
+site configuration	common	fa	پیکربندی سایت
+size	common	fa	اندازه
+slovakia	common	fa	اسلوواکی
+somalia	common	fa	سومالی
+sorry, your login has expired	login	fa	متأسفم ورود شما منقضی شد
+spain	common	fa	اسپانیا
+sri lanka	common	fa	سریلانکا
+start date	common	fa	تاریخ شروع
+start time	common	fa	زمان شروع
+start with	common	fa	شروع با
+starting up...	common	fa	در حال شروع
+status	common	fa	وضعیت
+stretched	common	fa	کشیده شده
+subject	common	fa	موضوع
+submit	common	fa	ثبت
+substitutions and their meanings:	common	fa	معادلها و معانی آنها:<br>
+sudan	common	fa	سودان
+sunday	common	fa	یکشنبه
+tajikistan	common	fa	تاجیکستان
+text color:	common	fa	رنگ متن:
+thailand	common	fa	تایلند
+the following applications require upgrades	common	fa	برنامه های زیر بهنگام سازی نیاز دارند
+the mail server returned	common	fa	کارگزار نامه می گوید
+this name has been used already	common	fa	این نام قبلا استفاده شده!
+thursday	common	fa	پنجشنبه
+tiled	common	fa	کاشی
+time	common	fa	زمان
+time zone	common	fa	منطقه زمانی
+time zone offset	common	fa	اختلاف منطقه زمانی
+title	common	fa	عنوان
+to	common	fa	به
+today	common	fa	امروز
+todays date, eg. "%1"	common	fa	تاریخ امروز، مثلا:"%1"
+top	common	fa	بالا
+total	common	fa	جمع
+tuesday	common	fa	سه شنبه
+type	common	fa	نوع
+underline	common	fa	زیرخط دار
+united arab emirates	common	fa	امارات متحده عربی
+united kingdom	common	fa	انگلستان
+united states	common	fa	امارات متحده
+unknown	common	fa	ناشناخته
+update	common	fa	به روز
+update the clock per minute or per second	common	fa	ساعت را در دقیقه یا در ثانیه بهنگام کند
+upload	common	fa	ارسال
+upload directory does not exist, or is not writeable by webserver	common	fa	پوشه ارسال موجود نیست، یا بوسیله کارگزار وب قابل نوشتن نیست.
+url	common	fa	وب سایت
+use button to search for	common	fa	از دکمه برای جستجو استفاده کنید
+user	common	fa	کاربر
+user accounts	common	fa	حسابهای کاربری
+user groups	common	fa	گروههای کاربری
+username	common	fa	نام کاربری
+users	common	fa	کاربرها
+users choice	common	fa	پسند کاربرها
+uzbekistan	common	fa	ازبکستان
+value	common	fa	مقدار
+venezuela	common	fa	ونزوئلا
+version	common	fa	نسخه
+viet nam	common	fa	ویتنام
+view	common	fa	نما
+wednesday	common	fa	چهارشنبه
+welcome	common	fa	خوش آمدید
+when you say yes the home and logout buttons are presented as applications in the main top applcation bar.	common	fa	وقتی بگوئید «بله» نمایه های «خانه» و «خروج» در نوار ناوبری نمایش داده خواهند شد.
+which groups	common	fa	کدام گروهها
+width	common	fa	عرض
+work email	common	fa	نشانی نامه الکترونیکی کاری
+would you like to display the page generation time at the bottom of every window?	common	fa	آیا میخواهید که زمان ایجاد صفحه در زیر هر صفحه نوشته شود؟
+writing	common	fa	در حال نوشتن
+written by:	common	fa	نوشته شده توسط:
+year	common	fa	سال
+yemen	common	fa	یمن
+yes	common	fa	بله
+yes - delete	common	fa	بله - حذف کن
+yes - delete including sub-entries	common	fa	بله - بهمراه جواب/ارجاعها حذف کن
+you are required to change your password during your first login	common	fa	از شما خواسته شده در اولین ورود به سیستم، گذرواژه خود را تغییر دهید
+you have been successfully logged out	login	fa	شما با موفقیت از سیستم خارج شدید
+you have not entered a title	common	fa	شما عنوانی وارد نکردید
+you have not entered a valid date	common	fa	شما تاریخ معتبری وارد نکردید
+you have not entered a valid time of day	common	fa	شما ساعت معتبری از روز را وارد نکردید
+you have not entered participants	common	fa	شما همراهان را وارد نکردید
+you have selected an invalid date	common	fa	شما تاریخ نامعتبر انتخاب کردید!
+you have selected an invalid main category	common	fa	شما دسته اصلی نامعتبر انتخاب کردید
+you have successfully logged out	common	fa	شما با موفقیت خارج شدید
+your message could <b>not</b> be sent!<br>	common	fa	پیامتان نمیتواند ارسال شود.
+your message has been sent	common	fa	پیغام شما ارسال شد
+your search returned %1 matchs	common	fa	جستجوی شما %1 نتیجه داشت
+your search returned 1 match	common	fa	جستجوی شما یک نتیجه داشت
+your settings have been updated	common	fa	تنظیمات شما بهنگام شد
+zambia	common	fa	زامبیا
+zimbabwe	common	fa	زیمباوه
+zoom	common	fa	بزرگنمایی
+%1 (%2 new) messages writen for application '%3' and languages '%4'	common	fa	%1 پیام (%2 جدید) برای کاربرد '%3' و زبان '%4' نوشته شد
+%1 etemplates deleted	common	fa	%1 فرم حذف شد
+%1 etemplates for application '%2' dumped to '%3'	common	fa	%1 فرم برای کاربرد '%2' به '%3' نوشته شد
+%1 etemplates found	common	fa	%1 فرم پیدا شد
+%1 matches on search criteria	common	fa	%1 با شروط جستجو جور شد
+%1 new etemplates imported for application '%2'	common	fa	%1 فرم جدید برای کاربرد %2 وارد شد
+%s disabled	common	fa	%s غیر فعال شده
+%s needed	common	fa	%s  لازم است
+%s notranslation	common	fa	%s ترجمه نشده
+%s onchange	common	fa	%s موقع تغییر
+%s readonly	common	fa	%s فقط خواندنی
+'%1' has an invalid format !!!	common	fa	'%1' قالب نامعتبر دارد!!!
+'%1' is not a valid date !!!	common	fa	'%1' تاریخ معتبر نیست!!!
+'%1' is not a valid floatingpoint number !!!	common	fa	'%1' عدد اعشاری معتبری نیست!!!
+'%1' is not a valid integer !!!	common	fa	'%1' عدد صحیح معتبری نیست!!!
+a pattern to be searched for	common	fa	الگوئی که باید جستجو شود
+accesskey	common	fa	کلید دسترسی
+accesskeys can also be specified with an & in the label (eg. &name)	common	fa	کلیدهای دسترسی همچنین می توانند با یک & در برچسب مشخص شوند(مانند: &نام)
+add a new column (after the existing ones)	common	fa	افزودن ستون جدید(پس از ستونهای موجود)
+add a new entry of the selected application	common	fa	افزودن ورودی جدید از کاربرد انتخاب شده
+add a new multi-column index	common	fa	افزودن یک نمایه چند ستونی
+add column	common	fa	افزودن ستون
+add index	common	fa	افزودن نمایه
+add new	common	fa	افزودن جدید
+add table	common	fa	افزودن جدول
+advanced search	common	fa	جستجوی پیشرفته
+align	common	fa	چیدن
+alignment of label and input-field in table-cell	common	fa	چیدمان برچسب و فیلد ورودی در سلول جدول
+alignment of the v/hbox containing table-cell	common	fa	چیدمان افقی/عمودی جعبه شامل سلول جدول
+all days	common	fa	همه روزها
+all operations save the template!	common	fa	همه عملیات فرم ذخیره شد!
+all users	common	fa	همه کاربران
+am	common	fa	صبح
+an indexed column speeds up querys using that column (cost space on the disk !!!)	common	fa	ستون نمایه دار شده باعث می شود که پرس و جوهای آن ستون سریعتر انجام شوند(فضای دیسک را بیشتر مصرف می کند)!!!
+and	common	fa	و
+application	common	fa	کاربرد
+application name needed to write a langfile or dump the etemplates !!!	common	fa	نام کاربرد لازم است در پرونده زبان نوشته شود یا در فرمها نوشته شود!!!
+applications	common	fa	کاربردها
+applies the changes made	common	fa	تغییرات انجام شده را اعمال میکند
+applies the changes to the given version of the template	common	fa	تغییرات را به نسخه داده شده از فرم اعمال میکند
+attach	common	fa	پیوست
+attach file	common	fa	پیوست پرونده
+baseline	common	fa	خط پایه
+blurtext	common	fa	متن بلوری
+border	common	fa	کادر
+border-line-thickness for the table-tag	common	fa	ضخامت خط کادر برای علامت جدول
+bottom	common	fa	پایین
+box	common	fa	جعبه
+box...	common	fa	جعبه...
+can not have special sql-value null	common	fa	مقدار ویژه SQL  نمیتواند «هیچ»(NULL) باشد
+cancel	common	fa	لغو
+cant delete a single widget from a grid !!!	common	fa	نمی توان یک موجودیت تنها را از یک توری(grid) حذف کرد!!!
+cant delete the only column of a grid !!!	common	fa	نمی توان تنها ستون موجود در توری (grid) را حذف کرد!!!
+cant delete the only row in a grid !!!	common	fa	نمی توان تنها سطر موجود در توری (grid) را حذف کرد!!!
+category	common	fa	دسته
+cellpadding for the table-tag	common	fa	عرض سلول برای علامت جدول
+cells	common	fa	سلولها
+cellspacing for the table-tag	common	fa	فاصله سلولها برای علامت جدول
+center	common	fa	وسط
+changed	common	fa	تغییر یافت
+check all	common	fa	چک کردن همه
+check if content should only be displayed but not altered (the content is not send back then!)	common	fa	اگر میخواهید محتوی فقط نشان داده شده و عوض نشوند، علامت بگذارید!(محتوی بعدا برگشت نخواهد کرد)
+check if field has to be filled by user	common	fa	فیلد بررسی شود که بوسیله کاربر پرشده است
+checkbox	common	fa	جعبه انتخاب
+class	common	fa	کلاس
+class, valign	common	fa	کلاس، چیدمان عمودی
+click here to attach the file	common	fa	اینجا کلیک کنید تا پرونده پیوست شود
+click here to create the link	common	fa	اینجا کلیک کنید تا اتصال ساخته شود
+click here to start the search	common	fa	اینجا کلیک کنید تا جستجو آغاز شود
+click here to upload the file	common	fa	اینجا کلیک کنید تا پرونده ارسال شود
+click to order after that criteria	common	fa	برای مرتب شدن بر اساس شرط، کلیک کنید
+clickable path	common	fa	مسیر قابل کلیک
+closes the window without saving the changes	common	fa	پنجره ها را بدون ذخیره تغییرات می بندد
+column...	common	fa	ستون...
+columnname	common	fa	نام ستون
+comment	common	fa	توضیحات
+confirm	common	fa	تأیید
+confirmation message or custom javascript (returning true or false)	common	fa	پیام تأیید یا جاوااسکریپت سفارشی(با برگرداندن true یا false)
+confirmation necesary or custom java-script	common	fa	تأییدیه ضروری یا جاوااسکریپت سفارشی
+contact	common	fa	مخاطب
+contains	common	fa	شامل
+create a new table for the application	common	fa	ایجاد یک جدول جدید برای کاربرد
+creates an english ('en') langfile from label and helptexts (for application in name)	common	fa	یک پرونده زبان انگلیسی ('en') از برچسب و متون راهنما (برای کاربرد در نام)
+css class for the table-tag	common	fa	کلاس CSS برای علامت جدول
+css properties	common	fa	مشخصات CSS
+css-class name for this row, preset: 'nmh' = nextmatch header, 'nmr' = alternating nm row, 'nmr0'+'nmr1' nm rows	common	fa	نام کلاس CSS برای این ردیف، از قبل تعیین شده:'nmh' = NextMatch header, 'nmr' = alternating NM row, 'nmr0'+'nmr1' NM rows
+css-class name for this row, preset: 'th' = header, 'row' = alternating row, 'row_off'+'row_on' rows	common	fa	نام کلاس CSS برای این ردیف، از قبل تعیین شده:'th' = header, 'row' = alternating row, 'row_off'+'row_on' rows
+css-styles	common	fa	سبکهای CSS
+custom	common	fa	سفارشی
+custom fields	common	fa	فیلدهای سفارشی
+custom javascript for onchange	common	fa	جاوااسکریپت سفارشی برای «درتغییر»
+cut	common	fa	بریدن
+date+time	common	fa	تاریخ و ساعت
+day	common	fa	روز
+days	common	fa	روز
+db ensures that every row has a unique value in that column	common	fa	پایگاه داده تضمین می کند که هر سطر یک مقدار یکتائی در آن ستون دارد
+db-specific index options (comma-sep.), eg. mysql(fulltext) or mysql(100) for the indexed length of a col	common	fa	گزینه های مشخصه پایگاه داده( جداسازی با ویرگول)، مثل (mysql(FULLTEXT یا (mysql(100 برای طول نمایه یک ستون
+db-tools	common	fa	ابزارهای پایگاه داده
+deck	common	fa	پوشیده(داخلی)
+default	common	fa	پیش فرض
+delete a single entry by passing the id.	common	fa	حذف یک ورودی با عبور شناسه آن
+delete all selected etemplates, without further inquiry	common	fa	حذف همه فرمهای انتخاب شده، بدون پرسیدن بعدی
+delete and cut save the template!	common	fa	حذف و بریدن فرم ذخیره شده!
+delete column	common	fa	حذف ستون
+delete index	common	fa	حذف نمایه
+delete the spezified etemplate	common	fa	فرم مشخص شده حذف شود
+delete this column	common	fa	این ستون حذف شود
+delete this etemplate	common	fa	این فرم حذف شود
+delete this file	common	fa	این پرونده حذف شود
+delete this row	common	fa	این سطر حذف شود
+delete whole column (can not be undone!!!)	common	fa	کل ستون حذف شود(غیر قابل بازگشت!!!)
+deletes the above spez. etemplate from the database, can not be undone	common	fa	حذف فرم مشخص شده فوق از پایگاه داده، نمی توان آنرا برگرداند
+deletes the etemplate spez. above	common	fa	فرم مشخص شده فوق را حذف می کند
+deletes this column	common	fa	حذف این ستون
+deletes this index	common	fa	حذف این نمایه
+discard changes	common	fa	نادیده گرفتن تغییرات
+displayed in front of input or input is inserted for a '%s' in the label (label of the submitbutton or image-filename)	common	fa	در جلوی ورودی نمایش داده می شود یا ورودی برای یک '%s' در برچسب درج می شود.(بر چسب یک دکمه ثبت یا نام پرونده تصویری)
+displayed in statusline of browser if input-field gets focus	common	fa	نمایش در خط وضعیت مرورگر، در صورت رفتن به فیلد ورودی
+displayed in the top line of the groupbox (legend)	common	fa	در خط بالائی جعبه گروه نمایش داده می شود(راهنما)
+do you want to save the changes you made in table %s?	common	fa	آیا می خواهید که تغییرات انجام شده در جدول %s را ذخیره نمائید؟
+documentation	common	fa	مستندات
+doesn't matter	common	fa	مهم نیست
+drop a table - this can not be undone	common	fa	حذف جدول - غیر قابل برگشت
+drop table	common	fa	حذف جدول
+dump4setup	common	fa	نوشتن برای نصب
+duration	common	fa	مدت
+edit	common	fa	ویراستن
+edit embeded css styles or of the applications app.css file	common	fa	ویرایش سبک CSS جاسازی شده یا از پرونده app.css مربوط به کاربرد
+edit the etemplate spez. above	common	fa	ویراستن فرم مشخص شده فوق
+edit...	common	fa	ویراستن...
+editable templates - db-tools	common	fa	فرمهای قابل ویرایش - ابزارهای پایگاه داده
+editable templates - delete template	common	fa	فرمهای قابل ویرایش -حذف فرم
+editable templates - editor	common	fa	فرمهای قابل ویرایش - ویرایشگر
+editable templates - search	common	fa	فرمهای قابل ویرایش -جستجو
+editable templates - show template	common	fa	فرمهای قابل ویرایش - نمایش فرم
+embeded css styles, eg. '.red { background: red; }' (note the '.' before the class-name) or '@import url(...)' (class names are global for the whole page!)	common	fa	سبک CSS جاسازی شده، مانند: '{;red { background: red.' (توجه: « . » قبل از نام کلاس باشد. یا '@import url(...)'  نام کلاس عمومی است یا برای همه صفحه کاربرد دارد.
+enable javascript onchange submit	common	fa	فعال سازی ثبت «درتغییر» جاوااسکریپت
+enter '' for an empty default, nothing mean no default	common	fa	برای پیش فرض خالی '' بگذارید، هیچ نگذارید یعنی پیش فرضی نیست
+enter a search pattern	common	fa	ورود یک الگوی جستجو
+enter filename to upload and attach, use [browse...] to search for it	common	fa	نام پرونده را برای ارسال یا پیوست وارد کنید از [Browse...] برای جستجوی آن استفاده کنید
+enter the new version number here (> old_version), empty for no update-file	common	fa	شماره نسخه جدید را در اینجا وارد کنید(باید بزرگتر از نسخه قدیمی باشد)، برای نبودن پرونده به روز رسانی خالی بگذارید
+enter the new version number here (has to be > old_version)	common	fa	شماره نسخه جدید را در اینجا وارد کنید(باید بزرگتر از نسخه قدیمی باشد)
+entry saved	common	fa	ورودی ذخیره شد
+error: template not found !!!	common	fa	خطا: فرم یافت نشد!!!
+error: webserver is not allowed to write into '%1' !!!	common	fa	خطا: کارگزار وب مجاز به نوشتن در '%1' نیست !!!
+error: while saving !!!	common	fa	خطا: در زمان ذخیره سازی‌!!!
+error: writing file (no write-permission for the webserver) !!!	common	fa	خطا: نوشتن پرونده (مجوز نوشتن برای کارگزار وب موجود نیست) !!!
+etemplate	common	fa	فرم ساز
+etemplate '%1' imported, use save to put it in the database	common	fa	فرم '%1'  وارد شد، از «ذخیره» استفاده کنید تا در پایگاه داده قرار گیرد
+etemplate '%1' written to '%2'	common	fa	فرم '%1'  در '%2' نوشته شد
+etemplate editor	common	fa	ویرایشگر فرم
+etemplate reference	common	fa	مرجع راهنمای فرم ساز
+etemplate tutorial	common	fa	مرجع فوری فرم ساز
+exchange this row with the one above	common	fa	این سطر با سطر بالائیش عوض شود
+exchange this two columns	common	fa	این دو ستون باهم عوض شود
+export the loaded etemplate into a xml-file	common	fa	فرم بارگذاری شده در یک پرونده xml صادر شود
+export xml	common	fa	صدور XML
+extensions loaded:	common	fa	گسترشهای بارگذاری شده:
+field must not be empty !!!	common	fa	فیلد نمی تواند خالی باشد!!!
+file	common	fa	پرونده
+file contains more than one etemplate, last one is shown !!!	common	fa	پرونده شامل بیش از یک فرم است، آخرین فرم نمایش داده می شود !!!
+file writen	common	fa	پرونده نوشته شد
+fileupload	common	fa	ارسال پرونده
+first	common	fa	اولین
+floating point	common	fa	اعشاری
+foreign key	common	fa	کلید خارجی
+formatted text (html)	common	fa	متن قالب بندی شده(HTML)
+go to the first entry	common	fa	رفتن به ورودی اول
+go to the last entry	common	fa	رفتن به ورودی آخر
+go to the next page of entries	common	fa	رفتن به صفحه بعد از ورودیها
+go to the previous page of entries	common	fa	رفتن به صفحه قبل از ورودیها
+grid	common	fa	توری(grid)
+grid column attributes	common	fa	مشخصات ستون توری
+grid row attributes	common	fa	مشخصات سطر توری
+groupbox	common	fa	جعبه گروه
+h	common	fa	ساعت
+hbox	common	fa	جعبه افقی
+height	common	fa	ارتفاع
+height of row (in % or pixel)	common	fa	ارتفاع سطر( به ٪ یا پیکسل)
+height of row (in % or pixel), disable row: [! = not]<value>[=<check>] eg: '!@data' disable row if content of data is empty	common	fa	ارتفاع سطر( به ٪ یا پیکسل)، غیر فعال سازی سطر: [! = not]<value>[=<check>] مانند: '!@data' ، غیرفعال سازی سطر در صورتی که محتوای اطلاعاتی خالی باشد
+height of the table in % or pixels for the table-tag and (optional) div	common	fa	ارتفاع جدول به ٪ یا پیکسل برای علامت جدول و (گزینشی) جداساز(div)
+height, disabled	common	fa	ارتفاع، غیرفعال شده
+help	common	fa	راهنما
+horizontal rule	common	fa	قانون افقی
+hour	common	fa	ساعت
+hours	common	fa	ساعت
+how many entries should the list show	common	fa	فهرست باید چند ورودی را نمایش دهد
+html	common	fa	زنگام(html)
+id	common	fa	کد
+if field is disabled an empty table-cell is displayed, for (temporal) removement of a field/cell	common	fa	اگر فیلد غیر فعال شود یک سلول خالی جدول نمایش داده می شود، برای (موقتی) حذف یک فیلد/سلول
+image	common	fa	تصویر
+import	common	fa	وارد کردن
+import an etemplate from a xml-file	common	fa	وارد کردن یک فرم از یک پرونده xml
+import table-definitions from existing db-table	common	fa	وارد کردن تعاریف جدول از جدولهای پایگاه داده موجود
+import xml	common	fa	وارد کردن XML
+increment version to not overwrite the existing template	common	fa	شماره نسخه را زیاد کنید تا روی فرم موجود نوشته نشود
+index/name of returned content (name of the template, link / method for image)	common	fa	نمایه/نام محتوای بازگشتی (نام فرم، پیوند/روش برای تصویر)
+indexed	common	fa	نمایه شده
+indexoptions	common	fa	گزینه های نمایه
+insert a column before	common	fa	درج یک ستون در قبل
+insert a column behind	common	fa	درج یک ستون در کنار
+insert a row above	common	fa	درج یک سطر در بالا
+insert a row below	common	fa	درج یک سطر در پائین
+insert a widget before	common	fa	درج یک موجودیت در قبل
+insert a widget behind	common	fa	درج یک موجودیت در کنار
+insert new column behind this one	common	fa	درج یک ستون جدید در کنار این یکی
+insert new column in front of all	common	fa	درج یک ستون در جلوی همه
+insert new row after this one	common	fa	درج یک سطر بعد از این یکی
+insert new row in front of first line	common	fa	درج یک سطر در جلوی اولین خط
+integer	common	fa	صحیح
+key	common	fa	کلید
+label	common	fa	برچسب
+lang	common	fa	زبان
+last	common	fa	آخرین
+left	common	fa	چپ
+length for char+varchar, precisions int: 2, 4, 8 and float: 4, 8	common	fa	طول برای char+varchar, precisions int: 2, 4, 8 و float: 4, 8
+link	common	fa	پیوند
+linkentry	common	fa	ورودی پیوند
+linklist	common	fa	فهرست پیوند
+linkstring	common	fa	رشته پیوند
+linkto	common	fa	پیوند به
+load this template into the editor	common	fa	این فرم در ویرایشگر بارگذاری شود
+middle	common	fa	وسط
+minute	common	fa	دقیقه
+minutes	common	fa	دقیقه
+month	common	fa	ماه
+more	common	fa	بیشتر
+multicolumn indices	common	fa	نمایه های چند ستونی
+name	common	fa	نام
+name of other table where column is a key from	common	fa	نام جدول دیگری که کلید ستون از آنجاست
+name of table to add	common	fa	نام جدول برای افزودن
+new	common	fa	جدید
+new search	common	fa	جستجوی جدید
+new table created	common	fa	جدول جدید ایجاد شد!
+newer version '%1' exists !!!	common	fa	نسخه جدیدتر '%1'  موجود است
+nextmatch	common	fa	موردجور شده بعدی
+nextmatch accountfilter	common	fa	موردجور شده بعدی در صافی حساب
+nextmatch filterheader	common	fa	موردجور شده بعدی در  سرآیندصافی
+nextmatch sortheader	common	fa	موردجور شده بعدی در ترتیب سرآیند
+no column to swap with !!!	common	fa	ستونی برای جابجائی نیست!!!
+no file	common	fa	پرونده ای نیست
+no filename given or selected via browse...	common	fa	نام پرونده ای داده نشده یا از طریق Browse... انتخاب نشده
+no matches found	common	fa	هیچ موردی یافت نشد
+no row to swap with !!!	common	fa	سطری برای جابجائی نیست !!!
+not null	common	fa	«پوچ» نباشد
+nothing	common	fa	هیچ
+nothing found - try again !!!	common	fa	هیچ چیز پیدا نشد - دوباره سعی کنید !!!
+nothing in clipboard to paste !!!	common	fa	در تخته یادآوری چیزی برای چسباندن نیست !!!
+nothing matched search criteria !!!	common	fa	هیچ چیز با شاخص جستجو جور نشد !!!
+number of rows/cols in a v/hbox, cellpadding, cellspacing	common	fa	تعداد سطر/ستون در یک جعبه عمودی/افقی، عرض سلول، فاصله سلول
+of	common	fa	از
+onchange	common	fa	«درتغییر»
+onclick	common	fa	«درکلیک»
+only an other version found !!!	common	fa	فقط یک نسخه دیگر پیدا شد !!!
+open the online help.	common	fa	باز کردن راهنمای برخط
+operator	common	fa	عملگر
+optional note about the link	common	fa	یادداشت دلخواه برای پیوند
+options	common	fa	گزینه ها
+or	common	fa	یا
+order to navigating by tab key through the form	common	fa	ترتیب ناوبری توسط کلید tab در فرم
+overflow	common	fa	سرریز
+padding	common	fa	لایه گذاری
+parent is a '%1' !!!	common	fa	والد یک '%1' است !!!
+paste	common	fa	چسباندن
+path	common	fa	مسیر
+please enter table-name first !!!	common	fa	لطفا ابتدا نام جدول را وارد کنید !!!
+pm	common	fa	عصر
+popup	common	fa	بالاپر
+precision	common	fa	دقت
+primary key	common	fa	کلیداولیه
+primary key for the table, gets automaticaly indexed	common	fa	کلید اولیه برای جدول، بطور خودکار نمایه سازی می شود
+radiobutton	common	fa	کلید رادیوئی
+read	common	fa	خواندن
+read a list of entries.	common	fa	خواندن فهرست ورودیها.
+read a single entry by passing the id and fieldlist.	common	fa	خواندن یک ورودی با فرستادن شناسه و فهرست فیلد
+read etemplate from database (for the keys above)	common	fa	خواندن فرم از پایگاه داده
+readonly	common	fa	فقط خواندنی
+refresh	common	fa	بازخوانی
+remove row (can not be undone!!!)	common	fa	حذف سطر(غیر قابل برگشت)!!!
+remove this link (not the entry itself)	common	fa	حذف این پیوند (نه خود ورودی)
+required	common	fa	لازم
+reset	common	fa	از نو
+returns savely, without deleting	common	fa	بازگشت ذخیره ای، بدون حذف
+right	common	fa	راست
+row...	common	fa	سطر...
+save all	common	fa	ذخیره کردن همه
+save the changes made and close the window	common	fa	ذخیره تغییرات ایجاد شده و بستن پنجره
+save the etemplate under the above keys (name, ...), change them for a saveas	common	fa	ذخیره فرم زیر کلیدهای فوق(نام و...)، تغییر آنها برای «ذخیره بعنوان»
+saves changes to tables_current.inc.php	common	fa	ذخیره تغییرات به tables_current.inc.php
+saves the template with given version number and closes the window	common	fa	ذخیره فرم با شماره نسخه داده شده و بستن پنجره
+scale	common	fa	مقیاس
+scale for float	common	fa	مقیاس برای اعشار
+search	common	fa	جستجو
+select a category	common	fa	انتخاب دسته
+select a primary contact, to show in the list	common	fa	انتخاب مخاطب اولیه برای نمایش در فهرست
+select access	common	fa	انتخاب دسترسی
+select account	common	fa	انتخاب حساب
+select an app first !!!	common	fa	ابتدا یک کاربرد انتخاب کنید!!!
+select an app to search in	common	fa	انتخاب کاربرد برای جستجو
+select an application	common	fa	انتخاب کاربرد
+select an application, (*) = uninstalled	common	fa	انتخاب کاربرد، (*)=نصب نشده
+select an entry to link with	common	fa	انتخاب ورودی برای پیوند شدن
+select an table of the application	common	fa	انتخاب جدول کاربرد
+select application	common	fa	انتخاب کاربرد
+select category	common	fa	انتخاب دسته
+select country	common	fa	انتخاب کشور
+select day	common	fa	انتخاب روز
+select day of week	common	fa	انتخاب روز هفته
+select hour	common	fa	انتخاب ساعت
+select if content of field should not be translated (label gets always translated)	common	fa	درصورتی که محتویات فیلد نباید ترجمه شود، انتخاب کنید(برچسبها همیشه ترجمه می شوند)
+select month	common	fa	انتخاب ماه
+select number	common	fa	انتخاب شماره
+select one ...	common	fa	انتخاب...
+select percentage	common	fa	انتخاب درصد
+select priority	common	fa	انتخاب تقدم
+select state	common	fa	انتخاب وضعیت
+select the indexed columns in their desired order	common	fa	انتخاب ستون نمایه شده به ترتیب دلخواه خودش
+select this etemplate to delete it	common	fa	این فرم را برای حذف انتخاب کنید
+select which accounts to show	common	fa	انتخاب کنید کدام حساب کاربری نمایش داده شود
+select which values to show	common	fa	انتخاب کنید کدام مقادیر نمایش داده شود
+select year	common	fa	انتخاب سال
+selectbox	common	fa	جعبه انتخاب
+sets today as date	common	fa	تنظیم امروز بعنوان تاریخ
+should the form be submitted or any custom javascript be executed	common	fa	فرم باید ثبت شود یا هر جاوااسکریپت سفارشی باید اجرا شود
+show	common	fa	نمایش
+show (no save)	common	fa	نمایش(بدون ذخیره)
+show values	common	fa	دیدن مقادیر
+showing	common	fa	نمایش
+shows / allows you to enter values into the etemplate for testing	common	fa	نمایش/مجوز شما برای واردکردن مقادیر آزمایشی به فرم
+shows/displays etemplate for testing, does not save it before	common	fa	فرم را به صورت آزمایشی نمایش می دهد، و قبل از آن ذخیره نمی نماید
+spacing	common	fa	فاصله
+span	common	fa	پوشش
+span, class	common	fa	پوشش، کلاس
+stack	common	fa	پشته
+start a new search, cancel this link	common	fa	شروع جستجوی جدید، لغو این پیوند
+start new search for the above pattern	common	fa	شروع جستجوی جدید برای الگوی فوق
+submit form	common	fa	ثبت فرم
+submitbutton	common	fa	دکمه ثبت
+swap	common	fa	جابجائی
+swap widget with next one	common	fa	جابجائی موجودیت با بعدی
+swap with next column	common	fa	جابجائی با ستون بعدی
+swap with next row	common	fa	جابجائی با سطر بعدی
+switch to a parent widget	common	fa	رفتن به موجودیت والد
+switch to an other widgets of that container	common	fa	رفتن به موجودیت بعدی محتوی
+tabindex	common	fa	ترتیب پرش
+table unchanged, no write necessary !!!	common	fa	جدول بدون تغییر است، نوشتن لازم نیست !!!
+tablename	common	fa	نام جدول
+tabs	common	fa	پرشها
+template	common	fa	فرم
+template deleted	common	fa	فرم حذف شد
+template saved	common	fa	فرم ذخیره شد
+text	common	fa	متن
+textarea	common	fa	محدوده متن
+this text gets displayed if the input-field is empty and has no focus (blur)	common	fa	این متن در زمانی که فیلد ورودی خالی باشد و هنوز وارد ان نشده باشید نمایش داده می شود.
+time	common	fa	ساعت
+to disable: [! = not]<value>[=<check>] eg: '!@data' disables if content of data is empty	common	fa	برای غیر فعالسازی: [! = not]<value>[=<check>] eg: '!@data' غیرفعال است اگر محتوای داده ها خالی باشد
+to start the db-tools	common	fa	برای شروع ابزارهای پایگاه داده
+to start the etemplate editor	common	fa	برای شروع ویرایشگر فرم
+to start the search	common	fa	برای شروع جستجو
+today	common	fa	امروز
+top	common	fa	بالا
+type	common	fa	نوع
+type of the column	common	fa	نوع ستون
+type of the field (select label if field should be empty)	common	fa	نوع فیلد(اگر فیلد باید خالی بماند ، برچسب را انتخاب کنید)
+unique	common	fa	یکتائی
+unlink	common	fa	برداشتن پیوند
+update a single entry by passing the fields.	common	fa	بهنگام سازی یک ورودی با عبور(ارسال) فیلدها
+update from version '%s' to	common	fa	بهنگام سازی نسخه '%s' به
+upload	common	fa	ارسال
+valign	common	fa	چیدمان عمودی
+value	common	fa	مقدار
+value has to be at least '%1' !!!	common	fa	مقدار باید حداقل '%1' باشد!!!
+value has to be at maximum '%1' !!!	common	fa	مقدار باید حداکثر '%1' باشد!!!
+vbox	common	fa	جعبه عمودی
+version	common	fa	نسخه
+version-number, should be in the form: major.minor.revision.number (eg. 0.9.13.001 all numbers filled up with zeros)	common	fa	شماره نسخه، باید در قالب : major.minor.revision.numbe باشد(مثلا:0.9.13.001 همه شماره ها با صفر پرخواهند شد)
+vertical alignment of row	common	fa	چیدمان افقی سطر
+view this etemplate	common	fa	دیدن این فرم
+view this linked entry in its application	common	fa	دیدن این پیوند ورودی در کاربرد خودش
+weekend	common	fa	آخر هفته
+what happens with overflowing content: visible (default), hidden, scroll, auto (browser decides)	common	fa	چه اتفاقی برای محتوای سرریز می افتد: قابل دیدن(پیش فرض)، مخفی، مروری، خودکار(مرورگر تصمیم میگیرد)
+widget copied into clipboard	common	fa	موجودیت به تخته یادآوری رونوشت شد
+width	common	fa	عرض
+width of col (in % or pixel), disable col: [! = not]<value>[=<check>] eg: '!@data' disable col if content of data is empty	common	fa	عرض ستون(به درصد یا پیکسل)، غیر فعالسازی ستون: [! = not]<value>[=<check>] eg: '!@data' غیر فعالسازی ستون درصورت خالی بودن محتوای داده ها
+width of column (in % or pixel)	common	fa	عرض ستون(به درصد یا پیکسل)
+width of the table in % or pixels for the table-tag and (optional) div	common	fa	عرض جدول به درصد یا پیکسل برای علامت جدول و div (انتخابی)
+width, disabled	common	fa	عرض، غیر فعال شده
+wk	common	fa	هفته
+working days	common	fa	روزهای کاری
+write <app>/setup/tables_current.inc.php	common	fa	نوشتن <app>/setup/tables_current.inc.php
+write langfile	common	fa	نوشتن پرونده زبان
+write tables	common	fa	نوشتن جداول
+writes a 'etemplates.inc.php' file (for application in name) in the setup-dir of the app	common	fa	نوشتن یک پرونده 'etemplates.inc.php' (برای کاربرد در نام) در پوشه setup مربوط به کاربرد
+xml-file to import	common	fa	پرونده xml برای ورود
+xslt template	common	fa	فرم XSLT
+year	common	fa	سال
+id	common	fa	کد

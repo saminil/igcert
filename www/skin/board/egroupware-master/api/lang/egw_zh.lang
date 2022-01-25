@@ -1,0 +1,1179 @@
+%1 email addresses inserted	common	zh	已插入%1个电子邮件地址
+%1 is not executable by the webserver !!!	common	zh	Web 服务器无法执行%1！
+%1choose an other directory%2<br />or make %3 writeable by webserver	common	zh	%1选择另一个目录%2<br />或使得 Web 服务器可以写入%3
+%1egroupware%2 is a multi-user, web-based groupware suite written in %3php%4.	common	zh	%1EGroupware%2 是一个多用户、基于 Web 的以 %3PHP%4 为基础开发的工作组套件。
+00 (disable)	admin	zh	00 (禁用)
+1 day	common	zh	1 天
+1 hour	common	zh	1 小时
+1 month	common	zh	1 个月
+1 week	common	zh	1 星期
+13 (ntp)	admin	zh	13 (NTP)
+80 (http)	admin	zh	80 (http)
+about	common	zh	关于
+about %1	common	zh	关于%1
+about egroupware	common	zh	关于 EGroupware
+access	common	zh	访问
+access not permitted	common	zh	禁止访问
+account has been created	common	zh	账户创建成功
+account has been deleted	common	zh	账户已删除
+account has been updated	common	zh	账户已更新
+account is expired	common	zh	帐户已过有效期
+accounts	common	zh	帐户
+acl	common	zh	ACL
+action	common	zh	操作
+actions	common	zh	操作
+active	common	zh	活动的
+add	common	zh	添加
+add %1 category for	common	zh	添加类别为
+add a new contact	common	zh	添加联系人
+add category	common	zh	添加类别
+add shortcut	common	zh	添加快捷键
+add sub	common	zh	添加子类别
+addressbook	common	zh	通讯簿
+admin	common	zh	系统管理
+administration	common	zh	系统管理
+afghanistan	common	zh	阿富汗
+albania	common	zh	阿尔巴尼亚
+algeria	common	zh	阿尔及利亚
+all	common	zh	全部
+all fields	common	zh	所有字段
+all languages	common	zh	所有语言
+alphabet	common	zh	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+alternate style-sheet:	common	zh	替代的样式表：
+american samoa	common	zh	东萨摩亚
+an error happened	common	zh	发生了错误
+an existing and by the webserver readable directory enables the image browser and upload.	common	zh	现有的和 Web 服务器可读取的目录可启用图片浏览与上传。
+and	common	zh	及
+andorra	common	zh	安道尔共和国
+angola	common	zh	安哥拉
+anguilla	common	zh	安圭拉岛
+antarctica	common	zh	南极洲
+antigua and barbuda	common	zh	安提瓜和巴布达·
+application	common	zh	应用程序
+apply	common	zh	应用
+april	common	zh	四月
+are you sure you want to delete these entries ?	common	zh	确定要删除这些条目吗？
+are you sure you want to delete this entry ?	common	zh	确定要删除该条目吗？
+argentina	common	zh	阿根廷
+armenia	common	zh	亚美尼亚
+aruba	common	zh	阿鲁巴岛
+august	common	zh	八月
+australia	common	zh	澳大利亚
+austria	common	zh	奥地利
+author	common	zh	作者
+autohide sidebox menu's	common	zh	自动隐藏侧栏菜单
+autohide sidebox menus	common	zh	自动隐藏侧边栏菜单
+automatically hide the sidebox menu's?	common	zh	是否自动隐藏侧栏菜单？
+automatically hide the sidebox menus?	common	zh	是否自动隐藏侧栏菜单？
+autosave default category	common	zh	自动保存为默认类别
+azerbaijan	common	zh	阿塞拜疆
+back	common	zh	返回
+back to user login	common	zh	返回登陆界面
+background color:	common	zh	背景颜色：
+backupdir '%1' is not writeable by the webserver	common	zh	备份目录'%1'对于 Web 服务器不可写
+bad login or password	common	zh	登录名或密码错误
+bahamas	common	zh	巴哈马群岛
+bahrain	common	zh	巴林群岛
+bangladesh	common	zh	孟加拉国
+barbados	common	zh	巴巴多斯岛
+bcc	common	zh	暗送
+belarus	common	zh	白俄罗斯
+belgium	common	zh	比利时
+belize	common	zh	伯利兹城
+benin	common	zh	贝宁湾
+bermuda	common	zh	百慕大群岛
+bhutan	common	zh	不丹
+blocked, too many attempts	common	zh	尝试次数过多，已封禁
+bold	common	zh	粗体
+bolivia	common	zh	玻利维亚
+border	common	zh	边框
+bosnia and herzegovina	common	zh	波黑
+botswana	common	zh	博茨瓦纳
+bottom	common	zh	底部
+bouvet island	common	zh	布维岛
+brazil	common	zh	巴西
+british indian ocean territory	common	zh	英属印度洋地区
+brunei darussalam	common	zh	文莱
+bulgaria	common	zh	保加利亚
+burkina faso	common	zh	布基纳法索
+burundi	common	zh	布隆迪
+calendar	common	zh	日历
+cambodia	common	zh	柬埔寨
+cameroon	common	zh	喀麦隆
+canada	common	zh	加拿大
+cancel	common	zh	取消
+cannot replace %1 because it is a directory	common	zh	不能替换%1，因为它是目录
+cant open '%1' for %2	common	zh	无法在%2打开'%1'
+cape verde	common	zh	佛得角
+caption	common	zh	标题
+categories	common	zh	类别
+categories for	common	zh	编辑类别. 当前用户
+category	common	zh	类别
+category %1 has been added !	common	zh	类别%1已添加！
+category %1 has been updated !	common	zh	类别%1已更新！
+cayman islands	common	zh	开曼群岛
+cc	common	zh	抄送
+centered	common	zh	居中
+central african republic	common	zh	中非共和国
+chad	common	zh	乍得湖
+change	common	zh	更改
+charset	common	zh	utf-8
+check installation	common	zh	检查安装
+check now	common	zh	立即检查
+chile	common	zh	智利
+china	common	zh	中国
+choose a background color	common	zh	选择背景颜色
+choose a background color for the icons	common	zh	选择图标背景颜色
+choose a background image.	common	zh	选择背景图片。
+choose a background style.	common	zh	选择背景风格。
+choose a text color for the icons	common	zh	选择图标文字颜色
+choose the category	common	zh	选择类别
+choose the parent category	common	zh	选择父类别
+christmas island	common	zh	圣诞岛
+clear	common	zh	清除
+clear form	common	zh	清除表单
+click	common	zh	点击
+click here to resume your egroupware session.	common	zh	点击这里恢复您的 EGroupware 会话。
+click or mouse over to show menus	common	zh	点击或鼠标经过时显示菜单栏
+click or mouse over to show menus?	common	zh	点击或鼠标经过时显示菜单栏？
+click this image on the navbar: %1	common	zh	在导航条：%1上点击该图片
+close	common	zh	关闭
+close sidebox	common	zh	关闭侧边栏
+cocos (keeling) islands	common	zh	科科斯(基灵)群岛
+colombia	common	zh	哥伦比亚
+common preferences	common	zh	通用参数选择
+comoros	common	zh	科摩罗
+company	common	zh	公司
+congo	common	zh	刚果
+congo, the democratic republic of the	common	zh	刚果民主共和国
+contacting server...	common	zh	正在联系服务器...
+cook islands	common	zh	库克群岛
+copy	common	zh	复制
+costa rica	common	zh	哥斯达黎加
+cote d ivoire	common	zh	科特迪瓦
+could not contact server. operation timed out!	common	zh	无法连接服务器，操作超时！
+create	common	zh	创建
+created by	common	zh	创建者
+croatia	common	zh	克罗地亚
+cuba	common	zh	古巴
+currency	common	zh	货币
+current	common	zh	当前
+current users	common	zh	当前用户
+cyprus	common	zh	塞浦路斯
+czech republic	common	zh	捷克斯洛伐克共和国
+database error	common	zh	数据库错误
+database error!	common	zh	数据库错误！
+date	common	zh	日期
+date due	common	zh	到期日
+datetime port.<br>if using port 13, please set firewall rules appropriately before submitting this page.<br>(port: 13 / host: 129.6.15.28)	admin	zh	日期时间端口。<br>如果使用端口13，请在提交前设置适当的防火墙规则。<br>(端口：13/主机：129.6.15.28)
+december	common	zh	十二月
+default category	common	zh	默认显示类别
+default height for the windows	common	zh	默认窗口高度
+default width for the windows	common	zh	默认窗口宽度
+delete	common	zh	删除
+delete category	common	zh	删除类别
+delete row	common	zh	删除行
+delete this entry	common	zh	删除该事项
+denmark	common	zh	丹麦
+description	common	zh	描述
+detail	common	zh	详细信息
+details	common	zh	详细信息
+direction left to right	common	zh	由左到右
+directory	common	zh	目录
+directory does not exist, is not readable by the webserver or is not relative to the document root!	common	zh	目录不存在、对于Web服务器不可读或不是相对的文档根目录！
+disable internet explorer png-image-bugfix	common	zh	禁用 Internet Explorer 浏览器的 PNG 图片修正脚本
+disable slider effects	common	zh	禁用滑动效果
+disable the animated slider effects when showing or hiding menus in the page? opera and konqueror users will probably must want this.	common	zh	在页面显示或隐藏菜单时禁用动画效果？Opera 和 Konqueror 用户也许必须这样做。
+disable the execution a bugfixscript for internet explorer 5.5 and higher to show transparency in png-images?	common	zh	禁用为使 Internet Explorer 5.5 或更高版本能够显示透明的 PNG 图片的修复脚本？
+disabled	common	zh	已禁用
+djibouti	common	zh	吉布提
+do you also want to delete all subcategories ?	common	zh	确定也要删除所有的子类别吗？
+doctype:	common	zh	文件类型：
+document properties	common	zh	文件属性
+document title:	common	zh	文件标题：
+domain	common	zh	域
+domain name for mail-address, eg. "%1"	common	zh	邮件地址的域名，例如："%1"
+domestic	common	zh	国内
+dominica	common	zh	多米尼加
+dominican republic	common	zh	多米尼加共和国
+done	common	zh	完成
+download	common	zh	下载
+e-mail	common	zh	电子邮件
+east timor	common	zh	东帝汶
+ecuador	common	zh	厄瓜多尔
+edit	common	zh	编辑
+edit %1 category for	common	zh	编辑类别%1为
+edit categories	common	zh	类别编辑
+edit category	common	zh	类别编辑
+egroupware	common	zh	EGroupware
+egroupware api version	common	zh	EGroupware API 版本
+egroupware: login blocked for user '%1', ip %2	common	zh	EGroupware：用户'%1'，IP地址%2已被禁止登录
+egypt	common	zh	埃及
+el salvador	common	zh	萨尔瓦多
+email	common	zh	电子邮件
+email-address of the user, eg. "%1"	common	zh	用户的电子邮件地址，例如："%1"
+enabled	common	zh	已启用
+end date	common	zh	终止日期
+end time	common	zh	终止时间
+enter the location of egroupware's url.<br>example: http://www.domain.com/egroupware &nbsp; or &nbsp; /egroupware<br><b>no trailing slash</b>	admin	zh	输入EGroupware 网址。<br>例如：http://www.domain.com/egroupware 或 /egroupware<br><b>结尾无斜线</b>
+entry has been deleted sucessfully	common	zh	条目已删除
+entry not found!	common	zh	条目没找到！
+entry updated sucessfully	common	zh	条目已更新
+equatorial guinea	common	zh	赤道几内亚
+eritrea	common	zh	厄立特里亚
+error	common	zh	错误
+error creating %1 %2 directory	common	zh	创建目录%1 %2时出错
+error deleting %1 %2 directory	common	zh	删除目录%1 %2时出错
+error renaming %1 %2 directory	common	zh	重命名目录%1 %2时出错
+estonia	common	zh	爱沙尼亚
+ethiopia	common	zh	埃塞俄比亚
+everything	common	zh	全部
+exact	common	zh	准确的
+failed to change password.	common	zh	更改密码失败。请联系系统管理员。
+failed to contact server or invalid response from server. try to relogin. contact admin in case of faliure.	common	zh	未能连接服务器或由于服务器的错误回应。请重试或联系管理员。
+falkland islands (malvinas)	common	zh	福克兰群岛(马尔维纳斯)
+faroe islands	common	zh	法罗群岛
+fax number	common	zh	传真号码
+features of the editor?	common	zh	编辑器界面特征？
+february	common	zh	二月
+fields	common	zh	字段
+fiji	common	zh	斐济
+files	common	zh	文件
+filter	common	zh	筛选
+finland	common	zh	芬兰
+first name	common	zh	名
+first name of the user, eg. "%1"	common	zh	用户的‘名’，例如："%1"
+first page	common	zh	第一页
+firstname	common	zh	名
+fixme!	common	zh	FIXME！
+folder already exists.	common	zh	文件夹已存在。
+force selectbox	common	zh	必选框
+forever	common	zh	始终
+france	common	zh	法国
+french guiana	common	zh	法属圭亚那地区
+french polynesia	common	zh	法属玻利尼西亚
+french southern territories	common	zh	法国南部地区
+friday	common	zh	星期五
+ftp	common	zh	FTP
+fullname	common	zh	全称
+fullscreen mode	common	zh	全屏模式
+gabon	common	zh	加蓬
+gambia	common	zh	冈比亚
+general menu	common	zh	常规菜单
+georgia	common	zh	乔治亚州
+german	common	zh	德国
+germany	common	zh	德国
+ghana	common	zh	加纳
+gibraltar	common	zh	直布罗陀
+global	common	zh	全局
+global public	common	zh	全局公有的
+grant access	common	zh	授权访问
+greece	common	zh	希腊
+greenland	common	zh	格陵兰
+grenada	common	zh	格林纳达
+group	common	zh	组
+group access	common	zh	组访问
+group has been added	common	zh	组已添加
+group has been deleted	common	zh	组已删除
+group has been updated	common	zh	组已更新
+group name	common	zh	组名
+group public	common	zh	组公有的
+groups	common	zh	组
+groups with permission for %1	common	zh	具有%1权限的组
+groups without permission for %1	common	zh	不具有%1权限的组
+guadeloupe	common	zh	瓜德罗普岛
+guam	common	zh	关岛
+guatemala	common	zh	危地马拉
+guinea	common	zh	几内亚
+guinea-bissau	common	zh	几内亚比绍首都
+guyana	common	zh	圭亚那
+haiti	common	zh	海地
+heard island and mcdonald islands	common	zh	赫德与麦克唐纳群岛
+height	common	zh	高度
+help	common	zh	显示提示信息
+high	common	zh	高
+highest	common	zh	最高
+holy see (vatican city state)	common	zh	罗马教廷(梵蒂冈)
+home	common	zh	首页
+home email	common	zh	家庭 EMail
+honduras	common	zh	洪都拉斯
+hong kong	common	zh	香港
+how many icons should be shown in the navbar (top of the page). additional icons go into a kind of pulldown menu, callable by the icon on the far right side of the navbar.	common	zh	将在导航栏(页面顶部)显示多少个图标。其它图标会放入一个下拉菜单中，通过点击导航栏最右侧的下拉图标可显示下拉菜单及其中的这些图标。
+how to show the general egroupware menu ?	common	zh	如何显示通用 EGroupware 菜单
+hungary	common	zh	匈牙利
+iceland	common	zh	冰岛
+iespell not detected. click ok to go to download page.	common	zh	ieSpell 未找到，点击确认前往下载页面。
+if the clock is enabled would you like it to update it every second or every minute?	common	zh	如果使用时钟，每秒还是每分钟更新？
+if there are some images in the background folder you can choose the one you would like to see.	common	zh	如果背景文件夹中有一些图片的话，您可以选择其中的一个您希望的。
+image directory relative to document root (use / !), example:	common	zh	相对文档根目录的图片目录(使用：/)，例如：
+image url	common	zh	图片网址
+india	common	zh	印度
+indonesia	common	zh	印度尼西亚
+insert all %1 addresses of the %2 contacts in %3	common	zh	将%2个联系人的全部%1个地址插入%3
+insert column after	common	zh	在之后插入栏
+insert column before	common	zh	在之前插入栏
+insert row after	common	zh	在之后插入行
+insert row before	common	zh	在之前插入行
+international	common	zh	国际
+invalid filename	common	zh	文件名不正确
+invalid ip address	common	zh	IP地址无效
+invalid password	common	zh	密码无效
+iran, islamic republic of	common	zh	伊朗
+iraq	common	zh	伊拉克
+ireland	common	zh	爱尔兰
+israel	common	zh	以色列
+it has been more then %1 days since you changed your password	common	zh	您的密码已经%1天没有更改了
+it is recommended that you run setup to upgrade your tables to the current version	common	zh	建议您运行安装程序来升级您的数据表至当前版本。
+italic	common	zh	斜体
+italy	common	zh	意大利
+jamaica	common	zh	牙买加
+january	common	zh	一月
+japan	common	zh	日本
+jordan	common	zh	约旦
+july	common	zh	七月
+jun	common	zh	六月
+june	common	zh	六月
+justify center	common	zh	居中
+justify full	common	zh	两端对齐
+justify left	common	zh	左对齐
+justify right	common	zh	右对齐
+kazakstan	common	zh	哈萨克斯坦
+kenya	common	zh	肯尼亚
+keywords	common	zh	关键词
+kiribati	common	zh	基里巴斯
+kuwait	common	zh	科威特
+kyrgyzstan	common	zh	吉尔吉斯坦
+language	common	zh	语言
+language_direction_rtl	common	zh	language_direction_rtl
+lao peoples democratic republic	common	zh	老挝
+last modified	common	zh	最近修改
+last name	common	zh	姓
+last name of the user, eg. "%1"	common	zh	用户的‘姓’，例如："%1"
+last page	common	zh	最后一页
+lastname	common	zh	姓
+latvia	common	zh	拉脱维亚
+ldap-mgr	common	zh	LDAP-管理
+lebanon	common	zh	黎巴嫩
+left	common	zh	左
+lesotho	common	zh	莱索托
+liberia	common	zh	利比里亚
+libyan arab jamahiriya	common	zh	利比亚
+license	common	zh	许可证
+liechtenstein	common	zh	列支敦士登
+line %1: '%2'<br><b>csv data does not match column-count of table %3 ==> ignored</b>	common	zh	第%1行：'%2'<br><b>csv 数据与数据表%3栏数不匹配 ==> 忽略</b>
+list	common	zh	列表
+list members	common	zh	会员列表
+lithuania	common	zh	立陶宛
+load	common	zh	加载
+local	common	zh	本地
+locations	common	zh	位置
+login	common	zh	登录
+loginid	common	zh	登录名
+logout	common	zh	注销
+lost login id	common	zh	忘记登录帐户
+lost password	common	zh	忘记密码
+low	common	zh	低
+lowest	common	zh	最低
+luxembourg	common	zh	卢森堡
+macau	common	zh	澳门
+macedonia, the former yugoslav republic of	common	zh	马其顿王国
+madagascar	common	zh	马达加斯加岛
+mail domain, eg. "%1"	common	zh	邮件域，例如："%1"
+main category	common	zh	主分类
+home screen	common	zh	主窗口
+maintainer	common	zh	维护人员
+malawi	common	zh	马拉维
+malaysia	common	zh	马来西亚
+maldives	common	zh	马尔代夫
+mali	common	zh	马里
+malta	common	zh	马耳他
+march	common	zh	三月
+marshall islands	common	zh	马歇尔群岛
+martinique	common	zh	马提尼克岛
+mauritania	common	zh	毛里塔尼亚
+mauritius	common	zh	毛里求斯
+max number of icons in navbar	common	zh	导航栏中图标的最大数目
+may	common	zh	五月
+mayotte	common	zh	马约特岛
+medium	common	zh	中间
+menu	common	zh	菜单
+message	common	zh	消息
+mexico	common	zh	墨西哥
+micronesia, federated states of	common	zh	密克罗尼西亚联邦
+minute	common	zh	分
+moldova, republic of	common	zh	摩尔多瓦共和国
+monaco	common	zh	摩纳哥
+monday	common	zh	星期一
+mongolia	common	zh	蒙古
+montenegro	common	zh	蒙地纳哥
+montserrat	common	zh	蒙特塞拉特岛
+morocco	common	zh	摩洛哥
+mozambique	common	zh	莫桑比克·
+multiple	common	zh	多重
+myanmar	common	zh	缅甸
+name	common	zh	名称
+name of the user, eg. "%1"	common	zh	用户名，例如："%1"
+namibia	common	zh	纳米比亚
+nauru	common	zh	瑙鲁岛
+nepal	common	zh	尼泊尔
+netherlands	common	zh	荷兰
+netherlands antilles	common	zh	荷兰属安的列斯群岛
+never	common	zh	从不
+new caledonia	common	zh	新克里多尼亚
+new entry added sucessfully	common	zh	新条目添加成功
+new main category	common	zh	新建主类别
+new value	common	zh	新值
+new zealand	common	zh	新西兰
+next	common	zh	下一个
+next page	common	zh	下一页
+nicaragua	common	zh	尼加拉瓜
+niger	common	zh	尼日尔
+nigeria	common	zh	尼日利亚
+niue	common	zh	纽埃岛
+no	common	zh	否
+no - cancel	common	zh	否
+no entries found, try again ...	common	zh	条目找不到，请重试...
+no history for this record	common	zh	该记录无历史记录
+no savant2 template directories were found in:	common	zh	没没有找到 Savant2 模版目录：
+no subject	common	zh	无主题
+none	common	zh	无
+norfolk island	common	zh	诺福克岛
+normal	common	zh	普通
+northern mariana islands	common	zh	北马里亚纳群岛
+norway	common	zh	挪威
+not	common	zh	不
+not a user yet? register now	common	zh	还不是用户？现在注册
+not assigned	common	zh	未指定
+note	common	zh	备注
+notes	common	zh	附注
+notifications	common	zh	通知
+notify window	common	zh	通知窗口
+notify your administrator to correct this situation	common	zh	请通知管理员修复此情况
+november	common	zh	十一月
+october	common	zh	十月
+ok	common	zh	确定
+old value	common	zh	旧值
+oman	common	zh	阿曼
+on *nix systems please type: %1	common	zh	在 *UNIX类系统上，请输入： %1
+on mouse over	common	zh	鼠标移至上面时
+only private	common	zh	仅私有
+only yours	common	zh	只有您
+oops! you caught us in the middle of system maintainance.	common	zh	Oops! 您在系统维护中间捉住了我们。
+open	common	zh	待决事项
+open notify window	common	zh	打开提示窗口
+open popup window	common	zh	打开弹出式窗口·
+open sidebox	common	zh	打开侧边栏
+or	common	zh	或
+ordered list	common	zh	排序列表
+original	common	zh	原来的
+other	common	zh	其它
+overview	common	zh	概览
+owner	common	zh	所有者
+page	common	zh	页
+page was generated in %1 seconds	common	zh	本页面生成耗时：%1秒
+pakistan	common	zh	巴基斯坦
+palau	common	zh	帕劳
+palestinian territory, occupied	common	zh	巴勒斯坦
+panama	common	zh	巴拿马
+papua new guinea	common	zh	巴布亚新几内亚
+paraguay	common	zh	巴拉圭
+parcel	common	zh	打包
+parent category	common	zh	父类别
+password	common	zh	密码
+password could not be changed	common	zh	无法更改密码
+password has been updated	common	zh	密码已更新
+password must contain at least %1 lowercase letters	common	zh	密码必须包含至少 %1 个小写英文字母
+password must contain at least %1 numbers	common	zh	密码必须包含至少 %1 个数字
+password must contain at least %1 special characters	common	zh	密码必须包含至少 %1 个特殊字符
+password must contain at least %1 uppercase letters	common	zh	密码必须包含至少 %1 个大写英文字母
+password must have at least %1 characters	common	zh	密码必须包含至少 %1 个字符
+path to user and group files has to be outside of the webservers document-root!!!	common	zh	用户和群组的文件路径必须在服务器根目录以外！
+permission denied!	common	zh	没有权限！
+permissions to the files/users directory	common	zh	文件/用户目录
+permisson denied!	common	zh	没有权限！
+personal	common	zh	个人
+peru	common	zh	秘鲁
+philippines	common	zh	菲律宾
+phone number	common	zh	电话号码
+api	common	zh	[eGW-API]系统核心
+pitcairn	common	zh	皮特凯恩
+please %1 by hand	common	zh	请手动%1
+please enter a name	common	zh	请输入名称！
+please run setup to become current	common	zh	请运行安装程序以成为当前
+please select	common	zh	请选择
+please set your global preferences	common	zh	请设置您的全局参数！
+please set your preferences for this application	common	zh	请为该应用程序设置用户参数！
+please wait...	common	zh	请稍候...
+please, check back with us shortly.	common	zh	对不起，稍后回来与我们检查。
+poland	common	zh	波兰
+popup with search	common	zh	弹出式搜索窗口
+portugal	common	zh	葡萄牙
+postal	common	zh	邮政
+powered by	common	zh	Powered by
+preferences	common	zh	参数选择
+previous page	common	zh	前一页
+primary group	common	zh	主要群组
+primary style-sheet:	common	zh	主要样式表：
+print	common	zh	打印
+priority	common	zh	优先级
+private	common	zh	私有条目
+programs	common	zh	程序
+project	common	zh	项目
+public	common	zh	所有已授权者皆可访问
+puerto rico	common	zh	波多黎各
+qatar	common	zh	卡塔尔
+read	common	zh	读取
+read this list of methods.	common	zh	读取方法列表。
+reading	common	zh	读取中
+register	common	zh	注册
+regular	common	zh	常规
+reject	common	zh	拒绝
+remember me	common	zh	记住我
+remove selected accounts	common	zh	删除选取的账号
+remove shortcut	common	zh	移除快捷键
+rename	common	zh	重命名
+replace	common	zh	替换
+replace with	common	zh	替换与
+resources	common	zh	资源
+restore failed	common	zh	还原失败
+returns a full list of accounts on the system.  warning: this is return can be quite large	common	zh	返回系统所有帐户的列表，注意：该列表可能很长
+returns an array of todo items	common	zh	返回一排待处理列表
+returns struct of users application access	common	zh	返回用户访问应用程序的结构
+reunion	common	zh	留尼旺
+right	common	zh	右
+romania	common	zh	罗马尼亚
+russian federation	common	zh	俄罗斯联邦
+rwanda	common	zh	卢旺达
+saint helena	common	zh	圣赫勒拿岛
+saint kitts and nevis	common	zh	圣基茨和尼维斯
+saint lucia	common	zh	圣卢西亚岛
+saint pierre and miquelon	common	zh	圣皮埃尔和密克隆
+saint vincent and the grenadines	common	zh	圣文森特和格林纳丁斯
+samoa	common	zh	西萨摩亚
+san marino	common	zh	圣马力诺
+sao tome and principe	common	zh	圣多美和普林西比
+saturday	common	zh	星期六
+saudi arabia	common	zh	沙特阿拉伯
+savant2 version differs from savant2 wrapper. <br/>this version: %1 <br/>savants version: %2	common	zh	Savant2 版本不同于 Savant2 wrapper。<br/>这个版本：%1 <br/>Savants 版本：%2
+save	common	zh	保存
+search	common	zh	搜索
+search %1 '%2'	common	zh	搜索%1 '%2'
+search accounts	common	zh	搜索账户
+search or select accounts	common	zh	搜索或选择帐户
+second	common	zh	秒
+section	common	zh	部分
+select	common	zh	选择
+select all	common	zh	全选
+select all %1 %2 for %3	common	zh	为%3选择全部l%1%2
+select category	common	zh	选择分类
+select date	common	zh	选择日期
+select group	common	zh	选择组
+select home email address	common	zh	选择家庭邮件地址
+select multiple accounts	common	zh	选择多个账户
+select one	common	zh	选择一个
+select the default height for the application windows	common	zh	选择默认应用程序窗口高度
+select the default width for the application windows	common	zh	选择默认应用程序窗口宽度
+select user	common	zh	选择用户
+select work email address	common	zh	选择工作邮件地址
+selection	common	zh	选择
+send	common	zh	发送
+senegal	common	zh	塞内加尔
+september	common	zh	九月
+serbia	common	zh	瑟比雅
+server %1 has been added	common	zh	服务器%1已添加
+server answered. processing response...	common	zh	服务器已回应，正在处理中...
+server contacted. waiting for response...	common	zh	服务器已连接，等待回应...
+server name	common	zh	服务器名
+session has been killed	common	zh	会话已中止
+setup	common	zh	安装程序
+setup main menu	common	zh	安装主菜单
+seychelles	common	zh	塞舌尔
+show all	common	zh	全部显示
+show all categorys	common	zh	显示所有类别
+show as topmenu	common	zh	显示顶部菜单
+show clock?	common	zh	显示时钟？
+show home and logout button in main application bar?	common	zh	是否在应用程序导航栏显示主页和注销按钮？
+show in sidebox	common	zh	显示侧边栏
+show logo's on the desktop.	common	zh	在桌面显示标示。
+show menu	common	zh	显示菜单
+show page generation time	common	zh	显示页面的生成耗时
+show page generation time on the bottom of the page?	common	zh	是否在页面底部显示该页面生成所耗时间？
+show page generation time?	common	zh	显示页面的生成耗时？
+show the logo's of egroupware and x-desktop on the desktop.	common	zh	在桌面显示 EGroupware 和 x-desktop 的 logo。
+show_more_apps	common	zh	show_more_apps
+showing %1	common	zh	共有%1项
+showing %1 - %2 of %3	common	zh	显示%3的%1 - %2
+sierra leone	common	zh	塞拉利昂
+simple	common	zh	精简
+singapore	common	zh	新加坡
+site configuration	common	zh	站点配置
+size	common	zh	大小
+slovakia	common	zh	斯洛伐克
+slovenia	common	zh	斯洛文尼亚
+solomon islands	common	zh	所罗门群岛
+somalia	common	zh	索马里
+sorry, your login has expired	login	zh	抱歉，您本次登录已终止
+south africa	common	zh	南非
+south georgia and the south sandwich islands	common	zh	南乔治亚和南桑德韦奇群岛
+spain	common	zh	西班牙
+sri lanka	common	zh	斯里兰卡
+start date	common	zh	起始日期
+start time	common	zh	起始时间
+start with	common	zh	起始于
+starting up...	common	zh	正在启动...
+status	common	zh	状态
+stretched	common	zh	拉伸
+subject	common	zh	主题
+submit	common	zh	提交
+substitutions and their meanings:	common	zh	替代及其含义：
+sudan	common	zh	苏丹
+sunday	common	zh	星期日
+suriname	common	zh	苏里南
+svalbard and jan mayen	common	zh	斯瓦尔巴特和扬马延
+swaziland	common	zh	斯威士兰
+sweden	common	zh	瑞典
+switzerland	common	zh	瑞士
+syrian arab republic	common	zh	叙利亚阿拉伯共和国
+table properties	common	zh	表属性
+taiwan	common	zh	台湾省/中国台北
+tajikistan	common	zh	塔吉克斯坦
+tanzania, united republic of	common	zh	坦桑尼亚联合共和国
+text color:	common	zh	文字颜色：
+thailand	common	zh	泰国
+the following applications require upgrades	common	zh	以下应用程序需要升级
+the mail server returned	common	zh	退回邮件
+this name has been used already	common	zh	该名称已被使用！
+thursday	common	zh	星期四
+tiled	common	zh	平铺
+time	common	zh	时间
+time zone	common	zh	时区
+time zone offset	common	zh	时差
+title	common	zh	标题
+to	common	zh	到
+to correct this error for the future you will need to properly set the	common	zh	为今后更正该错误，您需要适当地设置
+to go back to the msg list, click <a href= %1 >here</a>	common	zh	点击<a href="%1">此处</a>返回邮件列表
+today	common	zh	今天
+todays date, eg. "%1"	common	zh	当前日期，例如："%1"
+togo	common	zh	多哥
+tokelau	common	zh	托克劳群岛
+tonga	common	zh	汤加
+too many unsucessful attempts to login: %1 for the user '%2', %3 for the ip %4	common	zh	登录失败次数过多：用户"%2" %1次，IP地址"%4" %3次
+top	common	zh	顶部
+total	common	zh	总计
+transparant bg for the icons?	common	zh	图标背景透明
+trinidad and tobago	common	zh	特立尼达和多巴哥
+tuesday	common	zh	星期二
+tunisia	common	zh	突尼斯
+turkey	common	zh	土耳其
+turkmenistan	common	zh	土库曼斯坦
+turks and caicos islands	common	zh	特克斯和凯科斯群岛
+tuvalu	common	zh	图瓦卢
+type	common	zh	类型
+uganda	common	zh	乌干达
+ukraine	common	zh	乌克兰
+underline	common	zh	下划线
+united arab emirates	common	zh	阿拉伯联合酋长国
+united kingdom	common	zh	英国
+united states	common	zh	美国
+united states minor outlying islands	common	zh	美属群岛
+unknown	common	zh	未知
+update	common	zh	更新
+update the clock per minute or per second	common	zh	按每秒或每分钟更新时钟
+upload	common	zh	上传
+upload directory does not exist, or is not writeable by webserver	common	zh	上传目录不存在，或不可写
+upload requires the directory to be writable by the webserver!	common	zh	上传目录必须为可写！
+url	common	zh	网址
+uruguay	common	zh	乌拉圭
+use button to search for	common	zh	使用按钮查找
+use button to search for address	common	zh	使用按钮查找地址
+use button to search for calendarevent	common	zh	使用按钮查找日记
+use button to search for project	common	zh	使用按钮查找项目
+user	common	zh	用户
+user accounts	common	zh	用户帐户
+user groups	common	zh	用户组
+username	common	zh	用户名
+users	common	zh	用户
+users choice	common	zh	用户的选择
+uzbekistan	common	zh	乌兹别克斯坦
+value	common	zh	数值
+vanuatu	common	zh	瓦努阿图
+venezuela	common	zh	委内瑞拉
+version	common	zh	版本
+viet nam	common	zh	越南
+view	common	zh	查看
+virgin islands, british	common	zh	英属维京群岛
+virgin islands, u.s.	common	zh	美属维京群岛
+wallis and futuna	common	zh	瓦利斯和富图纳群岛
+wednesday	common	zh	星期三
+welcome	common	zh	欢迎
+western sahara	common	zh	西撒哈拉
+what color should all the blank space on the desktop have	common	zh	桌面空白区域的颜色
+what style would you like the image to have?	common	zh	您喜欢什么样的图片风格？
+when you say yes the home and logout buttons are presented as applications in the main top applcation bar.	common	zh	如果选择“是”，“首页”和“注销”图标将显示在应用程序工具条中。
+where and how will the egroupware links like preferences, about and logout be displayed.	common	zh	将在什么位置和如何以喜欢偏好显示 EGroupware、关于及注销的链接。
+which groups	common	zh	哪一个组
+whole query	common	zh	完整查询
+width	common	zh	宽度
+work email	common	zh	工作 EMail 地址
+would you like to display the page generation time at the bottom of every window?	common	zh	您是否要在每个窗口下边显示生成时间？
+writing	common	zh	写入
+written by:	common	zh	作者：
+year	common	zh	年
+yemen	common	zh	也门
+yes	common	zh	是
+yes - delete	common	zh	是
+you are required to change your password during your first login	common	zh	首次登录，您必须更改密码
+you can customize how many icons and toolbars the editor shows.	common	zh	您可以通过选项来定制编辑器显示多少个图标与工具栏。
+you have been successfully logged out	login	zh	注销成功
+you have not entered a title	common	zh	必须输入标题
+you have not entered a valid date	common	zh	输入的日期无效
+you have not entered a valid time of day	common	zh	输入的时间无效
+you have not entered participants	common	zh	必须输入参与者
+you have selected an invalid date	common	zh	选定的日期无效！
+you have selected an invalid main category	common	zh	选定的主类别无效！
+you have successfully logged out	common	zh	注销成功
+you need to add the webserver user '%1' to the group '%2'.	common	zh	您必须将Web服务器的用户'%1'添加到用户组'%2'。
+you need to be an egroupware administrator to access this functionality!	common	zh	您必须具备EGroupware管理员身份才能访问此功能！
+you've tried to open the egroupware application: %1, but you have no permission to access this application.	common	zh	你试图打开EGroupware应用程序：%1，但您没有访问该应用程序的权限。
+your message could <b>not</b> be sent!<br>	common	zh	您的邮件<b>无法</b>发送！<br>
+your message has been sent	common	zh	您的邮件已发送
+your search returned %1 matchs	common	zh	您的搜索返回%1个匹配结果
+your search returned 1 match	common	zh	您的搜索返回1个匹配结果
+your settings have been updated	common	zh	您的设置已更新
+zambia	common	zh	赞比亚
+zimbabwe	common	zh	津巴布韦
+zoom	common	zh	缩放
+search for '%1'	common	zh	搜索'%1'
+%1 (%2 new) messages writen for application '%3' and languages '%4'	common	zh	应用程序'%3'和语言'%4'的文字讯息%1(%2新)
+%1 etemplates deleted	common	zh	%1 个模板已删除
+%1 etemplates for application '%2' dumped to '%3'	common	zh	%1 个模板为应用程序 '%2' 转储到 '%3'
+%1 etemplates found	common	zh	找到 %1 个模板
+%1 matches on search criteria	common	zh	有 %1 条符合搜索条件的资料
+%1 new etemplates imported for application '%2'	common	zh	导入 %1 条应用程序 '%2' 的模板
+%s disabled	common	zh	%s 已禁用
+%s needed	common	zh	需要 %s
+%s notranslation	common	zh	%s 未翻译
+%s onchange	common	zh	%s onChange
+%s readonly	common	zh	%s 只读
+'%1' has an invalid format !!!	common	zh	'%1' 格式错误！
+'%1' is not a valid date !!!	common	zh	'%1'不是有效的日期！
+'%1' is not a valid floatingpoint number !!!	common	zh	'%1' 不是正确的浮点数！
+'%1' is not a valid integer !!!	common	zh	'%1' 不是正确的整数！
+a pattern to be searched for	common	zh	一搜索模式用于
+accesskey	common	zh	快捷键
+accesskeys can also be specified with an & in the label (eg. &name)	common	zh	快捷键也可以在标签中指定有一个 & (例如 &Name) 字符
+account contactdata	common	zh	账户联系人数据
+actions...	common	zh	操作...
+add a new column (after the existing ones)	common	zh	添加新列 (在已存在的之后)
+add a new entry of the selected application	common	zh	在选择的应用程序中添加新条目
+add a new multi-column index	common	zh	添加新的多列索引
+add column	common	zh	添加列
+add index	common	zh	添加索引
+add new	common	zh	新增
+add table	common	zh	添加表
+advanced search	common	zh	高级搜索
+align	common	zh	对齐
+alignment of label and input-field in table-cell	common	zh	标签与输入字段的对齐方式
+alignment of the v/hbox containing table-cell	common	zh	V/HBox 的对齐方式
+all days	common	zh	全部日数
+all operations save the template!	common	zh	所有操作保存模板！
+all users	common	zh	所有用户
+am	common	zh	上午
+an indexed column speeds up querys using that column (cost space on the disk !!!)	common	zh	使用索引列可以提高搜索速度(但是会占用磁盘空间！)
+and	common	zh	及
+application	common	zh	应用程序
+application name needed to write a langfile or dump the etemplates !!!	common	zh	应用程序需要写一个语言文件或是转储模板！
+applications	common	zh	应用程序
+applies the changes made	common	zh	应用所作修改
+applies the changes to the given version of the template	common	zh	应用修改到指定模板的版本
+as default	common	zh	默认
+attach	common	zh	附加
+attach file	common	zh	附加文件
+baseline	common	zh	基线
+blurtext	common	zh	模煳文字
+border	common	zh	边框
+border-line-thickness for the table-tag	common	zh	表格标签使用的框线宽度
+bottom	common	zh	底部
+box	common	zh	容器 Box
+box...	common	zh	容器 Box...
+can not have special sql-value null	common	zh	不能有特殊 SQL-value  NULL
+cancel	common	zh	取消
+cant delete a single widget from a grid !!!	common	zh	不能从栅格中删除单一部件！
+cant delete the only column of a grid !!!	common	zh	无法从栅格中删除唯一的列！
+cant delete the only row in a grid !!!	common	zh	无法从栅格中删除唯一的行！
+category	common	zh	类别
+category tree	common	zh	类别树
+cellpadding for the table-tag	common	zh	表格标签文字与单元格之间的距离
+cells	common	zh	储存格
+cellspacing for the table-tag	common	zh	表格标签文字与单元格之间的距离
+center	common	zh	居中
+changed	common	zh	已更改
+check all	common	zh	全选
+check if content should only be displayed but not altered (the content is not send back then!)	common	zh	检查如果内容只是被显示，但不被改变 (当时不返回内容！)
+check if field has to be filled by user	common	zh	检查字段是否已被用户填写
+checkbox	common	zh	选择框
+class	common	zh	类
+class, valign	common	zh	类，垂直对齐
+click here to attach the file	common	zh	点击以附加文件
+click here to create the link	common	zh	点击以创建连接
+click here to start the search	common	zh	点击开始搜索
+click here to upload the file	common	zh	点击上传文件
+click to order after that criteria	common	zh	点击按此为标准排序
+clickable path	common	zh	可点击路径
+closes the window without saving the changes	common	zh	关闭窗口不保存任何更改
+column...	common	zh	列...
+columnname	common	zh	列_名称
+comment	common	zh	备注
+confirm	common	zh	确认
+confirmation message or custom javascript (returning true or false)	common	zh	确认消息或自定义javascript(返回true或false)
+confirmation necesary or custom java-script	common	zh	需要确认或自定义 javascript
+contact	common	zh	联系人
+contact field to show	common	zh	要显示的联系人字段
+contact fields	common	zh	联系人字段
+contains	common	zh	包含
+copy to clipboard	common	zh	复制到剪贴板
+create a new table for the application	common	zh	为这个应用程序创建一新数据表
+creates an english ('en') langfile from label and helptexts (for application in name)	common	zh	从标签和帮助文本创建一个英文('en')语言文件(用于应用程序名称)
+creator	preferences	zh	创建者
+css class for the table-tag	common	zh	表格标签的 CSS 类
+css properties	common	zh	CSS 属性
+css-class name for this row, preset: 'nmh' = nextmatch header, 'nmr' = alternating nm row, 'nmr0'+'nmr1' nm rows	common	zh	该行的CSS类名，预设：'nmh' = NextMatch header，'nmr' = alternating NM row, 'nmr0'+'nmr1' NM rows
+css-class name for this row, preset: 'th' = header, 'row' = alternating row, 'row_off'+'row_on' rows	common	zh	该列的CSS类名，预设：'th' = header, 'row' = alternating row, 'row_off'+'row_on' rows
+css-styles	common	zh	CSS-风格
+custom	common	zh	自定义
+custom fields	common	zh	自定义字段
+custom javascript for onchange	common	zh	为 onChange 自定义 javascript
+cut	common	zh	剪切
+date+time	common	zh	日期+时间
+day	common	zh	天
+days	common	zh	天
+db ensures that every row has a unique value in that column	common	zh	在该列中数据库确保每一行有一个不重复的值
+db-specific index options (comma-sep.), eg. mysql(fulltext) or mysql(100) for the indexed length of a col	common	zh	特定数据库索引选项(以逗号分隔)，例如：MySQL(FULLTEXT)或MySQL(100)来设定列的索引长度
+db-tools	common	zh	数据库工具
+deck	common	zh	装饰(内部)
+default	common	zh	默认
+delete a single entry by passing the id.	common	zh	通过 ID 删除一单项条目。
+delete all selected etemplates, without further inquiry	common	zh	删除所有选取的模板，不再进行确认询问
+delete and cut save the template!	common	zh	删除和剪切保存模板！
+delete column	common	zh	删除列
+delete index	common	zh	删除索引
+delete the spezified etemplate	common	zh	删除指定模板
+delete this column	common	zh	删除此列
+delete this etemplate	common	zh	删除该模板
+delete this file	common	zh	删除此文件
+delete this row	common	zh	删除此行
+delete whole column (can not be undone!!!)	common	zh	删除全部列 (无法复原！)
+deletes the above spez. etemplate from the database, can not be undone	common	zh	从数据库删除以上指定的模板，无法复原
+deletes the etemplate spez. above	common	zh	删除以上指定的模板
+deletes this column	common	zh	删除该列
+deletes this index	common	zh	删除此索引
+discard changes	common	zh	放弃更改
+displayed in front of input or input is inserted for a '%s' in the label (label of the submitbutton or image-filename)	common	zh	在输入之前显示或输入是为'%s'插入标签中(提交按钮标签或图片文件名)
+displayed in statusline of browser if input-field gets focus	common	zh	如果输入字段获得焦点则在浏览器状态栏显示
+displayed in the top line of the groupbox (legend)	common	zh	在GroupBox (图例) 的顶行显示
+do you want to save the changes you made in table %s?	common	zh	是否要保存您在表%s所作修改？
+document '%1' does not exist or is not readable for you!	preferences	zh	文件'%1'不存在或是您没有读取权限！
+documentation	common	zh	文档
+doesn't matter	common	zh	没关系
+drop a table - this can not be undone	common	zh	删去数据表 - 这将无法撤消
+drop table	common	zh	删去数据表
+dump4setup	common	zh	Dump4 安装
+duration	common	zh	期间
+edit	common	zh	编辑
+edit embeded css styles or of the applications app.css file	common	zh	编辑 CSS 嵌入式样式表或应用程序 app.css 文件
+edit the etemplate spez. above	common	zh	编辑上面指定的模板
+edit...	common	zh	编辑...
+editable templates - db-tools	common	zh	可编辑模板 - 数据库-工具
+editable templates - delete template	common	zh	可编辑模板 - 删除模板
+editable templates - editor	common	zh	可编辑模板 - 编辑器
+editable templates - search	common	zh	可编辑模板 - 搜索
+editable templates - show template	common	zh	可编辑模板 - 显示模板
+embeded css styles, eg. '.red { background: red; }' (note the '.' before the class-name) or '@import url(...)' (class names are global for the whole page!)	common	zh	CSS嵌入式样式表，例如'.red { background: red;}' (注意'.'在类名称之前)或是 '@import url(...)' (类名称可以在全局网页使用！)
+enable javascript onchange submit	common	zh	启用 JavaScript 改动时提交功能
+enter '' for an empty default, nothing mean no default	common	zh	对于空的默认值，输入'' 意味着没有任何的默认
+enter a search pattern	common	zh	输入搜索条件
+enter filename to upload and attach, use [browse...] to search for it	common	zh	输入上传文件与附件的文件名，使用[浏览...]对其搜索
+enter the new version number here (> old_version), empty for no update-file	common	zh	输入新的版本号(大于旧版本)，空白表示没有更新
+enter the new version number here (has to be > old_version)	common	zh	输入新的版本号(必须大于旧版本)
+entry saved	common	zh	条目已储存
+error uploading file!	filemanager	zh	上传文件错误！
+error: template not found !!!	common	zh	错误：找不到模板！
+error: webserver is not allowed to write into '%1' !!!	common	zh	错误：Web服务器无法写入文件'%1'！
+error: while saving !!!	common	zh	错误：保存时！
+error: writing file (no write-permission for the webserver) !!!	common	zh	错误：写入文件时(Web服务器没有写入权限)！
+etemplate	common	zh	[eGW-TPL]模板管理
+etemplate '%1' imported, use save to put it in the database	common	zh	模板'%1'已导入，点击保存将其放入数据库中
+etemplate '%1' written to '%2'	common	zh	模板 '%1' 写到 '%2'
+etemplate editor	common	zh	模板编辑器
+etemplate reference	common	zh	模板参考
+etemplate tutorial	common	zh	模板教学指南
+exchange this row with the one above	common	zh	用以上行替换这一行
+exchange this two columns	common	zh	交换这两列
+export the loaded etemplate into a xml-file	common	zh	将载入的模板导出到 XML-文件
+export xml	common	zh	导出 XML文件
+extensions loaded:	common	zh	已载入扩展：
+field	common	zh	字段
+field must not be empty !!!	common	zh	字段不得为空！
+file	common	zh	文件
+file contains more than one etemplate, last one is shown !!!	common	zh	文件包含多个模板，只显示最后一条！
+file writen	common	zh	书面文件
+fileupload	common	zh	文件上传
+first	common	zh	第一条
+floating point	common	zh	浮点数
+foreign key	common	zh	外键 (Foreign Key)
+formatted text (html)	common	zh	格式化文本 (HTML)
+general fields:	preferences	zh	通用字段：
+go to the first entry	common	zh	到第一条目
+go to the last entry	common	zh	到最后条目
+go to the next page of entries	common	zh	下一条目页面
+go to the previous page of entries	common	zh	上一条目页面
+grid	common	zh	栅格
+grid column attributes	common	zh	栅格列属性
+grid row attributes	common	zh	栅格行属性
+groupbox	common	zh	成组框控件
+h	common	zh	时
+hbox	common	zh	水平框控件
+height	common	zh	高度
+height of row (in % or pixel)	common	zh	行高 (百分比或像素)
+height of row (in % or pixel), disable row: [! = not]<value>[=<check>] eg: '!@data' disable row if content of data is empty	common	zh	行高(百分比或像素)，禁用行：[! = not]<value>[=<check>]例如：'!@data'如果数据内容为空则禁用
+height of the table in % or pixels for the table-tag and (optional) div	common	zh	表格标签和(可选)div的表格高度(百分比或像素)
+height, disabled	common	zh	高度，禁用
+help	common	zh	帮助
+history log	common	zh	历史日志
+horizontal rule	common	zh	水平规则
+hour	common	zh	小时
+hours	common	zh	小时
+how many entries should the list show	common	zh	列表将要显示多少个条目
+html	common	zh	HTML
+id	common	zh	编号
+if field is disabled an empty table-cell is displayed, for (temporal) removement of a field/cell	common	zh	为了(暂时)移除一个 field/cell，如果字段被禁用则会显示一个空白 table-cell
+image	common	zh	图片
+import	common	zh	导入
+import an etemplate from a xml-file	common	zh	从XML文件导入一个模板
+import table-definitions from existing db-table	common	zh	从已有的数据表导入表定义文件
+import xml	common	zh	导入XML文件
+increment version to not overwrite the existing template	common	zh	增加版本以避免覆盖现有模板
+index/name of returned content (name of the template, link / method for image)	common	zh	返回内容的索引/名称(模板名称，图片的链接/方法)
+indexed	common	zh	已索引
+indexoptions	common	zh	索引选项
+insert a column before	common	zh	在前面插入一列
+insert a column behind	common	zh	在后面插入一列
+insert a row above	common	zh	在上方插入一行
+insert a row below	common	zh	在下方插入一行
+insert a widget before	common	zh	在前面插入一个容器
+insert a widget behind	common	zh	在后面插入一个容器
+insert in document	common	zh	插入文件
+insert new column behind this one	common	zh	在这一列之后插入新列
+insert new column in front of all	common	zh	在最前面插入新列
+insert new row after this one	common	zh	在这一行之后插入新行
+insert new row in front of first line	common	zh	在第一行之前插入新行
+integer	common	zh	整数
+key	common	zh	键值
+label	common	zh	标签
+label:[bold][italic] text:[len][,max] numbers:[min][,[max][,len]] t.area:[rows][,cols] radiob.:value h.rule:[width] templ.:[indexincontent] select:[multiselect] date:[values: eg. 'y-m-d']	common	zh	标签:[bold][italic] 文本:[len][,max] 编号:[min][,[max][,len]] 文本区:[rows][,cols] 复选按钮:value 水平线:[width] 模板:[IndexInContent] 选择:[multiselect] 日期:[values: eg. 'Y-m-d']
+lang	common	zh	语言
+language-short (eg. 'en' for english) for language-dependent template ('' reads your pref. languages or the default, us 'default' to read the default template '')	common	zh	从属语言模板的语言-缩写(例如：'en'表示英文)("会读取您的语言用户配置文件或默认值，us'默认'将读取默认模板")
+last	common	zh	最后
+left	common	zh	左
+length for char+varchar, precisions int: 2, 4, 8 and float: 4, 8	common	zh	字元长度，精确数字：2,4,8 和浮点数：4,8
+link	common	zh	链接
+linkapps	common	zh	链接应用程序
+linkentry	common	zh	链接条目
+linklist	common	zh	链接列表
+linkstring	common	zh	链接字串
+linkto	common	zh	链接到
+load this template into the editor	common	zh	载入该模板到编辑器中
+loading	common	zh	载入
+middle	common	zh	中间
+minute	common	zh	分
+minutes	common	zh	分
+modifier	preferences	zh	修改人
+month	common	zh	月
+more	common	zh	更多
+multicolumn indices	common	zh	多列索引
+name	common	zh	名称
+name of other table where column is a key from	common	zh	其他表名哪一列是来自键值
+name of phpgw-template set (e.g. verdilak): '' = default (will read pref. template, us 'default' to read default template '')	common	zh	模板名称(例如：verdilak)：'' = 默认(将读取模板用户配置文件，'默认'us 来读取默认模板)
+name of table to add	common	zh	要添加的数据表名称
+name of the etemplate, should be in form application.function[.subtemplate]	common	zh	模板名称，应在表单 application.function[.subTemplate]中
+need to be unique in the table and no reseved word from sql, best prefix all with a common 2-digit short for the app, eg. 'et_'	common	zh	在表格中必须是唯一的且不是SQL的保留字，最好加上两个英文与一个底线当作前置字来表示应用程序
+new	common	zh	新建
+new search	common	zh	新建搜索
+new table created	common	zh	新表已创建
+newer version '%1' exists !!!	common	zh	有新的版本 '%1'！
+nextmatch	common	zh	下一个匹配
+nextmatch accountfilter	common	zh	下一个匹配的账户规则
+nextmatch custom filterheader	common	zh	下一个匹配的自定义过滤头
+nextmatch filterheader	common	zh	下一个匹配过滤头
+nextmatch header	common	zh	下一个匹配头
+nextmatch sortheader	common	zh	下一个匹配分类头
+no column to swap with !!!	common	zh	没有与之交换的列！
+no file	common	zh	无文件
+no filename given or selected via browse...	common	zh	没有指定文件名或是通过浏览器选择的...
+no matches found	common	zh	未找到匹配
+no row to swap with !!!	common	zh	没有与之交换的行！
+not null	common	zh	非空
+nothing	common	zh	无
+nothing found - try again !!!	common	zh	没有找到 - 请再试！
+nothing in clipboard to paste !!!	common	zh	无法从剪贴板粘贴！
+nothing matched search criteria !!!	common	zh	没有与搜索条件相匹配的！
+now	common	zh	现在
+number of colums the field/cell should span or 'all' for the remaining columns, css-class name (for the td tag)	common	zh	字段/单元列数应为跨距或'所有'的其余列，CSS类名(对于TD标签)
+number of rows/cols in a v/hbox, cellpadding, cellspacing	common	zh	V/HBox 中 rows/cols 数目、Cellpadding, Cellspacing
+of	common	zh	的
+onchange	common	zh	当改动时
+onclick	common	zh	当点击时
+only an other version found !!!	common	zh	只有找到一个其他版本！
+open the online help.	common	zh	开启在线帮助
+operator	common	zh	操作符
+optional note about the link	common	zh	可选的关于链接的注释
+options	common	zh	选项
+or	common	zh	或
+order to navigating by tab key through the form	common	zh	使用跳位键实现在表单中的导航
+overflow	common	zh	超过
+padding	common	zh	文框距离
+parent is a '%1' !!!	common	zh	上一层是一个 '%1' ！
+paste	common	zh	贴上
+path	common	zh	路径
+please enter table-name first !!!	common	zh	请先输入表格名称！
+pm	common	zh	下午
+popup	common	zh	弹出窗口
+precision	common	zh	精度
+primary key	common	zh	主键
+primary key for the table, gets automaticaly indexed	common	zh	表的主键，自动获取索引
+radiobutton	common	zh	单选按钮
+read	common	zh	读取
+read a list of entries.	common	zh	读取条目列表。
+read a single entry by passing the id and fieldlist.	common	zh	通过ID和字段列表读取一单项条目。
+read etemplate from database (for the keys above)	common	zh	从数据库读取模板 (通过以上键值)
+readonly	common	zh	只读
+refresh	common	zh	刷新
+remove row (can not be undone!!!)	common	zh	移除行 (无法还原！)
+remove this link (not the entry itself)	common	zh	移除此链接 (不是条目本身)
+required	common	zh	需要
+reset	common	zh	重置
+returns savely, without deleting	common	zh	返回，未删除
+right	common	zh	正确
+row...	common	zh	列...
+save all	common	zh	保存所有
+save selected columns as default preference for all users.	common	zh	保存所选列作为所有用户默认首选。
+save the changes made and close the window	common	zh	保存所作更改并且关闭窗口
+save the etemplate under the above keys (name, ...), change them for a saveas	common	zh	在上面的键值(name,...)之下保存模板，把它们改为另存将
+saves changes to tables_current.inc.php	common	zh	保存到 tables_current.inc.php
+saves the template with given version number and closes the window	common	zh	使用给定的版本号保存模板并关闭窗口
+scale	common	zh	比例
+scale for float	common	zh	小数点位数
+search	common	zh	搜索
+select a category	common	zh	选择分类
+select a primary contact, to show in the list	common	zh	选择主要联系人在列表中显示
+select access	common	zh	选择访问
+select account	common	zh	选择账户
+select an app first !!!	common	zh	选择一个应用程序！
+select an app to search in	common	zh	选择要搜索的应用程序
+select an application	common	zh	选择一个应用程序
+select an application, (*) = uninstalled	common	zh	应用程序，(*)  = 未安装的
+select an entry to link with	common	zh	选择要链接的条目
+select an table of the application	common	zh	选择一个应用程序的数据表
+select application	common	zh	选择应用程序
+select application to search	common	zh	选择要搜索的应用程序
+select category	common	zh	选择分类
+select columns	common	zh	选择列
+select country	common	zh	选择国家
+select day	common	zh	选择日
+select day of week	common	zh	选择一周的星期几
+select entry	common	zh	选择条目
+select hour	common	zh	选择小时
+select if content of field should not be translated (label gets always translated)	common	zh	如果字段内容不应被翻译(标签总是被翻译)时选择
+select language	common	zh	选择语言
+select month	common	zh	选择月份
+select number	common	zh	选择数字
+select one ...	common	zh	选择一个...
+select percentage	common	zh	选择比率
+select priority	common	zh	选择优先权
+select state	common	zh	选择状态
+select the columns to display in the list	common	zh	在列表中选择要显示的列
+select the indexed columns in their desired order	common	zh	在希望的排序中选择索引列
+select this etemplate to delete it	common	zh	选择删除这个模板
+select which accounts to show	common	zh	选择要显示的帐户
+select which values to show	common	zh	选择要显示的数值
+select year	common	zh	选择年
+selectbox	common	zh	下拉选单
+set as default	common	zh	设置作为缺省
+sets today as date	common	zh	设置为当前日期
+should the form be submitted or any custom javascript be executed	common	zh	将表单提交或是执行任何自定义 javascript
+show	common	zh	显示
+show (no save)	common	zh	显示 (不保存)
+show values	common	zh	显示数值
+showing	common	zh	显示
+shows / allows you to enter values into the etemplate for testing	common	zh	显示/允许您输入用于测试的数值到模板中
+shows/displays etemplate for testing, does not save it before	common	zh	为测试显示/展示模板，在之前不保存
+spacing	common	zh	间隔
+span	common	zh	Span
+span, class	common	zh	Span, Class
+stack	common	zh	Stack
+start a new search, cancel this link	common	zh	取消此链接，开始新的搜索
+start new search for the above pattern	common	zh	用以上规则开始新的搜索
+submit form	common	zh	提交表单
+submitbutton	common	zh	提交按钮
+swap	common	zh	切换
+swap widget with next one	common	zh	切换到下一个容器
+swap with next column	common	zh	切换到下一个列
+swap with next row	common	zh	切换到下一个行
+switch to a parent widget	common	zh	切换到父器件
+switch to an other widgets of that container	common	zh	与其他容器切换
+tabindex	common	zh	跳位键索引
+table unchanged, no write necessary !!!	common	zh	表没有改动，没必要保存！
+tablename	common	zh	数据表名称
+tabs	common	zh	跳位
+template	common	zh	模板
+template deleted	common	zh	模板已删除
+template saved	common	zh	模板已保存
+text	common	zh	文字
+textarea	common	zh	文字区
+this text gets displayed if the input-field is empty and has no focus (blur)	common	zh	如果输入字段为空且没有焦点(模煳)，这些文本得以显示
+time	common	zh	时间
+to disable: [! = not]<value>[=<check>] eg: '!@data' disables if content of data is empty	common	zh	禁用：[! = not]<value>[=<check>]，例如：'!@data' 如果数据内容为空则禁用
+to start the db-tools	common	zh	开始数据库工具
+to start the etemplate editor	common	zh	开始模板编辑器
+to start the search	common	zh	开始搜索
+today	common	zh	今天
+top	common	zh	顶部
+tree	common	zh	树
+type	common	zh	类型
+type of the column	common	zh	列的类型
+type of the field (select label if field should be empty)	common	zh	字段类型 (如果字段为空则选择标签)
+unique	common	zh	唯一的
+unlink	common	zh	取消链接
+update a single entry by passing the fields.	common	zh	通过字段更新一个单一条目
+update from version '%s' to	common	zh	从版本 '%s'更新到
+upload	common	zh	上传
+valign	common	zh	垂直对齐
+value	common	zh	数值
+value has to be at least '%1' !!!	common	zh	数值最少必须是 '%1'！
+value has to be at maximum '%1' !!!	common	zh	数值最大是 '%1' ！
+vbox	common	zh	VBox
+version	common	zh	版本
+version-number, should be in the form: major.minor.revision.number (eg. 0.9.13.001 all numbers filled up with zeros)	common	zh	版本号格式应该是：major.minor.revision.number (例如：0.9.13.001 所有数字用0来填空)
+vertical alignment of row	common	zh	行的垂直对齐
+view this etemplate	common	zh	查看这个模板
+view this linked entry in its application	common	zh	在应用程序中查看这个链接
+weekend	common	zh	周末
+what happens with overflowing content: visible (default), hidden, scroll, auto (browser decides)	common	zh	发生内容超出：显示(默认)，隐藏，卷动，自动(由浏览器决定)
+widget copied into clipboard	common	zh	容器复制到剪贴簿
+width	common	zh	宽度
+width of col (in % or pixel), disable col: [! = not]<value>[=<check>] eg: '!@data' disable col if content of data is empty	common	zh	列宽(百分比或是像素)，禁用列：[! = not]<value>[=<check>]例如：'!@data' 如果数据内容为空就禁用
+width of column (in % or pixel)	common	zh	列的宽度（百分比或像素）
+width of the table in % or pixels for the table-tag and (optional) div	common	zh	用于table-tag和(可选)div的百分比或像素表格宽度
+width, disabled	common	zh	宽度，禁用
+wk	common	zh	周
+working days	common	zh	工作日
+write <app>/setup/tables_current.inc.php	common	zh	写入<app>/setup/tables_current.inc.php
+write langfile	common	zh	写语言文件
+write tables	common	zh	写入表格
+writes a 'etemplates.inc.php' file (for application in name) in the setup-dir of the app	common	zh	在应用程序的安装目录写入'etemplates.inc.php'文件(对指定的应用程序)
+xml-file to import	common	zh	要导入的 XML-文件
+xslt template	common	zh	XSLT 模板
+year	common	zh	年
+you can respond by visiting:	common	zh	查看访问：
+initial	common	zh	初始的
+id	common	zh	编号

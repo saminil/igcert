@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="admin.customfields.types" template="" lang="" group="0" version="1.2">
+		<grid>
+			<columns>
+				<column/>
+				<column/>
+				<column/>
+				<column disabled="@non_deletable"/>
+				<column disabled="@no_add"/>
+				<column disabled="@no_add"/>
+			</columns>
+			<rows>
+				<row>
+					<hbox>
+					<description id="appname"/>
+					<description value=" - "/>
+					<description value="type"/>
+					</hbox>
+					<menulist>
+						<menupopup id="types" no_lang="1" onchange="1"/>
+					</menulist>
+					<button label="Delete" id="delete" onclick="app.admin.cf_type_delete"/>
+					<textbox blur="new name" id="name"/>
+					<button label="Create" id="create"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="admin.customfields.fields" template="" lang="" group="0" version="1.9.001">
+		<grid readonly="true">
+			<columns>
+				<column disabled="!@type2" width="50px"/>
+				<column width="30%"/>
+				<column width="30%"/>
+				<column width="100px"/>
+				<column width="50px"/>
+				<column width="100px" disabled="!@use_private"/>
+				<column width="60%"/>
+				<column width="50px"/>
+				<column width="50px"/>
+				<column width="120px"/>
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-header label="Type" id="cf_type2"/>
+					<nextmatch-sortheader label="Name" id="cf_name"/>
+					<nextmatch-sortheader label="Label" id="cf_label"/>
+					<nextmatch-header label="Type of field" id="cf_type"/>
+					<nextmatch-header label="Required" id="cf_needed"/>
+					<nextmatch-header label="Private" id="cf_private"/>
+					<nextmatch-header label="Options"/>
+					<vbox>
+						<nextmatch-header label="Length"/>
+						<nextmatch-header label="Rows"/>
+					</vbox>
+					<nextmatch-sortheader label="Order" id="cf_order"/>
+					<nextmatch-sortheader label="Last modified" id="cf_modified"/>
+				</row>
+				<row class="row" valign="top">
+					<menulist>
+						<menupopup id="${row}[cf_type2]" no_lang="1" multiple="true" empty_label="All"/>
+					</menulist>
+					<description id="${row}[cf_name]" no_lang="1" />
+					<vbox>
+						<description id="${row}[cf_label]" no_lang="1"/>
+						<description id="${row}[cf_label]"/>
+					</vbox>
+					<customfields-types statustext="Type of customfield" id="{$row}[cf_type]"/>
+					<checkbox id="${row}[cf_needed]" selected_value="1" unselected_value="0"/>
+					<select-account id="${row}[cf_private]" account_type="both"/>
+					<description id="${row}[cf_values]" no_lang="1" class="values"/>
+					<vbox>
+						<description id="${row}[cf_len]" no_lang="1"/>
+						<description id="${row}[cf_rows]" no_lang="1"/>
+					</vbox>
+					<description id="${row}[cf_order]" no_lang="1"/>
+					<vbox>
+						<date-time id="${row}[cf_modified]"/>
+						<select-account id="${row}[cf_modifier]"/>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="admin.customfields.add" template="" lang="" group="0" version="1.9.001">
+		<buttononly label="Add" id="add" onclick="egw.open_link('admin.admin_customfields.edit&amp;appname='+widget.getArrayMgr('content').getRoot().getEntry('nm[appname]')+'&amp;use_private='+widget.getArrayMgr('content').getRoot().getEntry('use_private'),false,'450x380');"/>
+	</template>
+	<template id="admin.customfields" template="" lang="" group="0" version="1.9.001">
+		<template id="@type_template"/>
+		<nextmatch id="nm" template="admin.customfields.fields" header_left="admin.customfields.add"/>
+	</template>
+</overlay>

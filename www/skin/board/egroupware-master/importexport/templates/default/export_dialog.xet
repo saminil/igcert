@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="importexport.export_dialog.general_tab_content" template="" lang="" group="0" version="">
+		<grid>
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<description span="all"/>
+				</row>
+				<row class="select_appname ">
+					<description value="Select application"/>
+					<menulist>
+						<menupopup id="appname" no_lang="1" onchange="1"/>
+					</menulist>
+				</row>
+				<row class="select_definition">
+					<description value="Select definition"/>
+					<menulist>
+						<menupopup id="definition" no_lang="1" onchange="widget.getInstanceManager().postSubmit(); return false;"/>
+					</menulist>
+				</row>
+				<row class="select_plugin">
+					<description value="Select plugin"/>
+					<menulist>
+						<menupopup id="plugin" no_lang="1" onchange="1"/>
+					</menulist>
+				</row>
+				<row>
+					<box id="plugin_description" span="all">
+						<description id="description" no_lang="1" span="all"/>
+					</box>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="importexport.export_dialog.general_tab" template="" lang="" group="0" version="">
+		<grid height="200px">
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row valign="top">
+					<image src="export"/>
+					<template id="importexport.export_dialog.general_tab_content"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="importexport.export_dialog.selection_tab" template="" lang="" group="0" version="">
+		<grid width="100%" height="200px">
+			<columns>
+				<column width="150"/>
+				<column width="300" disabled="@no_filter"/>
+			</columns>
+			<rows>
+				<row class="th" height="20" disabled="@plugin_selectors_template">
+					<description/>
+					<description value="Definition filter"/>
+				</row>
+				<row valign="top" disabled="@plugin_selectors_template">
+					<html id="plugin_selectors_html" no_lang="1"/>
+					<box class="filters">
+						<filter id="filter_html"/>
+					</box>
+				</row>
+				<row class="th" height="20" disabled="!@plugin_selectors_template">
+					<description/>
+					<description value="Definition filter"/>
+				</row>
+				<row valign="top" disabled="!@plugin_selectors_template">
+					<template id="@plugin_selectors_template"/>
+					<box onclick="jQuery('input[value=\'filter\']').not(':checked').attr('checked',true).parent().effect('highlight',{},2000);" class="filters">
+						<filter id="filter_tpl"/>
+					</box>
+				</row>
+			</rows>
+		</grid>
+		<styles>
+			select[multiple] {
+  width: 400px;
+}
+.filters {
+  max-height: 300px;
+  min-height: 150px;
+  overflow-y: auto;
+}
+		</styles>
+	</template>
+	<template id="importexport.export_dialog.options_tab" template="" lang="" group="0" version="">
+		<grid height="200px">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<grid>
+						<columns>
+							<column/>
+							<column/>
+						</columns>
+						<rows>
+							<row>
+								<description value="Delimiter"/>
+								<hbox no_lang="1">
+									<menulist>
+										<menupopup id="delimiter" no_lang="1" onchange="var _this = jQuery(this); var text = _this.parent().parent().find('input'); if(_this.val() =='') {text.val('');text.show(); text.focus();} else {text.hide();}"/>
+									</menulist>
+									<textbox id="other_delimiter" size="2" class="hide"/>
+								</hbox>
+							</row>
+						</rows>
+					</grid>
+				</row>
+				<row valign="top" disabled="@plugin_options_template">
+					<html id="plugin_options_html" no_lang="1"/>
+				</row>
+				<row>
+					<template id="@plugin_options_template"/>
+				</row>
+			</rows>
+		</grid>
+		<styles>
+			.hide input {
+ display: none;
+}
+		</styles>
+	</template>
+	<template id="importexport.export_dialog" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<description id="msg"/>
+				</row>
+				<row>
+					<tabbox id="general_tab|selection_tab|options_tab">
+						<tabs>
+							<tab id="general_tab" label="General"/>
+							<tab id="selection_tab" label="Selection"/>
+							<tab id="options_tab" label="Options"/>
+						</tabs>
+						<tabpanels>
+							<template id="importexport.export_dialog.general_tab"/>
+							<template id="importexport.export_dialog.selection_tab"/>
+							<template id="importexport.export_dialog.options_tab"/>
+						</tabpanels>
+					</tabbox>
+				</row>
+				<row class="save_definition dialog-operators high">
+					<checkbox label="Save as definition" id="save_as_definition"/>
+				</row>
+				<row class="dialog-footer-toolbar">
+					<hbox span="all">
+						<hbox>
+							<button label="Export" id="export" image="export" background_image="1"/>
+							<button label="Preview" id="preview" onclick="app.importexport.export_preview" image="prieview" background_image="1"/>
+						</hbox>
+						<button class="cancel" align="right" label="Cancel" id="cancel" onclick="window.close(); return false;" image="cancel" background_image="1"/>
+					</hbox>
+				</row>
+				<row>
+					<box id="preview_box" span="all" class="preview_box">
+						<html id="preview-box" class="content"/>
+						<box align="center" id="preview-box-buttons" class="preview-box-buttons">
+							<button align="center" label="OK" onclick="jQuery(this).parents('div.preview_box').css('display','none'); return false;"/>
+						</box>
+					</box>
+				</row>
+			</rows>
+		</grid>
+		<styles>
+			div.preview_box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 97%;
+  height: 95%;
+  overflow: hidden;
+  background-color: white;
+  z-index: 999;
+  display: none;
+  border: 1px solid black;
+  margin: 1.5%;
+}
+.preview_box .header {
+  font-size: 150%;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-bottom: 1px outset;
+}
+.header .count {
+  float:right;
+}
+.preview_box&gt;.content {
+  overflow: auto;
+}
+.preview-box-buttons  {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin-left: 50%;
+}
+		</styles>
+	</template>
+</overlay>

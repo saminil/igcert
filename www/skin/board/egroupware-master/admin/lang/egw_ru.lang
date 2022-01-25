@@ -1,0 +1,838 @@
+%1 - %2 of %3 user accounts	admin	ru	%1 - %2 из %3 учётных записей пользователей
+%1 - %2 of %3 user groups	admin	ru	%1 - %2 из %3 пользовательских групп
+%1 acl records of not (longer) existing accounts deleted.	admin	ru	%1 записей ACL (более) не существующей учётной записи удалено
+%1 categories of not (longer) existing accounts deleted.	admin	ru	%1 категорий (более) не существующей учётной записи удалено
+%1 category(s) %2	admin	ru	%1 категория(й) %2
+%1 category(s) %2, %3 failed because of insufficent rights !!!	admin	ru	%1 категория(й) %2, %3 отказ по причине отсутствия прав!
+%1 class not instanciated	admin	ru	%1 класс не представлен
+%1 group %2	admin	ru	%1 группа %2
+%1 is no command!	admin	ru	%1  - не команда!
+%1 log entries deleted.	admin	ru	%1 записей журнала удалено
+%1 not found or not executable !!!	admin	ru	%1 не найден или не исполняемый!
+%1 phrases saved.	admin	ru	%1 фраз сохранено
+%1 rights for %2 and applications %3	admin	ru	%1 права на %2 и приложения %3
+%1 sessions killed	admin	ru	%1 сессий завершено
+%1 user %2	admin	ru	%1 пользователь %2
+(default no, leave it off if you dont use it)	admin	ru	По умолчанию — «Нет», оставьте если не используете
+(stored password will not be shown here)	admin	ru	Сохранённые пароли не будут отображены
+(to install new applications use<br><a href="setup/" target="setup">setup</a> [manage applications] !!!)	admin	ru	Для установки новых приложений используйте<br><a href="setup/" target="setup">Установка</a> [Управление приложениями]!
+-  type	admin	ru	- тип
+accesslog and bruteforce defense	admin	ru	Журнал доступа и защита от взлома подбором
+account	admin	ru	Учетная запись
+account "%1" has no email address --> not notified!	admin	ru	Учётная запись «%1» не имеет E-mail адреса и поэтому не получает извещений!
+account "%1" has no plaintext password!	admin	ru	Учётная запись «%1» не имеет plaintext пароля
+account %1 %2	admin	ru	Учётная запись %1 %2
+account '%1' deleted.	admin	ru	Учётная запись «%1» удалена
+account active	admin	ru	Учётная запись активна
+account has been created	common	ru	Учётная запись создана
+account has been deleted	common	ru	Учётная запись удалена
+account has been updated	common	ru	Учётная запись изменена
+account id	admin	ru	ID учётной записи
+account list	admin	ru	Список учётных записей
+account permissions	admin	ru	Разрешения учётной записи
+account preferences	admin	ru	Настройки учётной записи
+account-id's have to be integers!	admin	ru	Идентификаторы учётных записей должны быть целыми числами!
+acl added.	admin	ru	Права доступа ACL добавлены.
+acl deleted.	admin	ru	Права доступа ACL удалены.
+acl manager	admin	ru	Менеджер ACL
+acl rights	common	ru	Права ACL
+action	admin	ru	Действие
+actions	admin	ru	Действия
+activate	admin	ru	Активировать
+activate wysiwyg-editor	admin	ru	Активировать визуальный (WYSIWYG) редактор
+add a category	admin	ru	Добавить категорию
+add a group	admin	ru	Добавить группу
+add a new account.	admin	ru	Добавить новую учётную запись
+add a new remote instance	admin	ru	Добавить новый удалённый экземпляр
+add a subcategory	admin	ru	Добавить подкатегорию
+add a user	admin	ru	Добавить пользователя
+add account	admin	ru	Добавить учётную запись
+add application	admin	ru	Добавить приложение
+add auto-created users to this group ('default' will be attempted if this is empty.)	admin	ru	Добавить автоматически создаваемых пользователей в группу (если пусто - назначается 'Default' )
+add global category	admin	ru	Добавить общую категорию
+add global category for %1	admin	ru	Добавить общую категорию для %1
+add group	admin	ru	Добавить группу
+add new account	admin	ru	Добавить новую учётную запись
+add new application	admin	ru	Добавить новое приложение
+add peer server	admin	ru	Добавить равноправный сервер
+add sub-category	admin	ru	Добавить подкатегорию
+admin email	admin	ru	Адрес электронной почты администратора
+admin email addresses (comma-separated) to be notified about the blocking (empty for no notify)	admin	ru	Адреса электронной почты администратора (разделённые запятыми) для извещения о блокировке (оставить пустым, если извещать не надо)
+admin name	admin	ru	Имя администратора
+admin queue and history	admin	ru	Администрирование очереди и истории
+administration	admin	ru	Администрирование
+admins	admin	ru	Администраторы
+advanced options	admin	ru	Расширенные параметры
+after how many unsuccessful attempts to login, an account should be blocked (default 15) ?	admin	ru	После скольких неудачных попыток входа в систему блокировать учетную запись (по умолчанию 3)?
+after how many unsuccessful attempts to login, an ip should be blocked (default 15) ?	admin	ru	После скольких неудачных попыток входа в систему блокировать IP-адрес (по умолчанию — 3)?
+aliases	admin	ru	Псевдонимы
+all applications	admin	ru	Все приложения
+all categories	admin	ru	Все категории
+all records and account information will be lost!	admin	ru	Все записи и информация по учётной записи будут утеряны!
+all users	admin	ru	Все пользователи
+allow anonymous access to this app	admin	ru	Разрешить анонимный доступ к данному приложению
+allow remote administration from following install id's (comma separated)	admin	ru	Разрешить удалённое администрирование со следующих идентификаторов установки (разделённых запятыми)
+alternate email address	admin	ru	Дополнительный email адрес
+anonymous user	admin	ru	Анонимный пользователь
+anonymous user (not shown in list sessions)	admin	ru	Анонимный пользователь (не отображается в списке сеансов)
+anonymous user does not exist!	admin	ru	Анонимный пользователь НЕ существует!
+anonymous user has no run-rights for the application!	admin	ru	Анонимный пользователь НЕ имеет права запуска приложения!
+appearance	admin	ru	Вид
+application	admin	ru	Приложение
+application '%1' not found (maybe not installed or misspelled)!	admin	ru	Приложение '%1' не найдено (возможно, не установлено или неверно записано)!
+application name	admin	ru	Имя приложения
+application title	admin	ru	Заголовок приложения
+applications	admin	ru	Приложения
+applications list	admin	ru	Список приложений
+applications run rights updated.	admin	ru	Права на запуск приложений изменены!
+applies the changes	admin	ru	Применять изменения
+apply the changes	admin	ru	Применить изменения
+archive: zip or tar	admin	ru	Архив: zip или tar
+are you sure you want to delete the application %1 ?	admin	ru	Вы уверены, что хотите удалить приложение %1?
+are you sure you want to delete this account ?	admin	ru	Уверены, что хотите удалить эту учётную запись?
+are you sure you want to delete this application ?	admin	ru	Уверены, что хотите удалить это приложение?
+are you sure you want to delete this category ?	common	ru	Уверены, что хотите удалить эту категорию?
+are you sure you want to delete this global category ?	admin	ru	Уверены, что хотите удалить эту общую категорию?
+are you sure you want to delete this group ?	admin	ru	Уверены, что хотите удалить эту группу?
+are you sure you want to delete this server?	admin	ru	Уверены, что хотите удалить этот сервер?
+are you sure you want to kill this session ?	admin	ru	Уверены, что хотите прервать этот сеанс?
+async services last executed	admin	ru	Асинхронные сервисы, исполнявшиеся последними
+asynchronous timed services	admin	ru	Асинхронные сервисы по таймеру
+asyncservices not yet installed or other error (%1) !!!	admin	ru	Асинхронные сервисы ещё не установлены, или другая ошибка (%1)!
+attempt to use correct mimetype for ftp instead of default 'application/octet-stream'	admin	ru	Попытка использовать правильный тип mime для FTP вместо 'application/octet-stream' по умолчанию
+attribute accountstatus explained	admin	ru	Относится к атрибуту <b><i>-accountStatus-</i></b> из схемы QMAIL
+attribute mail explained	admin	ru	Относится к атрибуту <b><i>-mail-</i></b> из схемы QMAIL и никогда не может быть пустым. Это также внутреннее поле электронной почты EGroupware
+attribute mailalternateaddress explained	admin	ru	Относится к атрибуту <b><i>-mailAlternateAddress-</i></b> из схемы QMAIL и может использоваться как виртуальные карты или псевдонимы
+attribute mailforwardingaddress explained	admin	ru	Относится к атрибуту <b><i>-mailForwardingAddress-</i></b> из схемы QMAIL и в случае присвоения требует заполнения
+authentication / accounts	admin	ru	Идентификация / учётные записи
+auto create account records for authenticated users	admin	ru	Автоматическое создание записей для идентифицированных пользователей
+available placeholders	admin	ru	Доступные заместители
+back to the list	admin	ru	Назад к списку
+backup directory %1 mounted as %2	admin	ru	Backup каталог %1 смонтирован как %2
+bi-dir passthrough	admin	ru	Двунаправленное прохождение паролей
+bi-directional	admin	ru	Двунаправленный
+bottom	admin	ru	Низ
+bulk password reset	admin	ru	Пакетный сброс паролей
+calculate next run	admin	ru	Вычислить следующий запуск
+calendar recurrence horizont in days (default 1000)	admin	ru	Горизонт рекурсии календаря в днях. По умолчанию — 1000
+can change password	admin	ru	Возможно изменять пароль
+cancel testjob!	admin	ru	Прервать тестовое задание!
+cancel this scheduled command	admin	ru	Прервать запланированную команду
+categories list	admin	ru	Список категорий
+category %1 has been saved !	admin	ru	Категория %1 сохранена!
+category deleted.	admin	ru	Категория удалена
+category list	admin	ru	Список категорий
+category saved.	admin	ru	Категория сохранена
+change account_id	admin	ru	Сменить идентификатор учётной записи
+change acl rights	admin	ru	Сменить права ACL
+change config settings	admin	ru	Сменить настройки конфигурации
+change domain of email address and aliases	admin	ru	Сменить домен email адреса и псевдонимов
+change login screen message	admin	ru	Сменить сообщение на главной странице
+change owner	admin	ru	Сменить владельца
+change password for %1	admin	ru	Сменить пароль на %1
+change password hash to	admin	ru	Сменить хэш пароля на
+changed password hash for %1 to %2.	admin	ru	Хэш пароля изменён с %1 на %2
+check acl for entries of not (longer) existing accounts	admin	ru	Проверить права доступа (ACL) для данных (более) не существующих учётных записей
+check categories for not (longer) existing accounts	admin	ru	Проверить категории для (более) не существующих учётных записей
+check ip address of all sessions	admin	ru	Проверить IP-адреса всех сеансов
+check items to <b>%1</b> to %2 for %3	admin	ru	Проверить элементы <b>%1</b> и %2 для %3
+children	admin	ru	Дочерние
+clear cache and register hooks	admin	ru	Очистить кэш и зарегистрировать хуки
+click to select a color	admin	ru	Щёлкните для выбора цвета
+color	admin	ru	Цвет
+command scheduled to run at %1	admin	ru	Команда запланирована на запуск %1
+commercial: all sorts of companies	admin	ru	Коммерческие: все виды компаний
+config password or md5 hash from the header.inc.php	admin	ru	Пароль конфигурации или хэш md5 из header.inc.php
+cookie domain (default empty means use full domain name, for sitemgr eg. ".domain.com" allows to use the same cookie for egw.domain.com and www.domain.com)	admin	ru	Cookie-домен. По умолчанию пуст и позволяет использовать полное имя домена. Например, в менеджере сайта (SiteMgr) ".domain.ru" можно использовать один cookie-файл для egw.domain.ru и www.domain.ru
+cookie path (allows multiple egw sessions with different directories, has problemes with sitemgr!)	admin	ru	Cookie-путь. Позволяет одновременно работать нескольким сессиям с различными каталогами
+could not remote execute the command	admin	ru	Не могу удалённо запустить команду
+country	admin	ru	Страна
+country selection	admin	ru	Выбор страны
+create group	admin	ru	Создать группу
+created	admin	ru	Создано
+created with id #%1	admin	ru	Создано с идентификатором #%1
+creates / updates user accounts from csv file	admin	ru	Создание/обновление учётных записей из CSV-файла
+creates / updates user groups from csv file	admin	ru	Создание/обновление групп из CSV-файла
+creates a new field	admin	ru	Создать новое поле
+crontab only (recomended)	admin	ru	Только crontab (рекомендуется)
+current hash	admin	ru	Действующий хэш
+custom fields	admin	ru	Пользовательские поля
+custom translation	admin	ru	Изменённый перевод
+cyrus imap server	admin	ru	Сервер Cyrus IMAP
+data	admin	ru	Дата
+day	admin	ru	День
+day of week<br>(0-6, 0=sun)	admin	ru	День недели<br>(0-6, 0=Вск)
+db backup and restore	admin	ru	Резервное копирование и восстановление БД
+deactivate	admin	ru	Деактивировать
+default	admin	ru	По умолчанию
+default file system space per user	admin	ru	Объём свободного места, выделяемого в системе на пользователя (по умолчанию)
+default file system space per user/group ?	admin	ru	Объём свободного места, выделяемого в системе на пользователя/группу (по умолчанию)
+deinstall crontab	admin	ru	Деинсталлировать crontab
+delete account	admin	ru	Удалить учётную запись
+delete account %s	admin	ru	Удалить учётную запись %s
+delete all records	admin	ru	Удалить все записи
+delete application	admin	ru	Удалить приложение
+delete category	admin	ru	Удалить категорию
+delete group	admin	ru	Удалить группу
+delete peer server	admin	ru	Удалить равноправный сервер
+delete selected entries	admin	ru	Удалить выбранные записи
+delete the category	admin	ru	Удалить категорию
+delete the group	admin	ru	Удалить группу
+delete the selected entries	admin	ru	Удалить выбранные записи
+delete this category	admin	ru	Удалить эту категорию
+delete this group	admin	ru	Удалить эту группу
+delete this log entry	admin	ru	Удалить эту запись журнала
+delete this user	admin	ru	Удалить этого пользователя
+deleted	admin	ru	Удалено
+deletes this field	admin	ru	Удалить это поле
+deliver extern	admin	ru	Доставка извне
+deny access	admin	ru	Отменить доступ
+deny access to access log	admin	ru	Закрыть доступ к журналу доступа
+deny access to application registery	admin	ru	Закрыть доступ к реестру приложений
+deny access to applications	admin	ru	Закрыть доступ к приложениям
+deny access to asynchronous timed services	admin	ru	Закрыть доступ к асинхронным сервисам по времени
+deny access to current sessions	admin	ru	Закрыть доступ к текущим сеансам
+deny access to db backup and restore	admin	ru	Закрыть доступ к резервной копии БД и восстановлению
+deny access to error log	admin	ru	Закрыть доступ к журналу ошибок
+deny access to global categories	admin	ru	Закрыть доступ к общим категориям
+deny access to groups	admin	ru	Закрыть доступ к группам
+deny access to home screen message	admin	ru	Закрыть доступ к сообщению главной страницы
+deny access to peer servers	admin	ru	Закрыть доступ к равноправным серверам
+deny access to phpinfo	admin	ru	Закрыть доступ к информации php
+deny access to site configuration	admin	ru	Закрыть доступ к конфигурации сайта
+deny access to user accounts	admin	ru	Закрыть доступ к учётным записям пользователей
+deny all users access to create and manage private categories ?	admin	ru	Закрыть всем пользователям доступ к созданию и изменению личных категорий
+deny all users access to grant other users access to their entries ?	admin	ru	Закрыть всем пользователям право предоставления доступа к их записям для других пользователей
+deny all users access to preferences ?	admin	ru	Закрыть всем пользователям доступ к настройкам
+description can not exceed 255 characters in length !	admin	ru	Описание не может быть длиннее 255 знаков!
+determines the order the fields are displayed	admin	ru	Определяет порядок отображения полей
+disable	admin	ru	Запретить
+disable "auto completion" of the login form	admin	ru	Отключить автозаполнение формы авторизации
+disable minifying of javascript and css files	admin	ru	Отключить минимизацию javascript и файлов CSS
+disable wysiwyg-editor	admin	ru	Отключить визуальный (WYSIWYG) редактор
+disabled (not recomended)	admin	ru	Отключено (не рекомендуется)
+display	admin	ru	Отобразить
+do not delete the category and return back to the list	admin	ru	НЕ удалять категорию и вернуться назад к списку
+do you also want to delete all global subcategories ?	admin	ru	Вы также хотите удалить все подкатегории?
+do you want to delete all global subcategories ?	admin	ru	Вы хотите удалить все общие подкатегории?
+do you want to move all global subcategories one level down ?	admin	ru	Вы хотите переместить все подкатегории на уровень ниже?
+document root (default)	admin	ru	Корневой каталог документов (по умолчанию)
+down	admin	ru	Вниз
+download csv	admin	ru	Загрузить CSV
+edit account	admin	ru	Редактировать учётную запись
+edit application	admin	ru	Редактировать приложение
+edit email settings	admin	ru	Редактировать настройки e-mail
+edit global category	admin	ru	Редактировать общую категорию
+edit global category for %1	admin	ru	Редактировать общую категорию для %1
+edit group	admin	ru	Редактировать группу
+edit group acl's	admin	ru	Редактировать ACL-права доступа группы
+edit peer server	admin	ru	Редактировать равноправный сервер
+edit table format	admin	ru	Редактировать формат таблицы
+edit this category	admin	ru	Редактировать эту категорию
+edit this group	admin	ru	Редактировать эту группу
+edit this user	admin	ru	Редактировать этого пользователя
+edit user	admin	ru	Редактировать пользователя
+edit user account	admin	ru	Редактировать учётную запись пользователя
+educational: universities, schools, ...	admin	ru	Образовательные: университеты, школы, ...
+egroupware directory	admin	ru	Каталог EGroupware
+egroupware version	admin	ru	Версия EGroupware
+either install id and config password needed or the remote hash!	admin	ru	Либо идентификатор установки и пароль конфигуратора, либо удалённый хэш!
+email account active	admin	ru	Учётная запись электронной почты активна
+email address	admin	ru	Адрес электронной почты
+empty to not change	admin	ru	Пусто, чтобы НЕ менять
+enable	admin	ru	Разрешить
+enable debug-messages	admin	ru	Разрешить отладочные сообщения
+enable spellcheck in rich text editor	admin	ru	Включить проверку орфографии в редакторе?
+enable the soap service	admin	ru	Разрешить сервис soap
+enable the xmlrpc service	admin	ru	Разрешить сервис xmlrpc
+enabled - hidden from navbar	admin	ru	Разрешено - скрыть с панели навигации
+enabled - popup window	admin	ru	Разрешено - всплывающее окно
+enter a description for the category	admin	ru	Введите описание категории
+enter some random text for app_session <br>encryption (requires mcrypt)	admin	ru	Введите какой-либо случайный текст для<br>шифрования сеанса работы приложения (требует mcrypt)
+enter the background color for the login page	admin	ru	Введите цвет фона для страницы аутентификации
+enter the background color for the site title	admin	ru	Введите цвет фона для заголовка сайта
+enter the full path for temporary files.<br>examples: /tmp, c:\temp	admin	ru	Введите полный путь для временных файлов.<br>Пример: /tmp, C:\TEMP
+enter the full path for temporary files.<br>examples: /tmp, c:temp	admin	ru	Введите полный путь для временных файлов.<br>Пример: /tmp, C:\TEMP
+enter the full path for users and group files.<br>examples: /files, e:\files	admin	ru	Введите полный путь для файлов пользователей и групп.<br>Пример: /files, E:\FILES
+enter the full path for users and group files.<br>examples: /files, e:files	admin	ru	Введите полный путь для файлов пользователей и групп.<br>Пример: /files, E:\FILES
+enter the hostname of the machine on which this server is running	admin	ru	Введите имя host-компьютера, на котором работает этот сервер
+enter the location of egroupware's url.<br>example: http://www.domain.com/egroupware &nbsp; or &nbsp; /egroupware<br><b>no trailing slash</b>	admin	ru	Введите местонахождение EGroupware.<br>Например http://www.domain.com/egroupware или /egroupware<br><b>Без наклонной черты в конце</b>
+enter the search string. to show all entries, empty this field and press the submit button again	admin	ru	Введите строку поиска. Чтобы показать все записи, очистите поле и нажмите кнопку <b>Вперёд</b>
+enter the site password for peer servers	admin	ru	Введите пароль для равноправных серверов
+enter the site username for peer servers	admin	ru	Введите имя пользователя сайта для равноправных серверов
+enter the title for your site	admin	ru	Введите заголовок для вашего сайта
+enter the title of your logo	admin	ru	Введите заголовок для вашего логотипа
+enter the url or filename (in api/templates/default/images) of your logo	admin	ru	Введите URL или имя файла (в каталоге api/templates/default/images) логотипа
+enter the url or filename (in your templates image directory) of your favicon (the little icon that appears in the browsers tabs)	admin	ru	Введите URL или имя файла значка сайта (favicon)
+enter the url where your logo should link to	admin	ru	Введите URL, на который будет ссылаться ваш логотип
+enter the vfs-path where additional images, icons or logos can be placed (and found by egroupwares applications). the path must start with /,and be readable by all users	admin	ru	Введите путь VFS, по которому находятся дополнительные изображения, пиктограммы и логотипы для приложений EGroupware.<br>VFS-путь должен начинаться с / и быть разрешён всем пользователям для чтения
+enter your default ftp server	admin	ru	Введите FTP-сервер, который будет использоваться по умолчанию
+enter your default mail domain ( from: user@domain )	admin	ru	Введите ваш почтовый домен по умолчанию  (От: пользователь@домен)
+enter your http proxy server	admin	ru	Введите адрес вашего HTTP-прокси сервера
+enter your http proxy server port	admin	ru	Введите порт вашего HTTP-прокси сервера
+enter your smtp server hostname or ip address	admin	ru	Введите имя хоста или IP-адрес вашего SMTP-сервера
+enter your smtp server port	admin	ru	Введите порт вашего SMTP-сервера
+error canceling timer, maybe there's none set !!!	admin	ru	Ошибка отмены таймера, возможно таймер не был установлен!
+error changing the password for %1 !!!	admin	ru	Ошибка изменения пароля для %1!
+error deleting log entry!	admin	ru	Ошибка удаления записи журнала!
+error saving	admin	ru	Ошибка сохранения
+error saving account!	admin	ru	Ошибка сохранения учётной записи!
+error saving the command!	admin	ru	Ошибка сохранения команды!
+error saving to db:	admin	ru	Ошибка сохранения в БД:
+error setting timer, wrong syntax or maybe there's one already running !!!	admin	ru	Ошибка установки таймера, неверный синтаксис, или он уже запущен!
+error! no appname found	admin	ru	Ошибка: не найдено имя приложения!
+error: %1 not found or other error !!!	admin	ru	Ошибка: %1 не найден, или иная ошибка!
+exists	admin	ru	Существует
+expires	admin	ru	Истекает
+explanation of ldapman	admin	ru	Данный модуль был протестирован для POSTFIX, LDAP, Courier-IMAP и требует схем CORE и QMAIL (OID7914). Подробную информацию об использовании и настройке этой системы можно найти в файле README.ldapadmin в папке с документацией администратора
+exports groups into a csv file.	admin	ru	Экспорт групп в файл CSV
+exports users into a csv file.	admin	ru	Экспорт пользователей в файл CSV
+failed to change password for account "%1"!	admin	ru	Сбой смены пароля учётной записи "%1"!
+failed to change password.	admin	ru	Ошибка при смене пароля
+failed to mount backup directory!	admin	ru	Сбой монтирования backup-каталога!
+fallback (after each pageview)	admin	ru	Назад (после каждой страницы)
+false	admin	ru	Неверно
+field '%1' already exists !!!	admin	ru	Поле '%1' уже существует!
+file space	admin	ru	Размер файла
+file space must be an integer	admin	ru	Размер файла должен быть целым числом
+for the times above	admin	ru	На время, указанное выше
+for the times below (empty values count as '*', all empty = every minute)	admin	ru	На время, указанное ниже (пустые значения считаются как '*', все пустые = ежеминутно)
+force selectbox	admin	ru	Принудительно список выбора
+force users to change their password regularily?(empty for no,number for after that number of days	admin	ru	Предписать пользователям менять пароли регулярно (пусто – отмена; число – указывает, через столько дней пароль должен будет меняться)
+forward also to	admin	ru	Перенаправить также на
+forward emails to	admin	ru	Перенаправить почту на
+forward only	admin	ru	Только перенаправить
+full name	admin	ru	Полное имя
+general	admin	ru	Общие
+global categories	common	ru	Общие категории
+go directly to admin menu, returning here the next time you click on administration.	admin	ru	Перейти прямо в меню администрирования, возвращаясь сюда при следующем клике на Администратор
+governmental: incl. state or municipal authorities or services	admin	ru	Государственные, включая федеральные и местные органы власти или службы
+grant	admin	ru	Предоставить
+group ?	admin	ru	Группа?
+group csv export	admin	ru	Групповой экспорт CSV
+group csv import	admin	ru	Групповой импорт CSV
+group excepted from above export limit (admins are always excepted)	admin	ru	Группы, исключаемые из лимита экспорта (администраторы исключаются всегда)
+group has been added	common	ru	Группа добавлена
+group has been deleted	common	ru	Группа удалена
+group has been updated	common	ru	Группа обновлена
+group list	admin	ru	Список групп
+group manager	admin	ru	Менеджер группы
+group name	admin	ru	Имя группы
+hash	admin	ru	Хэш
+hide php information	admin	ru	Скрыть информацию о php
+home directory	admin	ru	Домашний каталог
+host information	admin	ru	Информация о хосте
+hour<br>(0-23)	admin	ru	Часы<br>(0-23)
+how big should thumbnails for linked images be (maximum in pixels) ?	admin	ru	Максимальный размер пиктограмм для связанных изображений (в пикселях)
+how many days should entries stay in the access log, before they get deleted (default 90) ?	admin	ru	Сколько дней должны храниться записи в журнале до их удаления? (По умолчанию - 90)
+how many entries should non-admins be able to export (empty = no limit, no = no export)	admin	ru	Сколько записей могут экспортировать не-администраторы? (Пусто – не ограничено, «Нет» - экспорт запрещён)
+how many minutes should an account or ip be blocked (default 1) ?	admin	ru	На сколько минут блокировать учетную запись или IP? (По умолчанию - 30)
+how should email addresses for new users be constructed?	admin	ru	Как должен строиться e-mail адрес для новых пользователей?
+icon	admin	ru	Пиктограмма
+idle	admin	ru	Простой
+if no acl records for user or any group the user is a member of	admin	ru	Если нет ACL-записей для пользователя или группы, участником которой он является
+if using ldap, do you want to manage homedirectory and loginshell attributes?	admin	ru	При использовании LDAP - хотите ли управлять свойствами "Домашний каталог" и "Оболочка входа"
+in mbyte	admin	ru	в МБ
+inbound	admin	ru	Входящий
+initial	admin	ru	Первоначальный
+install crontab	admin	ru	Установить crontab
+install id	admin	ru	ID установки
+installation type	admin	ru	Тип установки
+installed applications	common	ru	Установленные приложения
+installed applications, percentage of allowed users and total number of entries.	admin	ru	Установленные приложения, процент включённых пользователей и общее число записей
+installed crontab	admin	ru	Crontab установлен
+instance	admin	ru	Экземпляр
+interface	admin	ru	Интерфейс
+international use	admin	ru	Международное использование
+invalid argument '%1' !!!	admin	ru	Неверный аргумент '%1' !
+invalid formated date "%1"!	admin	ru	Неверный формат даты "%1"!
+invalid remote id or name "%1"!	admin	ru	Неверный удаленный идентификатор или название "%1"!
+invalid value "%1" use yes or no!	admin	ru	Неверное значение "%1", используйте «Да» или «Нет»
+ip	admin	ru	IP
+jobs	admin	ru	Задания
+kill	admin	ru	Прервать
+kill session	admin	ru	Прервать сеанс
+last %1 logins	admin	ru	Последние %1 подключений
+last %1 logins for %2	admin	ru	Последние %1 подключений для %2
+last action	admin	ru	Последнее действие
+last login	admin	ru	Последнее подключение
+last login from	admin	ru	Последнее подключение с
+last password change	admin	ru	Последнее изменение пароля
+last submission:	admin	ru	Последний вход:
+last time read	admin	ru	Время последнего просмотра
+ldap accounts context	admin	ru	Контекст учётных записей LDAP
+ldap default homedirectory prefix (e.g. /home for /home/username)	admin	ru	Префикс домашних каталогов в LDAP, устанавливаемый по умолчанию (например: /home для /home/username)
+ldap default shell (e.g. /bin/bash)	admin	ru	Командная оболочка в LDAP по умолчанию (например: /bin/bash)
+ldap encryption type	admin	ru	Тип шифрования LDAP
+ldap groups context	admin	ru	Контекст групп LDAP
+ldap host	admin	ru	Хост LDAP
+ldap root password	admin	ru	Пароль root LDAP
+ldap rootdn	admin	ru	LDAP rootdn
+leave empty for no quota	admin	ru	Оставить пустым, если нет квот
+leave the category untouched and return back to the list	admin	ru	Оставить категорию нетронутой и вернуться назад к списку
+leave the group untouched and return back to the list	admin	ru	Оставить группу нетронутой и вернуться назад к списку
+leave unchanged	admin	ru	Оставить без изменений
+leave without saveing the entry	admin	ru	Выйти без сохранения записи
+leaves without saveing	admin	ru	Выйти без сохранения
+length<br>rows	admin	ru	Длина<br>Строк
+limit global category to members of a certain group	admin	ru	Ограничить общие категории участниками отдельных групп
+limit to members of	admin	ru	Ограничить участниками
+list config settings	admin	ru	Список установок конфигурации
+list current sessions	admin	ru	Пролистать текущие сеансы
+list of current users	admin	ru	Список текущих пользователей
+logged out	admin	ru	Отключено
+login history	admin	ru	История подключений
+login message	admin	ru	Сообщение сеанса
+login screen	admin	ru	Экран сеанса
+login shell	admin	ru	Оболочка входа
+login time	admin	ru	Время подключения
+login-status	admin	ru	Состояние подключения
+loginid	admin	ru	Логин ID
+logintime	admin	ru	Время подключения
+logoutime	admin	ru	Время отключения
+mail account	admin	ru	Учётная запись почты
+mail settings	admin	ru	Установки почты
+main email-address	admin	ru	Основной адрес электронной почты
+home screen message	admin	ru	Сообщение главной страницы
+manage mapping	admin	ru	Управлять сопоставлением
+manager	admin	ru	Менеджер
+maximum account id (e.g. 65535 or 1000000)	admin	ru	Максимальный идентификатор учётной записи (например: 65535 или 1000000)
+maximum entries in click path history	admin	ru	Максимальное количество записей в истории пути кликов
+members	admin	ru	Участники
+message has been updated	admin	ru	Сообщение обновлено
+method	admin	ru	Метод
+minimum account id (e.g. 500 or 100, etc.)	admin	ru	Минимальный идентификатор учётной записи (например: 500 или 100)
+minute	admin	ru	Минута
+mode	admin	ru	Режим
+modified	admin	ru	Изменено
+month	admin	ru	Месяц
+more secure	admin	ru	Более безопасно
+mount backup directory to %1	admin	ru	Монтировать backup-каталог в %1
+must change password upon next login	admin	ru	При следующем входе в систему необходимо сменить пароль
+name must not be empty !!!	admin	ru	Имя не может быть пустым!
+name of the egroupware instance, eg. default	admin	ru	Имя экземпляра EGroupware
+new group name	admin	ru	Имя новой группы
+new name	admin	ru	Новое имя
+new password	admin	ru	Новый пароль
+new password [ leave blank for no change ]	admin	ru	Новый пароль (оставьте поле пустым, если без изменения)
+next run	admin	ru	Следующий запуск
+no algorithms available	admin	ru	Нет доступных алгоритмов!
+no alternate email address	admin	ru	Нет альтернативного адреса электронной почты!
+no jobs in the database !!!	admin	ru	Нет заданий в базе данных!
+no login history exists for this user	admin	ru	Для данного пользователя история подключений не существует
+no matches found	admin	ru	Совпадений не найдено
+no modes available	admin	ru	Нет доступных режимов!
+no permission to add groups	admin	ru	Нет прав добавлять группы!
+no permission to add users	admin	ru	Нет прав добавлять пользователей!
+no permission to create groups	admin	ru	Нет прав создавать группы!
+non profit: clubs, associations, ...	admin	ru	Некоммерческие: клубы, ассоциации, ...
+note: ssl available only if php is compiled with curl support	admin	ru	Примечание: SSL доступен, только если php собран с поддержкой curl
+notification mail	admin	ru	E-mail для уведомлений
+notify user by email	admin	ru	Уведомлять пользователя по e-mail
+notifying account "%1" %2 failed!	admin	ru	Сбой %2 уведомления учётной записи "%1"
+number applications serially	admin	ru	Число приложений последовательно
+number of active users	admin	ru	Число активных пользователей
+number of row for a multiline inputfield or line of a multi-select-box	admin	ru	Количество строк в многострочном поле ввода, или в списке с множественным выбором
+number of sessions / egroupware logins in the last 30 days	admin	ru	Число сессий/входов в EGroupware за последние 30 дней
+number of users	admin	ru	Число пользователей
+number the applications serially. if they are not numbered serially, sorting the applications could work wrong. this will not change the application's order.	admin	ru	Число приложений, последовательно. Если они перечислены не по порядку, сортировка приложений будет работать неверно. Это не меняет порядок приложений
+nummeric account id	admin	ru	Числовой ID учётной записи
+official egroupware usage statistic	admin	ru	Официальная статистика использования EGroupware
+one day	admin	ru	Один день
+one hour	admin	ru	Один час
+one month	admin	ru	Один месяц
+one week	admin	ru	Одна неделя
+only below displayed information is directly submitted to %s.	admin	ru	Только ниже перечисленная информация предназначена для  %s
+operating system	admin	ru	Операционная система
+order	admin	ru	Порядок
+outbound	admin	ru	Исходящий
+own categories	admin	ru	Свои категории
+own install id:	admin	ru	Свой ID установки:
+owner "%1" removed, please select group-owner	admin	ru	Владелец "%1" удалён, пожалуйста, назначьте владельца группы
+passthrough	admin	ru	Прохождение пароля
+password for smtp-authentication	admin	ru	Пароль для SMTP-авторизации
+password updated	admin	ru	Пароль изменён
+passwords and/or attributes of %1 accounts changed	admin	ru	Пароль и/или атрибуты %1 учётных записей изменены
+path information	admin	ru	Информация о пути
+peer server list	admin	ru	Список равноправных серверов
+peer servers	admin	ru	Равноправные серверы
+percent of users that logged out	admin	ru	Процент неподключённых пользователей
+percent this user has logged out	admin	ru	Процент этого пользователя, когда он не подключён
+permission denied	admin	ru	Доступ запрещён
+permission denied !!!	admin	ru	Доступ запрещён!
+permission denied!!!	admin	ru	Доступ запрещен!!!
+permissions	admin	ru	Разрешения
+permissions this group has	admin	ru	Разрешения, которые есть у этой группы
+personal: eg. within a family	admin	ru	Личное. Например: для семьи
+php version	admin	ru	Версия PHP
+phpinfo	admin	ru	Информация о PHP
+phrase	admin	ru	Фраза
+phrase deleted	admin	ru	Фраза удалена
+please enter a name	admin	ru	Введите имя
+please enter a name for that server !	admin	ru	Введите имя для этого сервера!
+please run setup to become current	admin	ru	Пожалуйста, запустите установку
+please select	admin	ru	Пожалуйста, выберите
+postfix with ldap	admin	ru	Postfix c LDAP
+postpone for	admin	ru	Отложите для
+preferences	admin	ru	Настройки
+primary group	admin	ru	Первичная группа
+qmaildotmode	admin	ru	Режим qmaildot
+quota settings	admin	ru	Установки квот
+quota size in mbyte	admin	ru	Размер квоты в МБ
+re-enter password	admin	ru	Введите пароль ещё раз
+read this list of methods.	admin	ru	Читать этот список методов
+register application hooks	admin	ru	Зарегистрировать хуки приложения
+remote administration instances	admin	ru	Экземпляры системы, администрируемые удалённо
+remote administration need to be enabled in the remote instance under admin > site configuration!	admin	ru	Удалённое администрирование должно быть включено в соответствующем пункте меню администрируемой удаленно системы: <b>Администратор > Конфигурация сайта</b>!
+remote instance saved	admin	ru	Удалённая запись сохранена
+remove	admin	ru	Удалить
+remove all users from this group	admin	ru	Удалить всех пользователей из этой группы
+remove all users from this group ?	admin	ru	Удалить всех пользователей из этой группы?
+removing access for groups may cause problems for data in this category.  are you sure?  users in these groups may no longer have access:	admin	ru	Удаление группового доступа может создать проблемы для данных этой категории. Вы уверены? Пользователи этих групп могут потерять доступ:
+requested	admin	ru	Запрошен
+return to view account	admin	ru	Вернуться к просмотру учётных записей
+rights	admin	ru	Права
+route all mails to	admin	ru	Направлять всю почту к
+rows	admin	ru	Ряды
+rpm or debian package	admin	ru	Пакеты RPM или Debian
+run asynchronous services	admin	ru	Запустить асинхронные сервисы
+save the category	admin	ru	Записать категорию
+save the category and return back to the list	admin	ru	Записать категорию и вернуться назад к списку
+saves the changes made and leaves	admin	ru	Записать сделанные изменения и выйти
+saves this entry	admin	ru	Сохранение записи
+scheduled	admin	ru	Запланировано
+search accounts	admin	ru	Поиск учётных записей
+search categories	admin	ru	Поиск категорий
+search groups	admin	ru	Поиск групп
+search peer servers	admin	ru	Поиск равноправных серверов
+security	admin	ru	Безопасность
+select accounts for which the custom field should be visible	admin	ru	Выбрать учётные записи, для которых пользовательское поле будет видимо
+select group managers	admin	ru	Выбрать менеджеров группы
+select permissions this group will have	admin	ru	Выберите разрешения, которые будет иметь эта группа
+select the parent category. if this is a main category select no category	admin	ru	Выбрать родительскую категорию. Если это главная категория, выберите «Нет категории»
+select users	admin	ru	Выбрать пользователей
+select users for inclusion	admin	ru	Выберите пользователей для включения
+select where you want to store/retrieve filesystem information	admin	ru	Выберите, где вы хотите хранить/получать информацию о файловой системе
+select where you want to store/retrieve user accounts	admin	ru	Выберите, где вы хотите хранить/получать учетные записи пользователей
+select which location this app should appear on the navbar, lowest (left) to highest (right)	admin	ru	Выберите на панели навигации место, где будет располагаться пиктограмма данного приложения. Минимальное значение соответствует крайнему левому положению, максимальное – крайнему справа.
+selectbox	admin	ru	Список выбора
+server %1 has been updated	admin	ru	Сервер %1 обновлён
+server list	admin	ru	Список серверов
+server password	admin	ru	Пароль сервера
+server type(mode)	admin	ru	Тип (режим) сервера
+server url	admin	ru	URL сервера
+server username	admin	ru	Имя пользователя сервера
+sessions last 30 days	admin	ru	Сессий за последние 30 дней
+set a random password	admin	ru	Установить случайный пароль
+set preference values.	admin	ru	Установить значения настроек
+should exceptions contain a trace (including function arguments)	admin	ru	Исключения должны содержать трассировку (включая аргументы функций)?
+should the login page include a language selectbox (useful for demo-sites) ?	admin	ru	Отображать на входной странице поле выбора языка (полезно для демо-сайта)?
+show 'powered by' logo on	admin	ru	Показать логотип разработчика системы «Под управлением…»
+show access log	admin	ru	Показать журнал доступа
+show current action	admin	ru	Показать текущее действие
+show error log	admin	ru	Показать журнал ошибок
+show phpinfo()	admin	ru	Показать информацию php
+show session ip address	admin	ru	Показать IP-адрес сеанса
+site	admin	ru	Сайт
+soap	admin	ru	SOAP
+sorry, that group name has already been taken.	admin	ru	Извините, такое имя группы уже существует.
+sorry, the above users are still a member of the group %1	admin	ru	Извините, указанные выше пользователи являются членами группы %1
+sorry, the follow users are still a member of the group %1	admin	ru	Извините, следующие пользователи являются членами группы %1
+sort the entries	admin	ru	Сортировать записи
+ssl	admin	ru	ssl
+standard	admin	ru	Стандартный
+standard imap server	admin	ru	Стандартный сервер IMAP
+standard pop3 server	admin	ru	Стандартный сервер POP3
+standard smtp-server	admin	ru	Стандартный сервер SMTP
+start	admin	ru	Пуск
+start testjob!	admin	ru	Начать тестовое задание!
+submit changes	admin	ru	Подтвердить изменения
+submit displayed information?	admin	ru	Подтвердить указанную информацию
+submit statistic information	admin	ru	Подтвердить статистическую информацию
+submit the search string	admin	ru	Подтвердить строку поиска
+submit to egroupware.org	admin	ru	Подтвердить на egroupware.org
+subtype	admin	ru	Подтип
+subversion checkout	admin	ru	Проверить Subversion
+success	admin	ru	Успешно
+switch it off, if users are randomly thrown out	admin	ru	Выключите, если пользователи отключаются произвольно
+template selection	admin	ru	Выбор шаблона
+text entry	admin	ru	Текстовая запись
+that application name already exists.	admin	ru	Такое имя приложения уже существует
+that application order must be a number.	admin	ru	Порядковое место этого приложения должно быть номером
+that loginid has already been taken	admin	ru	Этот логин уже занят
+that name has been used already	admin	ru	Это имя уже используется
+that server name has been used already !	admin	ru	Это имя сервера уже используется!
+the api is current	admin	ru	Обновление API не требуется
+the api requires an upgrade	admin	ru	API требует обновления
+the cumulated and anonymised data will be publically available:	admin	ru	Эти накопленные и анонимные данные могут быть опубликованы:
+the groups must include the primary group	admin	ru	Группы должны включать в себя первичную группу
+the install id of an instance can be found under admin > site configuration	admin	ru	ID установки экземпляра могут быть получены через <b>Администратор > Конфигурация сайта</b>
+the login and password can not be the same	admin	ru	Логин и пароль не могут быть одинаковы
+the loginid can not be more then 8 characters	admin	ru	Логин не должен превышать 8 символов
+the name used internaly (<= 20 chars), changeing it makes existing data unavailible	admin	ru	Внутреннее имя (<= 20 символов), изменение сделает существующие данные недоступными
+the testjob sends you a mail everytime it is called.	admin	ru	Тестовое задание посылает почтовое сообщение при каждом старте
+the text displayed to the user	admin	ru	Текст, показываемый пользователю
+the two passwords are not the same	admin	ru	Два пароля не совпадают
+the users bellow are still members of group %1	admin	ru	Нижеперечисленные пользователи являются участниками группы %1
+there already is a group with this name. userid's can not have the same name as a groupid	admin	ru	Уже существует группа с таким именем. Пользователь не может иметь то же имя, что и идентификатор группы
+they must be removed before you can continue	admin	ru	Прежде чем продолжить, они должны быть исключены
+this application is current	admin	ru	Обновление этого приложения не требуется
+this application requires an upgrade	admin	ru	Это приложение требует обновления
+this category is currently being used by applications as a parent category	admin	ru	В настоящий момент эта категория используется приложениями как родительская
+this controls exports and merging.	admin	ru	Этот инструмент экспортирует и сличает отпечатки
+timeout for application session data in seconds (default 86400 = 1 day)	admin	ru	Таймаут для сеансных данных приложения в секундах (по умолчанию 86400 = 1 день)
+timeout for sessions in seconds (default 14400 = 4 hours)	admin	ru	Таймаут для сеанса в секундах (по умолчанию 14400 = 4 часа)
+times	admin	ru	Раз
+to allow us to track the growth of your individual installation use this submit id, otherwise delete it:	admin	ru	Чтобы позволить нам оценить развитие вашей установки, используйте данный подписной ID, в противном случае удалите его:
+top	admin	ru	Верх
+total of %1 id's changed.	admin	ru	Всего изменено %1 идентификаторов.
+total records	admin	ru	Всего записей
+translation	admin	ru	Перевод
+true	admin	ru	Верно
+trust level	admin	ru	Уровень доверия
+trust relationship	admin	ru	Доверительные отношения
+two days	admin	ru	Два дня
+two hours	admin	ru	Два часа
+two months	admin	ru	Два месяца
+two weeks	admin	ru	Две недели
+type '%1' already exists !!!	admin	ru	Тип '%1' уже существует
+type of customfield	admin	ru	Тип пользовательского поля
+under windows you need to install the asyncservice %1manually%2 or use the fallback mode. fallback means the jobs get only checked after each page-view !!!	admin	ru	Под окном нужно установить асинхронные службы %1 вручную %2 или использовать режим отката. Откат означает, что задания только проверяются после каждого просмотра страницы!
+unknown account: %1 !!!	admin	ru	Неизвестная учётная запись: %1!
+unknown command %1!	admin	ru	Неизвестная команда %1!
+unknown option %1	admin	ru	Неизвестный параметр %1!
+unwilling to save category with current settings. check for inconsistency:	admin	ru	Невозможно сохранить категорию с такими настройками. Проверьте несоответствия:
+up	admin	ru	Вверх
+updated	admin	ru	Изменено
+url of the egroupware installation, eg. http://domain.com/egroupware	admin	ru	URL установки EGroupware, например: http://domain.com/egroupware
+usage	admin	ru	Использование
+use cookies to pass sessionid	admin	ru	Использовать cookies для передачи идентификатора сеанса
+use pure html compliant code (not fully working yet)	admin	ru	Использовать код, отвечающий чистому HTML (пока не полностью работоспособно)
+use theme	admin	ru	Использовать тему
+user accounts	admin	ru	Учётные записи пользователей
+user csv export	admin	ru	Экспорт пользователей в CSV
+user csv import	admin	ru	Импорт пользователей из CSV
+user data	common	ru	Данные пользователя
+user for smtp-authentication (leave it empty if no auth required)	admin	ru	Пользователь для SMTP-идентификации (оставьте пустым, если идентификация не нужна)
+user groups	admin	ru	Группы пользователя
+userdata	admin	ru	Данные пользователя
+users choice	admin	ru	Выбор пользователя
+value for column %1 is not unique!	admin	ru	Значение колонки %1 не уникально!
+vfs directory "%1" not found!	admin	ru	Каталог VFS "%1" не найден!
+view access log	admin	ru	Просмотр журнала подключений
+view account	admin	ru	Просмотр учётной записи
+view category	admin	ru	Просмотр категории
+view error log	admin	ru	Просмотр журнала ошибок
+view sessions	admin	ru	Просмотр сеансов
+view this user	admin	ru	Просмотр этого пользователя
+view user account	admin	ru	Просмотр учётной записи пользователя
+warn users about the need to change their password? the number set here should be lower than the value used to enforce the change of passwords every x days. only effective when enforcing of password change is enabled. (empty for no,number for number of days before they must change)	admin	ru	Установить число дней для уведомления пользователей о принудительной смене пароля. Пусто = не информировать
+we ask for the data to improve our profile in the press and to get a better understanding of egroupware's user base and it's needs.	admin	ru	Информация запрашивается только для изучения распространённости EGroupware в мире
+we hope you understand the importance for this voluntary statistic and not deny it lightly.	admin	ru	Мы не храним никаких персональных данных
+who would you like to transfer all records owned by the deleted user to?	admin	ru	Кому передать ВСЕ записи, владельцем которых был удалённый пользователь?
+would you like egroupware to cache the egw info array ?	admin	ru	Кэшировать массив информации EGroupware?
+would you like egroupware to check for a new version<br>when admins login ?	admin	ru	Проверять наличие новой версии EGroupware при подключении администратора?
+would you like egroupware to check for new application versions when admins login ?	admin	ru	Производить проверку новых версий приложений при входе администраторов?
+would you like to automaticaly load new langfiles (at login-time) ?	admin	ru	Загружать при входе новые языковые файлы?
+would you like to show each application's upgrade status ?	admin	ru	Показывать состояние обновления каждого приложения?
+wrong account type: %1 is no %2 !!!	admin	ru	Неверный тип учётной записи: %1 НЕ %2!
+wrong admin-account or -password !!!	admin	ru	Неверная учетная запись администратора или пароль!
+xml-rpc	admin	ru	XML-RPC
+yes, but no scayt	admin	ru	Да, но не проверять правописание в режиме on-line
+yes, use browser based spell checking engine	admin	ru	Да, но использовать проверку правописания браузером
+yes, use webspellchecker	admin	ru	Да, использовать интерактивный WebSpellChecker
+you can only change the hash, if you set a random password or currently use plaintext passwords!	admin	ru	Хэш можно сменить, если установлен случайный пароль или используются текстовые (plaintext) пароли!
+you have entered an invalid expiration date	admin	ru	Вы ввели неправильную дату окончания
+you have no email address for your user set !!!	admin	ru	Вы не указали e-mail адрес для пользователя!
+you have to enter a name, to create a new field!!!	admin	ru	Введите имя для создания нового поля!
+you have to enter a name, to create a new type!	admin	ru	Введите имя для создания нового типа!
+you must add at least 1 permission or group to this account	admin	ru	Добавьте для данной учётной записи хотя бы одно разрешение или группу
+you must enter a group name.	admin	ru	Нужно ввести имя группы
+you must enter a lastname	admin	ru	Нужно ввести фамилию
+you must enter a loginid	admin	ru	Нужно ввести логин
+you must enter an application name and title.	admin	ru	Нужно ввести имя и заголовок приложения
+you must enter an application name.	admin	ru	Нужно ввести имя приложения
+you must enter an application title.	admin	ru	Нужно ввести заголовок приложения
+you must select a file type	admin	ru	Нужно выбрать тип файла
+you must select at least one group member.	admin	ru	Нужно выбрать как минимум одного участника группы
+you need to enter install id and password!	admin	ru	Нужно указать идентификатор установки и пароль!
+you need to select as least one action!	admin	ru	Нужно выбрать как минимум одно действие!
+you need to select some users first!	admin	ru	Сначала нужно выбрать пользователя!
+you will need to remove the subcategories before you can delete this category	admin	ru	Категорию можно удалить только после удаления всех её подкатегорий!
+your last submission was less then %1 days ago!	admin	ru	Последний ввод был менее %1 дней назад!
+your session could not be verified.	admin	ru	Сессия не может быть проверена
+%1 entries deleted.	admin	ru	%1 записи удалены.
+(imapclass must support this feature by querying the corresponding config value and pass it as defaultquota to the imapserver)	admin	ru	(класс IMAP должен поддерживать возможность запроса соответствующего параметра конфигурации и передачи серверу IMAP как квоту по умолчанию)
+(no subject)	admin	ru	(без темы)
+account '%1' not found !!!	admin	ru	Учетная запись '%1' не найдена !!!
+active templates	admin	ru	Активные шаблоны
+add new email address:	admin	ru	Добавить новый адрес эл. почты:
+add profile	admin	ru	Добавить Профиль
+admin dn	admin	ru	администратор домена
+admin password	admin	ru	Пароль администратора
+admin username	admin	ru	Имя входа администратора
+advanced options	admin	ru	Расширенные настройки
+alternate email address	admin	ru	Добавочный адрес эл. почты
+any application	admin	ru	Любое приложение
+any group	admin	ru	Любая группа
+any user	admin	ru	любой пользователь
+back to admin/grouplist	admin	ru	Назад к Администрированию/Списку групп
+back to admin/userlist	admin	ru	Назад к Администрированию/Списку пользователей
+bad login name or password.	admin	ru	Неверное имя пользователя или пароль.
+bad or malformed request. server responded: %s	admin	ru	Неверный или нераспознанный запрос. Ответ Сервера: %s
+bad request: %s	admin	ru	Неверный запрос: %s
+can be used by application	admin	ru	Может быть использовано приложением
+can be used by group	admin	ru	Может быть использовано группой
+can be used by user	admin	ru	может быть использовано пользователем
+connection dropped by imap server.	admin	ru	Соединение разорвано сервером IMAP
+continue	admin	ru	Продолжить
+could not append message:	admin	ru	Не могу добавить сообщение
+could not complete request. reason given: %s	admin	ru	Не могу завершить запрос. Возможная Причина: %s
+could not open secure connection to the imap server. %s : %s.	admin	ru	Не могу установить защищенное соединение с сервером IMAP. %s : %s.
+cram-md5 or digest-md5 requires the auth_sasl package to be installed.	admin	ru	CRAM-MD5 и DIGEST-MD5 требуют установленного пакета Auth_SASL.
+cyrus imap server	admin	ru	IMAP сервер Cyrus
+cyrus imap server administration	admin	ru	администрирование IMAP сервера Cyrus
+default	admin	ru	по умолчанию
+deliver extern	admin	ru	доставить внешний
+displaying html messages is disabled	admin	ru	Показ сообщений как HTML отключен
+displaying plain messages is disabled	admin	ru	Показ сообщений как текст отключен.
+do not validate certificate	admin	ru	не проверять сертификат
+do you really want to delete this profile	admin	ru	Вы уверены, что хотите удалить этот Профиль
+do you really want to reset the filter for the profile listing	admin	ru	Вы уверены что хотите очистить фильтр для создания списка Профилей
+domainname	admin	ru	Имя Домена
+edit email settings	admin	ru	Редактировать настройки почты
+email account active	admin	ru	Учетная запись включена
+email address	admin	ru	Адрес эл. почты
+email settings	common	ru	Настройки почты
+emailadmin	admin	ru	Администрирование Почты
+emailadmin: group assigned profile	common	ru	Администрирование почты: Назначение профиля группы.
+emailadmin: user assigned profile	common	ru	Администрирование почты: Назначения профиля пользователя
+enable cyrus imap server administration	admin	ru	включить администрирование IMAP сервера Cyrus
+enable sieve	admin	ru	Включить Sieve
+encrypted connection	admin	ru	зашифрованное соединение
+encryption settings	admin	ru	Настройки шифрования
+enter your default mail domain (from: user@domain)	admin	ru	Укажите ваш почтовый домен по умолчанию (от: user@domain)
+entry saved	admin	ru	Запись сохранена.
+error connecting to imap server. %s : %s.	admin	ru	Ошибка соединения с сервером IMAP. %s : %s.
+error connecting to imap server: [%s] %s.	admin	ru	Ошибка соединения с сервером IMAP: [%s] %s.
+error deleting entry!	admin	ru	Ошибка при удалении записи!
+error saving account!	admin	ru	Ошибка сохранения учётной записи!
+error saving the entry!!!	admin	ru	Ошибка при сохранении записи!
+event details follow	admin	ru	Детали события следуют
+file rejected, no %2. is:%1	admin	ru	Файл отвергнут, no %2. Is:%1
+filtered by account	admin	ru	отфильтровано по Учетной записи
+filtered by group	admin	ru	отфильтровано по группе
+forward also to	admin	ru	Переслать также в
+forward email's to	admin	ru	Переслать письма в
+forward only	admin	ru	Только переслать
+global options	admin	ru	Общие настройки
+if using ssl or tls, you must have the php openssl extension loaded.	admin	ru	При использовании SSL или TLS, у вас должен быть установлен PHP с загруженным расширением openssl
+imap admin password	admin	ru	пароль администратора IMAP
+imap admin user	admin	ru	Имя пользователя для администратора IMAP
+imap c-client version < 2001	admin	ru	Версия C-клиента IMAP < 2001
+imap server	admin	ru	Сервер IMAP
+imap server closed the connection.	admin	ru	Сервер IMAP разорвал соединение.
+imap server closed the connection. server responded: %s	admin	ru	Сервер IMAP разорвал соединение. Сервер сообщил: %s
+imap server hostname or ip address	admin	ru	Имя сервера IMAP или его ip-адрес
+imap server logintyp	admin	ru	Тип входа сервера IMAP
+imap server name	admin	ru	Имя сервера imap
+imap server port	admin	ru	Порт сервера IMAP
+imap/pop3 server name	admin	ru	Имя сервера IMAP/POP3
+importance	admin	ru	Значение
+in mbyte	admin	ru	В мегабайтах
+inactive	admin	ru	Неактивно
+ldap basedn	admin	ru	Начальный DN LDAP
+ldap server	admin	ru	Сервер LDAP
+ldap server accounts dn	admin	ru	DN учетных записей сервера LDAP
+ldap server admin dn	admin	ru	DN администратора сервера LDAP
+ldap server admin password	admin	ru	Пароль администратора сервера LDAP
+ldap server hostname or ip address	admin	ru	Имя сервера LDAP или его ip-адрес
+ldap settings	admin	ru	Настройки LDAP
+leave empty for no quota	admin	ru	Оставьте пустым для отключения квот
+mail settings	admin	ru	Настройки почты
+manage stationery templates	admin	ru	Управление бланками шаблонов
+mb used	admin	ru	Испоьлзуется MB
+name of organisation	admin	ru	Название организации
+no alternate email address	admin	ru	Нет дополнительного эл. адреса
+no encryption	admin	ru	Без шифрования
+no forwarding email address	admin	ru	Нет адреса перенаправления
+no message returned.	admin	ru	Нет ответа
+no plain text part found	admin	ru	Не найдена текстовая часть
+no supported imap authentication method could be found.	admin	ru	Поддерживаемый метод авторизации IMAP не найден
+order	admin	ru	Упорядочить
+organisation	admin	ru	Организация
+plesk can't rename users --> request ignored	admin	ru	Plesk не может переименовать пользователей --> запрос проигнорирован
+plesk imap server (courier)	admin	ru	Сервер IMAP Plesk (Courier)
+plesk mail script '%1' not found !!!	admin	ru	Не найден скрипт '%1'  почты Plesk!!!
+plesk requires passwords to have at least 5 characters and not contain the account-name --> password not set!!!	admin	ru	Plesk  требует длины пароля не менее 5 символов, не содержащий имени аккаунта --> пароль НЕ установлен!!!
+plesk smtp-server (qmail)	admin	ru	Plesk SMTP сервер (Qmail)
+pop3 server hostname or ip address	admin	ru	Имя компьютера или ip-адрес сервера POP3
+pop3 server port	admin	ru	Порт сервера POP3
+port	admin	ru	Порт
+postfix with ldap	admin	ru	Postfix с LDAP
+processing of file %1 failed. failed to meet basic restrictions.	admin	ru	Обработка файла %1 прервана. Не удалось удовлетворить основные ограничения.
+profile access rights	admin	ru	права доступа к профилю
+profile is active	admin	ru	профиль активен
+profile list	admin	ru	Список профиля
+profile name	admin	ru	Название профиля
+qmaildotmode	admin	ru	режим qmaildot
+quota settings	admin	ru	Настройки квотирования
+quota size in mbyte	admin	ru	Размер квоты в МБ
+remove	admin	ru	Удалить
+required pear class mail/mimedecode.php not found.	admin	ru	Необходимый PEAR class Mail / mimeDecode.php не найден.
+reset filter	admin	ru	Очистить фильтр
+save of message %1 failed. could not save message to folder %2 due to: %3	admin	ru	Невозможно сохранить сообщение %1 . Не могу сохранить сообщение в папку %2 по причине: %3
+saving of message %1 failed. destination folder %2 does not exist.	admin	ru	Сохранение сообщения %1 не удалось. Папка назначения %2 не существует.
+select type of imap server	admin	ru	Выбор типа сервера IMAP
+select type of imap/pop3 server	admin	ru	Выбор типа сервера IMAP/POP3
+select type of smtp server	admin	ru	Выбор типа сервера SMTP
+send using this email-address	admin	ru	Отправить с этого адреса eMail
+server settings	admin	ru	Настройки сервера
+sieve server hostname or ip address	admin	ru	Имя компьютера или IP сервера Sieve
+sieve server port	admin	ru	Порт сервера Sieve
+sieve settings	admin	ru	Настройки Sieve
+smtp authentication	admin	ru	Авторизация SMTP
+smtp options	admin	ru	Параметры SMTP
+smtp server name	admin	ru	Имя сервера SMTP
+smtp settings	admin	ru	Установки SMTP
+smtp-server hostname or ip address	admin	ru	Имя компьютера или IP-адрес сервера SMTP
+smtp-server port	admin	ru	Порт сервера SMTP
+standard	admin	ru	Стандартный
+standard imap server	admin	ru	Стандартный IMAP сервер
+standard pop3 server	admin	ru	Стандартный POP3 сервер
+standard smtp-server	admin	ru	Стандартный SMTP сервер
+starts with	admin	ru	Начинается с
+stationery	admin	ru	Бланк
+templates	admin	ru	Шаблоны
+the imap server does not appear to support the authentication method selected. please contact your system administrator.	admin	ru	Сервер IMAP не сообщил о поддержке выбранного метода авторизации. Пожалуйста свяжитесь со своим системным администратором.
+the mimeparser can not parse this message.	admin	ru	Обработчик MIME не может обработать это сообщение.
+this php has no imap support compiled in!!	admin	ru	Эта версия PHP собрана без поддержки IMAP!!
+to use a tls connection, you must be running a version of php 5.1.0 or higher.	admin	ru	Для использования соединения TLS, у вас должен быть запущен PHP 5.1.0 или выше.
+unexpected response from server to authenticate command.	admin	ru	Непредусмотренный ответ сервера на команду AUTHENTICATE.
+unexpected response from server to digest-md5 response.	admin	ru	Непредусмотренный ответ сервера на сигнал Digest-MD5.
+unexpected response from server to login command.	admin	ru	Непредусмотренный ответ сервера на команду LOGIN.
+unknown imap response from the server. server responded: %s	admin	ru	Неизвестный IMAP-ответ от сервера. Сервер сообщил: %s
+unsupported action '%1' !!!	admin	ru	Неподдерживаемое действие '%1' !!!
+update current email address:	admin	ru	Обновить текущий адрес эл.почты:
+use default	admin	ru	Используйте значение по умолчанию
+use ldap defaults	admin	ru	Использовать настройки LDAP по умолчанию
+use predefined username and password defined below	admin	ru	Использовать предопределенное имя пользователя и пароль указанный ниже
+use smtp auth	admin	ru	Использовать авторизацию SMTP
+use tls authentication	admin	ru	Использовать авторизацию TLS
+use tls encryption	admin	ru	Использовать шифрование TLS
+use users email-address (as seen in useraccount)	admin	ru	Используйте адреса эл.почты пользователя, как указано в настройках аккаунта пользователя.
+user can edit forwarding address	admin	ru	Ползователь может редактировать адрес пересылки.
+userid@domain eg. u1234@domain	admin	ru	UserId@domain например u1234@domain
+username (standard)	admin	ru	Имя пользователя (стандартное)
+username/password defined by admin	admin	ru	Имя пользователя/Пароль установлены администратором
+username@domainname (virtual mail manager)	admin	ru	username@domainname (Менеджер Виртуальной почты)
+users can define their own emailaccounts	admin	ru	Пользователь может назначать свои собственные учетные записи эл. почты.
+users can define their own identities	admin	ru	Пользователи могут устанавливать свои собственные данные идентификации
+users can define their own signatures	admin	ru	Пользователи могут устанавливать свои собственные подписи
+users can utilize these stationery templates	admin	ru	Пользователи могут использовать эти бланки шаблонов
+vacation messages with start- and end-date require an admin account to be set	admin	ru	Сообщения автоответчика с датами начала и окончания требуют установленной учетной записи администратора!
+virtual mail manager	admin	ru	Менеджер Виртуальной почты
+yes, use credentials below only for alarms and notifications, otherwise use credentials of current user	admin	ru	Да, использовать учётные данные, указанные ниже только для предупреждений и напоминаний, в остальных случаях использовать учётные данные текущего пользователя.
+yes, use credentials of current user or if given credentials below	admin	ru	Да, использовать учётные данные текущего пользователя, или если указаны учётные данные ниже.
+you have received a new message on the	admin	ru	Вы получили сообщения на
+your name	admin	ru	Ваше имя

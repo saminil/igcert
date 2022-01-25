@@ -1,0 +1,689 @@
+%1 attachments	mail	de	%1 Anhänge
+%1 has been added to blacklisted email addresses	mail	de	%1 wurde als E-Mail-Adresse zur Blackliste hinzugefügt
+%1 has been added to whiltelisted email addresses	mail	de	%1 wurde als E-Mail-Adresse zur Whiteliste hinzugefügt
+%1 has been removed from blacklisted email addresses	mail	de	%1 wurde als E-Mailadresse von der Blackliste entfernt
+%1 has been removed from whiltelisted email addresses	mail	de	%1 wurde als E-Mailadresse von der Whiteliste entfernt
+%1 is not writable by you!	mail	de	%1 ist nicht beschreibbar für Sie
+%1 mails selected	mail	de	%1 E-Mail(s)  ausgewählt
+(*) please consider, forward to multiple addresses will not work if number of addresses exceeds the limit. for most mail servers the limit is 4 by default, please contact your mail server administrator for further info.	mail	de	(*)  Achtung: Eine Weiterleitung an mehr als 4 E-Mail-Adressen funktioniert bei den einigen Mailservern nicht. Daher ist das als Limit zur Eingabe festgelegt. Für weitere Informationen kontaktieren sie bitte Ihren Administrator.
+(leave empty for no quota)	mail	de	(Leer lassen, um einen die Begrenzung zu deaktivieren)
+(no subject)	mail	de	(Kein Betreff)
+(not connected)	mail	de	(nicht verbunden)
+(select mails by clicking on the line, like a checkbox)	mail	de	(Auswählen von E-Mails durch anklicken der Zeile)
+(with checkbox enforced)	mail	de	(mit Checkbox)
+account editable by user	mail	de	Anwender darf dieses Konto bearbeiten
+acl rights retrieve failed, seems there are no rights set!	mail	de	Die Zugriffskontrollrechte konnten nicht gelesen werden!
+acl rights retrieved successfully	mail	de	Zugriffskontrollrechte erfolgreich gelesen
+action	mail	de	Aktion
+activating by date requires a start- and end-date!	mail	de	Die Aktivierung nach Datum erfordert ein Start- UND Enddatum!
+add "%1" into blacklisted domains	mail	de	Domain "%1" zu Blacklist hinzufügen
+add "%1" into blacklisted emails	mail	de	E-Mailadresse "%1" zu Blacklist hinzufügen
+add "%1" into whiltelisted domains	mail	de	Domain "%1" zu Whitelist hinzufügen
+add "%1" into whitelisted emails	mail	de	E-Mai-Adresse "%1" zu Whitelist hinzufügen
+add a new folder to %1:	mail	de	Einen neuen Ordner erstellen unter:  %1
+add all my aliases	mail	de	Alle Alias-Adressen hinzufügen
+add as new	mail	de	Neues Ticket erstellen
+add files as %1	mail	de	Dateien hinzufügen als %1
+add folder	mail	de	Ordner hinzufügen
+add raw message, ignore mail attachments	mail	de	Konvertiere E-Mail zum Eintrag und füge die original E-Mail an (aber keine Anhänge).
+add this certificate into contact	mail	de	Dieses Zertifikat dem Kontakt hinzufügen
+add to addressbook	mail	de	zum Adressbuch hinzufügen
+add your domain as "%1" in options to list of email providers and enable api.	mail	de	Fügen Sie Ihre Domain als "%1" in Optionen zu der Liste der E-Mail-Anbieter hinzu und schalten sie API ein.
+adding %1 to blacklisted email addresses failed because of %2	mail	de	Hinzufügen von %1 als E-Mailadresse zur Blackliste ist fehlgeschlagen, da %2
+adding %1 to whiltelisted email addresses failed because of %2	mail	de	Hinzufügen von %1 als E-Mailadresse zur Whiteliste ist fehlgeschlagen, da %2
+after reply, visible during compose	mail	de	Nach dem zitierten Text, sichtbar während der Bearbeitung
+aliases+forwards	mail	de	Aliase+Weiterleitungen
+all	mail	de	alle
+all adresses:	mail	de	Alle Adressen
+all available info	admin	de	alle verfügbaren Informationen
+all filtered	mail	de	alle gefilterten
+all messages in the folder will be lost	mail	de	Alle Nachrichten in dem ausgewählten Ordner werden unwiderruflich gelöscht
+all my email addresses	mail	de	alle meine E-Mail-Adressen
+all of	mail	de	alle
+all subfolders will be deleted too, and all messages in all affected folders will be lost	mail	de	Alle Unterordner und Nachrichten in den betroffenen Ordnern werden unwiederruflich gelöscht.
+allow	mail	de	erlauben
+allow external images	mail	de	Erlaube externe Bildquellen
+allow external images from listed domains	mail	de	Erlaube externe Inhalte der folgenden Domains
+allow images from external sources in html emails	mail	de	Erlaube Bilder von externen Bildquellen in HTML-E-Mails
+allow images from listed domains in html emails	mail	de	Erlaube Bilder von externen Bildquellen der folgenden Domains in HTML-E-Mails
+allow users to create further identities	mail	de	Anwender dürfen weitere Identitäten anlegen
+allways a new window	mail	de	immer in einem neuen Fenster
+always	mail	de	Immer
+always allow external sources from %1	mail	de	Erlaube externe Bildquellen von %1
+always show html emails	mail	de	HTML-E-Mails immer anzeigen
+always show notifiction	mail	de	Benachrichtigungen immer anzeigen
+an error happend while trying to remove acl rights from the account %1!	mail	de	Ein Fehler trat auf beim Versuch die Zugriffskontrollrechte vom Konto %1 zu entfernen!
+and the rule with priority %1, now got the priority %2	mail	de	Die Regel mit Priorität %1 hat jetzt die Priorität %2
+any of	mail	de	mit einem
+any status	mail	de	Alle Status
+append	mail	de	hinzufügen
+appended after reply before sending	mail	de	Einfügen nach dem zitierten Text im Zuge des Versendens
+application mail expected but got: %1	mail	de	Anwendung Mail erwarted, aber %1 erhalten!
+archive folder	mail	de	Archivordner
+are you sure you want to delete all selected folders?	mail	de	Sollen alle selektierten Ordner gelöcht werden?
+are you sure you want to move folder %1 to folder %2?	mail	de	Soll der Ordner %1 in den Ordner %2 verschoben werden?
+arrival	mail	de	Empfangsdatum
+ask for permission	mail	de	Immer nachfragen
+attach files	mail	de	Dateien anhängen
+attach users vcard at compose to every new mail	mail	de	Füge die vCard des aktiven Benutzers an jede neue E-Mail an
+attach vcard	mail	de	vCard hinzufügen
+attachment	mail	de	Anhang
+attachment has been saved successfully.	mail	de	Anhang erfolgreich gespeichert.
+attachments	mail	de	Dateien
+attachments, ...	mail	de	Anhänge, ...
+authentication	mail	de	Authentifizierung
+available personal email-accounts/profiles	mail	de	verfügbare persönliche E-Mail Konten bzw. Profile
+be aware by adding all selected files as %1 mode, it will also change all existing attachments in the list to %2 mode as well. \n\r \n\r would you like to proceed?	mail	de	Wenn Sie alle ausgewählten Dateien als %1-Modus hinzufügen, werden auch alle in der Liste vorhandenen Anhänge in den %2-Modus geändert.  \n\r \n\r Wollen Sie fortfahren?
+be aware that all attachments will be sent as %1!	mail	de	Beachten Sie, dass alle Anhänge als %1 gesendet werden!
+before reply, visible during compose	mail	de	Vor dem zitierten Text, sichtbar während der Bearbeitung
+blacklisted mails are marked as spam	mail	de	E-Mail-Adressen, die in die Blacklist eingetragen werden, werden als Spam markiert
+but check shared folders	mail	de	aber explizite Überprüfung der Ordner unterhalb der (Benutzer-)Freigaben
+by date	mail	de	nach Datum
+by default 'http://' is just replaced with 'https://'. feel free to configure 'https://proxy.egroupware.org/' to also load images only available via http.	mail	de	Als Vorgabe wird 'http://' nur durch 'https://' ersetzt. Sie können gerne 'https://proxy.egroupware.org/' eintragen, um Bilder anzuzeigen die ausschließlich per http geladen werden können.
+can not open imap connection	mail	de	Keine Verbindung zum Mailserver möglich
+can not resolve the winmail.dat attachment!	mail	de	Der winmail.dat Anhang kann nicht geöffnet weden!
+canceled deletion due to user interaction	mail	de	Löschen durch Benutzer abgebrochen
+certificate info for email %1	mail	de	Zertifikat-Info für E-Mail %1
+change editor type	mail	de	Als HTML-E-Mail verfassen
+changed profile	mail	de	Profil geändert
+changing subject failed because of %1	mail	de	Ändern des Betreffs fehlgeschlagen wegen %1
+changing subject failed folder %1 does not exist	mail	de	Ändern des Betreffs fehlgeschlagen Ordner %1 existiert nicht
+check message against next rule also	mail	de	Nachricht auch gegen nächste Regel prüfen
+check to receive a notification when the message is read (note: not all clients support this and/or the receiver may not authorize the notification)	mail	de	Markieren Sie diese Option, damit Sie eine Empfangsbestätigung erhalten, wenn der Empfänger diese E-Mail gelesen hat. (Beachten Sie bitte, das nicht alle Programme diese Option unterstützen bzw. manche Empfänger keine Bestätigung senden möchten.)
+check to save as calendar event on send	mail	de	Nach dem Versenden als Termin erstellen
+check to save as infolog on send	mail	de	Nach dem Versenden als InfoLog erstellen
+check to save as tracker entry on send	mail	de	Nach dem Versenden als Ticket erstellen
+choose file	mail	de	Datei
+common acl	mail	de	Berechtigung
+compose	mail	de	verfassen
+compose as new	mail	de	Als neu bearbeiten
+compress folder	mail	de	Ordner komprimieren
+condition	mail	de	Bedingung
+configuration settings	mail	de	Einstellungen der Konfiguration
+configured values will be set automatically on compose dialog for respected field when composing a new email.	mail	de	Die festgelegten Werte werden beim Verfassen einer neuen E-Mail für die entsprechenden Felder automatisch eingestellt.
+confirm	mail	de	Bestätigen
+confirm attach message	mail	de	Bestätigung beim Anhängen von E-Mails
+confirm move to folder	mail	de	Bestätigung vor dem Verschieben
+connect to profile %1	mail	de	Verbunden zu dem Profil :%1
+connection status	mail	de	Verbindungsstatus
+contains	mail	de	beinhaltet
+contains(*)	mail	de	enthält(*)
+convert mail to item and attach its attachments to this item (standard)	mail	de	konvertiere E-Mail zum Eintrag und füge die Mailanhänge hinzu (Standard)
+convert mail to item, attach its attachments and add raw message (message/rfc822 (.eml)) as attachment	mail	de	konvertiere E-Mail zum Eintrag und füge die Anhänge sowie die original E-Mail an.
+convert only mail to item (ignore possible attachments)	mail	de	konvertiere nur den E-Mail-Text zum Eintrag ohne mögliche Anhänge zu beachten
+copied %1 message(s) from %2 to %3	mail	de	%1 Nachricht(en) wurden von %2 nach %3 kopiert
+copy to	mail	de	kopieren
+could not append message:	mail	de	Konnte die Nachricht nicht hinzufügen:
+could not save the acl because some names are empty	mail	de	Konnte die Zugriffskontrollrechte nicht speichern! Grund: einige Bezeichnungen waren leer!
+create new account	mail	de	Konto hinzufügen
+cross account forward attachment is not allowed!	mail	de	Weiterleitung als Anhang ist nicht E-Mail-Konto-übergreifend möglich!
+current folder	mail	de	Aktueller Ordner
+current subject	mail	de	Aktueller Betreff
+currently:	mail	de	Aktuell:
+date(newest first)	mail	de	Datum (neue zuerst)
+date(oldest first)	mail	de	Datum (alte zuerst)
+deactive	mail	de	Deaktiviert
+default sorting order	mail	de	Wählen Sie die Standard-Sortierreihenfolge aus.
+default toolbar actions shown in mail's html editor	mail	de	Aktivierte Funktionen in der HTML-Editor-Symbolleiste beim E-Mail verfassen
+default value for remembering s/mime passphrase in minutes	mail	de	Standardwert für die Erinnerung an die S/MIME-Passphrase in Minuten
+default your name and email	common	de	z.B. Ihr Name und Ihre E-Mail-Adresse
+defines what to show as identity label on mail folder header	common	de	Definiert, was im Kopf des E-Mail-Postfach angezeigt werden soll.
+delete folder	mail	de	Ordner löschen
+delete folder %1 ?	mail	de	Ordner %1 löschen?
+delete this acl	mail	de	Zugriffsrechte löschen
+deleted	mail	de	gelöscht
+deleted %1 messages in %2	mail	de	Es wurden %1 Nachricht(en) in %2 gelöscht
+deleted!	mail	de	gelöscht!
+deleting %1 folders in progress ...	mail	de	%1 Ordner in Bearbeitung zum Löschen
+deleting folders	mail	de	Ordner werden gelöscht
+deny certain groups access to following features	mail	de	Den Zugriff auf bestimmte Funktionen im E-Mail-Modul einschränken.
+directories have to be shared.	mail	de	Verzeichnisse müssen freigegeben werden.
+disable	mail	de	Deaktivieren
+disable horizontal rule for separation of mail body from signature	mail	de	Signatur-Trennzeichen ausblenden
+disable use of flowed lines in plain text mails (rfc3676)	mail	de	Variablen Zeilenumbruch in text Mails (RFC3676) abschalten
+disabled!	mail	de	deaktiviert
+discard	mail	de	verwerfen
+discard message	mail	de	Nachricht verwerfen
+display messages in multiple windows	mail	de	Nachrichten in mehreren Fenstern anzeigen
+display of html emails	mail	de	HTML-E-Mails anzeigen
+display of identities	admin	de	Anzeigeformat der verfügbaren Identitätsinformationen
+display only when no plain text is available	mail	de	nur anzeigen wenn kein Plain-Text vorhanden ist
+displaying html messages is disabled	mail	de	Die Anzeige von HTML-E-Mails ist deaktiviert
+displaying plain messages is disabled	mail	de	Die Anzeige von reinen Text-E-Mails ist deaktiviert
+do not auto create folders	mail	de	Automatische Ordnererstellung verhindern für
+do not forward	mail	de	nicht weiterleiten
+do you really want to apply %1 to all messages in the current view?	mail	de	Wollen Sie wirklich %1 auf alle Nachrichten in der aktuellen Ansicht anwenden?
+do you really want to delete folder %1 ?	mail	de	Wollen Sie den Ordner %1 wirklich löschen?
+do you really want to delete this rule	mail	de	Wollen Sie diese Regel wirklich löschen?
+do you really want to mark all messages as read in the current folder?	mail	de	Wollen Sie wirklich alle E-Mails im aktuellen Ordner als gelesen markieren?
+do you really want to remove all labels from all messages in the current folder?	mail	de	Wollen Sie wirklich alle Schlagworte von allen Nachrichten in dieser Ansicht entfernen?
+do you really want to remove all rights from this account?	mail	de	Wollen Sie wirklich alle Rechte von diesem Benutzer löschen
+do you really want to toggle flag %1 for all messages in the current view?	mail	de	Wollen Sie wirklich den Wert für %1 für alle Nachrichten in der aktuellen Ansicht umschalten?
+do you really want to toggle label %1 for all messages in the current view?	mail	de	Wollen Sie wirklich den Wert für das Schlagwort %1 für alle Nachrichten in der aktuellen Ansicht umschalten?
+do you want to be asked for confirmation before attaching selected messages to new mail?	mail	de	Möchten Sie vor dem Anhängen von einer oder mehreren (ausgewählten) E-Mails an eine neue E-Mail gefragt werden?
+do you want to be asked for confirmation before moving selected messages to another folder?	mail	de	Möchten Sie vor dem Verschieben von E-Mails in andere Ordner gefragt werden?
+do you want to prevent the editing/setup of filter rules (, even if sieve is enabled)?	mail	de	Möchten Sie das Editieren/Einstellen von Filterregeln (via SIEVE) unterbinden?
+do you want to prevent the editing/setup of notification by mail to other emailadresses if emails arrive (, even if sieve is enabled)?	mail	de	Möchten Sie das Editieren/Einstellen von Benachrichtigungen per E-Mail (via SIEVE), wenn neue Nachrichten eintreffen, unterbinden?
+do you want to prevent the editing/setup of the absent/vacation notice (, even if sieve is enabled)?	mail	de	Möchten Sie das Editieren/Einstellen einer Abwesenheitsnotiz (via SIEVE) unterbinden?
+do you want to prevent the managing of folders (creation, accessrights and subscribtion)?	mail	de	Möchten Sie die Verwaltung von Ordnern verhindern (anlegen, abonnieren, Zugriffsrechte)?
+does not contain	mail	de	enthält nicht
+does not exist on imap server.	mail	de	existiert nicht auf dem IMAP Server
+does not match	mail	de	trifft nicht zu
+does not match regexp	mail	de	trifft nicht zu regulärem Ausdruck
+don't use draft folder	mail	de	keine Entwurfs-Ordner verwenden
+don't use sent	mail	de	Keinen gesendeten E-Mails speichern
+don't use template folder	mail	de	Keinen Vorlagen-Ordner verwenden
+don't use trash	mail	de	Keinen Papierkorb verwenden
+download attachments	mail	de	Anhänge herunterladen
+draft folder	mail	de	Entwurfs-Ordner
+drafts	mail	de	Entwürfe
+drafts folder	mail	de	Ordner für Entwürfe
+edit account	mail	de	Konto Einstellungen
+edit account ...	mail	de	Konto bearbeiten ...
+edit folder acl	mail	de	Berechtigungen bearbeiten
+edit folder acl ...	mail	de	Zugriffsrechte bearbeiten ...
+edit vacation settings	mail	de	Abwesenheitsnotiz bearbeiten
+effective only if server supports acl at all	admin	de	Wird nur angewendet, wenn Ihr Server diese Methode unterstützt
+email notification successfully updated!	mail	de	E-Mail-Benachrichtigungen erfolgreich aktualisiert!
+email notification update failed	mail	de	Die Benachrichtigung über den Gelesen-Status der E-Mail ist fehlgeschlagen.
+email notification update failed! you need to set an email address!	mail	de	Aktualisierung der E-Mail Benachrichtigungen fehlgeschlagen! Es muss eine E-Mail-Adresse ausgewählt sein!
+emailaddress	admin	de	E-Mail
+emailadmin: profilemanagement	mail	de	E-Mail-Admin: Profilmanagement
+emails in blacklisted domains are marked as spam	mail	de	E-Mailadressen aus der Domain-Blackliste, werden als Spam markiert
+emails in whitelisted domains are not marked as spam	mail	de	E-Mailadressen aus der Domain-Whiteliste, werden nicht als Spam markiert
+empty junk	mail	de	Spam-Ordner leeren
+empty trash	mail	de	Papierkorb leeren
+empty trash and junk	mail	de	Papierkorb und Spam-Ordner leeren
+enable	mail	de	aktivieren
+enabled!	mail	de	aktiviert!
+encrypt	mail	de	Verschlüsseln
+encrypt your message with smime certificate	mail	de	Verschlüsseln Sie Ihre Nachricht mit einem S/MIME-Zertifikat
+encryption	mail	de	Verschlüsselung
+enter the name for the new folder:	mail	de	Tragen Sie hier den Namen für den neuen Ordner ein:
+error saving %1!	mail	de	Fehler beim Speichern von %1!
+error while setting acl for folder %1!	mail	de	Fehler beim Speichern von Zugriffsrechten für den Ordner %1!
+error while setting folder	mail	de	Fehler beim Speichern eines Ordners
+error:	mail	de	FEHLER:
+error: could not save acl	mail	de	FEHLER: Zugriffskontrollrechte konnten nicht gespeichert werden
+error: could not save message as draft	mail	de	FEHLER: Die Nachricht konnte nicht als Entwurf gespeichert werden.
+error: could not save rule	mail	de	FEHLER: Die Regel konnte nicht gespeichert werden.
+error: could not send message.	mail	de	FEHLER: Die Nachricht konnte nicht versendet werden.
+error: message could not be displayed.	mail	de	FEHLER: Die Nachricht kann nicht angezeigt werden.
+esync will fail without a working email configuration!	mail	de	eSync steht Ihnen nicht zur Verfügung, weil kein gültiges Mailkonto eingestellt wurde!
+event details follow	mail	de	Details zum Termin folgen
+everyone	mail	de	Alle Anwender
+examine namespace to retrieve folders in others and shared	mail	de	Den Namensraum untersuchen, um Ordner in anderen und gemeinsam genutzten Ordnern abzurufen
+extended	mail	de	Erweitert
+extra sent folders	mail	de	Anzeigeschema Gesendet-Ordner
+failed to delete %1	mail	de	Löschen von %1 fehlgeschlagen
+failed to delete %1 ! reason: %2	mail	de	Löschen von %1 fehlgeschlagen! Grund: %2
+failed to delete %1. server responded:	mail	de	Löschen von %1 fehlgeschlagen! Grund: %2
+failed to move %1 ! reason: %2	mail	de	Verschieben von %1 fehlgeschlagen! Grund: %2
+failed to rename %1 ! reason: %2	mail	de	Umbenennen zu %1 fehlgeschlagen! Grund: %2
+failed to subscribe folder %1!	mail	de	Fehler beim Abonnieren des Folders %1!
+failed to unsubscribe folder %1!	mail	de	Fehler beim Abbestellen des Folders %1!
+file into	mail	de	verschiebe nach
+file into:	mail	de	verschieben nach:
+file rejected, no %2. is:%1	mail	de	Datei abgelehnt; die vorliegende Datei ist nicht vom Typ %2. Sie ist vom Typ %1
+filemanager	mail	de	Dateimanager
+filemode has been switched to %1	mail	de	Der Datei-Versende-Modus wurde umgeschaltet auf: %1
+files	mail	de	Anhang
+flag / unflag	mail	de	markieren
+flag or unflag a mail	mail	de	Markierung setzten oder entfernen
+flagged	mail	de	markiert
+flagged %1 messages as %2 in %3	mail	de	%1 Nachricht(en) wurden als %2 in %3 markiert
+flagged %1 messages as flagged in %2	mail	de	%1 Nachricht(en) markiert in %2
+flagged %1 messages as unflagged in %2	mail	de	Bei %1 Nachricht(en) wurde die Markierung in %2 entfernt
+flagged / unflagged	mail	de	Markierung
+folder	mail	de	Ordner
+folder %1 %2 failed because of %3!	mail	de	Ordner %1 %2 fehlgeschlagen, da %3!
+folder %1 %2 failed!	mail	de	Ordner %1 %2 fehlgeschlagen!
+folder %1 has been created successfully, although the subscription failed because of %2	mail	de	Ordner %1 wurde erfolgreich angelegt, obwohl das Abonnieren fehlgeschlagen ist, weil: %2
+folder %1 is moving to folder %2	mail	de	Ordner %1 wird in den Ordner %2 verschoben
+folder management	mail	de	Ordner-Verwaltung
+folder management ...	mail	de	Ordner-Verwaltung ...
+folder settings	mail	de	Ordner-Einstellungen
+for e.g.: mpeg	mail	de	z.B. mpeg
+for eg.: mpeg	mail	de	z.B. für mpeg
+force html	mail	de	erzwinge HTML
+force plain text	mail	de	erzwinge Text
+forward	mail	de	weiterleiten als
+forward as attachment	mail	de	weiterleiten als Anhang
+forward inline	mail	de	weiterleiten
+forward messages to:	mail	de	Nachricht weiterleiten an:
+forward messages:	mail	de	Nachricht weiterleiten an (mehrere Adressen durch Komma trennen):
+forward to	mail	de	weiterleiten an
+forward to address (*):	mail	de	weiterleiten an Adresse (*):
+forwarding of this message failed because the content of this message seems to be encrypted and can not be decrypted properly. if you still wish to forward content of this encrypted message, you may try to use forward as attachment instead.	mail	de	Die Weiterleitung dieser Nachricht ist fehlgeschlagen, weil der Inhalt dieser Nachricht verschlüsselt zu sein scheint und nicht richtig entschlüsselt werden kann. Wenn Sie dennoch den Inhalt dieser verschlüsselten Nachricht weiterleiten möchten, können Sie versuchen, statt dessen Weiterleitung als Anhang zu verwenden.
+forwards	mail	de	weiterleiten an
+from	mail	de	Von
+from(a->z)	mail	de	Von (A->Z)
+from(z->a)	mail	de	Von (Z->A)
+general	admin	de	Allgemein
+general settings	mail	de	Allgemeine Einstellungen
+get acl rights failed from imap server!	mail	de	Die Zugriffskontrollrechte konnten auf dem IMAP Server nicht gelesen werden!
+greater than	mail	de	größer als
+ham folder	mail	de	Ordner für nicht Spam-Nachrichten
+handling of external http images / mixed content in mails	mail	de	Behandlung von externen Bilder per http / gemischter Inhalt in E-Mails
+header	mail	de	Kopfzeilen
+header lines	mail	de	Kopfzeilen anzeigen
+high	mail	de	hoch
+hold %1 to drag files to your computer	mail	de	%1 halten um Dateien auf Ihren Computer zu ziehen
+home page folders	mail	de	Darstellung von E-Mails auf der Startseite
+hostname or ip	mail	de	Hostname oder IP
+how often to check with the server for new mail	mail	de	Aktualisierungsintervall zum prüfen nach neuen E-Mails.
+how should the available information on identities be displayed	admin	de	Hier legen Sie fest wie die verfügbaren Informationen Ihrer Identitäten in ausgehenden Mails angezeigt wird
+how to forward messages	mail	de	Wie möchten Sie Nachrichten weiterleiten
+html	mail	de	HTML
+html mode	mail	de	HTML Modus
+ident name	mail	de	Name
+ident name email	mail	de	Name [E-Mail]
+ident name organization email	mail	de	Name Organisation [E-Mail]
+identity	mail	de	Identität
+identity label	mail	de	Anzeige E-Mail Profil im Seitenmenü
+identity+signature	mail	de	Identität+Signatur
+if	mail	de	Wenn
+if authentication required	mail	de	wenn Benutzeranmeldung erforderlich ist
+if different from email address	mail	de	falls abweichend zur E-Mailadresse
+if from contains:(*)	mail	de	wenn Von enthält:(*)
+if mail body content / attachment type	mail	de	wenn E-Mail Text enthält /Anhang Type
+if mail body message type	mail	de	wenn E-Mail Text
+if mail header	mail	de	wenn E-Mail-Header
+if message size	mail	de	wenn Nachrichtengröße
+if shown, which folders should appear on the home page	mail	de	Welche E-Mail Ordner sollen auf der Startseite dargestellt werden (gelesene/ungelesene Nachrichten)
+if subject contains:(*)	mail	de	wenn Betreff enthält:(*)
+if to contains:(*)	mail	de	wenn An enthält:(*)
+if you want to see a preview of a mail by single clicking onto the subject, enable this.	mail	de	Wenn Sie die Vorschau einer E-Mail durch einfaches Anklicken sehen wollen, wählen Sie diese Option aus.
+if you would like to select multiple folders in one action, you can hold ctrl key then select a folder as start range and another folder within a same level as end range, all folders in between will be selected or unselected based on their current status.	mail	de	Wenn Sie mehrere Ordner einer Ebene selektieren wollen in einer Aktion, können sie mit der Strg-Taste gedrückt den ersten und letzten Ordner auswählen. Dann werden alle Ordner dazwischen selektiert oder de-selektiert.
+imap	mail	de	Posteingang-Server
+imap - incoming mail	mail	de	IMAP-Posteingang-Server
+imap administration	mail	de	Administrator IMAP-Server
+imap server	mail	de	IMAP-Server
+imap timeout	mail	de	Zeitüberschreitung des IMAP-Servers nach
+import message	mail	de	E-Mail importieren
+import of message %1 failed. could not save message to folder %2 due to: %3	mail	de	Der Import der Nachricht %1 ist fehlgeschlagen. Die Nachricht konnte nicht in dem Ordner %2 abgelegt werden. Grund: %3
+import of message %1 failed. destination folder %2 does not exist.	mail	de	Der Import der Nachricht %1 ist fehlgeschlagen. Zielordner %2 existiert nicht.
+import of message %1 failed. destination folder not set.	mail	de	Der Import der Nachricht %1 ist fehlgeschlagen. Zielordner nicht gesetzt.
+import of message %1 failed. no contacts to merge and send to specified.	mail	de	Der Import der Nachricht %1 ist fehlgeschlagen. Es wurde keine Kontaktinformation für das Versenden und Zusammenführen von E-Mail und Kontaktdaten angegeben.
+importance	mail	de	Wichtigkeit
+important	mail	de	wichtig
+in mailbox: %1, with id: %2, and partid: %3	mail	de	Im Mail-Ordner: %1, mit der ID: %2 und der PartID: %3
+in order to protect your privacy all external sources within this email are blocked.	mail	de	Um Ihre Privatsphäre zu schützen, werden alle externen Inhalte in dieser E-Mail blockiert.
+inbox	mail	de	Posteingang
+initialization of mail failed. please use the wizard to cope with the problem.	mail	de	Die Initializierung des Mail-Moduls ist fehlgeschlagen. Bitte benutzen Sie den Konfigurationshilfeassistenten um die Situation zu bereinigen.
+inline	mail	de	Weiterleiten Inline
+insert the signature at top of the new (or reply) message when opening compose dialog (you may not be able to switch signatures)	mail	de	Einfügen der Signatur am Anfang einer neuen E-Mail (auch Antworten/Weiterleiten). <br>Die Signatur ist dann Teil der E-Mail und kann möglicherweise nicht über die Funktionalität >Signatur ändern/auswählen< verändert werden.
+job	mail	de	dienstlich
+junk	mail	de	Spam
+junk folder	mail	de	Ordner für Spam-Nachrichten
+keep a copy of the message in your inbox	mail	de	Eine Kopie der Nachricht im Posteingang behalten
+kilobytes	mail	de	Kilobyte
+later	mail	de	später
+learning as ham (not spam) failed because of %1	mail	de	Als "gute E-Mail" (kein Spam) lernen fehlgeschlagen, da %1
+learning as spam failed because of %1	mail	de	Als Spam lernen fehlgeschlagen, da %1
+less than	mail	de	kleiner als
+list of actions to be switched/activated on by default (eg. mail compose save as infolog action)	mail	de	Liste der Aktionen, die standardmäßig eingeschaltet bzw. aktiviert werden sollen (z.B. E-Mail verfassen und als InfoLog speichern)
+limit mailing list results when searching for addresses	mail	de	Limitierung der Ergebnisse von Gruppen und Verteilerlisten bei der Suche nach Adressen
+mail	common	de	E-Mail
+mail acl	mail	de	Zugriffsrechte
+mail filter	mail	de	Filter-Regeln
+mail filter rule	mail	de	Filter-Regel
+mail settings	mail	de	E-Mail-Einstellungen
+mail source	mail	de	Nachrichtenquelltext anzeigen
+mail-address	mail	de	E-Mail-Adresse
+mailaccount	mail	de	Mailkonto
+mailinglist	mail	de	Mailingliste
+mails	common	de	Mails
+mails can be copied to that folder via context menu, if folder is configured.	mail	de	Mails können per Kontextmenü in diesen Ordner kopiert werden, wenn er konfiguriert ist.
+mailserver reported:\n%1 \ndo you want to proceed by deleting the selected messages immediately (click ok)?\nif not, please try to empty your trashfolder before continuing. (click cancel)	mail	de	Der Mailserver meldete:\n%1 \nWollen Sie fortfahren und die ausgewählten Mails direkt löschen (Ok klicken)?\nWenn nicht, bitten den Mülleimer löschen und es nochmal versuchen. (Abbruch klicken)
+mark all as read	mail	de	alle als Gelesen markieren
+mark all messages in folder as read	mail	de	Alle Nachrichten in diesem Ordner als Gelesen markieren
+mark as deleted	mail	de	als gelöscht markieren
+match:	mail	de	Übereinstimmung:
+matches	mail	de	stimmt überein (*, ? erlaubt)
+matches regexp	mail	de	stimmt überein mit regulärem Ausdruck
+mbstring.func_overload=0 is required for correct mail processing!	mail	de	mbstring.func_overload=0 wird von der Anwendung Mail zwingend benötigt!
+message body	mail	de	Nachricht
+message learned as ham (not spam) and moved back to inbox	mail	de	Nachricht wurde als "gute E-Mail" (kein Spam) gelernt und in den Posteingang verschoben - funktioniert nur mit "lernenden" Spam-Lösungen wie SpamTitan
+message learned as spam and moved to spam folder	mail	de	Nachricht wurde als Spam gelernt und in den Spam-Ordner verschoben - funktioniert nur mit "lernenden" Spam-Lösungen wie SpamTitan
+message preview area	mail	de	Vorschaubereich
+message saved successfully.	mail	de	Nachricht wurde erfolgreich gespeichert.
+message send failed: %1	mail	de	Nachricht konnte nicht versendet werden: %1
+message send successfully.	mail	de	Nachricht wurde erfolgreich versendet.
+message verified successfully but the signer’s certificate could not be verified.	mail	de	Nachricht erfolgreich verifiziert, aber das Zertifikat des Unterzeichners konnte nicht verifiziert werden.
+message verified successfully.	mail	de	Nachricht erfolgreich verifiziert.
+miscellaneous	mail	de	Verschiedenes
+modify subject	mail	de	Betreff ändern
+modify subject of this message	mail	de	Betreff dieser Nachricht ändern
+move	mail	de	Verschieben
+move folder	mail	de	Ordner verschieben
+move selected mails to archive	mail	de	Verschiebe ausgewählte Nachrichten in den konfigurierten Archiv Ordner
+move selected to	mail	de	Verschiebe ausgewählte nach
+move to	mail	de	verschieben
+move to archive	mail	de	Verschiebe in den Archivordner
+move to trash	mail	de	in den Papierkorb verschieben
+moved %1 message(s) from %2 to %3	mail	de	%1 Nachrichten wurden von %2 nach %3 verschoben
+moving folders from one mailaccount to another is not supported	mail	de	Verschieben von Ordnern von einem Mailkonto zu einem anderen wird nicht unterstützt
+name of account	mail	de	Konten-Bezeichnung
+name of imap servers (space separated host or host:port)	mail	de	Name der IMAP Server (Leerzeichen getrennt Host oder Host:Port)
+never display html emails	mail	de	niemals anzeigen
+never show	mail	de	Nie anzeigen
+never show notification	mail	de	Benachrichtigungen nie anzeigen
+new mail from %1	mail	de	Neue Mail von %1
+new mail notification	mail	de	Benachrichtigung über neue E-Mails in:
+new message type	mail	de	Neue E-Mails verfassen als
+new subject	mail	de	Neuer Betreff
+no (valid) send folder set in preferences	mail	de	Es ist kein gültiger Gesendet-Ordner hinterlegt.
+no access	mail	de	Kein Zugriff
+no action defined!	mail	de	Keine Aktion ausgewählt!
+no address to/cc/bcc supplied, and no folder to save message to provided.	mail	de	Keine Empfänger-Adresse (An/Kopie/Blindkopie) angegeben und kein Ordner zur Ablage der E-Mail spezifiziert.
+no adress, to send this mail to, supplied	mail	de	Keine Empfängeradresse angegeben!
+no folder destination supplied, and no folder to save message or other measure to store the mail (save to infolog/tracker) provided, but required.	mail	de	Es sind keine Zielordner oder andere Methoden (als InfoLog/Tracker ablegen) angegeben, um die Nachricht nach dem Senden zu speichern.
+no folders	mail	de	Keine Ordner
+no message body supplied	mail	de	Keinen Nachrichtentext-Teil gefunden.
+no plain text part found	mail	de	Kein Text-Teil gefunden.
+no recipient address given!	mail	de	Keine Empfängeradresse angegeben!
+no send folder set in preferences	mail	de	Es ist kein Gesendet-Ordner hinterlegt
+no signature	mail	de	keine Signatur
+no sneak preview in list	mail	de	Ohne Kurzvorschau
+no subject given!	mail	de	Kein Betreff angegeben!
+no subject supplied	mail	de	Kein Betreff angegeben!
+no text body supplied, check attachments for message text	mail	de	Keine Text vorhanden, bitte sehen Sie sich die Anlagen dieser E-Mail an.
+no vacation notice text provided. please enter a message.	mail	de	Kein Nachrichtentext vorhanden. Sie müssen einen Nachrichtentext eingeben um Ihre Abwesendheitsnotiz speichern (ändern, aktivieren oder deaktivieren) zu können.
+no valid %1 folder configured!	mail	de	Kein gültiger %1 Ordner eingestellt!
+non	mail	de	Kein
+none, create all	mail	de	keine, erstellt alle
+nothing to change.	mail	de	Nichts zu Ändern.
+notify about new mail in this folders	mail	de	Über neue E-Mails in diesem Ordner benachrichtigen
+notify when new mails arrive in these folders	mail	de	Benachrichtigung, sobald neue E-Mails in den folgenden Ordnern ankommen
+on	mail	de	am
+on behalf of	mail	de	Im Namen von
+one address is not valid	mail	de	Eine Adresse ist ungültig
+only if currently in an other app	mail	de	Nur anzeigen wenn aktuell in einer anderen Anwendung
+only makes sense, if you transport password through a different channel / outside of this mail to recipients!	mail	de	Macht nur dann Sinn, wenn das Passwort auf einem anderen Weg, außerhalb dieser Mail, den Empfängern mitgeteilt wird!
+only needed for some servers, that do not return all folders on root level queries to retrieve all folders for that level	mail	de	wird nur für bestimmte Server gebraucht, die NICHT alle Ordner für Root-Knoten-Abfragen zurückgeben (damit wird in diesem Fall explizit auf Ordner in den Prefixes der Namespaces geprüft)
+only one window	mail	de	nur ein einziges Fenster
+only send message, do not copy a version of the message to the configured sent folder	mail	de	Versende Nachricht, kopiere sie nicht in den konfigurierten Gesendet Ordner
+open in html mode	mail	de	In HTML-Modus öffnen
+open in text mode	mail	de	In Text-Modus öffnen
+organisation	admin	de	Organisation
+organization	mail	de	Organisation
+original message	mail	de	ursprüngliche Nachricht
+outbox	mail	de	Postausgang
+password protect	mail	de	Passwort geschützt
+permission denied	mail	de	Zugriff verweigert
+please configure access to an existing individual imap account.	mail	de	Konfigurieren Sie hier den Zugang zu einem existierenden IMAP-Postfach.
+please configure your s/mime certificate in encryption tab located at edit account dialog.	mail	de	Bitte konfigurieren Sie Ihr S/MIME-Zertifikat auf der Registerkarte "Verschlüsselung" im Dialogfeld "Konto bearbeiten".
+please contact your administrator to validate if your server supports serverside filterrules, and how to enable them in egroupware for your active account (%1) with id:%2.	mail	de	Bitte kontaktieren Sie Ihren Administrator um sicherzustellen dass ihr Server serverseitige Filterregeln unterstützt und wie diese in EGroupware für Ihr aktives Konto (%1) mit der ID %2 erlaubt werden.
+please contact your administrator to validate if your server supports serverside vacationmessages, and how to enable them in egroupware for your active account (%1) with id:%2.	mail	de	Bitte kontaktieren Sie Ihren Administrator um sicherzustellen dass ihr Server serverseitige Abwesenheitsnachricht unterstützt und wie diese in EGroupware für Ihr aktives Konto (%1) mit der ID %2 erlaubt werden.
+please enter password	mail	de	Bitte geben Sie ein Passwort ein
+please select a address	mail	de	Bitte wählen Sie eine Adresse
+please select the number of days to wait between responses	mail	de	Bitte wählen wie viele Tage zwischen den Antworten gewartet werden soll.
+please supply the message to send with auto-responses	mail	de	Bitte geben Sie eine Nachricht ein, die mit der automatischen Antwort gesendet werden soll
+please wait while sending your mail	mail	de	Bitte warten, Ihre E-Mail wird gesendet
+post	mail	de	versenden
+predefined addresses for compose	mail	de	Vordefinierte Adressen für das Verfassen
+prevent managing filters	mail	de	Zugriff auf Filterregeln deaktivieren
+prevent managing folders	mail	de	Zugriff auf die Ordnerverwaltung deaktivieren
+prevent managing notifications	mail	de	Zugriff auf Benachrichtigungen deaktivieren
+prevent managing vacation notice	mail	de	Zugriff auf die Abwesenheitsnotiz deaktivieren
+preview pane	mail	de	Mailvorschau
+primary profile	mail	de	Primäres Profil
+printing	mail	de	Drucke
+printview	mail	de	Druckansicht
+processing of file %1 failed. failed to meet basic restrictions.	mail	de	Das Verarbeiten der Datei %1 ist fehlgeschlagen. Grundlegende Voraussetzungen wurden nicht erfüllt.
+provide a default vacation text, (used on new vacation messages when there was no message set up previously)	admin	de	Vorschlagstext für eine Abwesenheitsnotiz (wenn noch kein eigener Benachrichtigungstext vorhanden ist)
+push notifications	mail	de	Push Benachrichtigungen
+quicksearch	mail	de	Schnellsuche
+quicksearch (with cc)	mail	de	Schnellsuche (+ Kopie)
+quota limit warning in megabyte (recommended value is 30 mb).	mail	de	Quota-Limit-Warnung in MegaByte (empfohlener Wert ist 30 MB).
+quota not provided by server	mail	de	Quota wird vom Mailserver nicht unterstützt
+quota: %1	mail	de	Quota: %1
+read	mail	de	gelesen
+read / unread	mail	de	Gelesen / Ungelesen
+readable	mail	de	lesen
+real name	mail	de	Ihr Name
+real name email	mail	de	Ihr Name [E-Mail]
+real name organization email	mail	de	Ihr Name Organisation [E-Mail]
+reason!	mail	de	Grund!
+receive notification	mail	de	Empfangsbestätigung
+recursively	mail	de	Rekursiv
+refresh time in minutes	mail	de	Aktualisierungsintervall in Minuten
+refused to delete folder inbox	mail	de	Die Löschung des Ordners Posteingang wird verweigert
+refused to delete folder with subfolders	mail	de	Die Löschung eines Ordners mit Unterordnern wird verweigert
+reject with	mail	de	zurückweisen mit
+reloaded account %1	mail	de	Lade das Konto %1 neu
+reloaded folder %1	mail	de	Ordner %1 neu geladen
+remember the password for	mail	de	Passwort merken für
+remove "%1" from blacklisted domains	mail	de	Lösche "%1" aus der Blacklist Domainliste
+remove "%1" from blacklisted emails	mail	de	Lösche "%1" aus der E-Mail Blackliste
+remove "%1" from whiltelisted domains	mail	de	Lösche "%1" aus der Whitelist Domainliste
+remove "%1" from whiltelisted emails	mail	de	Lösche "%1" aus der E-Mail Whiteliste
+remove all	mail	de	Alle Entfernen
+remove immediately	mail	de	sofort löschen
+removed folder %1	mail	de	Ordner %1 gelöscht
+removing %1 from blacklisted email addresses failed because of %2	mail	de	Löschen von %1 als E-Mailadresse von der Blackliste fehlgeschlagen, da %2
+removing %1 from whiltelisted email addresses failed because of %2	mail	de	Löschen von %1 als E-Mailadresse von der Whiteliste fehlgeschlagen, da %2
+rename folder	mail	de	Umbenennen
+rename folder %1 ?	mail	de	Ordner %1 umbenennen?
+rename folder %1 to:	mail	de	Ordner %1 umbenennen in:
+renamed folder %1 to %2	mail	de	Ordner %1 umbenannt in %2
+replace 'http://' in image urls with (trailing / required!)	mail	de	Ersetze 'http://' in Bild Adressen (URLs) mit (muss in einem / enden!)
+replied	mail	de	beantwortet
+reply	mail	de	antworten
+reply all	mail	de	Allen Antworten
+reply message type	mail	de	Format Ihrer E-Mail beim Antworten/Weiterleiten
+reply to	mail	de	Antworten an
+replying to this message failed because the content of this message seems to be encrypted and can not be decrypted properly. if you still wish to include content of this encrypted message, you may try to use forward as attachment instead.	mail	de	Die Antwort auf diese Nachricht ist fehlgeschlagen, weil der Inhalt dieser Nachricht verschlüsselt zu sein scheint und nicht richtig entschlüsselt werden kann. Wenn Sie dennoch den Inhalt dieser verschlüsselten Nachricht einbinden möchten, können Sie versuchen, statt dessen Weiterleiten als Anhang zu verwenden.
+replyto	mail	de	Antwort an
+report as ham	mail	de	Als "gute E-Mail" kennzeichnen
+report as spam	mail	de	Als Spam kennzeichnen
+report this email content as ham (not spam) - spam solutions like spamtitan will learn	mail	de	Markiert die Nachricht als "gute E-Mail" (kein Spam) - Spam-Lösungen wie SpamTitan lernen entsprechend
+report this email content as spam - spam solutions like spamtitan will learn	mail	de	Markiert die Nachricht als Spam - Spam-Lösungen wie SpamTitan lernen entsprechend
+required pear class mail/mimedecode.php not found.	mail	de	Die benötigte PEAR Klasse Mail/mimeDecode.php konnte nicht gefunden werden.
+resend after how many days?	mail	de	Nach wie vielen Tagen erneut senden?
+respond to mail sent to:	mail	de	Benachrichtigung für
+restrict acl management	admin	de	ACL-Verwaltung beschränken
+rights	mail	de	Zugriffsrechte
+row order style	mail	de	Spaltenanordnung
+rule priority position	mail	de	Priorität der Filterregel
+rule with priority	mail	de	Regel mit Priorität
+rules	mail	de	Filter Regeln
+s/mime encryption failed because no certificate has been found for sender address: %1	mail	de	Die S/MIME-Verschlüsselung ist fehlgeschlagen, weil kein Zertifikat für die Absenderadresse gefunden wurde: %1
+save all	mail	de	Alle speichern
+save all attachments to filemanager	mail	de	Alle Anhänge im Dateimanager speichern
+save as calendar	mail	de	Als Termin speichern
+save as default	mail	de	Als Vorgabe speichern
+save as draft	mail	de	Als Entwurf speichern
+save as draft and print	mail	de	Als Entwurf speichern und drucken
+save as infolog	mail	de	Als InfoLog speichern
+save as infolog on send	mail	de	Als InfoLog speichern
+save as ticket	mail	de	Als Ticket speichern
+save as tracker on send	mail	de	Als Ticket speichern
+save attachment	mail	de	Anhang speichern
+save attachments	mail	de	Anhänge speichern
+save email	mail	de	E-Mail speichern
+save message to disk	mail	de	Nachricht speichern
+save of message %1 failed. could not save message to folder %2 due to: %3	mail	de	Das speichern der Nachricht %1 ist fehlgeschlagen. Sie konnte nicht im Ordner %2 abgelegt werden. Grund: %3
+save the drafted message as eml file into vfs	mail	de	Speichert diesen Entwurf im EGroupware Dateimanager ab.
+save to disk	mail	de	Speichern unter
+save to filemanager	mail	de	Im Dateimananger speichern
+save:	mail	de	Speichern
+saves subscription changes	mail	de	Änderungen speichern
+saves this acl	mail	de	Zugriffsrechte speichern
+saves this rule	mail	de	Filter-Regel speichern
+saving of message %1 failed. destination folder %2 does not exist.	mail	de	Speichern der Nachricht %1 ist fehlgeschlagen. Ziel Ordner %2 existiert nicht.
+saving of message %1 succeeded. check folder %2.	mail	de	Speichern der Nachricht %1 war erfolgreich. Prüfen Sie den Ziel Ordner %2
+saving the rule failed:	mail	de	Speichern der Regel ist fehlgeschlagen:
+security	mail	de	Sicherheit
+see attachments for content of the orignial mail	mail	de	Die Original Nachricht wurde als Anhang an diese E-Mail angehängt
+select a date	mail	de	Wählen Sie ein Datum
+select all	mail	de	Alle Auswählen
+select an existing entry in order to append mail content to it	mail	de	Bestehendes Ticket auswählen, zu dem die Mail als Kommentar hinzugefügt werden soll.
+select an item to read	mail	de	Wählen Sie ein zu lesendes Element aus
+select file to attach to message	mail	de	Wählen Sie die Dateien aus, die Sie an diese Nachricht anhängen möchten.
+select file to import into folder	mail	de	Wählen Sie ein E-Mail als Datei aus, damit Sie in ein Ordner importiert werden kann.
+select file(s) from vfs	mail	de	Dateien aus dem EGroupware Dateimanager anhängen.
+select files to upload	mail	de	Dateien anhängen.
+select multiple	mail	de	Mehrfachauswahl
+select or insert email address	mail	de	Wählen oder fügen Sie eine E-Mail-Adresse ein
+selected	mail	de	ausgewählt
+selected date range (with quicksearch)	mail	de	Datumsbereich (mit Schnellsuche)
+send a reject message:	mail	de	Ablehnungs-E-Mail senden:
+send files as	mail	de	Dateien versenden als
+send message and move to send folder (if configured)	mail	de	Versende Nachricht und kopiere diese in den konfigurierten Gesendet Ordner
+send message pgp encrypted: requires keys from all recipients!	mail	de	Nachricht PGP-verschlüsselt senden: benötigt Schlüssel von allen Empfängern!
+sender	mail	de	Absender
+sent	mail	de	Gesendet
+sent folder	mail	de	Ordner für gesendete Nachrichten
+server supports special-use folders	mail	de	Server unterstützt Funktionsordner
+serverside filterrules (sieve) are not activated	mail	de	Serverseitige Filterregeln (Sieve) sind nicht aktiviert
+serverside vacationnotice (via sieve) are not activated	mail	de	Serverseitige Abwesenheitsbenachrichtigungen (via Sieve) sind nicht aktiviert
+set / remove flags	mail	de	Markierung
+set / remove labels	mail	de	Schlagworte setzen / entfernen
+set it as default:	mail	de	als Vorgabe speichern
+set predefined values for compose...	mail	de	Vordefinierte Werte für das Verfassen ...
+should new messages show up on the home page	mail	de	Wie sollen Nachrichten auf der Startseite angezeigt werden?
+should signature be inserted after (standard) or before a reply or inline forward, and should signature be visible and changeable during compose.	mail	de	Soll die Signatur nach (Standard) oder vor dem zitierten Text eingefügt werden und diese bearbeitbar sein?
+show	mail	de	anzeigen
+show all addresses	mail	de	alle Adressaten anzeigen
+show all attachments	mail	de	alle Anhänge anzeigen
+show all folders	mail	de	Anzeige aller Ordner
+show all folders, (subscribed and unsubscribed) in main screen folder pane	mail	de	Zeige alle Ordner, die in Ihrem Postfach eingerichtet sind (auch nicht abonnierte Ordner!). Dies kann sich negativ auf die Performance Ihrer EGroupware auswirken.
+show horizontal	mail	de	Horizontal anzeigen
+show horizontal, hide if none selected	mail	de	Horizontal anzeigen, ausblenden wenn nichts ausgewählt
+show new messages on home page	mail	de	Anzeigen von neuen E-Mails auf der Startseite
+show notification for new arriving mails	mail	de	Zeige Benachrichtigungen für neu eintreffende Mails
+show test connection section and control the level of info displayed?	mail	de	Zeige Verbindungstest Link an und spezifiziere das Ausmaß der angezeigten Information?
+show test connection section and control the level of info displayed??	mail	de	Soll der Verbindungstest und die dazugehörigen Informationen angezeigt werden?
+show them this time only	mail	de	Einmalig externe Inhalte anzeigen
+show vertical	mail	de	Vertikal anzeigen (3-Spalten-Ansicht)
+show/hide preview pane in mail list view	mail	de	Mailvorschau anzeigen oder ausblenden
+shows a temporary visible notification including from address, subject and a snippet of the mail	mail	de	Zeigt eine kurze Zeit sichtbare Benachrichtigung einschließlich Absender, Betreff und Auszug der Mail
+sieve	mail	de	Sieve
+sieve connection status	mail	de	Sieve Verbindungsstatus
+sieve not activated	mail	de	Sieve nicht aktiviert
+sieve script name	mail	de	Stellen Sie den Sieve Skript Namen ein.
+sieve server	mail	de	Sieve Server
+sieve_edit_instructions	mail	de	(*) Platzhalter (*,?) können verwendet werden. Wenn Sie * oder ? selbst finden wollen, dann müssen Sie diesen Zeichen je einen Backslash (\) voranstellen. Wenn Sie "reguläre Ausdrücke verwenden" aktivieren, dann müssen Sie jedoch gültige reguläre Ausdrücke angeben. Zur Verwendung von Ausrufezeichen (!), das NICHT als "NICHT" interprtiert werden soll, muss ein regulärer Ausdruck verwendet werden und ein Backslash - also "\!".
+sign your message with smime certificate	mail	de	Signieren Sie Ihre Nachricht mit einem S/MIME-Zertifikat
+signature	mail	de	Signatur
+signature at top	mail	de	Signatur am Anfang der Nachricht
+signature position and visibility	mail	de	Position und Sichtbarkeit der Signatur
+size(...->0)	mail	de	Größe(...->0)
+size(0->...)	mail	de	Größe(0->...)
+small view	mail	de	schmale Ansicht
+smtp	mail	de	Postausgangs-Server
+sneak preview in list	mail	de	Mit Kurzvorschau
+some clients fail to detect correct charset, if flowed lines are enabled.	mail	de	Einige Mailprogramme haben Probleme den Zeichensatz zu erkennen, wenn variabler Zeilenumbruch verwendet wird.
+sort order	mail	de	Sortierreihenfolge
+source	mail	de	Quelltext
+sources	mail	de	HTML-Quellcode
+spamtitian api url	mail	de	SpamTitian API URL
+spamtitian integration requires epl version	mail	de	SpamTitian-Integration benötigt die EPL Version
+start new messages with mime type plain/text or html?	mail	de	Sollen neue E-Mails als plain/text oder HTML Nachrichten verfasst werden?
+start reply messages with mime type plain/text or html or try to use the displayed format (default)?	mail	de	Antworten auf und Inline-Weiterleiten von E-Mails im Text-, im HTML-Format oder entsprechend des Formats, in dem die E-Mail vom Sender ursprünglich verfasst wurde.
+step 1: imap - incoming mail	mail	de	1. Schritt: Posteingang (IMAP) einrichten
+step 2: folder	mail	de	2. Schritt: Ordner einrichten
+step 3: sieve - server side mail filtering	mail	de	3. Schritt: Serverseitige Filterregeln (Sieve) einrichten
+step 4: smtp - outgoing mail	mail	de	4. Schritt: Postausgang (SMTP) einrichten
+store to folder	mail	de	Ablageordner
+subject(a->z)	mail	de	Betreff (A->Z)
+subject(z->a)	mail	de	Betreff (Z->A)
+subscribe folder	mail	de	Abonnieren
+subscribe folder ...	mail	de	Ordner abonnieren ...
+subscribe to folder %1	mail	de	Ordner %1 abonieren
+subscription folders	mail	de	Ordner abonnieren
+subscription successfully saved.	mail	de	Das Abonnieren der Ordner wurde erfolgreich gespeichert.
+successfully connected	mail	de	erfolgreich verbunden
+switch off encryption?	mail	de	Verschlüsselung ausschalten?
+template folder	mail	de	Vorlagen Ordner
+templates	mail	de	Vorlagen
+templates folder	mail	de	Ordner für Vorlage Nachrichten
+test connection	mail	de	Verbindungstest
+test connection and display basic information about the selected profile	mail	de	Teste Verbindung und zeige Basisinformationen zum ausgewählten (aktiven) Profil
+text	mail	de	Text
+text mode	mail	de	Text-Modus
+text/plain	mail	de	text/plain
+the %1 's acl removed from the %2	mail	de	Die Zugriffskontrollrechte von %1 wurden von %2 entfernt
+the %1 's acl, including its subfolders, removed from the %2	mail	de	Die Zugriffskontrollrechte inkl. Unterordner von %1 wurden von %2 entfernt
+the entered passphrase is not correct! please try again.	mail	de	Das eingegebene Passwort ist nicht korrekt. Bitte versuchen Sie es erneut.
+the folder %1 's acls saved	mail	de	Die Zugriffskontrollrechte des Ordners %1 wurden gespeichert
+the folder <b>%1</b> will be used, if there is nothing set here, and no valid predefine given.	mail	de	Der Ordner <b>%1</b> wird verwendet, wenn hier nichts gesetzt ist und kein gültiger Vorgabewert eingetragen ist.
+the imap server need to meet certain requirements and be configured for it:	mail	de	Der IMAP Server muss verschiedene Vorraussetzungen erfüllen UND dafür konfiguriert sein:
+the message sender has requested a response to indicate that you have read this message. would you like to send a receipt?	mail	de	Der Absender hat eine Empfangsbestätigung angefordert, um sicherzustellen, dass Sie diese E-Mail gelesen haben. Möchten Sie eine Empfangsbestätigung senden?
+the mimeparser can not parse this message.	mail	de	Der MIME Parser versteht diese Nachricht nicht.
+the rule with priority %1 successfully saved!	mail	de	Die Regel mit Priorität %1 wurde erfolgreich gespeichert!
+then	mail	de	dann
+there is no imap server configured.	mail	de	Es ist kein IMAP-Server Konfiguriert
+there is no space left to store sieve script, please check sieve_maxscriptsize option on your mailserver's config.	mail	de	Es ist kein Platz mehr vorhanden, um das Sieve Skript zu speichern, bitte Sie Ihren Administrator die Option sieve_maxscriptsize in der Konfiguration Ihres Mailservers zu prüfen.
+this mail contains external images served via insecure http protocol. be aware showing or allowing them can compromise your security!	mail	de	Diese Mail enthält externe Bilder die über das unsichere HTTP-Protokoll ausgeliefert werden. Bitte seien Sie sich bewusst, dass Anzeigen oder Erlauben Ihre Sicherheit beeinträchtigen kann!
+this message is smime encrypted and password protected.	mail	de	Diese Nachricht ist S/MIME-Verschlüsselt und mit Passwort geschützt.
+timeout on connections to your imap server	mail	de	Stellen Sie hier das Verbindungstimeout für IMAP Verbindungen ein.
+to do	mail	de	zu erledigen
+toggle all folders view for %1	mail	de	Umschaltung der Alle-Ordner-anzeigen Ansicht für %1
+toggled on actions	mail	de	Folgende Aktionen sind immer eingeschaltet
+trash	mail	de	Papierkorb
+trash folder	mail	de	Ordner für gelöschte Nachrichten
+trust servers seen / unseen info	mail	de	Abruf des ungelesen/gelesen Status des Mailservers
+trust the server when retrieving the folder status. if you select no, we will search for the unseen messages and count them ourselves	mail	de	EGroupware verwendet die Statusinformationen Ihres E-Mail Servers. Wählen Sie hier nur "Nein", wenn die Anzahl der ungelesenen E-Mails nicht stimmt. Die Eigenermittlung der Anzahl der ungelesenen E-Mails wirkt sich negativ auf die Performance des E-Mail-Moduls aus.
+trying to recover from session data	mail	de	Versuch der Wiederherstellung aus den gespeicherten Session-Daten.
+turn off horizontal line between signature and composed message (this is not according to rfc).<br>if you use templates, this option is only applied to the text part of the message.	mail	de	Deaktivieren Sie die horizontale Trennlinie zwischen dem Text Ihrer E-Mail und der Signatur.
+unable to fetch vacation!	mail	de	Abwesenheitsnotiz konnte nicht gelesen werden!
+undelete	mail	de	Als gelöscht markiert entfernen
+unflagged	mail	de	Markierung entfernen
+unread	mail	de	ungelesen
+unsubscribe folder	mail	de	Ordner abbestellen
+unsubscribe from folder %1	mail	de	Ordner %1 abbestellen
+upload files...	mail	de	Anhang
+use default timeout (20 seconds)	mail	de	verwende Standard Timeout (20 Sekunden)
+use regular expressions (see wikipedia for information on posix regular expressions)	mail	de	reguläre Ausdrücke verwenden (siehe Wikipedia Artikel bzgl. POSIX Regular Expressions)
+use source as displayed, if applicable	mail	de	Format wie E-Mail-Anzeige
+use username+password from current user	mail	de	verwendet Benutzername+Passwort des angemeldeten Benutzers
+use wizard to detect or verify configuration	mail	de	Benutze Assistent um die Konfiguration zu erstellen und/oder zu verifizieren
+vacation messages with start and end date require an admin account to be set!	mail	de	Um zeitgesteuerte Abwesenheitsnachrichten zu aktivieren, benötigen Sie einen Administrations-Benutzer. Diesen können Sie unter Posteingang-Server eintragen
+vacation notice	mail	de	Abwesenheitsnotiz
+vacation notice is active	mail	de	Abwesenheitsnotiz ist aktiv
+vacation notice is not saved yet! (but we filled in some defaults to cover some of the above errors. please correct and check your settings and save again.)	mail	de	Die Abwesenheitsnotiz ist noch nicht gespeichert! (Wir haben einige Standardwerte gesetzt, um einige der oben gemeldeten Probleme zu beheben. Bitte prüfen/korrigieren Sie Ihre Einstellungen und speichern diese erneut ab.)
+vacation notice sucessfully updated.	mail	de	Abwesenheitsnotiz erfolgreich aktualisiert.
+vacation notice update failed	mail	de	Aktualisierung der Abwesenheitsnotiz fehlgeschlagen
+vacation start-date must be before the end-date!	mail	de	Startdatum der Abwesenheitsnotiz muss VOR dem Enddatum liegen!
+vacation update failed	mail	de	Aktualisierung der Abwesenheitsnotiz fehlgeschlagen
+valid for	mail	de	Zugewiesen an
+validate addresses on submit:	mail	de	Adresse beim Speichern überprüfen?
+validate selected addresses on submit:	mail	de	Überprüfe die ausgewählten Adressen beim Senden des Formulars:
+view full mail source	mail	de	Quelltext anzeigen
+view header lines	mail	de	Kopfzeilen anzeigen
+what do do with html email	mail	de	Wie sollen E-Mails im HTML-Format angezeigt werden?
+what order the list columns are in	mail	de	Wählen Sie die Spaltenanordnung in der E-Mail Liste aus.
+what to do when you delete a message	mail	de	Wählen Sie die Methode aus, wenn Sie eine Nachricht löschen. Diese kann entweder direkt gelöscht werden, oder in den Papierkorb verschoben werden.
+what to do when you send a message	mail	de	Wählen Sie die Aktion aus, wenn eine Nachricht versendet wird. EGroupware kann  z. B. die Nachricht in den Gesendet-Ordner kopieren.
+when deleting messages	mail	de	Wenn Nachrichten gelöscht werden
+when displaying messages in a popup, re-use the same popup for all or open a new popup for each message	mail	de	Dürfen E-Mail in dem gleichen Fenster angezeigt werden, oder wünschen Sie nur jede E-Mail ein neues Fenster?
+when saving messages as item of a different app	mail	de	Wählen Sie das Format zur Konvertierung von E-Mails in andere Anwendungen aus. Beispielsweise das Speichern von E-Mails als InfoLog. Wir empfehlen .eml, um die Original E-Mail zu erhalten und darauf zu antworten.
+when sending messages	mail	de	Wenn Nachrichten versendet werden
+which folders (additional to the sent folder) should be displayed using the sent folder view schema	mail	de	Welche E-Mail-Ordner, zusätzlich zum Gesendet-Ordner, sollen im Anzeigenschema analog des Gesendet-Ordners  dargestellt werden (Empfänger-Adresse, anstatt der Absender-Adresse).
+which folders - in general - should not be automatically created, if not existing	mail	de	Welche E-Mail-Ordner sollen generell NICHT automatisch angelegt werden, wenn Sie nicht existieren? Wählen Sie hier die Ordner aus, die NICHT von EGroupware automatisch angelegt werden dürfen.
+which method to use when forwarding a message	mail	de	Wählen Sie die Methode zum Weiterleiten von Nachrichten.
+whitelisted mails are not marked as spam	mail	de	E-Mail-Adressen aus der Domain-Whiteliste, werden nicht als Spam markiert
+whole message	mail	de	gesamte Nachricht
+with message:	mail	de	mit folgender Nachricht:
+wizard	mail	de	Assistent
+writable sharing requires epl version!	mail	de	Beschreibbare Freigaben benötigen die EPL Version!
+write	mail	de	schreiben
+wrote	mail	de	schrieb
+yes, but mask all passwords	mail	de	Ja, aber maskiere alle Passwörter
+yes, but mask all usernames and passwords	mail	de	Ja, aber maskiere Benutzernamen und Passwörter
+yes, offer copy option	mail	de	Ja, mit Kopieroption
+yes, only trigger connection reset	mail	de	Ja, aber führe nur das zurücksetzen der Verbindung aus
+yes, show all debug information available for the user	mail	de	Ja, zeige alle dem Benutzer zugänglichen Informationen an.
+yes, show basic info only	mail	de	Ja, nur Basis Informationen anzeigen
+you can either choose to save as infolog or tracker, not both.	mail	de	Sie können eine E-Mail entweder als InfoLog-, ODER als Ticket-Eintrag speichern, nicht beides gleichzeitig.
+you can use $$start$$ for the above start date and $$end$$ for the end date.	mail	de	Sie können $$start$$ für das obige Start- und $$end$$ für das Enddatum verwenden.
+you may add this certificate into your contact, if you trust this signature.	mail	de	Sie können dieses Zertifikat in Ihren Kontakt speichern, wenn dieser Signatur trauen.
+you need to enter your s/mime passphrase to send this message.	mail	de	Sie müssen Ihr S/MIME-Passwort eingeben um diese Nachricht zu senden.
+you need to install mailvelope plugin available for chrome and firefox from %1.	mail	de	Sie müssen das Mailvelope Plugin für Chrome oder Firefox von %1 installieren.
+you need to save the message as draft first before to be able to save it into vfs	mail	de	Sie müssen die E-Mail zuerst als Entwurf speichern, bevor Sie die Mail im EGroupware Dateimanager speichern können.
+you will loose current message body, unless you save it to your clipboard!	mail	de	Sie werden Ihren aktuellen Nachrichtentext verlieren, sofern Sie ihn nicht in der Zwischenablage speichern!
+you've got new mail	mail	de	Sie haben neue E-Mails
+your remaining quota %1 is too low, you may not be able to send/receive further emails.\n although cleaning up emails in trash or junk folder might help you to get some free space back.\n if that didn't help, please ask your administrator for more quota.	mail	de	Ihre restliche Quota %1 ist zu niedrig. damit können Sie u.U. weder Mails senden noch empfangen!\n  Bitte ggf. Papierkorb und Spam-Ordner leeren, um Platz zu schaffen.\n Wenn das nicht ausreicht, fragen Sie bitte Ihren Administrator nach einer höheren Quota für ihr Postfach.

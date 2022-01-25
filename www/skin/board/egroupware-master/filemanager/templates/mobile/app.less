@@ -1,0 +1,141 @@
+/**
+ *
+ * Filemanager - Mobile
+ *
+ * Please do NOT change app.css directly, instead change app.less and compile it!
+ * Pixleegg Template app.css
+ * @link http://www.egroupware.org
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @author Hadi Nategh <hn@stylite.de>
+ * @package Filemanager
+ * @version $Id: app.less 55033 2016-02-16 18:49:17Z hnategh $
+ */
+
+@import (reference) "../../../pixelegg/less/def_buttons.less";
+@import (reference) "../../../pixelegg/less/def_mobile.less";
+@import "../pixelegg/app.less";
+/* tablets and smartphones  */
+@media all {
+	#filemanager-index_nm {
+		table.egwGridView_outer tbody {
+			span[id^='filemanager-index'][id$='size]']{
+				.mob-fontsize-n;
+				text-align: right;
+			}
+			label[id^='filemanager-index'][id$='name]'] {
+				overflow: hidden;
+				text-overflow: ellipsis;
+				max-width: 100%;
+				span{
+					.mob-fontsize-l;
+					white-space: nowrap;
+				}
+			}
+			span[id^='filemanager-index'][id$='comment]']
+			{
+				.mob-fontsize-n;
+			}
+			label[id^='filemanager-index'][id$='mtime]'] {
+				time{
+					.mob-fontsize-n;
+				}
+			}
+		}
+		.buttons {
+			position: relative;
+			display: inline-block;
+			overflow:auto;
+			width:100%;
+			padding-top:5px;
+			img{
+				width: 24px;
+				height: 24px;
+				padding-left: 15px;
+			}
+			height: auto;
+		}
+		#filemanager-index_filemanager-index-header_right {width:100%;}
+		#filemanager-index_tarp {display: none !important;}
+		#filemanager-index_filemanager-index-header_left {height:auto;}
+		.nextmatch_header.nm_header_hide {
+			display:inline-block !important;
+			.header_row_right, .filtersContainer {display:none;}
+		}
+		.nextmatch_header {
+			.nextmatch_header_row {padding-bottom:0px;}
+			.filemanager_navigation {
+				height: auto;
+				#filemanager-index_path {
+					height:50px;
+					width:~"calc(100% - 90px)";
+					display: inline-block;
+					border: none;
+					&:focus {outline: none;}
+					background: white;
+				}
+				#filemanager-index_up {width:24px;height: 100%;margin-left:22px;margin-right:22px;}
+			}
+			div.filtersContainer {margin-top:0px;border-bottom: 1px solid silver;}
+			#filemanager-index_new_wrapper {
+				float: none;
+				width: 100%;
+				margin:0;
+				padding-top: 5px;
+				.et2_dropdown {
+					float: none;
+					width: 100%;
+					button {
+						width:50px;
+						margin: 0;
+						border-radius: 0;
+						div {float:none;}
+					}
+					#filemanager-index_new {width:~"calc(100% - 50px)"}
+				}
+			}
+
+		}
+		select#filemanager-index_filter {width:100%;}
+		.nextmatch_header_row div.header_row_right {height:auto;position: relative !important;}
+	}
+	#filemanager-index_filemanager-index-header_left {
+		.et2_file.plus_button {
+			position: fixed !important;
+			right: 15px;
+			bottom: 15px;
+			border-radius: 50%;
+			width: 60px !important;
+			height: 60px !important;
+			background-position: center;
+			z-index: 100;
+			box-shadow: 0px 1px 5px 3px silver;
+			background-image: url(../../../pixelegg/images/topmenu_items/mobile/plus_white.svg) !important;
+			background-repeat: no-repeat;
+			background-size: 24px 24px;
+			border: none;
+			margin: 0;
+			padding: 0;
+			border: none;
+			.et2_file_span{
+				width:50px;
+				height: 50px;
+				border: none;
+				background: none;
+			}
+			.et2_file_upload {
+				width: 60px;
+				height: 60px;
+				top: 0;
+			}
+			div.progress {
+				position: fixed;
+				left: 0;
+				top: 0px;
+				width: 93%;
+			}
+		}
+	}
+
+	.previewImage img {max-width: 100%;}
+	div#filemanager-file_tabs td.eaclAccount,td.eaclRights {display: block;}
+}

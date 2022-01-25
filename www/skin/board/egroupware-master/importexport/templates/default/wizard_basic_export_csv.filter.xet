@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="importexport.wizard_basic_export_csv.filter" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row disabled="!@msg">
+					<description id="msg"/>
+				</row>
+				<row>
+					<filter id="set_filter" relative_dates="true"/>
+				</row>
+			</rows>
+		</grid>
+		<styles>select {
+  width: 200px;
+}</styles>
+	</template>
+</overlay>

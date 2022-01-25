@@ -1,0 +1,446 @@
+%1 %2 in %3	calendar	el	%1 %2 σε %3
+%1 days	calendar	el	%1 ημέρες
+%1 event(s) %2	calendar	el	%1 γεγονότα %2
+%1 event(s) %2, %3 failed because of insufficient rights !!!	calendar	el	%1 γεγονότα %2, %3 απέτυχαν λόγω ελλιπών δικαιωμάτων!
+%1 hours	calendar	el	%1 ώρες
+%1 minutes	calendar	el	%1 λεπτά
+%1 records imported	calendar	el	%1 εγγραφές εισήχθηκαν
+%1 records read (not yet imported, you may go back and uncheck test import)	calendar	el	%1 εγγραφές διαβάστηκαν (δεν εισήχθηκαν ακόμα, μπορείτε να πάτε πίσω και να ξετσεκάρετε Δοκιμαστικη Εισαγωγή)
+%1 weeks	calendar	el	%1 εβδομάδες
+, exceptions preserved	calendar	el	, οι εξαιρέσεις διατηρήθηκαν
+, stati of participants reset	calendar	el	, η κατάσταση των συμμετασχόντων αρχικοποιήθηκε
+a non blocking event will not conflict with other events	calendar	el	Ένα μη αποκλειόμενο γεγονός δεν θα συμπίπτει με άλλα γεγονότα
+accept	calendar	el	Aποδοχή
+accept or reject an invitation	calendar	el	Αποδεχτείτε ή απορρίψτε μία πρόσκληση
+accepted	calendar	el	Αποδέχτηκε
+access denied to the calendar of %1 !!!	calendar	el	Απορρίφθηκε η πρόσβαση στο ημερολόγιο του %1 !
+access to calendar of %1 denied!	calendar	el	Δεν έχετε πρόσβαση στο ημερολόγιο του %1!
+action that caused the notify: added, canceled, accepted, rejected, ...	calendar	el	Ενέργειες που προκάλεσαν την ειδοποίηση: Προστέθηκε, Ακυρώθηκε, Αποδέχτηκε, Απορρίφθηκε, ...
+actions	calendar	el	Ενέργειες
+actions...	calendar	el	Ενέργειες...
+add alarm	calendar	el	Προσθέστε Ειδοποίηση
+add new alarm	calendar	el	Προσθήκη νέας ειδοποίησης
+added	calendar	el	Προστέθηκε
+added by synchronization	calendar	el	Προστέθηκε μέσω συγχρονισμού
+after	calendar	el	Μετά
+after %1	calendar	el	Μετά %1
+after current date	calendar	el	Μετά την τωρινή ημερομηνία
+age:	calendar	el	Ηλικία:
+alarm	calendar	el	Ειδοποίηση
+alarm added	calendar	el	Προστέθηκε ειδοποίηση.
+alarm added automatic to new events before event start-time	calendar	el	Προστέθηκε αυτόματα ειδοποίηση στα νέα γεγονότα πριν από την ώρα έναρξης
+alarm deleted	calendar	el	Διαγράφηκε ειδοποίηση.
+alarm for %1 at %2 in %3	calendar	el	Ειδοποίηση για %1 στις %2 την %3
+alarm management	calendar	el	Διαχείρηση ειδοποιήσεων
+alarms	calendar	el	Ειδοποιήσεις
+all categories	calendar	el	Όλες οι κατηγορίες
+all day	calendar	el	Όλη μέρα
+all events	calendar	el	Όλα τα γεγονότα
+all future	calendar	el	Όλα τα μελλοντικά
+all participants	calendar	el	Όλοι οι συμμετέχοντες
+allows to edit the event again	calendar	el	Επιτρέπει την εκ νέου επεξεργασία του γεγονότος
+always	calendar	el	Πάντα
+apply the changes	calendar	el	εφαρμόστε τις αλλαγές
+appointment settings	calendar	el	Ρυθμίσεις συναντήσεων
+at start of the event	calendar	el	ως αρχή του γεγονότος
+back half a month	calendar	el	Μισό μήνα πίσω
+back one month	calendar	el	Ένα μήνα πίσω
+back one year	calendar	el	Ένα έτος πίσω
+before	calendar	el	Πριν
+before %1	calendar	el	Πριν %1
+before current date	calendar	el	Πριν την τωρινή ημερομηνία
+before the event	calendar	el	πριν το γεγονός
+birthday	calendar	el	Γενέθλια
+birthdays	admin	el	Γενέθλια
+birthdays only	calendar	el	Μόνο γενέθλια
+both, holidays and birthdays	calendar	el	Και τα δύο, αργίες και γενέθλια
+busy	calendar	el	Απασχολημένος
+by	calendar	el	μέσω
+calendar - list	calendar	el	Ημερολόγιο - Λίστα
+calendar - multi-weekly	calendar	el	Ημερολόγιο - Πολλαπλές εβδομάδες
+calendar event	calendar	el	Γεγονός ημερολογίου
+calendar fields:	calendar	el	Πεδία Ημερολογίου:
+calendar menu	calendar	el	Μενού ημερολογίου
+calendar preferences	calendar	el	Ιδιότητες ημερολογίου
+calendar settings	admin	el	Ρυθμίσεις ημερολογίου
+calendar-fieldname	calendar	el	Ημερολόγιο - Ονομα πεδίου
+can't add alarms in the past !!!	calendar	el	Δεν επιτρέπεται η προσθήκη ειδοποιήσεων στο παρελθόν
+canceled	calendar	el	Ακυρώθηκε
+charset of file	calendar	el	Κωδικοποίηση αρχείου
+check all	calendar	el	Επιλογή όλων
+choose a category	calendar	el	Επιλέξτε μία κατηγορία
+close the window	calendar	el	Κλείσιμο παραθύρου
+compose a mail to all participants after the event is saved	calendar	el	Συντάξτε ένα μήνυμα σε όλους τους συμμετέχοντες αφού σωθεί το γεγονός
+copy of:	calendar	el	Αντίγραφο του:
+copy this event	calendar	el	Αντιγράψτε αυτό το γεγονός
+countries	calendar	el	Χώρες
+country	calendar	el	Χώρα
+create an exception for the given date	calendar	el	Δημιουργήστε μια εξαίρεση για τη δοσμένη ημερομηνία
+create exception	calendar	el	Δημιουργία εξαίρεσης
+create new links	calendar	el	Δημιουργήστε νέα links
+created	calendar	el	Δημιουργήθηκε
+creator	calendar	el	Δημιουργός
+csv	calendar	el	CSV
+csv-fieldname	calendar	el	CSV-νομα πεδίου
+csv-filename	calendar	el	CSV-Ονομα αρχείου
+custom	calendar	el	Προσαρμογή
+custom fields	common	el	Προσαρμοσμένα πεδία
+daily	calendar	el	Ημερήσιο
+day	calendar	el	Ημέρα
+days	calendar	el	ημέρες
+days of the week for a weekly repeated event	calendar	el	Ημέρες της εβδομάδας για ένα εβδομαδιαία επαναλαμβανόμενο γεγονός
+days repeated	calendar	el	επαναλαμβανόμενες ημέρες
+dayview	calendar	el	Ημερήσια εμφάνιση
+default appointment length (in minutes)	calendar	el	προκαθορισμένο μήκος συνάντησης
+default calendar filter	calendar	el	Προκαθορισμένο φίλτρο ημερολογίου
+default calendar view	calendar	el	Προκαθορισμένη εμφάνιση ημερολογίου
+default length of newly created events. the length is in minutes, eg. 60 for 1 hour.	calendar	el	Προκαθορισμένη διάρκεια των πιο πρόσφατα δημιουργημένων γεγονότων. Η διάρκεια είναι σε λεπτά, π.χ. 60 για 1 ώρα
+default week view	calendar	el	Προκαθορισμένη εμφάνιση εβδομάδας
+delegated	calendar	el	εξουσιοδοτήθηκε
+delete exceptions	calendar	el	Διαγραφή εξαιρέσεων
+delete selected events	calendar	el	Διαγραφή επιλεγμένων γεγονότων
+delete series	calendar	el	Διαγραφή σειράς
+delete this alarm	calendar	el	Διαγραφή αυτής της ειδοποίησης
+delete this event	calendar	el	Διαγραφή αυτού του γεγονότος
+delete this exception	calendar	el	Διαγραφή αυτής της εξαίρεσης
+delete this recurrence	calendar	el	Διαγραφή αυτής της επανάληψης
+delete this series of recurring events	calendar	el	Διαγράψτε αυτή τη σειρά των επανεμφανιζόμενων γεγονότων
+deleted	calendar	el	διεγράφη
+display status of events	calendar	el	Εμφάνιση κατάστασης γεγονότων
+displayed view	calendar	el	Εμφάνιση
+distribution list	calendar	el	Πίνακας διανομής
+do you want a weekview with or without weekend?	calendar	el	Θέλετε εμφάνιση της εβδομάδας με ή χωρίς το Σαββατοκύριακο;
+do you want to be notified about new or changed appointments? you are not notified about changes you made yourself.<br>you can limit the notifications to certain changes only. each item includes all notifications listed above. all modifications include changes of title, description, participants, but no participant responses. if the owner of an event requested any notifcations, he will always get participant responses like acceptions or rejections too.	calendar	el	Θέλετε να ειδοποιηθείτε για νέες συναντήσεις ή αλλαγές συναντήσεων; ΔΕΝ θα ειδοποιήστε για αλλαγές που κάνετε ο ίδιος.<br>Μπορείτε να ελαττώσετε τις ειδοποιήσεις σε ορισμένες αλλαγές μόνο. Κάθε αντικείμενο περιλαμβάνει όλες τις ειδοποιήσεις που αναφέρονται παραπάνω. Όλες οι τροποποιήσεις περιλαμβάνουν αλλαγές του τίτλου, της περιγραφής, των συμμετεχόντων, αλλά καμία απάντηση συμμετέχοντος. Αν ο ιδιοκτήτης ενός γεγονότος ζήτησε κάποια ειδοποίηση, θα λαμβάνει πάντα τις απαντήσεις των συμμετεχόντων ως αποδοχές και απορρίψεις επίσης.
+do you want to receive a regularly summary of your appointments via email?<br>the summary is sent to your standard email-address on the morning of that day or on monday for weekly summarys.<br>it is only sent when you have any appointments on that day or week.	calendar	el	Θέλετε να λαμβάνετε μία τακτική περίληψη των συναντήσεών σας μέσω email;<br>Η περίληψη στέλνεται στην συνηθισμένη σας διεύθυνση email το πρωί εκείνης της ημέρας ή τη Δευτέρα για εβδομαδιαίες περιλήψεις.<br>Αποστέλεται μόνον όταν έχετε κάποια συνάντηση εκείνη την ημέρα ή εβδομάδα.
+download	calendar	el	Φόρτωμα
+download this event as ical	calendar	el	Φόρτωση του γεγονότος ως iCal
+duration	calendar	el	Διάρκεια
+duration of the meeting	calendar	el	Διάρκεια της συνάντησης
+edit event in calendar	calendar	el	Επεξεργασία γεγονότος στο ημερολόγιο
+edit exception	calendar	el	Επεξεργασία εξαίρεσης
+edit series	calendar	el	Επεξεργασία σειράς
+edit status or alarms for this particular day	calendar	el	Επεξεργασία κατάστασης ή ειδοποιήσεων για αυτή τη συγκεκριμένη ημέρα
+edit this event	calendar	el	Επεξεργασία του γεγονότος
+edit this series of recurring events	calendar	el	Επεξεργασία σειράς επαναλαμβανόμενων γεγονότων
+empty = no alarm	calendar	el	κενό = χωρίς ειδοποίηση
+empty for all	calendar	el	Κενό για όλα
+empty target calendar before importing	calendar	el	Άδειασμα ημερολογίου προορισμού  πριν από την εισαγωγή
+end	calendar	el	Λήξη
+end date/time	calendar	el	Λήξη  ημερομηνίας/Ώρα
+enddate	calendar	el	Ημερομηνία λήξης
+enddate / -time of the meeting, eg. for more then one day	calendar	el	Ημερομηνία τέλους / -ώρα συνάντησης, π.χ. για περισσότερο από μία μέρα.
+enddate of the export	calendar	el	Ημερομηνία λήξης για την εξαγωγή
+ends	calendar	el	Λήγει
+error adding the alarm	calendar	el	Σφάλμα στην προσθήκη ειδοποίησης.
+error saving the event!	calendar	el	Σφάλμα κατά αποθήκευση της ημερολογιακής καταχώ!
+error: can't delete original series!	calendar	el	Σφάλμα: Δεν μπορεί να διαγραφεί η αρχική σειρά!
+error: importing the ical	calendar	el	Σφάλμα: στην εισαγωγή του iCal
+error: no participants selected !!!	calendar	el	Σφάλμα: δεν έχει επιλεχθεί κάποιος συμμετέχων !
+error: saving the event !!!	calendar	el	Σφάλμα: στην αποθήκευση του γεγονότος !
+error: starttime has to be before the endtime !!!	calendar	el	Σφάλμα: Η ώρα έναρξης πρέπει να έιναι πριν την τέλους
+error: the entry has been updated since you opened it for editing!	calendar	el	Σφάλμα:η καταχώρηση έχει ενημερωθεί από όταν την ανοίξατε για προσαρμογή!
+event	common	el	Γεγονός
+event deleted	calendar	el	Γεγονός διεγράφη
+event details follow	calendar	el	Ακολουθούν λεπτομέρειες γεγονότων
+event has been deleted by organizer!	calendar	el	Το γεγονός έχει διαγραφεί από τον διοργανωτή
+event saved	calendar	el	Το γεγονός αποθηκεύτηκε
+event will occupy the whole day	calendar	el	Το γεγονός θα απασχολήσει ολόκληρη την ημέρα
+events	common	el	Γεγονότα
+every user can invite other users and groups	admin	el	Κάθε χρήστης μπορεί να προσκαλέσει άλλους χρήστες ή ομάδες χρηστών
+exception	calendar	el	Εξαίρεση
+exception created - you can now edit or delete it	calendar	el	Δημιουργήθηκε εξαίρεση - μπορείτε τώρα να την επεξεργαστείτε ή να τη διαγράψετε
+exceptions	calendar	el	Εξαιρέσεις
+execute a further action for this entry	calendar	el	Εκτελέστε περαιτέρω ενέργεια για αυτήν την καταχώρηση
+existing links	calendar	el	Υπάρχοντες σύνδεσμοι
+exists	calendar	el	Υπάρχει
+export definition to use for nextmatch export	calendar	el	Εξαγωγή ορισμών για χρήση στην εξαγωγή nextmatch
+extended	calendar	el	Εκτεταμένος.
+extended updates always include the complete event-details. ical's can be imported by certain other calendar-applications.	calendar	el	Εκτεταμένες ενημερώσεις πάντα περιλαμβάνουν τις ολοκληρομένες λεπτομέριες-γεγονότων. iCal's μπορούν να εισαχθούν απο συγκεκριμένες άλλες εφαρμογές-ημερολογίων
+favorites	calendar	el	Αγαπημένα
+fieldseparator	calendar	el	Διαχωριστής πεδίων
+filemanager	calendar	el	Διαχειριστής αρχείων
+filename	calendar	el	Όνομα αρχείου
+filename of the download	calendar	el	Όνομα αρχείου για download.
+firstname of person to notify	calendar	el	Ονομα του ατόμου να ειδοποιηθεί
+for	calendar	el	για
+for which views should calendar show distinct lines with a fixed time interval.	calendar	el	Για ποιες εμφανίσεις πρέπει το ημερολόγιο να δείχνει ευδιάκριτες γραμμές με καθορισμένα χρονικά διαστήματα.
+format of event updates	calendar	el	Μορφή απο ενημερωμένα γεγονότα
+forward half a month	calendar	el	Μισό έτος μπροστά
+forward one month	calendar	el	Έναν μήνα μπροστά
+forward one year	calendar	el	Ένα έτος μπροστά
+four days view	calendar	el	Εμφάνιση τεσσάρων ημερών
+freebusy: unknown user '%1', wrong password or not available to not logged in users !!!	calendar	el	Ελεύθερος χρόνος:Άγνωστος χρήστης %1, λάθος κωδικός ή δεν επιτρέπεται η είσοδος στους χρήστες που δεν έχουν εισέλθει !!!
+freetime	calendar	el	Διαθέσιμος χρόνος
+freetime search	calendar	el	Αναζήτηση ελέυθερου χρόνου
+fri	calendar	el	Παρ
+full description	calendar	el	Πλήρης περιγραφή
+full edit dialog	calendar	el	Πλήρης φόρμα επεξεργασίας
+fullname of person to notify	calendar	el	Πλήρες όνομα του ατόμου να ειδοποιηθεί
+general fields:	calendar	el	Γενικά πεδία:
+general settings	calendar	el	Γενικές ρυθμίσεις
+global categories	calendar	el	Καθολικές κατηγορίες
+global public and group public	calendar	el	Καθολικές κοινές και ομαδικές κοινές
+global public only	calendar	el	Καθολικές αποκλειστικά κοινές
+group invitation	calendar	el	Ομαδική πρόσκληση
+group planner	calendar	el	Ομάδα προγραμματισμού
+group public only	calendar	el	ομάδα κοινού μόνο
+group(s) or user(s) to show	calendar	el	Ομάδες ή χρήστες που θα εμφανίζονται
+groupmember(s) %1 not included, because you have no access.	calendar	el	Τα μέλη της ομάδας %1 δεν συμπεριλαμβάνονται, γιατί δεν έχετε δικαίωμα πρόσβασης.
+h	calendar	el	Ω
+here is your requested alarm.	calendar	el	Ωρίστε η ζητούμενη ειδοποίηση
+hide private events	calendar	el	Απόκρυψη προσωπικών γεγονότων
+hide private infos	calendar	el	Απόκρυψη προσωπικών πληροφοριών
+high priority	calendar	el	υψηλή προτεραιότητα
+history	calendar	el	Ιστορικό
+history logging	admin	el	Ιστορικό εισόδων
+holiday	calendar	el	Άδεια
+holidays	calendar	el	Άδειες
+holidays only	calendar	el	Μόνο άδειες
+hours	calendar	el	Ώρες
+how far to search (from startdate)	calendar	el	πόσο μακρυά να ψάξει (από την αρχική ημερομηνία)
+how many minutes should each interval last?	calendar	el	Πόσα λεπτά πρέπει κάθε διάλειμμα να διαρκεί;
+ical	calendar	el	iCal
+ical / rfc2445	calendar	el	iCal / rfc2445
+ical export	calendar	el	iCal εξαγωγή
+ical file	calendar	el	iCal αρχείο
+ical import	calendar	el	iCal εισαγωγή
+ical successful imported	calendar	el	iCal επιτυχής εισαγωγή
+if you dont set a password here, the information is available to everyone, who knows the url!!!	calendar	el	Αν δεν ορίσετε έναν κωδικό εδώ, η πληροφορία είναι διαθέσιμη σε όλους, που γνωρίζουν το URL!!!
+ignore conflict	calendar	el	Αγνόηση σύμπτωσης
+import	calendar	el	Εισαγωγή
+import csv-file	common	el	Εισαγωγή CSV-Αρχείου
+insert	calendar	el	Εισαγωγή
+insert in document	calendar	el	Εισαγωγή σε αρχείο
+interval	calendar	el	Διάστημα
+invalid email-address "%1" for user %2	calendar	el	Άκυρη διεύθυνση email "%1" για το χρήστη %2
+invitations	calendar	el	Προσκλήσεις
+invite	common	el	Πρόσκληση
+just me	calendar	el	Μόνο εγώ
+keep exceptions	calendar	el	Διατήρηση εξαιρέσεων
+keep the series unchanged.	calendar	el	Διατήρηση σειρών.
+last	calendar	el	τελευταίο
+last changed	calendar	el	Τελευταία αλλαγή
+lastname of person to notify	calendar	el	Επίθετο του ατόμου για ειδοποίηση
+length of the time interval	calendar	el	Διάρκεια του χρονικού διαστήματος
+link to view the event	calendar	el	Σύνδεσμος για παρακολούθηση του γεγονότος
+links	calendar	el	Σύνδεσμοι
+links and attached files	calendar	el	Σύνδεσμοι και συνημμένα αρχεία
+links, attachments	calendar	el	Σύνδεσμοι, Επισυνάψεις
+listview	calendar	el	Λίστα εμφάνισης
+location	calendar	el	Τοποθεσία
+location, start- and endtimes, ...	calendar	el	Τοποθεσία, Έναρξη- και Τέλος, ...
+mail all participants	calendar	el	Αποστολή μηνύματος σε όλους τους συμμετέχοντες
+make freebusy information available to not logged in persons?	calendar	el	Να γίνουν οι πληροφορίες ελεύθερου χρόνου διαθέσιμες στα άτομα που δεν έχουν εισέλθει;
+meeting canceled	calendar	el	Η συνάντηση ακυρώθηκε
+meeting request	calendar	el	Αίτημα συνάντησης
+meetingrequest to all participants	calendar	el	Αίτημα συνάντησης σε όλους τους συμμετέχοντες
+merge document...	calendar	el	Συγχώνευση εγγράφου...
+midnight	calendar	el	Μεσάνυχτα
+minutes	calendar	el	Λεπτά
+modified	calendar	el	Τροποποιήθηκε
+modifier	calendar	el	Χρήστης τροποποίησης
+mon	calendar	el	Δευ
+month	calendar	el	Μήνας
+monthly	calendar	el	Μηνιαίος
+monthly (by date)	calendar	el	Μηνιαίος (ανα ημερομηνία)
+monthly (by day)	calendar	el	Μηνιαίος (ανα ημέρα)
+monthview	calendar	el	Μηνιαία εμφάνιση
+multiple week view	calendar	el	Εμφάνιση πολλαπλών εβδομάδων
+needs action	calendar	el	Απαιτείται ενέργεια
+new	calendar	el	Νέο
+new event category	calendar	el	Κατηγορία για νέα γεγονότα
+new event participants	calendar	el	Συμμετέχοντες για νέα γεγονότα
+new search with the above parameters	calendar	el	Νέα αναζήτηση με τις παραπάνω παραμέτρους
+no events found	calendar	el	Δεν βρέθηκαν γεγονότα.
+no filter	calendar	el	Χωρίς φίλτρο
+no matches found	calendar	el	Δεν βρέθηκαν εγγραφές.
+no response	calendar	el	Δεν ανταποκρίνεται
+non blocking	calendar	el	Μη αποκλειόμενο
+not	calendar	el	δεν
+notification messages for added events	calendar	el	Μήνυμα Ειδοποίησης για γεγονότα που προστέθηκαν
+notification messages for canceled events	calendar	el	Μήνυμα Ειδοποίησης για γεγονότα ημερολογίου
+notification messages for modified events	calendar	el	Μήνυμα Ειδοποίησης για γεγονότα που τροποποιήθηκαν
+notification messages for uninvited participants	calendar	el	Μήνυμα Ειδοποίησης για συμμετέχοντες που δεν έχουν προσκληθεί
+notification messages for your alarms	calendar	el	Μήνυμα Ειδοποίησης για τις ειδοποιήσεις σας
+notification messages for your responses	calendar	el	Μήνυμα Ειδοποίησης για τις απαντήσεις σας
+notification settings	calendar	el	Ρυθμίσεις ειδοποιήσεων
+notify externals	calendar	el	Ειδοποίηση εξωτερικών επαφών
+number of records to read (%1)	calendar	el	Αριθμός εγγραφών για να διαβαστούν (%1)
+number of weeks to show	calendar	el	Αριθμός εβδομάδων που θα εμφανίζονται
+observance rule	calendar	el	Κανόνας Επιτήρησης
+occurence	calendar	el	Συμβάν
+old startdate	calendar	el	Παλιά ημερομηνία έναρξης
+olddate	calendar	el	Αρχική ημερομηνία
+on %1 %2 %3 your meeting request for %4	calendar	el	Στις %1 %2 %3 η αίτηση για συνάντηση για %4
+on all modification, but responses	calendar	el	σε όλες τις αλλαγές, αλλα αποκρίνεται
+on any time change too	calendar	el	σε κάθε αλλαγή ώρας επίσης
+on invitation / cancellation only	calendar	el	σε πρόσκληση / ακυρώσεις μόνο
+on participant responses too	calendar	el	σε συμμετέχοντος απαντήσεις επίσης
+on time change of more than 4 hours too	calendar	el	σε αλλαγή ώρας για πάνω απο 4 ώρες επίσης
+one month	calendar	el	ένας μήνας
+one week	calendar	el	μία εβδομάδα
+one year	calendar	el	ένα έτος
+only group-events	calendar	el	Μόνο ομαδικά  συμβάντα
+only the initial date of that recurring event is checked!	calendar	el	Μόνον η αρχική ημερομηνία αυτού του επαναλαμβανόμενου γεγονότος ειναι τσεκαρισμένη!
+open todo's:	calendar	el	Θέματα που εκκρεμούν
+optional	calendar	el	Προαιρετικά
+organizer	calendar	el	Διοργανωτής
+overlap holiday	calendar	el	συμπίπτουσα γιορτή
+participants	calendar	el	Συμμετέχοντες
+participants uninvited from an event	calendar	el	Μη προσκεκλημένοι συμμετέχοντες ενός γεγονότος
+participants, resources, ...	calendar	el	Συμμετέχοντες, Πόροι, ...
+password for not loged in users to your freebusy information?	calendar	el	Κωδικός για τους χρήστες που δεν έχουν εισέλθει στις πληροφορίες του ελεύθερου χρόνου σας;
+people holiday	calendar	el	άδειες ατόμων
+permission denied	calendar	el	Η άδεια απορρίπτεται
+planner by category	calendar	el	Πρόγραμμα ανα κατηγορία
+planner by user	calendar	el	Πρόγραμμα ανα χρήστη
+please note: you can configure the field assignments after you uploaded the file.	calendar	el	Παρακαλώ προσέξτε: Μπορείτε να διαμορφώσετε τα πεδία ανάθεσης εργασιών ΑΦΟΥ φορτώσετε το αρχείο
+preselected group for entering the planner	calendar	el	Προεπιλεγμένη ομάδα για εισαγωγή στο πρόγραμμα
+prevent deleting of entries	admin	el	Αποτροπή διαγραφής καταχωρήσεων
+previous	calendar	el	προηγούμενο
+private and global public	calendar	el	Ιδιαίτερα και Γενικών Public
+private and group public	calendar	el	Ιδιαίτερα και Ομάδα Public
+private only	calendar	el	Ιδιαίτερο Μόνο
+quantity	calendar	el	Ποσότητα
+quick add	calendar	el	Γρήγορη προσθήκη
+range fields	calendar	el	Πεδία διαστήματος
+re-edit event	calendar	el	Εκ νέου επεξεργασία γεγονότος
+receive email updates	calendar	el	Λήψη ενημερωμένων email
+receive notifications about events you created/modified/deleted	calendar	el	Λήψη ειδοποιήσεων για γεγονότα που δημιουργήσατε/τροποποιήσατε/διαγράψατε
+receive summary of appointments	calendar	el	Παραλαβή περίληψης των συναντήσεων
+recover	calendar	el	Ανάκτηση
+recovered	calendar	el	Ανακτήθηκε
+recurrence	calendar	el	Επανάληψη
+recurrence enddate	calendar	el	Ημερομηνία λήξης επανάληψης
+recurrences and conflict check	calendar	el	Επανάληψη και έλεγχος ταυτόχρονων συναντήσεων
+recurring event	calendar	el	Επαναλαμβανόμενο γεγονός
+regular edit	calendar	el	Κανονικό γεγονός
+reject	calendar	el	Απόρριψη
+rejected	calendar	el	Απορρίφθηκε
+repeat days	calendar	el	Επανάληψη ημερών
+repeat the event until which date (empty means unlimited)	calendar	el	Επανάλαβε το γεγονός μέχρι ποια ημερομηνία (κενό σημαίνει χωρίς περιορισμό)
+repeat type	calendar	el	Τύπος επανάληψης
+repeating event information	calendar	el	Πληροφορίες Επαναλαμβανόμενου Γεγονότος
+repeating interval, eg. 2 to repeat every second week	calendar	el	Επανάληψη διαλείμματος, π.χ. 2 για να επαναλαμβάνει κάθε δεύτερη εβδομάδα
+repetition	calendar	el	Επανάληψη
+repetitiondetails (or empty)	calendar	el	Λεπτομέρειες επανάληψης (ή κενό)
+requested	calendar	el	Ζητήθηκε
+reset	calendar	el	Επανακαθορισμός
+resources	calendar	el	Πόροι
+role	calendar	el	Ρόλος
+rule	calendar	el	Κανόνας
+sat	calendar	el	Σαβ
+saves the changes made	calendar	el	αποθηκεύει τις αλλαγές που έγιναν
+saves the event ignoring the conflict	calendar	el	Αποθηκεύει το γεγονός αγνοώντας τη σύμπτωση
+scheduling conflict	calendar	el	Προγραμματισμένη σύμπτωση
+select a %1	calendar	el	Επιλέξτε ένα %1
+select a color for this calendar	calendar	el	Επιλέξτε χρώμα για το ημερολόγιο
+select a time	calendar	el	Επιλέξτε μία ώρα
+select an action	calendar	el	Επιλέξτε μία ενέργεια
+select an action...	calendar	el	Επιλέξτε μία ενέργεια...
+select multiple contacts for a further action	calendar	el	Επιλέξτε πολλαπλές επαφές για περαιτέρω ενέργειες
+select resources	calendar	el	Επιλέξτε πόρους
+select who should get the alarm	calendar	el	Επιλέξτε ποιος θα έπρεπε να πάρει την ειδοποίηση
+selected range	calendar	el	Επιλεγμένο διάστημα
+selected users/groups	calendar	el	Επιλεγμέν(οι/ες) χρήστες/ομάδες
+series deleted	calendar	el	Διαγράφηκε σειρά γεγονότων
+set new events to private	calendar	el	Καθορίστε νέα γεγονότα για ιδιωτικοποίηση
+should new events created as private by default ?	calendar	el	Θα έπρεπε τα νέα γεγονότα προκαθορισμένα να δημιουργούνται ως ιδιαίτερα;
+should the status of the event-participants (accept, reject, ...) be shown in brackets after each participants name ?	calendar	el	Θα έπρεπε η κατάσταση του γεγονότος-συμμετεχόντων (αποδέχομαι, απορρίπτω,...)να εμφανίζεται σε παρένθεση δίπλα από το όνομα του κάθε συμμετέχοντος;
+show a calendar title	calendar	el	Τίτλος ημερολογίου
+show birthdays as events	calendar	el	Εμφάνιση ώς γεγονότα
+show list of upcoming events	calendar	el	Παρουσιάστε τη λίστα των επερχόμενων γεγονότων
+show only the date, not the year	admin	el	Εμφάνιση μόνο της ημερομηνίας, όχι του έτους
+show this month	calendar	el	Παρουσιάστε αυτό το μήνα
+show this week	calendar	el	Παρουσιάστε αυτήν την εβδομάδα
+show year and age	calendar	el	Εμφάνιση έτους και ηλικίας
+single event	calendar	el	μοναδικό γεγονός
+start	calendar	el	Έναρξη
+start date/time	calendar	el	Ημερομηνία/Ώρα έναρξης
+startdate	calendar	el	Ημερομηνία έναρξης
+startdate / -time	calendar	el	ημερομηνία/ -ώρα έναρξης
+startdate and -time of the search	calendar	el	ημερομηνία έναρξης και ώρα της αναζήτησης
+startdate of the export	calendar	el	Αρχική ημερομηνία της εξαγωγής
+startrecord	calendar	el	Έναρξη εγγραφής
+status already applied	calendar	el	Η κατάσταση έχει ήδη εφαρμοστεί
+status changed	calendar	el	Η κατάσταση άλλαξε
+submit to repository	calendar	el	Υποβολή στην αποθήκη
+sun	calendar	el	Κυρ
+tentative	calendar	el	Με επιφύλαξη
+test import (show importable records <u>only</u> in browser)	calendar	el	Τεστ Εισαγωγής (παρουσιάστε εισαγώγιμα αρχεία <u>μόνο</u> στον browser
+the following document-types are supported:	calendar	el	Οι ακόλουθοι τύποι αρχείων υποστηρίζονται
+this day is shown as first day in the week or month view.	calendar	el	Αυτή η μέρα παρουσιάζεται ως η πρώτη μέρα της εβδομαδιαίας ή της μηνιαίας εμφάνισης
+this defines the end of your dayview. events after this time, are shown below the dayview.	calendar	el	Αυτό καθορίζει το τέλος της ημερήσιας προβολής. Γεγονότα μετά από αυτή την ώρα, παρουσιάζονται κάτω από την ημερήσια προβολή.
+this defines the start of your dayview. events before this time, are shown above the dayview.<br>this time is also used as a default starttime for new events.	calendar	el	Αυτό καθορίζει την αρχή της ημερήσιας προβολής. Γεγονότα πριν από αυτή την ώρα, παρουσιάζονται πάνω από την ημερήσια προβολή.<br>Αυτή η ώρα χρησιμοποιείται επίσης και ως προκαθορισμένη ώρα έναρξης για νέα γεγονότα.
+this group that is preselected when you enter the planner. you can change it in the planner anytime you want.	calendar	el	Αυτή η ομάδα είναι προεπιλεγμένη όταν εισέρχεστε στο σχεδιαστή. Μπορείτε να την αλλάξετε στον σχεδιαστή ότι ώρα επιθυμείτε.
+this mail cancels a meeting	calendar	el	Αυτό το μήνυμα ακυρώνει μια συνάντηση
+this mail contains a meeting request	calendar	el	Αυτό το μήνυμα περιέχει ένα αίτημα συνάντησης
+this mail contains a reply to a meeting request	calendar	el	Αυτό το μήνυμα περιέχει μία απάντηση σε ένα αίτημα συνάντησης
+this message is sent for canceled or deleted events.	calendar	el	Αυτό το μήνυμα αποστέλεται για ακυρωθέντα ή διαγραφέντα γεγονότα.
+this message is sent for modified or moved events.	calendar	el	Αυτό το μήνυμα αποστέλεται για τροποποιημένα ή μετακινηθέντα γεγονότα.
+this message is sent to every participant of events you own, who has requested notifcations about new events.<br>you can use certain variables which get substituted with the data of the event. the first line is the subject of the email.	calendar	el	Αυτό το μήνυμα αποστέλεται σε κάθε συμμετέχοντα για γεγονότα που σας ανήκουν, που έχει ζητήσει ειδοποιήσεις για νέα γεγονότα.<br>Μπορείτε να χρησιμοποιήσετε συγκεκριμένες μεταβλητές οι οποίες αντικαθίστανται με τα δεδομένα από το γεγονός. Η πρώτη γραμμή είναι το θέμα του email.
+this message is sent to uninvited participants.	calendar	el	Αυτό το μήνυμα αποστέλεται στους συμμετέχοντες που δεν έχουν προσκληθεί
+this message is sent when you accept, tentative accept or reject an event.	calendar	el	Αυτό το μήνυμα αποστέλεται όταν αποδέχεστε,δοκιμαστικά αποδέχεστε ή απορρίπτεται ένα γεγονός.
+this message is sent when you set an alarm for a certain event. include all information you might need.	calendar	el	Αυτό το μήνυμα αποστέλεται όταν καθορίζετε μία ειδοποίηση για ένα συγκεκριμένο γεγονός. Συμπεριλάβετε όλες τις πληροφορίες που μπορεί να χρειαστείτε.
+three month	calendar	el	τριών μηνών
+thu	calendar	el	Πέμ
+til	calendar	el	τηλ
+timeframe	calendar	el	Χρονικό όριο
+timeframe to search	calendar	el	Χρονικό όριο κατά την αναζήτηση
+timezone	calendar	el	Ζώνη ώρας
+title of the event	calendar	el	Τίτλος του γεγονότος
+to many might exceed your execution-time-limit	calendar	el	Πάρα πολλοί.Κίνδυνος υπέρβασης του χρονικού ορίου εκτέλεσης
+to-firstname	calendar	el	Στο μικρό όνομα
+to-fullname	calendar	el	Στο πλήρες όνομα
+to-lastname	calendar	el	Στο επίθετο
+tomorrow	calendar	el	Άυριο
+translation	calendar	el	Μετάφραση
+tue	calendar	el	Τρί
+two weeks	calendar	el	δύο εβδομάδες
+type of planner	calendar	el	Τύπος ατζέντας
+unable to save	calendar	el	Αδυναμία αποθήκευσης
+uninvited	calendar	el	Μη προσκεκλημένοι
+updated	calendar	el	Ενημερώθηκε
+use end date	calendar	el	Να χρησιμοποιηθεί  η τελική ημερομηνία
+use given criteria:	calendar	el	Χρήση των δοθέντων κριτηρίων:
+use the selected time and close the popup	calendar	el	χρησιμοποιήστε την επιλεγμένη ώρα και κλείστε την ξαφνική εμφάνιση
+user or group	calendar	el	Χρήστης ή ομάδα
+utilities	calendar	el	Εργαλεία
+view exception	calendar	el	Εμφάνιση εξαίρεσης
+view series	calendar	el	Εμφάνιση σειράς
+view settings	calendar	el	Εμφάνιση ρυθμίσεων
+view this event	calendar	el	Παρακολουθείστε αυτό το γεγονός
+views with fixed time intervals	calendar	el	Εμφανίσεις με ορισμένα χρονικά δφιαστήματα
+wed	calendar	el	Τετ
+week	calendar	el	Εβδομάδα
+weekday	calendar	el	Ημέρα εβδομάδας
+weekday starts on	calendar	el	Ξεκίνημα της εβδομάδας
+weekdays	calendar	el	Ημέρες εβδομάδας
+weekdays to use in search	calendar	el	Ημέρες εβδομάδας προς χρήση στην αναζήτηση
+weekly	calendar	el	Εβδομαδιαία
+weeks in multiple week view	calendar	el	Αριθμός εβδομάδων στην εμφάνιση πολλαπλών εβδομάδων
+weekview	calendar	el	Εμφάνιση εβδομάδας
+weekview with weekend	calendar	el	Εμφάνιση εβδομάδας με Σαββατοκύριακο
+weekview without weekend	calendar	el	Εμφάνιση εβδομάδας χωρίς Σαββατοκύριακο
+whole day	calendar	el	ολόκληρη ημέρα
+wk	calendar	el	Εβδ
+work day ends on	calendar	el	Ημέρα εργασίας ολοκληρώνεται την
+work day starts on	calendar	el	Ημέρα εργασίας ξεκινά την
+workday	calendar	el	Εργάσιμη ημέρα
+workdays	calendar	el	Εργάσιμες ημέρες
+yearly	calendar	el	Ετησίως
+yearly planner	calendar	el	Ετήσια ατζέντα
+years	admin	el	έτη
+yearview	calendar	el	Εμφάνιση έτους
+yes, only admins can purge deleted items	admin	el	Ναι, μόνο ο διαχειριστής μπορεί να καθαρίσει τα αντικείμενα που έχουν διαγραφεί
+yes, users can purge their deleted items	admin	el	Ναι, οι χρήστες μπορούν να καθαρίζουν τα διαγραμμένα αντικείμενα
+you can either set a year or a occurrence, not both !!!	calendar	el	Μπορείτε να ορίσετε είτε ένα Έτος έιτε ένα Συμβάν, όχι και τα δύο!
+you can only set a year or a occurrence !!!	calendar	el	Μπορείτε να θέσετε ένα έτος ή ένα συμβάν !!!
+you do not have permission to read this record!	calendar	el	Δεν έχετε άδεια να διαβάσετε αυτή την εγγραφή!
+you have a meeting scheduled for %1	calendar	el	Έχετε μία συνάντηση προγραμματισμένη για %1
+you have been uninvited from the meeting at %1	calendar	el	Δεν είστε πλέον προσκεκλημένος για τη συνάντηση της %1
+you need to select an ical file first	calendar	el	Πρέπει να επιλέξετε ένα iCal αρχείο πρώτα
+you need to select some events first	calendar	el	Πρέπει να επιλέξετε πρώτα κάπιοα γεγονότα.
+you need to set either a day or a occurrence !!!	calendar	el	Πρέπει να ορίσετε είτε μία μέρα είτε ένα συμβάν
+your meeting scheduled for %1 has been canceled	calendar	el	Η συνάντησή σας που είχε προγραμματιστεί για τις %1 ακυρώθηκε
+your meeting that had been scheduled for %1 has been rescheduled to %2	calendar	el	Η συνάντηση σας που είχε προγραμματιστεί για τις %1 επαναπρογραμματίστηκε για τις %2

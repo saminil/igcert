@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//EGroupware GmbH//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="mail.importMessage" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column width="100"/>
+				<column/>
+			</columns>
+			<rows>
+				<row class="dialogHeader">
+					<description value="Import message" align="center" span="all" class="et2_fullWidth"/>
+				</row>
+				<row>
+					<description value="Store to Folder"/>
+					<taglist id="FOLDER" autocomplete_url='mail.mail_compose.ajax_searchFolder' autocomplete_params='' maxSelection="1" allowFreeEntries="false" onclick="app.mail.address_click"/>
+				</row>
+				<row>
+					<description value="Choose file"/>
+					<hbox>
+						<vfs-select id="vfsfile" button_caption = "" mode="open" mime="message/rfc822" onchange="app.mail.vfsUploadForImport"/>
+						<file statustext="Select file to import into Folder" onFinish="app.mail.uploadForImport" mime="/^message\//i" id="uploadForImport" drop_target ="mail-importMessage" class="mail_importMessageFile"/>
+					</hbox>
+				</row>
+				<row class="dialogFooterToolbar">
+					<buttononly statustext="Closes this window" label="Close" onclick="window.close();" image="close" background_image="1"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

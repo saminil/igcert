@@ -1,0 +1,117 @@
+<?php
+if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
+
+if (G5_IS_MOBILE) {
+    include_once(G5_THEME_MOBILE_PATH.'/tail.php');
+    return;
+}
+?>
+
+<?php if (!defined("_INDEX_")) { ?>
+		</div>
+	</div>
+</div>
+<? } ?>
+
+<script src="<?php echo G5_THEME_URL ?>/js/css3-animate-it.js"></script>
+
+
+<!-- 하단 시작 { -->
+<footer id="footer" <?php if (defined("_INDEX_")) { ?>class="main"<? }?>>
+	<div class="wrap">
+		<h1><a href="/igc_eng/"></a></h1><!----// footer 로고 링크 //------>
+		<nav class="gnb" style="margin-top:-5px;">
+			<ul style="position:relative;left:0px;">
+			    
+				   <li style="margin-right:0 40px 0 40px;"><a href="<?php echo get_pretty_url('content', 'privacy'); ?>"><span>Privacy</span></a></li> 
+				   <li style="margin-left:55px;"><a href="<?php echo get_pretty_url('content', 'provision'); ?>"><span>provision</span></a></li>
+				   
+				   <div style="margin-right:0px;">
+				      <hr style="border-top: 1px solid #cccccc;display:block;margin-bottom:0px;margin-top:0px;width:100%;right:0px;">
+				   </div>
+				   
+				<li class="sites" style="padding:20px 11px 0 0;clear:both;">
+				   <select onchange="copyrtChgUrl(this.value)">
+	                  <option value="" style="display:block;margin-left:10px;"> Web Sites </option>
+	                  <option value="http://dna-tec.org">www.dna-tec.org</option>
+	                  <option value="http://rus-test.org">www.rus-test.org</option>
+	                  <option value="http://igcert.net">www.igcert.net(old)</option>
+	                  <option value="https://www.gicert.org/?l=ko">www.gicert.org</option>
+	                  <option value="http://www.patscorp.com/">www.patscorp.com</option>
+	                  <option value="https://www.asiaitc.com/">www.asiaitc.com</option>
+                      <option value="http://aemiworld.com/">www.aemiworld.com</option>
+                      <!--<option value="https://data.igcert.org/">WWW.DATACERTORG</option>-->
+                      
+<!--
+                      <option value="https://blog.naver.com/kate_0432">NaverBlog1</option>
+                      <option value="https://blog.naver.com/woheni19">NaverBlog2</option>
+                      <option value="https://blog.naver.com/djrrlforyou">NaverBlog3</option>
+                      <option value="https://blog.naver.com/kate_0432">NaverBlog4</option>
+-->
+                   </select>
+				</li>
+			</ul>			
+		</nav>
+		<br class="s_mobile_only" />
+		<div class="f_left" style="margin-top:-5px;color:#999999;"> <!------------footer 중앙(회사정보) : 좌측 위치 (padding-left:85px;)----------------->
+			<dl class="f_left_text">  
+				<dt>Company : Institute of Global Certification Co., Ltd.</dt>&nbsp; &nbsp;<br class="s_mobile_only" />			
+				<dt>CEO : </dt>
+				<dt>Dr.Gill-Taik Gong</dt> <br>
+				
+				<dt class="mobile_no">Address : </dt> 
+				<dt>(08504) #501, 638, Seobusaet-gil, Geumcheon-gu, Seoul, Republic of Korea</dt><br />
+				
+				<dt>Business License : </dt>
+				<dt>107-81-76722</dt>&nbsp; &nbsp;  <br class="s_mobile_only" />
+				<a href="tel:02-6749-0723">
+				<dt>Tel. : </dt>
+				<dt>+82 2 6749 0701</dt>
+				</a>&nbsp; &nbsp;
+				<dt>FAX : </dt>
+				<dt>+82 2 6749 0711</dt> &nbsp; &nbsp; 
+				<a href="mailto:info@igcert.org">
+				<dt>E-MAIL : </dt>
+				<dt>info@igcert.org</dt>
+				</a>
+			</dl>
+			<p class="copyright">Copyright &copy; <strong>IGC Co., Ltd.</strong> All rights reserved.</p>
+		</div>
+	</div>    
+   
+    <a href="javascript:" id="top_btn"><i class="fa fa-angle-up" aria-hidden="true"></i><span class="sound_only">Up</span> </a>
+    
+    <script>
+    $(function() {
+        $("#top_btn").on("click", function() {
+            $("html, body").animate({scrollTop:0}, '1000');
+            return false;
+        });
+    });
+    </script>
+    
+    <!---FamilySites 시작------>
+    <script>
+    function copyrtChgUrl(url){
+	if(url){
+		window.open(url);
+	}
+    }
+    <!---FamilySites 종료------>
+</script>
+</footer>
+<!-- } 하단 끝 -->
+
+<!-- 20200402 QuickMenu -->
+
+<!----------
+tail.php 60라인~ 추가
+head.php 204,207라인 추가
+design.css 564라인~ 추가
+------>
+
+<!----퀵메뉴 영역----->
+
+<?php
+include_once(G5_THEME_PATH."/tail.sub.php");
+?>

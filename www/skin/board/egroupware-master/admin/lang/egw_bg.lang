@@ -1,0 +1,120 @@
+%1 %2 rights for %3 on %4 to %5	admin	bg	%1 %2 права за %3 на % 4 до % 5
+%1 - %2 of %3 user accounts	admin	bg	%1 - %2 от % 3 потребителски акаунти
+%1 - %2 of %3 user groups	admin	bg	%1 - %2 от % 3 потребителски групи
+%1 access to other data	admin	bg	% 1 достъп до други данни
+%1 accounts being activated	admin	bg	% 1 акаунта са активирани
+%1 acl entries deleted.	admin	bg	% 1 ACL записа са изтрити.
+%1 acl records of not (longer) existing accounts deleted.	admin	bg	Изтрити са %1 ACL записи на вече не съществуващи акаунти.
+%1 categories of not (longer) existing accounts deleted.	admin	bg	% 1 категории на не съществуващи акаунти са изтрити.
+%1 category '%2' %3	admin	bg	%1 категория  '%2' %3
+%1 category(s) %2	admin	bg	%1 категория(и) %2
+%1 category(s) %2, %3 failed because of insufficent rights !!!	admin	bg	%1 категория(и) %2, %3 отпада поради недостатъчни права!!!
+%1 class not instanciated	admin	bg	%1 клас не е представен
+%1 entries deleted.	admin	bg	% 1 записа бяха изтрити.
+%1 group %2	admin	bg	% 1 група % 2
+%1 is no command!	admin	bg	% 1 не е "команда"!
+%1 log entries deleted.	admin	bg	% записи за регистрация са изтрити.
+%1 not found or not executable !!!	admin	bg	% 1 не е намерен или не е изпълним!
+%1 phrases saved.	admin	bg	% 1 запазени фрази.
+%1 rights for %2 and applications %3	admin	bg	% 1 има права за % 2 и приложение(я)% 3.
+%1 run rights for applications	admin	bg	%1 има права за приложенията
+%1 user %2	admin	bg	% 1 потребител % 2
+(de)activate mail accounts	admin	bg	(де)активиране на имейл акаунти
+(default no, leave it off if you dont use it)	admin	bg	По подразбиране = Не, остави го изключен, ако не се ползва
+(no subject)	admin	bg	(без тема)
+(stored password will not be shown here)	admin	bg	Съхранената парола няма да бъде показана тук!
+(to install new applications use<br><a href="setup/" target="setup">setup</a> [manage applications] !!!)	admin	bg	За инсталиране на нови приложения използвайте <br><a href="setup/" target="setup">Setup</a> [Manage Applications]!
+-  type	admin	bg	- вид
+1 year	admin	bg	1 година
+2 month	admin	bg	2 месеца
+2 weeks	admin	bg	3 седмици
+2-factor-authentication for interactive login	admin	bg	2-Factor-Authentication за интерактивно влизане, чрез въвеждане на потребителско име и парола.
+3 month	admin	bg	3 месеца
+6 month	admin	bg	6 месеца
+access by	admin	bg	Достъпен от
+access control	admin	bg	Контрол на достъпа
+accesslog and bruteforce defense	admin	bg	AccessLog и BruteForce защита
+account	admin	bg	Акаунт
+account "%1" has no email address --> not notified!	admin	bg	Акаунтът "% 1" няма имейл адрес -> не е уведомен!
+account "%1" has no plaintext password!	admin	bg	Акаунтът "% 1" няма ясна парола!
+account %1 %2	admin	bg	Акаунтът %1 %2
+account '%1' deleted.	admin	bg	Акаунтът '%1' е изтрит.
+account '%1' not found !!!	admin	bg	Акаунтът '%1' не е намерен!
+account active	admin	bg	Акаунтът е активен
+account deleted.	admin	bg	Акаунтът е изтрит.
+account has been created	common	bg	Акаунтът беше създаден.
+account has been deleted	common	bg	Акаунтът беше изтрит.
+account has been updated	common	bg	Акаунтът беше актуализиран.
+account id	admin	bg	ID на акаунт
+account list	admin	bg	Списък на акаунти
+account not found!	common	bg	Акаунтът не е намерен!
+account permissions	admin	bg	Разрешения за акаунти
+account preferences	admin	bg	Преференции на акаунти
+account saved.	admin	bg	Акаунтът е запазен.
+account-id's have to be integers!	admin	bg	ID-то на акаунта трябва да е с цели числа!
+acl added.	admin	bg	ACL е добавен.
+acl deleted.	admin	bg	ACL е изтрит.
+acl entry deleted.	admin	bg	ACL записът е изтрит.
+acl entry not found!	admin	bg	ACL записът не е намерен!
+acl manager	admin	bg	ACL мениджър
+acl rights	common	bg	ACL права
+acl updated	admin	bg	ACL е актуализиран
+acl updated.	admin	bg	ACL е актуализиран.
+action	admin	bg	Действие
+actions	admin	bg	Действия
+activate	admin	bg	Активиране
+activate wysiwyg-editor	admin	bg	Активиране на WYSIWYG-редактор
+activated	admin	bg	Активиран
+active mail accounts	admin	bg	Активни пощенски акаунти
+active templates	admin	bg	Активни шаблони
+add a category	admin	bg	Добавете категория
+add a group	admin	bg	Добавете група
+add a new account.	admin	bg	Добавете нов акаунт
+add a subcategory	admin	bg	Добавете подкатегория
+add a user	admin	bg	Добавете потребител
+add account	admin	bg	Добавяне на профил (акаунт)
+add application	admin	bg	Добавете приложение
+add auto-created users to this group ('default' will be attempted if this is empty.)	admin	bg	Добавете автоматично създадени потребители към тази група. 'По подразбиране'
+add global category	admin	bg	Добавете глобална категория
+add global category for %1	admin	bg	Добавете глобална категория за %1
+add group	admin	bg	Добавете група
+add new account	admin	bg	Добавете нов акаунт
+add new application	admin	bg	Добавете ново приложение
+add new email address:	admin	bg	Добавяне на нов имейл адрес:
+add peer server	admin	bg	Добавете Peer Server
+add profile	admin	bg	Добавете профил
+add sub-category	admin	bg	Добавете Подкатегория
+add user	admin	bg	Добавяне на потребител
+add user or group	admin	bg	Добавяне на потребител или група
+added	admin	bg	Добавено
+admin dn	admin	bg	Администраторски dn
+admin email	admin	bg	Имейл на Администратор
+admin name	admin	bg	Име на администратора
+admin password	admin	bg	Парола на администратора
+admin username	admin	bg	Потребителско име на администратора
+administration	admin	bg	Администрация
+admins	admin	bg	Администратори
+advanced options	admin	bg	Разширени опции
+aliases	admin	bg	Псевдоними
+all categories	admin	bg	Всички категории
+apply the changes	admin	bg	Прилагане на промените
+country	admin	bg	Държава
+created	admin	bg	Създаден
+custom fields	admin	bg	Полета по избор
+day	admin	bg	Ден
+deleted	admin	bg	Изтрит
+event details follow	admin	bg	Следват подробности за събитието
+exists	admin	bg	Съществува
+global categories	common	bg	Глобални категории
+manage mapping	admin	bg	Управление на съответствията
+modified	admin	bg	Редактирано
+month	admin	bg	Месец
+no matches found	admin	bg	Не са открити съвпадения
+one month	admin	bg	един месец
+one week	admin	bg	една седмица
+permission denied	admin	bg	Не е позволено
+requested	admin	bg	Заявена
+start	admin	bg	Старт
+translation	admin	bg	Превод
+two weeks	admin	bg	две седмици
+updated	admin	bg	Актуализиран
